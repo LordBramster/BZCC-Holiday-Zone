@@ -1,0 +1,8 @@
+[GameObjectClass]
+classLabel = "npscr1"
+
+[ScrapClass]
+lifeTime = 3600.0
+
+// this version of scrap lasts an hour for 
+// multiplayer games 

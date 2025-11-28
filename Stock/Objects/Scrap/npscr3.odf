@@ -1,0 +1,8 @@
+[GameObjectClass]
+baseName = "npscr1"
+geometryName = "snowball_sm.fbx"
+classLabel = "npscr1"
+MaxChromeDistance = 50.0
+
+[ScrapClass]
+lifeVariance = 10.0

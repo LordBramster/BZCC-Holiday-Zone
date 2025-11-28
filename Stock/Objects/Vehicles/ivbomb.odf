@@ -1,0 +1,139 @@
+[GameObjectClass]
+baseName = "ivbomb"
+geometryName = "sleigh_santa.fbx" // "sleigh01.fbx" //"ivbomb00.fbx"
+// animCount = 1
+// animName1 = "loop"
+// animFile1 = "sleigh_santa.fbx"
+classLabel = "bomber"
+scrapValue = 0
+scrapCost = 75
+buildTime = 10.0
+maxHealth = 2000
+maxAmmo = 5000
+weaponMask = 00000
+unitName = "Santa's Bomber"
+aiName = "BomberProcess"
+aiName2 = "BomberProcess"
+heatSignature = 10.0
+imageSignature = 0.5
+radarSignature = 0.0
+isAssault = 1
+boxCollide = 1
+canSnipe = false
+
+armorClass = L
+
+/////// REQUIREMENTS ///////////////
+
+requireCount = 2
+requireName1 = "ibfact"
+requireText1 = "Build Factory"
+requireName2 = "ibbomb"
+requireText2 = "Build Bomb Bay"
+
+////////////////////////////////////
+
+
+/////// PROVIDES ///////////////////
+
+provideCount = 3
+provideName1 = "ivbomb"
+provideName2 = "VIRTUAL_CLASS_BOMBER"
+provideName3 = "flier"
+
+/////////LIGHTS AND EFFECTS//////////////////
+lightHard1 = "hp_light_3"
+lightName1 = "omnired"
+lightHard2 = "hp_light_5"
+lightName2 = "omnigreen"
+lightHard3 = "hp_light_7"
+lightName3 = "omnired"
+lightHard4 = "hp_light_9"
+lightName4 = "omnigreen" 
+lightHard5 = "hp_light_4"
+lightName5 = "omnired"
+lightHard6 = "hp_light_6"
+lightName6 = "omnigreen" 
+lightHard7 = "hp_light_8"
+lightName7 = "omnired"
+lightHard8 = "hp_light_10"
+lightName8 = "omnigreen" 
+// lightHard9 = "hp_light_9"
+// lightName9 = "omnired"
+// lightHard10 = "hp_light_10"
+// lightName10 = "omnigreen" 
+LightsOnlyWhenPiloted = true
+
+effectHard1 = "hp_emit_1"
+effectName1 = "emit_contrail1"
+effectMinAltitude1 = 0.0
+effectMaxAltitude1 = 1e6
+effectFlags1 = 2147483639
+effectHard2 = "hp_emit_2" 
+effectName2 = "emit_contrail1"
+effectMinAltitude2 = 0.0
+effectMaxAltitude2 = 1e6
+effectFlags2 = 2147483639
+
+[CraftClass]
+rangeScan = 400.0f
+periodScan = 5.0f
+velocJam = 5.0f
+
+TeamTransferrable = false
+
+braccelFactor = 0.05f;
+strafeFactor = 0.1f;
+steerFactor = 1.0f;
+omegaFactor = 0.2f;
+velFactor = 0.2f;
+
+selectWaitMsg = "hohoho.wav"
+selectAttackMsg = "santa.wav"
+selectFollowMsg = ""
+selectGoMsg = ""
+selectOtherMsg = "hohoho.wav"
+
+goMsg = "hohoho.wav"
+attackMsg = "santa.wav"
+followMeMsg = "hohoho.wav"
+followMsg = "hohoho.wav"
+repairMsg = "hohoho.wav"
+reloadMsg = "hohoho.wav"
+rescueMsg = "hohoho.wav"
+recycleMsg = "santa.wav"
+otherMsg = ""
+
+user1Msg = ""
+killedMsg = "hohoho.wav"
+
+
+[HoverCraftClass]
+setAltitude = 6.0
+accelDragStop = 0.0
+accelDragFull = 0.0
+alphaTrack = 20.0
+alphaDamp = 5.0
+pitchPitch = 0.25
+pitchThrust = 0.1
+rollStrafe = 0.1
+rollSteer = 0.1
+
+velocForward = 30.0
+velocReverse = 2.0
+velocStrafe = 15.0
+accelThrust = 20.0
+accelBrake = 2.0
+omegaSpin = 1.0
+omegaTurn = 1.0
+alphaSteer = 15.0
+accelJump = 300.0
+
+soundThrust = "ibomb.wav"
+soundTurbo = "avtanke3.wav"
+
+[BomberClass]
+flightAltitude = 85.0
+reloadTime = 10
+TargetEngageRange = 50 // radius around target it'll route thru
+bombName = "apwrck" // default loadout

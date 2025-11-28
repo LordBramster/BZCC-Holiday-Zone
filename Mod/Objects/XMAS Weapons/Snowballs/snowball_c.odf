@@ -1,0 +1,41 @@
+[OrdnanceClass]
+classLabel = "grenade"
+
+shotGeometry = "snowball_md.fbx"
+shotSound = "winds.wav"
+
+xplGround = "xsnowballgnd"
+xplVehicle = "xsnowballxpl"
+xplBuilding = "xsnowballxpl"
+
+renderName = "fx_xmas.FrostTrail_MD"
+
+ammoCost = 50
+lifeSpan = 1e30
+shotSpeed = 65.5 // 50.0
+
+damageValue(N) = 400 // none
+damageValue(L) = 350 // light
+damageValue(H) = 300 // heavy
+
+damageValue(S) = 350 // standard
+damageValue(D) = 300 // deflection
+damageValue(A) = 400 // absorbtion
+
+[FrostTrail]
+renderBase = "draw_twirl_trail"
+textureName = "flame.tga" //smoke2
+textureBlend = "one one modulate" // "srcalpha invsrcalpha modulatealpha"
+startColor = "200 225 255 20"
+finishColor = "20 255 255 0"
+// startColor = "150 150 225 50"
+// finishColor = "50 75 100 0"
+startRadius = 2.75
+finishRadius = 1.25
+rotationRate = 6.0
+animateTime = 1.25
+emitDelay = 0.01
+emitVariance = "3.7 3.7 3.7"
+emitInherit = "0.3 0.3 0.3"
+emitLife = 1.25
+BottomInteractsWithTerrain = false

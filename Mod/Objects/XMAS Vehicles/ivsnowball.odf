@@ -1,0 +1,112 @@
+[GameObjectClass]
+baseName = "ivsnowball"
+geometryName = "snowman_mini.fbx"
+classLabel = "assaulthover"
+scrapValue = 40
+scrapCost = 70
+customCost = 80
+buildTime = 15.0
+customTime = 20.0
+maxHealth = 2500
+addhealth = 4
+maxAmmo = 3000
+addAmmo = 3
+unitName = "Mini Snowman"
+aiName = "AssaultTankProcess"
+aiName2 = "AssaultTankProcess"
+heatSignature = 0.5
+imageSignature = 5.0
+radarSignature = 5.0
+isAssault = 1
+armorClass = L
+
+/////// REQUIREMENTS ///////////////
+requireCount =  0
+
+/////// PROVIDES ///////////////////
+provideCount = 4
+provideName1 = "ivatank"
+provideName2 = "VIRTUAL_CLASS_ASSAULTTANK"
+provideName3 = "assault"
+provideName4 = "DefendUnit"
+
+/////// weapons ////////////////////
+weaponMask = 00111
+weaponHard1 = "HP_MORTAR_1"
+weaponAssault1 = 0
+weaponName1 = "gsnowball"
+
+////////////////////////////////////
+turretCount = 2
+turretName1 = "turret_y"
+turretName2 = "turret_x"
+
+/////////LIGHTS AND EFFECTS//////////////////
+//don't use altitude
+effectHard1 = "hp_dust_1"
+effectName1 = "dusttrail3"
+effectMinVelocity1 = 3.0
+effectMaxVelocity1 = 500.0
+
+[CraftClass]
+rangeScan = 300.0f
+periodScan = 4.0f
+velocJam = 0.0f
+engageRange = 260
+
+attackTask = "AssaultTankAttack"
+subAttackTask = "SupportSubAttack"
+subAttackClass = "ANS"
+
+braccelFactor = 0.02
+strafeFactor = 0.1
+velFactor = 0.5
+steerFactor = 1.5
+omegaFactor = 0.5
+
+selectWaitMsg = "ivatank04.wav"
+selectAttackMsg = "ivatank01.wav"
+selectFollowMsg = "ivatank08.wav"
+selectGoMsg = "ivatank02.wav"
+selectOtherMsg = "ivatank04.wav"
+goMsg = "ivatank05.wav"
+attackMsg = "ivatank06.wav"
+followMeMsg = "ivatank08.wav"
+followMsg = "ivatank08.wav"
+repairMsg = "ivatank09.wav"
+reloadMsg = "ivatank09.wav"
+rescueMsg = "ivatank10.wav"
+recycleMsg = "ivatank11.wav"
+otherMsg = "ivatank04.wav" 
+holdMsg = "ivatank12.wav"
+user1Msg = ""  
+killedMsg = "ivatank07.wav"
+diedMsg = ""
+
+[HoverCraftClass]
+velocForward = 35.0
+velocReverse = 20.0
+velocStrafe = 25.0
+accelThrust = 25.0 //acceleration
+accelDragStop = 7.0 //how fast it stops once hands are off controls
+accelJump = 15.0
+setAltitude = 0.05 // how high off the ground
+alphaTrack = 23.0 //springs speed it rights itself 
+alphaDamp = 9.0 //shocks 
+pitchPitch = 0.25 //nose up 
+pitchThrust = 0.1 //nose down 
+rollStrafe = 0.08 //rolls while strafing
+omegaSpin = 2.2 //spinning in place speed
+omegaTurn = 3.5 //turning while moving speed
+alphaSteer = 4.2 //how fast it responds to steering
+rollSteer = 0.15 //rolls while steering
+
+soundThrust = "itank01e.wav"
+
+
+[AssaultHoverClass]
+yawRate = 4.0
+yawAlpha = 10.0
+pitchMin = -0.1
+pitchMax = 0.5
+laserName1 = "recoil_1"

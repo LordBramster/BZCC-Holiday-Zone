@@ -1,0 +1,23 @@
+[OrdnanceClass]
+classLabel = "bullet"
+
+shotGeometry = "candy_pp_ord.fbx" // "iostba00.fbx"  //"gatstab.xsi"
+// shotSound = "Ordin_a.wav"
+
+renderName = "fx_xmas.FrostTrail_SM"
+
+xplGround = "xstabgnd_c"
+xplVehicle = "xstabcar_c"
+xplBuilding = "xstabcar_c"
+
+ammoCost = 15
+lifeSpan = 1.0
+shotSpeed = 150.0
+
+damageValue(N) = 165
+damageValue(L) = 145
+damageValue(H) = 105
+
+damageValue(S) = 125
+damageValue(D) = 105
+damageValue(A) = 135

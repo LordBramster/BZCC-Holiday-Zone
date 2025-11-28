@@ -1,0 +1,16 @@
+[GameObjectClass]
+baseName = "apfreezemine"
+classLabel = "apspecial"
+
+scrapCost = 40
+
+unitName = "Freeze Mine"
+
+requireCount = 1
+requireName1 = "ibarmo"
+requireText1 = "Build Armory"
+
+[PowerUpClass]
+
+[WeaponPowerupClass]
+weaponName = "gfreezemine"

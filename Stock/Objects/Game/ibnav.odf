@@ -1,0 +1,21 @@
+[GameObjectClass]
+geometryName = "ibnav00.fbx" //"ibnav00.xsi"
+classLabel = "beacon"
+// animCount = 1
+// animName1 = "loop"
+// animFile1 = "ibnav00.xsi"
+scrapCost = 0
+scrapValue = 0
+maxHealth = 0
+maxAmmo = 0
+unitName = "Candy Beacon"//""
+heatSignature = 0.0
+imageSignature = 0.0
+radarSignature = 0.0
+ScanTeamLimit = 2 // 0 = all teams, 1 = same team only, 2 = allies only, 3 = no one
+CanBeIdleVictim = false
+
+//////////////////// FX //////////////////// 
+
+effectHard1 = "hp_emit_1"
+effectName1 = "fx_xmas.candy"

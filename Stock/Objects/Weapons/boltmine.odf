@@ -1,0 +1,18 @@
+[GameObjectClass]
+geometryName = "santa_hat.fbx"
+classLabel = "weaponmine"
+scrapCost = 0
+scrapValue = 0
+maxHealth = 1000
+maxAmmo = 300
+unitName = "Santa's Arc Mine" // "Arc Mine"
+
+weaponHard1 = "hp_cannon_1" // "igbolt00"
+weaponName1 = "gmboltmn"
+
+[MineClass]
+lifeSpan = 30
+
+[WeaponMineClass]
+searchRadius = 100.0
+heightScale = 2.0

@@ -1,0 +1,12 @@
+[WeaponClass]
+classLabel = "dispenser"
+wpnName = "Freeze Mine"
+fireSound = "hohoho.wav"
+wpnReticle = "gbolt"
+wpnPriority = 5
+wpnCategory = "SPEC"
+
+[DispenserClass]
+shotDelay = 5.0
+objectClass = "freezemine"
+

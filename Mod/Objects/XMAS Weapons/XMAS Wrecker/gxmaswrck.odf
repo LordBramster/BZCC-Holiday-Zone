@@ -1,0 +1,11 @@
+[WeaponClass]
+classLabel = "dispenser"
+wpnName = "XMAS Wrecker"
+fireSound = "santa.wav"
+wpnReticle = "gflare"
+wpnPriority = 1
+wpnCategory = "SPEC"
+
+[DispenserClass]
+shotDelay = 2.0
+objectClass = "apwrckxmas"

@@ -1,0 +1,20 @@
+[GameObjectClass]
+geometryName = "bbiceplate00.fbx"
+classLabel = "i76building"
+collisionRadius = 1.0
+scrapCost = 0
+scrapValue = 0
+maxHealth = 0
+maxAmmo = 0
+unitName = "bbiceplate"
+canDetect = 0
+canInteract = 0
+canSnipe = 0
+hitType = "G"
+
+armorClass = H
+
+ownsTerrain = 1
+
+[BuildingClass]
+justFlat = 1

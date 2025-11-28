@@ -1,0 +1,17 @@
+[WeaponClass]
+classLabel = "mortar"
+ordName = "snowball_c"
+wpnName = "Snowball"
+fireSound = "gtoss.wav"
+wpnReticle = "gmortar"
+wpnLadder = "gmortar.L0"
+wpnPriority = 2
+wpnCategory = "MORT"
+
+aiRange = 275 // 200.0
+//needLOS = false
+AllowAimHigh = false
+
+[CannonClass]
+shotDelay = 5.65 // 2.0
+shotAlternate = 1

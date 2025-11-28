@@ -1,0 +1,8 @@
+[GameObjectClass]
+geometryName = "bepool01.fbx"
+classLabel = "tepool01"
+unitName = "Hot Cocoa" // "Biometal Pool"
+
+[BuildingClass]
+
+[DepositClass]

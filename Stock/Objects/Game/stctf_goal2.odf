@@ -1,0 +1,23 @@
+[GameObjectClass]
+//baseName = "dorelc01"
+//classLabel = "dorelc01"
+maxHealth = 5000
+addHealth = 25
+unitName = "Santa's Sleigh" // "Strat-CTF Goal"
+
+//used in SP pluto map
+geometryName = "sleigh01.fbx"
+classLabel = "artifact"
+scrapCost = 1
+scrapValue = 0
+maxAmmo = 0
+aiName = "PowerUpProcess"
+heatSignature = 0.0
+imageSignature = 0.0
+radarSignature = 0.0
+
+canCollide = 1
+
+
+[CameraPodClass]
+periodScan = 0.0

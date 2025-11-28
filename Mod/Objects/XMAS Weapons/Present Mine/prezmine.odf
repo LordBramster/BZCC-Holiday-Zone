@@ -1,0 +1,16 @@
+[GameObjectClass]
+geometryName = "igprox00.fbx"
+classLabel = "proximity"
+scrapCost = 0
+scrapValue = 0
+maxHealth = 150
+maxAmmo = 200
+unitName = "Present Mine"
+
+[MineClass]
+lifeSpan = 30
+xplBlast = "xsnowballxpl"
+
+[ProximityMineClass]
+triggerRadius = 20.0
+suppressRadius = 40.0

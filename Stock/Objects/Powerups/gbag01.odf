@@ -1,0 +1,27 @@
+
+[GameObjectClass]
+geometryName = "present03.fbx"// "gbag01.fbx"
+classLabel = "moneybag"
+scrapCost = 0
+scrapValue = 0
+maxHealth = 1200
+maxAmmo = 0
+unitName = "Santa's Lost Present"
+heatSignature = 0.8
+imageSignature = 8.0
+radarSignature = 1.0
+collisionRadius = 5.0
+
+//////////////////// FX & LIGHT //////////////////// 
+
+effectHard1 = "Santa's Lost Present"
+effectName1 = "fx_xmas.money"
+lightHard1 = "Santa's Lost Present"
+lightName1 = "o_yellow_nf"
+
+[PowerUpClass]
+soundPickup = "hohoho.wav"
+// soundReject = "reject.wav"
+
+[MoneyPowerupClass]
+moneyUp = 200 // 100

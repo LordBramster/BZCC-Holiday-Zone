@@ -1,0 +1,129 @@
+[GameObjectClass]
+classLabel = "animal"
+geometryName = "jak_skel.fbx"
+geometryScale = 1
+
+unitName = "Jak Deer"
+aiName = "LandAnimalProcess"
+
+scrapCost = 0
+scrapValue = 0
+//pilotCost = 1
+
+maxHealth = 250
+maxAmmo = 3
+
+heatSignature = 0.2
+imageSignature = 0.3
+radarSignature = 0.2
+canDetect = 1
+
+animCount = 12
+
+animName1 = "idle"
+animFile1 = "jak_skel.fbx"
+
+animName2 = "walk"
+animFile2 = "jak_walk.fbx"
+
+animName3 = "run"
+animFile3 = "jak_walk.fbx"
+
+animName4 = "jump"
+animFile4 = "jak_walk.fbx"
+		  
+animName5 = "death"
+animFile5 = "jak_death01.fbx"
+		 
+animName6 = "curious"
+animFile6 = "jak_curious.fbx"
+		 
+animName7 = "attack1"
+animFile7 = "jak_attack01.fbx"
+		 
+animName8 = "attack2"
+animFile8 = "jak_attack02.fbx"
+		 
+animName9 = "attack3"
+animFile9 = "jak_attack03.fbx"
+		
+animName10 = "attack4"
+animFile10  = "jak_attack03.fbx"
+
+animName11 = "eat1"
+animFile11 = "jak_eat01.fbx"
+
+animName12 = "eat2"
+animFile12 = "jak_eat01.fbx"
+
+[CraftClass]
+braccelFactor = 0.08
+velFactor = 0.4
+steerFactor = 1
+omegaFactor = 0.4
+strafeFactor = 0.1
+
+GotoTaskHasleader = false
+PathingType = 2
+AvoidType = 1
+
+LandAnimalTCoolDist = 125.0	  // for LandAnimalProcess.cpp. Dist looking for tanks
+LandAnimalTYumDist = 75.0	  // for LandAnimalProcess.cpp. Dist looking for pilots
+LandAnimalTGotoClose = 15.0	  // for LandAnimalProcess.cpp. 
+LandAnimalTGotoCloseMax = 30.0	  // for LandAnimalProcess.cpp. 
+LandAnimalTFleeDist = 75.0	  // for LandAnimalProcess.cpp. 
+LandAnimalTGoto2AttackDist = 15.0 // for LandAnimalProcess.cpp. How close we need to be to switch from GOTO to ATTACK
+LandAnimalTCrowdedDist = 30.0	  // for LandAnimalProcess.cpp. How close to other animals before moving away
+LandAnimalTDontStand = false	  // for LandAnimalProcess.cpp. 
+
+[LandCreature]
+animRate = 10.0
+velocJump = 12.0
+velocForward = 14.0
+accelThrust = 14.0
+
+TooFarDist = 5.5f		  // Distance at which attacks stop
+DamageBase = 100.0		  // This and below are used when applying damage to a target
+DamageArmor = 10.0
+DamageShield = 10.0
+DamageValue = 100.0
+
+burnSound1 = "jak07.wav"
+burnSound2 = "jak08.wav"
+
+crushSound = "jaksquish.wav"
+
+curiousSound1 = "jak02.wav"
+curiousSound2 = "jak02b.wav"
+curiousSound3 = "jak02c.wav"
+curiousSound4 = "jak02d.wav"
+
+dieSound1  = "jak02c.wav"
+dieSound2  = "jak02b.wav"
+dieSound3  = "jak08.wav"
+dieSound4  = "jak02b.wav"
+dieSound5  = "jak02c.wav"
+
+eatSound1 = "jak02.wav"
+eatSound2 = "jak02b.wav"
+eatSound3 = "jak02c.wav"
+eatSound4 = "jak02d.wav"
+
+painSound1 = "jak07.wav"
+painSound2 = "jak02b.wav"
+painSound3 = "jak02c.wav"
+painSound4 = "jak02d.wav"
+painSound5 = "jak02b.wav"
+painSound6 = "jak02c.wav"
+
+jumpSound  = "jump.wav"
+landSound  = "iland01.wav"
+stepSound  = "jakstep.wav"
+
+// in degrees/sec
+alphaSteer = 20.0
+omegaSpin =  60.0
+omegaTurn = 150.0
+
+leftfootpiece = "lfoot"
+rightfootpiece = "rfoot"

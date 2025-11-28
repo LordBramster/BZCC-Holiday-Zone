@@ -1,0 +1,14 @@
+[GameObjectClass]
+classLabel = "ivsleigh"
+geometryName = "sleigh_santa.fbx"
+geometryScale = 0.4
+// cockpitName = "ivmbik_cockpit.fbx"
+aiName = "AirCraftFriend"
+aiName2 = "AirCraftEnemy"
+classLabel = "aircraft"
+unitName = "Nice-ish Sleigh"
+
+[CraftClass]
+
+[AirCraftClass]
+alwaysDeployed = true

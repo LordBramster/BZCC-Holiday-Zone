@@ -1,0 +1,19 @@
+//
+// xVehicles.odf - listing of multiplayer vehicles usable in BZ2
+//
+//
+// Tip: do not put .odf extension on cfg# = "" entries; added automatically on loading
+// 
+
+[MPVehicles]
+xsi1 = "snowman_mini.fbx"
+cfg1 = "ivsnowball"
+Description1 = "Mini Snowman"
+
+xsi2 = "snowman_frosty.fbx"
+cfg2 = "ivsnowman2"
+Description2 = "Naughty Snowman"
+
+xsi3 = "ivmbik00.fbx"
+cfg3 = "ivmbikexmas"
+Description3 = "Jingle Jackal"

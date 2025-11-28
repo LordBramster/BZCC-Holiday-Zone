@@ -1,0 +1,12 @@
+[GameObjectClass]
+baseName = "apxmaswrck"
+classLabel = "apspecial"
+
+scrapCost = 20
+
+unitName = "XMAS Wrecker"
+
+[PowerUpClass]
+
+[WeaponPowerupClass]
+weaponName = "gxmaswrck"

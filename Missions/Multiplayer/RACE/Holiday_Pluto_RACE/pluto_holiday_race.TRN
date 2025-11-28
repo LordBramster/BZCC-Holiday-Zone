@@ -1,0 +1,30 @@
+[Size]
+MetersPerGrid = 8.0
+HeightGranularity = 0.1
+MinX = -2048.0
+MinZ = -2048.0
+Width = 4096.0
+Depth = 4096.0
+Height = 100
+Tile = 2
+Color = "255 255 255 255"
+
+[NormalView]
+DiffuseColor = "255 255 255"
+SpecularColor = "10 10 10"
+SpecularPower = 1024.0
+
+[World]
+MusicTrack1=6
+MusicTrack2=10
+MusicTrack3=8
+
+[Texture]
+TileTexture1 = "bane3.tga"// "pluto.tga"
+TileTexture2 = "bane4.tga" // "pluto2.tga"
+TileTexture3 = "bane5.tga" // "pluto3.tga"
+TileTexture4 = "bane.tga" // "ibfoun00.tga"
+TileTexture5 = "bane2.tga" // "pluto6.tga"
+TileTexture6 = "bane2.tga" // "pluto7.tga"
+TileTexture7 = "bbextf01.tga" // "ibfoun01.tga"
+TileTexture8 = "xmas_ice_d.tda" // Custom

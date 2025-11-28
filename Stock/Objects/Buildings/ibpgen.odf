@@ -1,0 +1,60 @@
+[GameObjectClass]
+baseName = "ibpgen"
+geometryName = "ibpgen00.fbx"
+classLabel = "powerplant"
+animCount = 1
+animName1 = "loop"
+animFile1 = "ibpgen00.fbx"
+scrapCost = 30
+scrapValue = 5
+maxHealth = 3000
+maxAmmo = 0
+unitName = "Jolly"
+heatSignature = 2.0
+imageSignature = 1.0
+radarSignature = 1.0
+collisionRadius = 11.0
+isAssault = 1
+armorClass = H
+AllowUndergroundSpawn = 1
+
+/////// REQUIREMENTS ///////////////
+requireCount = 0
+
+/////// PROVIDES ///////////////////
+provideCount = 2
+provideName1 = "ibpgen"
+provideName2 = "VIRTUAL_CLASS_POWERPLANT"
+
+/////// LIGHTS & EFFECTS /////
+// lightHard1 = "hp_light_1"
+// lightName1 = "omnigreen-small"
+// lightHard2 = "hp_light_2"
+// lightName2 = "omnired-small"
+// lightHard3 = "hp_light_3"
+// lightName3 = "omnigreen-small"
+// lightHard4 = "hp_light_4"
+// lightName4 = "omnired-small"
+lightHard5 = "hp_light_5"
+lightName5 = "o_red_nf"
+
+effectHard1 = "hp_emit_1"
+effectName1 = "emit_redblink"
+effectHard2 = "hp_emit_2"
+effectName2 = "emit_greenblink"
+effectHard3 = "hp_emit_3"
+effectName3 = "emit_redblink"
+effectHard4 = "hp_emit_4"
+effectName4 = "emit_greenblink"
+effectHard5 = "hp_emit_5"
+effectName5 = "emit_redblink"
+
+[BuildingClass]
+soundAmbient = "amb_jingle.wav" // ipgen01
+
+[PoweredBuildingClass]
+detectRange = 50
+
+[Lod1]
+//geometryName = "ibpgenL1.fbx" ;geometry for lod1
+//distance = 64                    ;bsphere under 200 pixel => switch to lod1

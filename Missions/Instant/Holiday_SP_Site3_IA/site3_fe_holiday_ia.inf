@@ -1,0 +1,16 @@
+[DESCRIPTION]
+missionName = "Site III"
+mapTga = "site3_fe_holiday_ia.bmp"
+mapDesc = "site3_fe_holiday_ia.des"
+mySide = 0
+
+Aware_v13 = true
+
+RaceHuman = 102 // 105 = ascii 'i' for ISDF, 102 = 'f' for Scion
+RaceCPU = 105 // 105 = ascii 'i' for ISDF, 102 = 'f' for Scion
+
+ExtraOptions = "Default"
+
+options_instant_string0 = "stock_"  // Custom AIP base name, e.g. "stock13_" .
+options_instant_string1 = "ivrecy"    // Human Starting recycler
+options_instant_string2 = "ivrecycpu" // CPU starting recycler

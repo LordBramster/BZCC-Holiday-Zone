@@ -1,0 +1,12 @@
+[GameObjectClass]
+baseName = "appresmine"
+classLabel = "apspecial"
+
+scrapCost = 20
+
+unitName = "Present Mine"
+
+[PowerUpClass]
+
+[WeaponPowerupClass]
+weaponName = "gprezmine"

@@ -1,0 +1,144 @@
+[GameObjectClass]
+baseName = "ibarmo"
+geometryName = "ibarmo00.fbx"
+classLabel = "armory"
+collisionRadius = 1.0
+scrapCost = 60
+scrapValue = 20
+maxHealth = 5000
+maxAmmo = 0
+powerCost = 1
+unitName = "Igloory"
+aiName = "ArmoryProcess"
+aiName2 = "ArmoryProcess"
+heatSignature = 2.0
+imageSignature = 1.0
+radarSignature = 1.0
+isAssault = 1
+AllowUndergroundSpawn = 1
+armorClass = H
+
+/////// REQUIREMENTS ///////////////
+
+requireCount = 1
+requireName1 = "ibfact"
+requireText1 = "Build Factory"
+
+////////////////////////////////////
+
+
+/////// PROVIDES ///////////////////
+
+provideCount = 3
+provideName1 = "ibarmo"
+provideName2 =  "VIRTUAL_CLASS_ARMORY"
+provideName3 = "base"
+
+///////// LIGHTS & EFFECTS /////////
+lightHard1 = "hp_light_1"
+lightName1 = "spotorange"
+
+effectHard1 = "hp_emit_1"
+effectName1 = "emit_redstay"
+effectFlags1 = "447" //447 powered  479 unpowered
+effectHard2 = "hp_emit_2"
+effectName2 = "emit_redstay"
+effectFlags2 = "447" //447 powered  479 unpowered
+effectHard3 = "hp_emit_3"
+effectName3 = "emit_redstay"
+effectFlags3 = "447" //447 powered  479 unpowered
+effectHard4 = "hp_emit_4"
+effectName4 = "emit_redstay"
+effectFlags4 = "447" //447 powered  479 unpowered
+effectHard5 = "hp_emit_0"
+effectName5 = "ibarmo.steam"
+effectFlags5 = "447" //447 powered  479 unpowered
+
+[BuildingClass]
+soundAmbient = "amb_burning.wav" // "iarm01.wav"
+
+[PoweredBuildingClass]
+detectRange = 100
+
+[ArmoryClass]
+soundBuild = "ibrecy02.wav"
+soundFinish = "iapc04.wav"
+
+[ArmoryGroup1]
+buildLabel = "Guns"
+buildItem1 = "apmini"
+buildItem2 = "aplase"
+buildItem3 = "appumm"
+buildItem4 = "apchain"
+
+[ArmoryGroup2]
+buildLabel = "Cannons"
+buildItem1 = "apstab"
+buildItem2 = "appstb"
+buildItem3 = "apsstb"
+buildItem4 = "applas"
+buildItem5 = "apblst"
+buildItem6 = "apmagg"
+
+[ArmoryGroup3]
+buildLabel = "Rockets"
+buildItem1 = "aptagg"
+buildItem2 = "apfafm"
+buildItem3 = "apshdw"
+
+[ArmoryGroup4]
+buildLabel = "Mortars"
+buildItem1 = "apmort"
+buildItem2 = "apmdmg"
+buildItem3 = "apspln"
+
+[ArmoryGroup5]
+buildLabel = "Mines"
+buildItem1 = "apflar"
+buildItem2 = "apmcur"
+buildItem3 = "apmits"
+buildItem4 = "approx"
+
+[ArmoryGroup6]
+buildLabel = "Specials"
+buildItem1 = "apredf"
+buildItem2 = "apphan"
+buildItem3 = "apsite"
+//buildItem4 = "apffld"
+//buildItem5 = "apthmp"
+
+[ArmoryGroup7]
+buildLabel = "Pilot"
+buildItem1 = "apbazo"
+buildItem2 = "apsnip"
+buildItem3 = "apgren"
+buildItem4 = "apjetp"
+
+[ArmoryGroup8]
+buildLabel = "Supply"
+buildItem1 = "apserv"
+buildItem2 = "apammo"
+buildItem3 = "aprepa"
+
+[ArmoryGroup9]
+buildLabel = "Holiday!"
+buildItem1 = "apsnowball"
+buildItem2 = "appepperm"
+buildItem3 = "apwinds"
+buildItem4 = "apfreezemine"
+buildItem5 = "aptech"
+buildItem6 = "apwrckxmas"
+
+[steam]
+renderBase = "draw_twirl_trail"
+textureName = "flame.tga"
+textureBlend = "one one modulate"
+startColor = "255 255 255 150"
+finishColor = "0 175 200 0"
+startRadius = 0.5
+finishRadius = 5.0
+animateTime = 0.5
+emitDelay = 0.03
+emitVelocity = "0.5 6.0 0.5"
+emitVariance = "1.0 0.0 1.0"
+emitLife = 0.5

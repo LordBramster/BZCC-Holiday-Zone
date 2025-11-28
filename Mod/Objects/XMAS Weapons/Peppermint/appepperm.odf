@@ -1,0 +1,16 @@
+[GameObjectClass]
+baseName = "appepperm"
+classLabel = "apcannon"
+
+scrapCost = 40
+
+unitName = "Peppermint"
+
+requireCount = 1
+requireName1 = "ibarmo"
+requireText1 = "Build Armory"
+
+[PowerUpClass]
+
+[WeaponPowerupClass]
+weaponName = "gpepperm"

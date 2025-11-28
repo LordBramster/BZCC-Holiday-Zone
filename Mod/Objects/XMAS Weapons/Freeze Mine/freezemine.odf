@@ -1,0 +1,18 @@
+[GameObjectClass]
+geometryName = "santa_hat.fbx"
+classLabel = "weaponmine"
+scrapCost = 0
+scrapValue = 0
+maxHealth = 1250
+maxAmmo = 300
+unitName = "Freeze Mine"
+
+weaponHard1 = "hp_cannon_1"
+weaponName1 = "gmboltmn"
+
+[MineClass]
+lifeSpan = 120
+
+[WeaponMineClass]
+searchRadius = 100.0
+heightScale = 2.0

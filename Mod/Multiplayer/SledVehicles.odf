@@ -1,0 +1,11 @@
+//
+// xVehicles.odf - listing of multiplayer vehicles usable in BZ2
+//
+//
+// Tip: do not put .odf extension on cfg# = "" entries; added automatically on loading
+// 
+
+[MPVehicles]
+xsi1 = "rhino_yule.fbx"
+cfg1 = "ivrhinoxmas"
+Description1 = "Yule Rhino"

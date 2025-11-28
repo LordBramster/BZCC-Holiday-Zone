@@ -1,0 +1,11 @@
+[WeaponClass]
+classLabel = "machinegun"
+ordName = "techno"
+wpnName = "Yule!"
+fireSound = "grave00.wav"
+wpnReticle = "gproxmin"
+wpnCategory = "CANN"
+
+[CannonClass]
+shotDelay = 0.4
+raveFlash = true

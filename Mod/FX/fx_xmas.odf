@@ -1,0 +1,394 @@
+//////////////////// CUSTOM FX RENDER //////////////////// 
+
+///////////////////////////////
+
+[money]
+renderBase = "draw_multi"
+renderCount = 2
+renderName1 = "fx_xmas.money1"
+renderName2 = "fx_xmas.money2"
+
+[money1]
+renderBase = "draw_twirl_trail"
+textureName = "flare.tga"
+textureBlend = "one one modulate"
+startColor = "255 255 0 255"
+finishColor = "0 0 0 0"
+startRadius = 0.25
+finishRadius = 0.25
+animateTime = 1.75
+emitDelay = 1
+emitDelayVar = 0.03
+emitPosVariance = "12.0 12.0 12.0"
+emitVelocity = "0.0 3.0 0.0"
+emitVariance = "0.0 0.0 0.0"
+emitInherit = "0.2 0.2 0.2"
+emitLife = 2.0
+
+[money2]
+renderBase = "draw_twirl_trail"
+textureName = "flare.tga"
+textureBlend = "one one modulate"
+startColor = "255 255 0 255"
+finishColor = "0 0 0 0"
+startRadius = 0.3
+finishRadius = 0.15
+animateTime = 1.7
+emitDelay = 0.6
+emitDelayVar = 0.1
+emitPosVariance = "12.0 12.0 12.0"
+emitVelocity = "0.01 1.0 0.01"
+emitVariance = "0.0 0.0 0.0"
+emitInherit = "0.2 0.2 0.2"
+emitLife = 1.8
+
+///////////////////////////////
+
+[candy]
+renderBase = "draw_multi"
+renderCount = 2
+renderName1 = "fx_xmas.candy1"
+renderName2 = "fx_xmas.candy2"
+
+[candy1]
+renderBase = "draw_twirl_trail"
+textureName = "flare.tga"
+textureBlend = "one one modulate"
+startColor = "255 0 0 255"
+finishColor = "0 0 0 0"
+startRadius = 0.25
+finishRadius = 0.25
+animateTime = 1.75
+emitDelay = 1
+emitDelayVar = 0.03
+emitPosVariance = "12.0 12.0 12.0"
+emitVelocity = "0.0 3.0 0.0"
+emitVariance = "0.0 0.0 0.0"
+emitInherit = "0.2 0.2 0.2"
+emitLife = 2.0
+
+[candy2]
+renderBase = "draw_twirl_trail"
+textureName = "flare.tga"
+textureBlend = "one one modulate"
+startColor = "255 0 0 255"
+finishColor = "0 0 0 0"
+startRadius = 0.3
+finishRadius = 0.15
+animateTime = 1.7
+emitDelay = 0.6
+emitDelayVar = 0.1
+emitPosVariance = "12.0 12.0 12.0"
+emitVelocity = "0.01 1.0 0.01"
+emitVariance = "0.0 0.0 0.0"
+emitInherit = "0.2 0.2 0.2"
+emitLife = 1.8
+
+///////////////////////////////
+
+[Planar]
+simulateBase = "sim_null"
+lifeTime = 8.0
+renderBase = "draw_planar"
+textureName = "grndchar.tga"
+textureBlend = "srcalpha invsrcalpha modulatealpha"
+startColor = "100 100 100 255"
+finishColor = "10 25 75 0"
+startRadius = 4.0
+finishRadius = 4.0
+animateTime = 8.0
+
+[ShockPlanar]
+simulateBase = "sim_null"
+lifeTime = 7.0
+renderBase = "draw_planar"
+textureName = "lightflare.tga"
+textureBlend = "one one modulate"
+startColor = "255 255 255 255"
+finishColor = "0 125 255 0"
+startRadius = 6.0
+finishRadius = 0.0
+animateTime = 7.0
+
+[Shock]
+simulateBase = "sim_null"
+lifeTime = 0.2
+renderBase = "draw_sphere"
+textureName = "vsmoke3.tga"
+textureBlend = "one one modulate"
+startColor = "255 255 255 255"
+finishColor = "0 125 255 0"
+startRadius = 3.0
+finishRadius = 40.0
+animateTime = 0.2
+latitudeBands = 16
+longitudeSegments = 32
+
+[cloud]
+simulateBase = "sim_dust"
+lifeTime = 0.5
+renderBase = "draw_emit"
+emitName = "fx_xmas.cloudemit"
+emitDelay = 0.3
+emitVelocity = "1.0 6.0 1.0"
+emitVariance = "0.0 1.0 0.0"
+
+[cloudemit]
+simulateBase = "sim_smoke"
+lifeTime = 2.0
+renderBase = "draw_twirl"
+textureName = "flame.tga" //smoke2
+textureBlend = "one one modulate" // "srcalpha invsrcalpha modulatealpha"
+// textureName = "smoke2.tga"
+// textureBlend = "srcalpha invsrcalpha modulatealpha"
+startColor = "255 255 255 120"
+finishColor = "20 200 200 0"
+// startColor = "100 100 100 200"
+// finishColor = "100 100 100 0"
+startRadius = 4.0
+finishRadius = 8.0
+animateTime = 2.0
+
+[Light]
+simulateBase = "sim_null"
+lifeTime = 0.5
+renderBase = "draw_light"
+startColor = "255 255 255 255"
+finishColor = "100 255 255 0"
+startRadius = 60.0
+finishRadius = 60.0
+animateTime = 0.5
+attenuateConstant = 1.0
+attenuateLinear = 0.0
+attenuateQuadratic = 15.0
+lensFlare = 0
+
+[GroundSmoke]
+simulateBase = "sim_dust"
+lifeTime = 0.9
+renderBase = "draw_twirl"
+textureName = "flame.tga" //smoke2
+textureBlend = "one one modulate" // "srcalpha invsrcalpha modulatealpha"
+// // textureName = "smoke.tga"
+// textureBlend = "srcalpha invsrcalpha modulatealpha"
+startColor = "255 255 255 225"
+finishColor = "200 200 200 0"
+startRadius = 4.4
+finishRadius = 6.8
+animateTime = 0.9
+rotationRate = 7.0
+BottomInteractsWithTerrain = false
+
+[SmokePlume]
+simulateBase = "sim_smoke"
+lifeTime = 1.9
+renderBase = "draw_twirl"
+textureName = "flame.tga" //smoke2
+textureBlend = "one one modulate" // "srcalpha invsrcalpha modulatealpha"
+// textureName = "smoke2.tga"
+// textureBlend = "srcalpha invsrcalpha modulatealpha"
+startColor = "255 255 255 255"
+finishColor = "20 255 255 0"
+// startColor = "100 100 100 100"
+// finishColor = "10 10 10 0"
+startRadius = 8.4
+finishRadius = 10.8
+animateTime = 1.9
+rotationRate = 7.0
+BottomInteractsWithTerrain = false
+
+[Trail]
+simulateBase = "sim_ember"
+lifeTime = 5.0
+renderBase = "draw_trail"
+textureName = "trail2.tga"
+textureRate = 0.5
+textureBlend = "one one modulate"
+startColor = "0 255 0 255"
+finishColor = "0 255 0 0"
+startRadius = 0.04
+finishRadius = 0.0
+segmentTime = 0.1
+
+
+[DirtKickup]
+simulateBase = "sim_ember"
+lifeTime = 3.3
+renderBase = "draw_twirl"
+textureName = "flame.tga" //smoke2
+textureBlend = "one one modulate" // "srcalpha invsrcalpha modulatealpha"
+// textureName = "dirtcloud.tga"
+// textureBlend = "srcalpha invsrcalpha modulatealpha"
+startColor = "255 255 255 255"
+finishColor = "20 255 255 0"
+// startColor = "35 22 8 255"
+// finishColor = "50 45 40 0"
+startRadius = 3.3
+finishRadius = 12.9
+animateTime = 3.3
+rotationRate = 1.7
+BottomInteractsWithTerrain = false
+
+[Chunks]
+simulateBase = "sim_chunk"
+lifeTime = 5.0
+renderBase = "draw_twirl"
+textureName = "dirt.tga"
+textureBlend = "srcalpha invsrcalpha modulatealpha"
+startColor = "255 255 255 255"
+finishColor = "20 255 255 0"
+// startColor = "100 100 100 255"
+// finishColor = "100 100 100 0"
+startRadius = 0.5
+finishRadius = 0.5
+animateTime = 5.0
+rotationRate = 3.0
+BottomInteractsWithTerrain = false
+
+[glow]
+simulateBase = "sim_null"
+lifeTime = 1.0
+renderBase = "draw_sprite"
+//spriteCenter.x = 0.5
+//spriteCenter.y = 0.5
+textureName = "particle.tga"
+textureBlend = "one one modulate"
+startColor = "255 255 255 255"
+finishColor = "20 255 255 0"
+startRadius = 0.2
+finishRadius = 3.0
+animateTime = 1.0
+
+[FlameHeat]
+simulateBase = "sim_smoke"
+lifeTime = 0.35
+renderBase = "draw_twirl"
+textureName = "flame.tga"
+textureBlend = "one one modulate"
+startColor = "100 255 255 255"
+finishColor = "100 100 255 0"
+startRadius = 4.8
+finishRadius = 6.2
+animateTime = 0.35
+rotationRate = 10.0
+BottomInteractsWithTerrain = false
+
+[Flames]
+simulateBase = "sim_smoke"
+lifeTime = 0.6
+renderBase = "draw_twirl"
+textureName = "flame.tga"
+textureBlend = "one one modulate"
+startColor = "100 255 255 255"
+finishColor = "100 100 255 0"
+startRadius = 6.3
+finishRadius = 2.9
+animateTime = 0.6
+rotationRate = 3.5
+BottomInteractsWithTerrain = false
+
+///////////////////////////////
+
+[SnowballGround]
+simulateBase = "sim_null"
+lifeTime = 2.0
+renderBase = "draw_planar"
+textureName = "gunks.tga"
+textureBlend = "srcalpha invsrcalpha modulatealpha"
+startColor = "255 255 255 255"
+finishColor = "20 255 255 0"
+startRadius = 3.0
+finishRadius = 6.0
+animateTime = 2.0 //4.0
+maxCount = 256
+
+[SnowballChunks]
+simulateBase = "sim_ember"
+lifeTime = 2.0
+renderBase = "draw_sprite"
+textureName = "gunk.tga"
+textureBlend = "srcalpha invsrcalpha modulatealpha"
+startColor = "255 255 255 255"
+finishColor = "20 255 255 0"
+startRadius = 0.5
+finishRadius = 0.25
+animateTime = 2.0
+
+[SnowballShock]
+simulateBase = "sim_null"
+lifeTime = 0.4
+renderBase = "draw_sphere"
+textureName = "gunkring.tga"
+textureBlend = "srcalpha invsrcalpha modulatealpha"
+startColor = "255 255 255 255"
+finishColor = "20 255 255 0"
+startRadius = 1.0
+finishRadius = 8.0
+animateTime = 0.4
+latitudeBands = 8
+longitudeSegments = 16
+
+///////////////////////////////
+
+[Cocoa]
+renderBase = "draw_twirl_trail"
+// textureName = "flame.tga"
+// textureBlend = "one one modulate"//"srcalpha invsrcalpha modulatealpha"
+textureName = "smoke2.tga"
+textureBlend = "srcalpha invsrcalpha modulatealpha"
+startColor = "90 70 50 255"
+finishColor = "70 40 10 0"
+startRadius = 5.5
+finishRadius = 8.0
+animateTime = 1.0
+emitDelay = 0.1
+emitVelocity = "0.5 10.0 0.5"
+emitVariance = "10.0 1.0 10.0"
+emitLife = 1.0
+
+///////////////////////////////
+
+[FrostTrail_LG]
+renderBase = "draw_twirl_trail"
+textureName = "flame.tga" //smoke2
+textureBlend = "one one modulate" // "srcalpha invsrcalpha modulatealpha"
+startColor = "200 225 255 20"
+finishColor = "20 255 255 0"
+// startColor = "150 150 225 50"
+// finishColor = "50 75 100 0"
+startRadius = 2.75
+finishRadius = 1.25
+rotationRate = 6.0
+animateTime = 1.25
+emitDelay = 0.01
+emitVariance = "3.7 3.7 3.7"
+emitInherit = "0.3 0.3 0.3"
+emitLife = 1.25
+BottomInteractsWithTerrain = false
+
+[FrostTrail_SM]
+renderBase = "draw_twirl_trail"
+textureName = "flame.tga" //smoke2
+textureBlend = "one one modulate" // "srcalpha invsrcalpha modulatealpha"
+startColor = "255 255 255 40"
+finishColor = "20 255 255 0"
+startRadius = 0.35
+finishRadius = 0.05
+rotationRate = 6.0
+animateTime = 0.5
+emitDelay = 0.01
+emitVariance = "3.7 3.7 3.7"
+emitInherit = "0.3 0.3 0.3"
+emitLife = 0.5
+BottomInteractsWithTerrain = false
+
+[FrostTrail_MD]
+renderBase = "draw_trail"
+textureName = "trail2.tga"
+textureBlend = "one one modulate"
+startColor = "255 255 255 40"
+finishColor = "100 255 255 0"
+startRadius = 0.35
+finishRadius = 0.05
+segmentTime = 2.0
+textureRate = 0.05

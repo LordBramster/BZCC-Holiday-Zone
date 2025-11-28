@@ -1,0 +1,16 @@
+[GameObjectClass]
+baseName = "apsnowball"
+classLabel = "apmortar"
+
+scrapCost = 40
+
+unitName = "Snowballs"
+
+requireCount = 1
+requireName1 = "ibarmo"
+requireText1 = "Build Armory"
+
+[PowerUpClass]
+
+[WeaponPowerupClass]
+weaponName = "gsnowball"

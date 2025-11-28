@@ -1,0 +1,88 @@
+// =====================
+// LOCK DOWN VEHICLE HIT
+// =====================
+
+[ExplosionClass]
+classLabel = "explosion"
+
+explSound = "xmv1.wav"
+//explSound = "ashield01.wav"
+
+damageRadius = 42.5 // 50.0
+damageValue(N) = 200
+damageValue(L) = 100
+damageValue(H) = 75
+damageValue(S) = 100
+damageValue(D) = 200
+damageValue(A) = 75
+
+// NO DMG
+// damageValue(N) = 100 // none
+// damageValue(L) = 50 // light
+// damageValue(H) = 5 // heavy
+
+// damageValue(S) = 50 // standard
+// damageValue(D) = 100 // deflection
+// damageValue(A) = 5 // absorbtion
+
+kickRadius = 40.0 // 15.0
+kickOmega = 2.5 // 1.0
+kickVeloc = -15.0
+
+particleTypes = 13
+
+particleClass1 = "fx_xmas.planar"
+particleCount1 = 1
+particleVeloc1 = "0.0 0.0 0.0"
+
+particleClass2 = "fx_xmas.shockplanar"
+particleCount2 = 1
+particleVeloc2 = "0.0 0.0 0.0"
+
+particleClass3 = "fx_xmas.shock"
+particleCount3 = 1
+particleVeloc3 = "0.0 0.0 0.0"
+
+particleClass4 = "fx_xmas.cloud"
+particleCount4 = 1
+particleVeloc4 = "0.0 10.0 0.0"
+
+// particleClass5 = "fx_xmas.light"
+// particleCount5 = 1
+// particleVeloc5 = "0.0 0.0 0.0"
+
+particleClass6 = "fx_xmas.GroundSmoke"
+particleCount6 = 15
+particleVeloc6 = "35.0 35.0 35.0"
+particlePosVar6 = "5.0 0.0 5.0"
+
+particleClass7 = "fx_xmas.SmokePlume"
+particleCount7 = 15
+particleVeloc7 = "20.0 65.0 20.0"
+particlePosVar7 = "5.0 0.0 5.0"
+
+particleClass8 = "fx_xmas.trail"
+particleCount8 = 8
+particleVeloc8 = "60.0 50.0 60.0"
+particleBias8 = "0.0 1.0 0.0"
+
+particleClass9 = "fx_xmas.DirtKickup"
+particleCount9 = 7
+particleVeloc9 = "10.0 22.0 10.0"
+
+particleClass10 = "fx_xmas.Chunks"
+particleCount10 = 15
+particleVeloc10 = "75.0 65.0 75.0"
+particlePosVar10 = "5.0 0.0 5.0"
+
+// particleClass11 = "fx_xmas.glow"
+// particleCount11 = 1
+// particleVeloc11 = "0.0 0.0 0.0"
+
+// particleClass12 = "fx_xmas.FlameHeat"
+// particleCount12 = 6
+// particleVeloc12 = "10.0 10.0 10.0"
+
+// particleClass13 = "fx_xmas.Flames"
+// particleCount13 = 12
+// particleVeloc13 = "22.0 67.0 22.0"
