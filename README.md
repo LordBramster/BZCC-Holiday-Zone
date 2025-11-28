@@ -1,8 +1,14 @@
+<div align="center">
+ <img src="https://content.2000ad.com/Alpha_NoBZGradient_Horizontal.png" alt="logo" width="80%" height="auto" />
+</div>
+
+<br>
+
 # Holiday Zone 🎄
 **Holidayzone** is designed to bring a new Christmas theme to BZCC!
 Play on some of the popular stock and VSR maps, with a Christmas twist!
 
-# Content 🎄
+## Content 🎄
 - Christmas UI Overhaul 🎄
 - Christmas ISDF Retexture 🧦
 - Christmas Map Decorations ☃️
@@ -27,14 +33,13 @@ Here are some maps that have gotten a little christmas twist!
 - Hi & Low
 - Iceberg
 - Sea Battle
-
 - Quarry
 - Rocks
 - Mars
 - Island
 - High Heat
 - River 4
-
+###
 - Pluto `RACE`
 - Rend `KOTH`
 - Ring of Fire `DM`
@@ -61,7 +66,7 @@ Here are some maps that have gotten a little christmas twist!
 - Candy Canes / Peppermints 🍬
 - Santa Hats 🎅
 - Presents 🎁 
-
+###
 - Christmas Tree 🎄
 - Gingerbread Man 🍪
 - Various Christmas Cookie(s) 🍪
