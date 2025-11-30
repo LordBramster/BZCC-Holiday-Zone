@@ -1,0 +1,24 @@
+[GameObjectClass]
+classLabel = "ivnutcracker"
+geometryName = "nutcracker_toy.fbx"
+unitName = "Nutcracker"
+maxHealth = 5000 // 2500
+maxAmmo = 9000 // 3000
+addAmmo = 6 // 4
+
+/////// weapons ////////////////////
+weaponMask = 00011
+weaponHard1 = "HP_CANNON_1"
+weaponName1 = "gblast_c"
+weaponAssault1 = 0
+weaponHard2 = "HP_CANNON_2"
+weaponName2 = "gblast_c"
+weaponAssault2 = 0
+
+[CraftClass]
+
+[HoverCraftClass]
+
+[DeployableClass]
+
+[TurretTankClass]

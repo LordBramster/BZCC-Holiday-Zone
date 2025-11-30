@@ -7,5 +7,9 @@
 
 [MPVehicles]
 xsi1 = "rhino_yule.fbx"
-cfg1 = "ivrhinoxmas"
+cfg1 = "ivrhino"
 Description1 = "Yule Rhino"
+
+xsi2 = "scav_sled.fbx"
+cfg2 = "ivsled"
+Description2 = "Sled Scavenger"

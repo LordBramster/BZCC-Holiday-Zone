@@ -1,0 +1,42 @@
+[GameObjectClass]
+classLabel = "ivrckt"
+aiAddHealth = 0
+aiAddAmmo = 20
+collisionRadius = 0.0
+isAssault = 0
+armorClass = L
+
+/////// REQUIREMENTS ///////////////
+
+requireCount = 2
+requireName1 = "ibcbun"
+requireText1 = "Build Comm Bunk"
+requireName2 = "ibarmo"
+requireText2 = "Build Igloo Armory"
+
+////////////////////////////////////
+
+
+/////// PROVIDES ///////////////////
+
+provideCount = 6
+provideName2 = "ivrcktdm"
+provideName3 = "VIRTUAL_CLASS_ROCKETTANK"
+provideName4 = "assault"
+provideName5 = "DefendUnit"
+provideName6 = "AntiAir"
+
+////////////////////////////////////
+
+
+[CraftClass]
+velocJam = 5.0f
+engageRange = 1200
+
+[TrackedVehicleClass]
+
+[AssaultTankClass]
+
+// [Lod1]
+
+// [Lod2]

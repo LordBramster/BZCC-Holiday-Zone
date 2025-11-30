@@ -24,6 +24,9 @@ ivar16 = 0 // keep sniper rifle on pilot respawn
 // *not* read in, as that would cause an infinite loop
 svar1 = "Naughty" // Team name for team 1
 svar2 = "Nice" // Team name for team 2
+
+svar4 = "XMASVehicles.odf"
+
 svar5 = "ivrecy_mb"
 
 svar7 = "stctf" // Custom shell page to pull up [actually bzshell_multi_####.cfg]

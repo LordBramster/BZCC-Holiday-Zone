@@ -1,0 +1,118 @@
+[GameObjectClass]
+baseName = "ivnutcracker"
+geometryName = "nutcracker.fbx"
+classLabel = "turrettank"
+scrapCost = 80
+customCost = 85
+scrapValue = 40
+buildTime = 12.5
+customTime = 15.0
+maxHealth = 2500
+maxAmmo = 3000
+addAmmo = 4
+unitName = "Nutcracker"
+aiName = "TurretTankFriend"
+aiName2 = "TurretTankEnemy"
+heatSignature = 0.05
+imageSignature = 1.15
+radarSignature = 0.15
+isAssault = 0
+armorClass = H // L
+requireCount = 0
+canSelect = false
+canDetect = false
+canInteract = true
+needPilot = false
+isStealth = true
+
+/////// PROVIDES ///////////////////
+provideCount = 2
+provideName1 = "ivturr"
+provideName2 = "VIRTUAL_CLASS_TURRET"
+
+/////// weapons ////////////////////
+weaponMask = 00011
+weaponHard1 = "HP_CANNON_1"
+weaponName1 = "gblast_c"
+weaponAssault1 = 0
+weaponHard2 = "HP_CANNON_2"
+weaponName2 = "gblast_c"
+weaponAssault2 = 0
+
+////////////////////////////////////
+turretCount = 2
+turretName1 = "turret_y"
+turretName2 = "turret_x"
+
+/////////LIGHTS AND EFFECTS//////////////////
+effectHard1 = "hp_dust_1"
+effectName1 = "dusttrail"
+effectMinAltitude1 = 0.0
+effectMaxAltitude1 = 5.0
+effectFlags1 = 2147483127
+
+[CraftClass]
+attackTask = "TurretAttack"
+subAttackTask = "TurretDefendTask"
+subAttackClass = "ADS"
+
+// subAttackClass uses 3 letters.
+// 1st letter is either A or N.     A is include Air targets.         N is attack ground only.
+// 2nd letter is either D or N.     D is to deploy before attacking.  N for regular attack.
+// 3rd letter is either S or N.     S is to use Weapon Range.         N is use the Engage Range to attack. 
+
+
+rangeScan = 300.0
+periodScan = 3.0
+velocJam = 1.0
+engageRange = 275
+weaponPitch = 1.0
+
+selectGoMsg = "ivturr01.wav"
+selectAttackMsg = "ivturr03.wav"
+selectDeployMsg = "ivturr04.wav"
+selectOtherMsg = "ivturr03.wav"
+holdMsg = "ivturr12.wav"
+goMsg = "ivturr05.wav"
+followMeMsg = "ivturr08.wav"
+reloadMsg = "ivturr09.wav"
+repairMsg = "ivturr09.wav"
+rescueMsg = "ivturr10.wav"
+recycleMsg = "ivturr11.wav"
+otherMsg = "ivturr11.wav"
+attackMsg = "ivturr06.wav"
+deployedMsg = "ivturr14.wav"
+killedMsg = "ivturr07.wav"
+
+[HoverCraftClass]
+setAltitude = 1.0
+accelDragStop = 20.0
+alphaTrack = 20.0
+alphaDamp = 5.0
+pitchPitch = 0.1
+pitchThrust = 0.1
+rollStrafe = 0.1
+rollSteer = 0.1
+velocForward = 20.0
+velocReverse = 15.0
+velocStrafe = 15.0
+accelThrust = 50.0
+accelBrake = 50.0
+omegaSpin = 4.0
+omegaTurn = 1.5
+alphaSteer = 10.0
+accelJump = 15.0
+
+soundThrust = "ienge.wav"
+soundSteer = "avturre8.wav"
+
+[DeployableClass]
+timeDeploy = 1.5 // 8.0
+timeUndeploy = 2.0 // 3.0
+heightDeploy = -0.55
+soundDeploy = "avturre4.wav"
+soundUndeploy = "avturre5.wav"
+
+[TurretTankClass]
+omegaTurret = 1.25
+alphaTurret = 5.0

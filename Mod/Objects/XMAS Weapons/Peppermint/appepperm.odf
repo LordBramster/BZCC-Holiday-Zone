@@ -8,7 +8,7 @@ unitName = "Peppermint"
 
 requireCount = 1
 requireName1 = "ibarmo"
-requireText1 = "Build Armory"
+requireText1 = "Build Igloo Armory"
 
 [PowerUpClass]
 

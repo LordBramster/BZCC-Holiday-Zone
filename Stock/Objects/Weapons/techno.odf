@@ -28,8 +28,8 @@ renderName3 = "techno.trailb"
 
 [Light]
 renderBase = "draw_light"
-startColor = "255 63 255 1020"
-finishColor = "255 63 255 1020"
+startColor = "0 255 0 500"
+finishColor = "255 0 0 500"
 startRadius = 30.0
 finishRadius = 30.0
 
@@ -59,7 +59,7 @@ startRadius = 2.0
 finishRadius = 0.0
 animateTime = 0.5
 rotationRate = 10.0
-emitName = "techno.sparkb"
+emitName = "yule.sparkb"
 emitDelay = 0.1 //0.03
 emitDelayVar = 0.03
 emitVariance = "10.0 10.0 10.0"

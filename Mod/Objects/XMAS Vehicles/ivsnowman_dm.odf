@@ -1,0 +1,24 @@
+[GameObjectClass]
+classLabel = "ivsnowman"
+geometryName = "snowman_frosty.fbx"
+geometryScale = 0.4
+maxHealth = 5000 // 2500
+maxAmmo = 9000 // 3000
+addAmmo = 6 // 4
+unitName = "Unfriendly Snowman"
+heatSignature = 0.8
+imageSignature = 1.15
+radarSignature = 0.15
+canDetect = true
+canInteract = true
+needPilot = true
+isStealth = false
+
+[CraftClass]
+canHunt = true
+
+[HoverCraftClass]
+
+[DeployableClass]
+
+[TurretTankClass]

@@ -1,0 +1,50 @@
+[OrdnanceClass]
+classLabel = "bullet"
+
+shotGeometry = NULL
+shotRadius = 1.0
+xplGround = "xfrosthit"
+xplVehicle = "xfrosthit"
+xplBuilding = "xfrosthit"
+
+// renderName = "frost.render"
+ammoCost = 1
+lifeSpan = 1.0
+shotSpeed = 50.0
+
+damageValue(N) = 25
+damageValue(L) = 10
+damageValue(H) = 5
+damageValue(S) = 10
+damageValue(D) = 15
+damageValue(A) = 5
+
+[Render]
+renderBase = "draw_multi"
+renderCount = 2
+renderName1 = "frost.puff1"
+renderName2 = "frost.puff2"
+
+
+[Puff1]
+renderBase = "draw_twirl"
+textureName = "fire.tga"
+textureBlend = "one one modulate"
+startColor = "255 255 255 128"
+finishColor = "255 255 255 0"
+startRadius = 0.2
+finishRadius = 2.0
+animateTime = 1.0
+rotationRate = -5.0
+
+
+[Puff2]
+renderBase = "draw_twirl"
+textureName = "flame2.tga"
+textureBlend = "one one modulate"
+startColor = "255 255 255 60"
+finishColor = "255 255 255 0"
+startRadius = 0.4
+finishRadius = 4.0
+animateTime = 1.0
+rotationRate = -8.0

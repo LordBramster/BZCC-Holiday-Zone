@@ -1,0 +1,16 @@
+[GameObjectClass]
+baseName = "apfrost"
+classLabel = "apcannon"
+
+scrapCost = 5
+
+unitName = "Frost"
+
+requireCount = 1
+requireName1 = "ibarmo"
+requireText1 = "Build Armory"
+
+[PowerUpClass]
+
+[WeaponPowerupClass]
+weaponName = "gfrost"

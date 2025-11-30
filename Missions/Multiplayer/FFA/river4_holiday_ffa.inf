@@ -1,5 +1,5 @@
 [DESCRIPTION]
-missionName = "(Holiday) FFA: River4"
+missionName = "(Holiday) FFA: River of Ice"
 mapTga = "river4.bmp"
 mapDesc = "river4.des"
 mySide = 1
@@ -74,8 +74,11 @@ ivar80Max = 15
 
 // Svar0 (.bzn filename, used to look for an .inf file like this)
 // *not* read in, as that would cause an infinite loop
-svar1 = "Team Red" // Team name for team 1
-svar2 = "Team Blue" // Team name for team 2
+svar1 = "Naughty" // Team name for team 1
+svar2 = "Nice" // Team name for team 2
+
+svar4 = "XMASVehicles.odf"
+
 svar7 = "ffa" // Custom shell page to pull up [actually bzshell_multi_####.cfg]
 svar8 = "STCheck.odf" // File to add to asset check
 svar9 = "RecyListFFA.txt" // Custom Recycler list file.

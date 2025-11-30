@@ -1,5 +1,5 @@
 [DESCRIPTION]
-missionName = "(Holiday) DM: Artic Circle"
+missionName = "(Holiday) DM: Arctic Circle"
 mapTga = "ring_holiday_dm.bmp"
 mapDesc = "ring_holiday_dm.des"
 
@@ -37,9 +37,11 @@ ivar27 = 0   // DM: Number of animals in the map. Default 0. Max is 8.
 
 // Svar0 (.bzn filename, used to look for an .inf file like this)
 // *not* read in, as that would cause an infinite loop
+svar1 = "Naughty" // Team name for team 1
+svar2 = "Nice" // Team name for team 2
 
-svar4 = "XMASvehicles.odf"
+svar4 = "XMASVehicles.odf"
 
 svar7 = "dm" // Custom shell page to pull up [actually bzshell_multi_####.cfg]
-
 svar11 = "Rogues" // Team name for a craft on team "group" 3 (teams 11..15)
+

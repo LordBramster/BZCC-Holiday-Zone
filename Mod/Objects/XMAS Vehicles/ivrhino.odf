@@ -8,7 +8,7 @@ customCost = 65
 buildTime = 15.0
 customTime = 15.0
 maxHealth = 4500
-maxAmmo = 2750
+maxAmmo = 3000
 addAmmo = 5
 unitName = "Yule Rhino"
 aiName = "SentryProcess"
@@ -31,7 +31,7 @@ provideName3 = "DefendUnit"
 /////// WEAPONS ////////////////////
 weaponMask = 11111
 weaponHard1 = "HP_CANNON_1"
-weaponName1 = "gblast_c"
+weaponName1 = "gfrost"
 weaponAssault1 = 0
 weaponHard2 = "HP_MORTAR_1"
 weaponName2 = "gsnowball"

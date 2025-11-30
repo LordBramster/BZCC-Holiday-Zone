@@ -1,5 +1,5 @@
 [DESCRIPTION]
-missionName = "(Holiday) KOTH: The Merry Tree"
+missionName = "(Holiday) KOTH: Evergreen"
 mapTga = "rend_holiday_koth.bmp"    //no TGA until carey paints map
 mapDesc = "rend_holiday_koth.des"
 mySide = 1

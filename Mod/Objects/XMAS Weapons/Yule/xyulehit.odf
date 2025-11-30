@@ -1,0 +1,111 @@
+// ===============
+// TECHNO BALL HIT
+// ===============
+
+[ExplosionClass]
+classLabel = "explosion"
+explSound = "xfire1.wav"
+damageRadius = 50.0
+damageValue(N) = 150
+damageValue(L) = 100
+damageValue(H) = 75
+damageValue(S) = 75
+damageValue(D) = 100
+damageValue(A) = 50
+
+kickRadius = 50.0
+kickOmega = 2.0
+kickVeloc = 5.0
+
+particleTypes = 5
+particleClass1 = "xyulehit.core"
+particleCount1 = 5
+particleVeloc1 = "5.0 5.0 5.0"
+particleInherit1 = "0.5 0.5 0.5"
+
+particleClass2 = "xyulehit.puffR"
+particleCount2 = 15
+particleVeloc2 = "50.0 50.0 50.0"
+particleInherit2 = "0.5 0.5 0.5"
+
+particleClass3 = "xyulehit.puffB"
+particleCount3 = 15
+particleVeloc3 = "50.0 50.0 50.0"
+particleInherit3 = "0.5 0.5 0.5"
+
+particleClass4 = "xyulehit.light"
+particleCount4 = 1
+particleVeloc4 = "0.0 0.0 0.0"
+particleInherit4 = "0.5 0.5 0.5"
+
+particleClass5 = "xyulehit.shock"
+particleCount5 = 1
+particleVeloc5 = "0.0 0.0 0.0"
+particleInherit5 = "0.5 0.5 0.5"
+
+
+[Core]
+simulateBase = "sim_smoke"
+lifeTime = 2.0
+renderBase = "draw_twirl"
+textureName = "flame.tga"
+textureBlend = "one one modulate"
+startColor = "255 240 155 255"
+finishColor = "0 0 255 0"
+startRadius = 3.0
+finishRadius = 5.0
+animateTime = 2.0
+
+[PuffR]
+simulateBase = "sim_smoke"
+lifeTime = 1.0
+renderBase = "draw_twirl"
+textureName = "lightflare.tga"
+textureBlend = "one one modulate"
+startColor = "255 0 0 255"
+finishColor = "0 255 0 0"
+startRadius = 5.0
+finishRadius = 0.5
+animateTime = 1.0
+rotationRate = 10.0
+
+[PuffB]
+simulateBase = "sim_smoke"
+lifeTime = 1.0
+renderBase = "draw_twirl"
+textureName = "lightflare.tga"
+textureBlend = "one one modulate"
+startColor = "0 255 0 255"
+finishColor = "255 0 0 0"
+startRadius = 5.0
+finishRadius = 0.5
+animateTime = 1.0
+rotationRate = 10.0
+
+[Light]
+simulateBase = "sim_smoke"
+lifeTime = 1.5
+renderBase = "draw_light"
+startColor = "0 255 0 500"
+finishColor = "255 0 0 0"
+startRadius = 100.0
+finishRadius = 50.0
+animateTime = 1.5
+attenuateConstant = 1.0
+attenuateLinear = 0.0
+attenuateQuadratic = 30.0
+lensFlare = 0
+
+[Shock]
+simulateBase = "sim_smoke"
+lifeTime = 0.5
+renderBase = "draw_sphere"
+textureName = "vsmoke.tga"
+textureBlend = "one one modulate"
+startColor = "0 255 0 155"
+finishColor = "20 255 255 0"
+startRadius = 5.0
+finishRadius = 25.0
+animateTime = 0.5
+latitudeBands = 8
+longitudeSegments = 16

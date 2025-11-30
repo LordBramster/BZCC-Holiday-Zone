@@ -7,17 +7,29 @@
 
 [MPVehicles]
 xsi1 = "snowman_frosty.fbx"
-cfg1 = "ivsnowman2"
+cfg1 = "ivsnowman_dm"
 Description1 = "Naughty Snowman"
 
 xsi2 = "sleigh_santa.fbx"
 cfg2 = "ivsleigh"
-Description2 = "Assault Sleigh"
+Description2 = "Nice-ish Sleigh"
 
 xsi3 = "rhino_yule.fbx"
-cfg3 = "ivrhinoxmas"
+cfg3 = "ivrhino"
 Description3 = "Yule Rhino"
 
 xsi4 = "snowman_mini.fbx"
 cfg4 = "ivsnowball"
 Description4 = "Mini Snowman"
+
+xsi5 = "snowman_mini_hat.fbx"
+cfg5 = "ivsnowball2"
+Description5 = "Mini Snowman +"
+
+xsi6 = "scav_sled.fbx"
+cfg6 = "ivsled"
+Description6 = "Sled Scavenger"
+
+xsi7 = "nutcracker.fbx"
+cfg7 = "ivnutcracker_dm"
+Description7 = "Nutcracker"

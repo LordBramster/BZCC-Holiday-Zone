@@ -33,11 +33,11 @@ provideName3 = "defender"
 weaponMask = 00011
 weaponHard1 = "hp_cannon_1"
 recoilName1 = "recoil_r"
-weaponName1 = "gtechno" // gtower
+weaponName1 = "gyule" // gtower
 weaponAssault1 = 0
 weaponHard2 = "hp_cannon_2"
 recoilName2 = "recoil_l"
-weaponName2 = "gtechno" // gtower
+weaponName2 = "gyule" // gtower
 weaponAssault2 = 0
 
 /////// LIGHTS and EFFECTS /////////

@@ -1,0 +1,11 @@
+[WeaponClass]
+classLabel = "machinegun"
+ordName = "yule"
+wpnName = "Yule!"
+fireSound = "jingle.wav"
+wpnReticle = "gproxmin"
+wpnCategory = "CANN"
+
+[CannonClass]
+shotDelay = 0.4
+raveFlash = true

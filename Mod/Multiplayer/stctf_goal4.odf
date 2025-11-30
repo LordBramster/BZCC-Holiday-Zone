@@ -1,0 +1,27 @@
+[GameObjectClass]
+maxHealth = 5000
+addHealth = 25
+unitName = "The Nutcracker"
+geometryName = "nutcracker.fbx"
+classLabel = "artifact"
+scrapCost = 1
+scrapValue = 0
+maxAmmo = 0
+aiName = "PowerUpProcess"
+heatSignature = 0.0
+imageSignature = 0.0
+radarSignature = 0.0
+
+canCollide = 1
+
+
+[CameraPodClass]
+periodScan = 0.0
+
+
+//[GameObjectClass]
+//classLabel = "fc111100"
+//unitName = "Snowman" // "Strat-CTF Goal"
+//needPilot = false
+//[CraftClass]
+//[HoverCraftClass]

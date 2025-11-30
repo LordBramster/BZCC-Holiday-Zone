@@ -1,0 +1,16 @@
+[GameObjectClass]
+baseName = "apyule"
+classLabel = "apcannon"
+
+scrapCost = 40
+
+unitName = "Yule!"
+
+requireCount = 1
+requireName1 = "ibarmo"
+requireText1 = "Build Igloo Armory"
+
+[PowerUpClass]
+
+[WeaponPowerupClass]
+weaponName = "gyule"

@@ -25,7 +25,7 @@ ivar35 = 100 // score limit, 5 flag caps
 svar1 = "Naughty" // Team name for team 1
 svar2 = "Nice" // Team name for team 2
 
-svar4 = "XMASvehicles.odf"
+svar4 = "XMASVehicles.odf"
 
 svar7 = "ctf" // Custom shell page to pull up [actually bzshell_multi_####.cfg]
 svar8 = "CTFCheck.odf" // File to add to asset check

@@ -11,9 +11,13 @@ cfg1 = "ivsnowball"
 Description1 = "Mini Snowman"
 
 xsi2 = "snowman_frosty.fbx"
-cfg2 = "ivsnowman2"
+cfg2 = "ivsnowman_dm"
 Description2 = "Naughty Snowman"
 
-xsi3 = "ivmbik00.fbx"
-cfg3 = "ivmbikexmas"
-Description3 = "Jingle Jackal"
+xsi3 = "snowman_mini_hat.fbx"
+cfg3 = "ivsnowball2"
+Description3 = "Mini Snowman +"
+
+xsi4 = "ivmbik00.fbx"
+cfg4 = "ivmbike_xmas"
+Description4 = "Jingle Jackal"

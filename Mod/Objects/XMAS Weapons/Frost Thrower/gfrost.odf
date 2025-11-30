@@ -1,0 +1,37 @@
+[WeaponClass]
+classLabel = "machinegun"
+altName = "gfrost"
+ordName = "frost"
+wpnName = "Frost"
+fireSound = "winds.wav"
+wpnReticle = "gsonic_a"
+wpnPriority = 0
+wpnCategory = "CANN"
+flashName = "gfrost.SnowPuff"
+
+
+[CannonClass]
+shotDelay = 0.02
+
+[SnowPuff]
+simulateBase = "sim_smoke"
+lifeTime = 0.1
+renderBase = "draw_emit"
+emitName = "gfrost.Snow"
+emitDelay = 0.10
+emitVariance = "12.0 12.0 12.0"
+emitVelocity = "0.0 0.0 20.0"
+emitInherit = "0.3 0.3 0.3"
+
+[Snow]
+simulateBase = "sim_smoke"
+lifeTime = 1.25
+renderBase = "draw_twirl"
+textureName = "flame.tga"
+textureBlend = "one one modulate"
+startColor = "255 255 255 255"
+finishColor = "20 255 255 0"
+startRadius = 2.6
+finishRadius = 8.0
+animateTime = 1.25
+rotationRate = 12.5

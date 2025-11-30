@@ -1,0 +1,21 @@
+[GameObjectClass]
+classLabel = "ivnutcracker"
+geometryName = "nutcracker.fbx"
+unitName = "Nutcracker"
+heatSignature = 0.8
+imageSignature = 1.15
+radarSignature = 0.15
+
+canSelect = true
+canDetect = true
+canInteract = true
+needPilot = true
+isStealth = false
+
+[CraftClass]
+
+[HoverCraftClass]
+
+[DeployableClass]
+
+[TurretTankClass]

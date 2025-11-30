@@ -1,0 +1,12 @@
+[solid]
+diffuse = 1.000000  1.000000  1.000000  1.000000
+specular = 0.000000  0.000000  0.000000  1.000000
+specularPower = 20.000000
+emissive = 0.000000  0.000000  0.000000  1.000000
+ambient = 0.000000  0.000000  0.000000  1.000000
+
+[texture]
+diffuse = nutcracker_d.dds
+teamColor = nutcracker_c.dds
+normal = nutcracker_n.dds
+specular = nutcracker_s.dds

@@ -4,9 +4,29 @@
 
 <br>
 
-# Holiday Zone 🎄
-**Holidayzone** is designed to bring a new Christmas theme to BZCC!
-Play on some of the popular stock and VSR maps, with a Christmas twist!
+<!-- WORKSHOP -->
+<p align="center">
+  <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3036741607"><img alt="Steam Workshop Link" title="Steam Workshop Link" src="https://custom-icon-badges.demolab.com/badge/-Download%20From%20The%20Steam%20Workshop%20-205479?style=for-the-badge&logoColor=white&logo=steam&labelColor=222f40"/></a>
+</p>
+
+> **Holidayzone** is designed to bring a new Christmas theme to Battlezone: Combat Commander!
+Play on some of the most popular stock and VSR maps, all with a Christmas twist!
+
+<!-- SPECIAL THANKS -->
+| Project Members | Contribution |
+| --- | --- |
+| `Cyber` | VSR Map Conversions |
+| `Zorn` | 3D Models / Textures |
+| `F9Bomber` | Custom Missions |
+| `General Black Dragon` | Modding Support |
+| `SirBrambley` |  |
+
+
+⚠️ `NOTE: PLAYING THIS MOD REQUIRES THE BZCC BETA PATCH`
+
+<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3417282213">
+    <img alt="Steam Guide" src="https://custom-icon-badges.demolab.com/badge/-How%20To%20Switch%20To%20Beta%20Patch-205479?style=for-the-badge&logoColor=white&logo=steam&labelColor=222f40">
+</a>
 
 ## Content 🎄
 - Christmas UI Overhaul 🎄
@@ -16,7 +36,7 @@ Play on some of the popular stock and VSR maps, with a Christmas twist!
 - New IA/MPI/STCTF Defenders ⛄
 - New Christmas Weapons 💣
 - New STCTF Goals 🧊
-- Snowball Scrap ❄️
+- Snowball & Candy Scrap ❄️🍬
 - Hot Cocoa Deposits/Pools ☕
 - Festive Creatures 🦌
 - Present Powerups 🎁
@@ -25,38 +45,34 @@ Play on some of the popular stock and VSR maps, with a Christmas twist!
 ## Maps 🌒
 Here are some maps that have gotten a little christmas twist!
 
-### Stock 🔸
-- Alien Dunes
-- Bridges
-- Canyons
-- Chill
-- Hi & Low
-- Iceberg
-- Sea Battle
-- Quarry
-- Rocks
-- Mars
-- Island
-- High Heat
-- River 4
-###
-- Pluto `RACE`
-- Rend `KOTH`
-- Ring of Fire `DM`
-- Bane `DM`
-- Death Valley `CTF`
+| Map Name | Game Modes | Christmas Name | Source |
+|-------------------|------------|-------------------------|--------|
+| Alien Dunes | IA, MPI, ST, STCTF | Arctic Drifts | Stock 🔸 |
+| Bridges | IA, MPI, ST, STCTF| Saint Nick's Crossing | Stock 🔸 |
+| Canyons | IA, MPI, ST, STCTF| Jolly Chasm | Stock 🔸 |
+| Chill | IA, MPI, ST, STCTF | Windchill | Stock 🔸 |
+| Hi & Low |  IA, MPI, ST, STCTF | Ho Ho & Low | Stock 🔸 |
+| Iceberg | IA, MPI, ST, STCTF | Ice Cap | Stock 🔸 |
+| Sea Battle | IA, MPI, ST, STCTF| Icy Blue Sea | Stock 🔸 |
+| Quarry | IA, MPI, ST, STCTF | Winter Basin | Stock 🔸 |
+| Rocks |  IA, MPI, ST, STCTF | Rockin' Around | Stock 🔸 |
+| Mars | IA, MPI, ST, STCTF | Candy-red Planet| Stock 🔸 |
+| Island | IA, MPI, ST, STCTF| Reindeer Isle | Stock 🔸 |
+| High Heat | IA, MPI, ST, STCTF | High Freeze | Stock 🔸 |
+| River 4 | IA, MPI, ST, STCTF| River of Ice | Stock 🔸 |
+| Ring of Fire | DM | Arctic Circle | Stock 🔸 |
+| Bane | DM | Glacier | Stock 🔸 |
+| Death Valley | CTF | Jingle Valley | Stock 🔸 |
+| Rend | KOTH | Evergreen | Stock 🔸 |
+| Pluto | RACE | Polar Run | Stock 🔸 |
+| Site 03 | IA, MPI, ST, STCTF | Polar Research Station 03 | FE ➕ |
+| Oasis | IA, MPI, ST, STCTF | Frozen Wonderland | Scrap Pool ➕ |
+| Giza | ST, MPI | Snowy Giza | VSR 🔹 |
+| Overlook | ST, MPI | Overfrost | VSR 🔹 |
+| Remnant | ST, MPI | Remnant of Winter | VSR 🔹 |
+| Haven | ST, MPI | Winter Haven | VSR 🔹 |
 
-### VSR 🔹
-- Giza
-- Overlook
-- Remnant
-- Haven
-
-### More ➕
-- Site 03 (Forgotten Enemies)
-- Oasis (Scrap Pool)
-
-## Christmas Assets 🍬
+## New Christmas Assets 🍬
 - Yak Deer (red-nosed Jak Killer) 🦌
 - Yule Rhino (Ice Rhino on skates) 🦏
 - Snowball Scrap ⚪
@@ -77,14 +93,15 @@ Here are some maps that have gotten a little christmas twist!
 - Hot Cocoa Scrap Pool ☕ 
 
 ### Santa's Defense Force 🎅
-- Igloo Armory 🧊
 - Snowball Assault Tank ⚪ 
 - Sledding Scavenger ⛷️ 
 - Jingle Jackal ✨
 - Frosty Avenger ⛄
 - Santa's Sleigh Bomber 🎅
 - Festive Sabre 🧦
-- Jolly Scout 💡
+- Jolly Scout 🍬
+###
+- Igloo Armory 🧊
 - Service Pod Presents 🎁
 
 ### Santa's Christmas Weapons 💣

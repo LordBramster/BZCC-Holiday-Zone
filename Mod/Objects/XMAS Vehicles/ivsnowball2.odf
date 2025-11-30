@@ -11,7 +11,7 @@ maxHealth = 2500
 addhealth = 4
 maxAmmo = 3000
 addAmmo = 3
-unitName = "Mini Snowman w/ Hat"
+unitName = "Mini Snowman +"
 aiName = "AssaultTankProcess"
 aiName2 = "AssaultTankProcess"
 heatSignature = 0.5
@@ -35,7 +35,9 @@ weaponMask = 00111
 weaponHard1 = "HP_MORTAR_1"
 weaponAssault1 = 0
 weaponName1 = "gsnowball"
-
+weaponHard2 = "HP_SPECIAL_1"
+weaponName2 = "gfreezemine"
+weaponAssault2 = 0
 ////////////////////////////////////
 turretCount = 2
 turretName1 = "turret_y"

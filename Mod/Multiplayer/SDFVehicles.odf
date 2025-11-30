@@ -7,29 +7,29 @@
 
 [MPVehicles]
 xsi5 = "ivscout00.fbx"
-cfg5 = "ivscoutxmas"
+cfg5 = "ivscout_xmas"
 Description5 = "Jolly Scout"
 
 xsi6 = "ivtank00.fbx"
-cfg6 = "ivtankxmas"
+cfg6 = "ivtank_xmas"
 Description6 = "Festive Sabre"
 
 xsi7 = "ivmbik00.fbx"
-cfg7 = "ivmbikexmas"
+cfg7 = "ivmbike_xmas"
 Description7 = "Jingle Jackal"
 
 xsi8 = "ivmisl00.fbx"
-cfg8 = "ivmislxmas"
+cfg8 = "ivmisl_xmas"
 Description8 = "Frosty Avenger"
 
 xsi9 = "ivatnk00.fbx"
-cfg9 = "ivatankxmas"
+cfg9 = "ivatank_xmas"
 Description9 = "Blizzard Bulldog"
 
 xsi10 = "ivrckt00.fbx"
-cfg10 = "ivrcktxmas"
+cfg10 = "ivrckt_xmas"
 Description10 = "Tinsel Griffin"
 
-xsi11 = "ivstas00.fbx"
-cfg11 = "ivintcxmas"
-Description11 = "Icy Interceptor"
+xsi11 = "scav_sled.fbx"
+cfg11 = "ivhscav_xmas"
+Description11 = "Sled Scavenger"

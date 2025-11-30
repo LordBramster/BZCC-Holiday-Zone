@@ -10,7 +10,7 @@ aiName = "PowerUpProcess"
 
 requireCount = 1
 requireName1 = "ibarmo"
-requiretext1 = "Build Armory"
+requiretext1 = "Build Igloo Armory"
 
 ClearBuildZone = 0
 
