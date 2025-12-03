@@ -1,0 +1,43 @@
+[GameObjectClass]
+// geometryName = "snowman_mini.fbx"
+classLabel = "ivsnowball"
+scrapValue = 40
+scrapCost = 10
+customCost = 40
+buildTime = 10.0
+customTime = 15.0
+maxHealth = 2500
+addhealth = 4
+maxAmmo = 3000
+addAmmo = 3
+unitName = "Empty Mini Snowman"
+aiName = "AssaultTankProcess"
+aiName2 = "AssaultTankProcess"
+
+
+/////// REQUIREMENTS ///////////////
+requireCount =  0
+
+/////// PROVIDES ///////////////////
+provideCount = 4
+provideName1 = "ivsnowball"
+provideName2 = "VIRTUAL_CLASS_ASSAULTTANK"
+provideName3 = "assault"
+provideName4 = "DefendUnit"
+
+/////// weapons ////////////////////
+weaponMask = 00111
+weaponHard1 = "HP_MORTAR_1"
+weaponAssault1 = 0
+weaponName1 = "gsnowball"
+
+////////////////////////////////////
+turretCount = 2
+turretName1 = "turret_y"
+turretName2 = "turret_x"
+
+[CraftClass]
+
+[HoverCraftClass]
+
+[AssaultHoverClass]

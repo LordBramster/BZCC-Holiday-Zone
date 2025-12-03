@@ -72,6 +72,8 @@ Here are some maps that have gotten a little christmas twist!
 | Remnant | ST, MPI | Remnant of Winter | VSR 🔹 |
 | Haven | ST, MPI | Winter Haven | VSR 🔹 |
 
+> ⚠️ Reminder: please revert `options_instant_string1 = "ivrecy_xmas"` to `"ivrecy"`, and `svar5 = "ivrecy_xmas"` to `"ivrecy_mb"` for map-pack compatibility.
+
 ## New Christmas Assets 🍬
 - Yak Deer (red-nosed Jak Killer) 🦌
 - Yule Rhino (Ice Rhino on skates) 🦏

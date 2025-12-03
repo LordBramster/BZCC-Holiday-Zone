@@ -1,5 +1,5 @@
 [GameObjectClass]
-geometryName = "present03.fbx" // "aprepa00.fbx"
+geometryName = "present_ap_02.fbx" // "aprepa00.fbx"
 classLabel = "repairkit"
 //animCount = 1
 //animName1 = "loop"

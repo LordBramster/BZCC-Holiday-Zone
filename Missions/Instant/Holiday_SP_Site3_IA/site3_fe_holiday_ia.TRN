@@ -21,11 +21,16 @@ SpecularColor = "10 10 10"
 SpecularPower = 1024.0
 
 [World]
-MusicTrack1=3
-MusicTrack2=4
-MusicTrack3=5
-MusicTrack4=6
-MusicTrack5=7
+// Gravity = 9.5f //12.5f
+MusicTrack1=14
+MusicTrack2=15
+MusicTrack3=16
+MusicTrack4=17
+MusicTrack5=18
+MusicTrack6=20
+
+[DefaultAllies]
+Entry1 = "1_2"
 
 [Light]
 SunPeriod = 24.0
@@ -50,12 +55,12 @@ BumpDiffuse1 = "255 255 255 64"
 BumpBlend1 = "srcalpha invsrcalpha modulatealpha"
 
 [Texture]
-TileTexture1 = "pluto.tga"
-TileTexture2 = "pluto2.tga"
-TileTexture3 = "pluto3.tga"
+TileTexture1 = "bane.tga"
+TileTexture2 = "bane2.tga"
+TileTexture3 = "bane5.tga"
 TileTexture4 = "ibfoun00.tga"
-TileTexture5 = "pluto6.tga"
-TileTexture6 = "pluto7.tga"
+TileTexture5 = "bane3.tga"
+TileTexture6 = "bane4.tga"
 TileTexture7 = "ibfoun01.tga"
 
 

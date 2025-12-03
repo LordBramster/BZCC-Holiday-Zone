@@ -15,9 +15,13 @@ SpecularColor = "10 10 10"
 SpecularPower = 1024.0
 
 [World]
-MusicTrack1=2
-MusicTrack2=3
-MusicTrack3=4
+// Gravity = 9.5f //12.5f
+MusicTrack1=14
+MusicTrack2=15
+MusicTrack3=16
+MusicTrack4=17
+MusicTrack5=18
+MusicTrack6=20
 
 [Texture]
 TileTexture1  = "mire.tga"

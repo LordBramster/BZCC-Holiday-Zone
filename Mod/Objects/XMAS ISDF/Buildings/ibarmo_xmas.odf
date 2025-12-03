@@ -35,8 +35,8 @@ provideName2 =  "VIRTUAL_CLASS_ARMORY"
 provideName3 = "base"
 
 ///////// LIGHTS & EFFECTS /////////
-lightHard1 = "hp_light_1"
-lightName1 = "spotorange"
+// lightHard1 = "hp_light_1"
+// lightName1 = "spotorange"
 
 effectHard1 = "hp_emit_1"
 effectName1 = "emit_redstay"
@@ -51,7 +51,7 @@ effectHard4 = "hp_emit_4"
 effectName4 = "emit_redstay"
 effectFlags4 = "447" //447 powered  479 unpowered
 effectHard5 = "hp_emit_0"
-effectName5 = "ibarmo.steam"
+effectName5 = "ibarmo_xmas.steam"
 effectFlags5 = "447" //447 powered  479 unpowered
 
 [BuildingClass]
@@ -59,6 +59,8 @@ soundAmbient = "amb_burning.wav" // "iarm01.wav"
 
 [PoweredBuildingClass]
 detectRange = 100
+SoundSelect = "cfigclk.wav"
+SoundDeselect = "cornrclk.wav"
 
 [ArmoryClass]
 soundBuild = "ibrecy02.wav"
@@ -77,8 +79,9 @@ buildItem1 = "apstab"
 buildItem2 = "appstb"
 buildItem3 = "apsstb"
 buildItem4 = "applas"
-buildItem5 = "apblst"
-buildItem6 = "apmagg"
+buildItem5 = "apflsh"
+buildItem6 = "apblst"
+buildItem7 = "apmagg"
 
 [ArmoryGroup3]
 buildLabel = "Rockets"
@@ -104,19 +107,20 @@ buildLabel = "Specials"
 buildItem1 = "apredf"
 buildItem2 = "apphan"
 buildItem3 = "apsite"
-//buildItem4 = "apffld"
+buildItem4 = "apffld1"
 //buildItem5 = "apthmp"
 
 [ArmoryGroup7]
 buildLabel = "Pilot"
 buildItem1 = "apbazo"
 buildItem2 = "apsnip"
-buildItem3 = "apgren"
-buildItem4 = "apjetp"
+buildItem3 = "apshot"
+buildItem4 = "apgren"
+buildItem5 = "apjetp"
 
 [ArmoryGroup8]
 buildLabel = "Supply"
-buildItem1 = "apserv"
+buildItem1 = "apserv_xmas"
 buildItem2 = "apammo"
 buildItem3 = "aprepa"
 
@@ -124,10 +128,13 @@ buildItem3 = "aprepa"
 buildLabel = "Holiday!"
 buildItem1 = "apsnowball"
 buildItem2 = "appepperm"
-buildItem3 = "apwinds"
-buildItem4 = "apfreezemine"
-buildItem5 = "aptech"
-buildItem6 = "apwrckxmas"
+buildItem3 = "apmarshmallow"
+buildItem4 = "apwinds"
+buildItem5 = "apfrost"
+buildItem6 = "apfreezemine"
+buildItem7 = "apprezmine"
+buildItem8 = "apyule"
+buildItem9 = "apwrck"
 
 [steam]
 renderBase = "draw_twirl_trail"

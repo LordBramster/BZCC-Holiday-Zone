@@ -7,6 +7,6 @@ ambient = 0.000000  0.000000  0.000000  1.000000
 
 
 [texture]
-diffuse = igloo_d.dds
+diffuse = igloo_alt_d.dds
 normal = igloo_n.dds
 specular = igloo_s.dds

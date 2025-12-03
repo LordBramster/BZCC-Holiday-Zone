@@ -191,6 +191,6 @@ animSteer = "steer"
 timeDeploy = 3.0
 timeUndeploy = 3.0
 
-soundThrust = "iapc02.wav"
+soundThrust = "ibomb.wav"
 soundDeploy = "iapc04.wav"
-soundUndeploy = "avapc30.wav"
+soundUndeploy = "iapc04.wav"

@@ -1,0 +1,12 @@
+[WeaponClass]
+classLabel = "cannon"
+ordName = "sandbag"
+wpnName = "Marshmallow"
+fireSound = "gpepperm.wav"
+wpnReticle = "gsandbag"
+wpnCategory = "ROCK"
+isAssault = 0
+
+[CannonClass]
+shotDelay =  1.15
+

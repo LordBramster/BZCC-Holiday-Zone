@@ -7,5 +7,5 @@ ambient = 0.000000  0.000000  0.000000  1.000000
 
 
 [texture]
-diffuse = pine_d.dds
-normal = pine_n.dds
+diffuse = pine2_d.dds
+normal = pine2_n.dds

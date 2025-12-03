@@ -16,10 +16,16 @@ FogEnd=400
 VisibilityRange=400
 
 [World]
-MusicTrack1=7
-MusicTrack2=8
-MusicTrack3=9
-MusicTrack4=10
+// Gravity = 9.5f //12.5f
+MusicTrack1=14
+MusicTrack2=15
+MusicTrack3=16
+MusicTrack4=17
+MusicTrack5=18
+MusicTrack6=20
+
+[DefaultAllies]
+Entry1 = "1_2"
 
 [Light]
 SunPeriod = 24.0
@@ -44,15 +50,15 @@ BumpDiffuse1 = "96 128 64 64"
 BumpBlend1 = "srcalpha invsrcalpha modulatealpha"
 
 [Texture]
-TileTexture1 = "dune1.tga"
-TileTexture2 = "dune2.tga"
-TileTexture3 = "dune3.tga"
-TileTexture4 = "dune4.tga"
-TileTexture5 = "dune5.tga"
-TileTexture6 = "dune6.tga"
-TileTexture7 = "dune7.tga"
-TileTexture8 = "dune8.tga"
-TileTexture9 = "dune9.tga"
+TileTexture1 = "bane3.tga"//"dune1.tga"
+TileTexture2 = "bane2.tga"//"dune2.tga"
+TileTexture3 = "bane5.tga"//"dune3.tga"
+TileTexture4 = "bane2.tga"//"dune4.tga"
+TileTexture5 = "bane3.tga"//"dune5.tga"
+TileTexture6 = "xmas_ice2_d"//"dune6.tga"
+TileTexture7 = "bane4"//"dune7.tga"
+TileTexture8 = "xmas_ice2_d"//"dune8.tga"
+TileTexture9 = "bane4"//"dune9.tga"
 
 
 [DomeLight0]

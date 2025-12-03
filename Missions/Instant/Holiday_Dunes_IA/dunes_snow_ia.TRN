@@ -16,10 +16,12 @@ SpecularPower = 1024.0
 
 [World]
 // Gravity = 9.5f //12.5f
-MusicTrack1=7
-MusicTrack2=8
-MusicTrack3=9
-MusicTrack4=10
+MusicTrack1=14
+MusicTrack2=15
+MusicTrack3=16
+MusicTrack4=17
+MusicTrack5=18
+MusicTrack6=20
 
 [DefaultAllies]
 Entry1 = "1_2"

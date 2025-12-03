@@ -1,0 +1,44 @@
+[GameObjectClass]
+geometryName = "present_ap.fbx" // "apammo00.fbx"
+classLabel = "servicepod"
+
+//animCount = 1
+//animName1 = "loop"
+//animFile1 = "apammo00.fbx"
+//RunAnimation = "loop"
+//RunAnimIsLooped = true
+
+scrapCost = 2
+scrapValue = 0
+maxHealth = 150
+maxAmmo = 0
+
+unitName = "Service Present"
+aiName = "PowerUpProcess"
+
+/////////LIGHTS and EFFECTS/////////
+lightHard1 = "hp_light_1"
+lightName1 = "omniblue-ap"
+
+effectHard1 = "hp_emit_1"
+effectName1 = "apserv_xmas.blue"
+effectHard2 = "hp_emit_2"
+effectName2 = "emit_sprtjetblu"
+effectMinAltitude2 = 4.0
+effectMaxAltitude2 = 500.0
+
+[blue]
+renderBase = "draw_sprite"
+textureName = "lightflare.tga"
+textureBlend = "one one modulate"
+startColor = "0 150 255 255"
+finishColor = "0 150 255 255"
+startRadius = 4.0
+finishRadius = 4.0
+
+[PowerUpClass]
+soundPickup = "hohoho.wav"
+soundReject = "reject.wav"
+
+[ServicePowerupClass]
+serviceUp = 1500

@@ -27,7 +27,7 @@ svar2 = "Nice" // Team name for team 2
 
 svar4 = "XMASVehicles.odf"
 
-svar5 = "ivrecy_mb"
+svar5 = "ivrecy_xmas"
 
 svar7 = "st" // Custom shell page to pull up [actually bzshell_multi_####.cfg]
 svar8 = "STCheck.odf" // File to add to asset check

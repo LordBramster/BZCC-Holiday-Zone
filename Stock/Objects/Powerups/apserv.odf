@@ -1,5 +1,5 @@
 [GameObjectClass]
-geometryName = "present03.fbx" // "apammo00.fbx"
+geometryName = "present_ap.fbx" // "apammo00.fbx"
 classLabel = "servicepod"
 
 //animCount = 1

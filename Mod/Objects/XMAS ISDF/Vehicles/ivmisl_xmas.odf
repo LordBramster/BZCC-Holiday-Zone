@@ -9,8 +9,8 @@ aiAddHealth = 0
 aiAddAmmo = 20
 
 /////// weapons ////////////////////
-weaponName1 = "gshadow_c"
-weaponName2 = "gshadow_c"
+weaponName1 = "gmarshmallow"
+weaponName2 = "gmarshmallow"
 weaponName3 = "gprezmine"
 
 /////////LIGHTS & EFFECTS//////////////////

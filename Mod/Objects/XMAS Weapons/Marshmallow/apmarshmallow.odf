@@ -1,0 +1,16 @@
+[GameObjectClass]
+baseName = "apmarshmallow"
+classLabel = "aprocket"
+
+scrapCost = 1
+
+unitName = "Marshmallow"
+
+requireCount = 1
+requireName1 = "ibarmo"
+requireText1 = "Build Armory"
+
+[PowerUpClass]
+
+[WeaponPowerupClass]
+weaponName = "gmarshmallow"

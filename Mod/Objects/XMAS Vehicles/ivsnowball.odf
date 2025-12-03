@@ -25,7 +25,7 @@ requireCount =  0
 
 /////// PROVIDES ///////////////////
 provideCount = 4
-provideName1 = "ivatank"
+provideName1 = "ivsnowball"
 provideName2 = "VIRTUAL_CLASS_ASSAULTTANK"
 provideName3 = "assault"
 provideName4 = "DefendUnit"

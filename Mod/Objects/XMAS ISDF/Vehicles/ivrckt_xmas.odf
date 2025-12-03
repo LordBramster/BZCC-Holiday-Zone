@@ -1,5 +1,6 @@
 [GameObjectClass]
 classLabel = "ivrckt"
+unitName = "Tinsel Griffin"
 aiAddHealth = 0
 aiAddAmmo = 20
 collisionRadius = 0.0
@@ -25,6 +26,20 @@ provideName3 = "VIRTUAL_CLASS_ROCKETTANK"
 provideName4 = "assault"
 provideName5 = "DefendUnit"
 provideName6 = "AntiAir"
+
+/////// weapons ////////////////////
+weaponMask = 00011
+weaponHard1 = "HP_ROCKET_3"
+recoilName1 = "recoil1"
+weaponName1 = "gmarshmallow"
+weaponAssault1 = 0
+weaponHard2 = "HP_ROCKET_2"
+weaponName2 = "gmarshmallow"
+weaponAssault2 = 0
+weaponHard3 = "HP_ROCKET_1"
+recoilName3 = "recoil2"
+weaponName3 = "gshadow_a"
+weaponAssault3 = 1
 
 ////////////////////////////////////
 

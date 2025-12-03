@@ -2,7 +2,7 @@
 geometryName = "snowball_lg.fbx"
 classLabel = "scrap"
 scrapCost = 0
-scrapValue = 5
+scrapValue = 10
 maxHealth = 0
 maxAmmo = 0
 unitName = "Snowball"
@@ -19,5 +19,6 @@ provideName1 = "resource"
 // lightName1 = "o_crys_cyan_nf" // "o_cyan_nf"
 
 [ScrapClass]
-lifeTime = 180.0
+lifeTime = 3600.0
+// lifeTime = 180.0
 lifeVariance = 30.0
