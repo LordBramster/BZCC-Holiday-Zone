@@ -10,7 +10,7 @@
 </p>
 
 > **Holidayzone** is designed to bring a new Christmas theme to Battlezone: Combat Commander!
-Play on some of the most popular stock and VSR maps, all with a Christmas twist!
+Play on some of the most popular maps, all with a Christmas twist!
 
 <!-- SPECIAL THANKS -->
 | Project Members | Contribution |
@@ -20,6 +20,11 @@ Play on some of the most popular stock and VSR maps, all with a Christmas twist!
 | `F9Bomber` | Custom Missions |
 | `General Black Dragon` | Modding Support |
 | `SirBrambley` |  |
+
+| Special Thanks To | For |
+| --- | --- |
+| `Scrap Pool` | Biometal Mod Maps |
+| `GrizzlyOne & Karlopitek` | Voyager II 3D Assets |
 
 
 ⚠️ `NOTE: PLAYING THIS MOD REQUIRES THE BZCC BETA PATCH`
