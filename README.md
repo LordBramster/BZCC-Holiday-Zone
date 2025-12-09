@@ -18,7 +18,7 @@ Play on some of the most popular maps, all with a Christmas twist!
     <img alt="Steam Guide" src="https://custom-icon-badges.demolab.com/badge/-How%20To%20Switch%20To%20Beta%20Patch-205479?style=for-the-badge&logoColor=white&logo=steam&labelColor=222f40">
 </a>
 
-### Acknowledgements
+## Acknowledgements 🎅
 
 <!-- SPECIAL THANKS -->
 | Project Members | Contribution |
@@ -35,6 +35,12 @@ Play on some of the most popular maps, all with a Christmas twist!
 | `GrizzlyOne & Karlopitek` | Voyager II 3D Assets |
 
 ## Content 🎄
+<div align="left">
+ <img src="https://raw.githubusercontent.com/LordBramster/BZCC-Holiday-Zone/refs/heads/docs/readme-update/Extras/ivsnowman_icon.png" alt="logo" width="5%" height="auto"/>
+</div>
+
+<br>
+
 - Christmas UI Overhaul 🎄
 - Christmas ISDF Retexture 🧦
 - Christmas Map Decorations ☃️
