@@ -1,0 +1,22 @@
+[GameObjectClass]
+classLabel = "ivsled"
+
+unitName = "Scrooge Sled"
+
+DAMAGE_SCALE = 0.5 // UH OH!
+
+/////// WEAPONS ////////////////////
+weaponMask = 11111
+weaponHard1 = "HP_CANNON_1"
+weaponName1 = "gfrost"
+weaponAssault1 = 0
+weaponHard2 = "HP_MORTAR_1"
+weaponName2 = ""
+weaponAssault2 = 0
+weaponHard3 = "HP_SPECIAL_1"
+weaponName3 = ""
+weaponAssault3 = 0
+
+[CraftClass]
+
+[HoverCraftClass]

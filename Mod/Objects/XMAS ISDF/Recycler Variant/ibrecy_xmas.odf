@@ -65,7 +65,7 @@ selectUser1Msg = "mnu_enab.wav" // Selection Message of the object while it is B
 
 buildItem1 = "ivhscav_xmas"
 buildItem2 = "ivscout_xmas"
-buildItem3 = "ivsnowman_dm"
+buildItem3 = "ivsnowman_turr"
 buildItem4 = "ivtug"
 buildItem5 = "ivcons_xmas"
 buildItem6 = "ivserv"

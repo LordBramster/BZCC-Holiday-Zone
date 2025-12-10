@@ -1,5 +1,5 @@
 [GameObjectClass]
-geometryName = "snowman.fbx"
+geometryName = "snowman_mini_hat.fbx"
 baseName = "snowman"
 classLabel = "I76Building"
 collisionRadius = 0.1

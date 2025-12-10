@@ -16,14 +16,14 @@ weaponName2 = "glaser_c"
 weaponAssault2 = 0
 weaponHard3 = "HP_ROCKET_1"
 weaponName3 = "gmarshmallow"
-weaponAssault3 = 1
+weaponAssault3 = 0
 weaponHard4 = "HP_SPECIAL_1"
 weaponName4 = "gfreezemine"
 weaponAssault4 = 0
 
 /////////LIGHTS & EFFECTS//////////////////
 lightHard1 = "hp_light_1"
-lightName1 = "spotred"
+lightName1 = "spotgreen"
 lightHard2 = "hp_light_2"
 lightName2 = ""
 

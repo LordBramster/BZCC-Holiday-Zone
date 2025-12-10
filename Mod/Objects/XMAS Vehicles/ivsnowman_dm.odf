@@ -2,17 +2,27 @@
 classLabel = "ivsnowman"
 geometryName = "snowman_frosty.fbx"
 geometryScale = 0.4
-maxHealth = 5000 // 2500
-maxAmmo = 9000 // 3000
-addAmmo = 6 // 4
+scrapCost = 40
+customCost = 45
+scrapValue = 10
+buildTime = 10.0
+customTime = 10.0
+maxHealth = 2500
+maxAmmo = 3000
+addAmmo = 4
+isAssault = 0
+armorClass = L
+requireCount = 0
+
 unitName = "Unfriendly Snowman"
-heatSignature = 0.8
-imageSignature = 1.15
+heatSignature = 0.5
+imageSignature = 1.05
 radarSignature = 0.15
 canDetect = true
 canInteract = true
 needPilot = true
 isStealth = false
+
 
 [CraftClass]
 

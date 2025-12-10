@@ -2,7 +2,7 @@
 maxHealth = 5000
 addHealth = 25
 unitName = "Santa's Presents"
-geometryName = "present01.fbx"
+geometryName = "bag.fbx"
 classLabel = "artifact"
 scrapCost = 1
 scrapValue = 0

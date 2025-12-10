@@ -3,8 +3,8 @@ classLabel = "mortar"
 ordName = "snowball_c"
 wpnName = "Snowball"
 fireSound = "gtoss.wav"
-wpnReticle = "gmortar"
-wpnLadder = "gmortar.L0"
+wpnReticle = "gsplint"
+wpnLadder = "gsplint.L0"
 wpnPriority = 2
 wpnCategory = "MORT"
 
@@ -13,5 +13,5 @@ aiRange = 275 // 200.0
 AllowAimHigh = false
 
 [CannonClass]
-shotDelay = 5.65 // 2.0
+shotDelay = 5.0 // 2.0
 shotAlternate = 1

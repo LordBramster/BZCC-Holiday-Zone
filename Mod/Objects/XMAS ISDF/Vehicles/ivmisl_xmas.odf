@@ -8,6 +8,9 @@ maxAmmo = 1200
 aiAddHealth = 0
 aiAddAmmo = 20
 
+aiName = "SentryProcess"
+aiName2 = "SentryProcess"
+
 /////// weapons ////////////////////
 weaponName1 = "gmarshmallow"
 weaponName2 = "gmarshmallow"

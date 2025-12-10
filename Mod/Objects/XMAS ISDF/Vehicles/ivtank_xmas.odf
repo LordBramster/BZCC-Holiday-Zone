@@ -2,6 +2,8 @@
 classLabel = "ivtank"
 unitName = "Festive Sabre"
 mass = 12158.2 // Stock ISDF Tank Mass {VSR-012}
+aiName = "SentryProcess"
+aiName2 = "SentryProcess"
 
 /////// WEAPONS ////////////////////
 weaponMask = 11111

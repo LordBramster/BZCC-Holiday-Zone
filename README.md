@@ -1,5 +1,5 @@
 <div align="center">
- <img src="https://content.2000ad.com/Alpha_NoBZGradient_Horizontal.png" alt="logo" width="80%" height="auto" />
+ <img src="./Extras/bzcc_holidayzone.png" alt="logo" width="80%" height="auto" />
 </div>
 
 <br>
@@ -10,7 +10,15 @@
 </p>
 
 > **Holidayzone** is designed to bring a new Christmas theme to Battlezone: Combat Commander!
-Play on some of the most popular stock and VSR maps, all with a Christmas twist!
+Play on some of the most popular maps, all with a Christmas twist!
+
+⚠️ `NOTE: PLAYING THIS MOD REQUIRES THE BZCC BETA PATCH`
+
+<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3417282213">
+    <img alt="Steam Guide" src="https://custom-icon-badges.demolab.com/badge/-How%20To%20Switch%20To%20Beta%20Patch-205479?style=for-the-badge&logoColor=white&logo=steam&labelColor=222f40">
+</a>
+
+## Acknowledgements 🎅
 
 <!-- SPECIAL THANKS -->
 | Project Members | Contribution |
@@ -19,16 +27,19 @@ Play on some of the most popular stock and VSR maps, all with a Christmas twist!
 | `Zorn` | 3D Models / Textures |
 | `F9Bomber` | Custom Missions |
 | `General Black Dragon` | Modding Support |
-| `SirBrambley` |  |
 
-
-⚠️ `NOTE: PLAYING THIS MOD REQUIRES THE BZCC BETA PATCH`
-
-<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3417282213">
-    <img alt="Steam Guide" src="https://custom-icon-badges.demolab.com/badge/-How%20To%20Switch%20To%20Beta%20Patch-205479?style=for-the-badge&logoColor=white&logo=steam&labelColor=222f40">
-</a>
+| Special Thanks To | For |
+| --- | --- |
+| `Scrap Pool` | Biometal Mod Maps |
+| `GrizzlyOne & Karlopitek` | Voyager II 3D Assets |
 
 ## Content 🎄
+<div align="left">
+ <img src="./Extras/ivsnowman_icon.png" alt="logo" width="5%" height="auto"/>
+</div>
+
+<br>
+
 - Christmas UI Overhaul 🎄
 - Christmas ISDF Retexture 🧦
 - Christmas Map Decorations ☃️

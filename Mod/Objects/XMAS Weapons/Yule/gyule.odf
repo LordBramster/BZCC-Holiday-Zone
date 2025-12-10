@@ -3,7 +3,7 @@ classLabel = "machinegun"
 ordName = "yule"
 wpnName = "Yule!"
 fireSound = "jingle.wav"
-wpnReticle = "gproxmin"
+wpnReticle = "gflashgn"
 wpnCategory = "CANN"
 
 [CannonClass]

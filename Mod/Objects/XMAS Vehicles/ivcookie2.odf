@@ -1,0 +1,48 @@
+[GameObjectClass]
+classLabel = "ivcookie"
+unitName = "Combat Cookie II"
+aiName = "TankFriend"
+aiName2 = "TankEnemy"
+
+/////// REQUIREMENTS ///////////////
+requireCount = 2
+requireName1 = "ibfact"
+requireText1 = "Build Factory"
+requireName2 = "ibcbun"
+requireText2 = "Build Relay Bunk"
+
+/////// PROVIDES ///////////////////
+provideCount = 3
+provideName1 = "ivcookie"
+provideName2 = "VIRTUAL_CLASS_TANK"
+provideName3 = "DefendUnit"
+
+/////// weapons ////////////////////
+weaponMask = 11111
+weaponHard1 = "HP_CANNON_1"
+weaponName1 = "gpepperm"
+recoilName1 = "recoil1"
+weaponAssault1 = 0
+weaponHard2 = "HP_GUN_1"
+weaponName2 = "glaser_c"
+recoilName2 = "recoil2"
+weaponAssault2 = 0
+weaponHard3 = "HP_GUN_2"
+weaponName3 = "glaser_c"
+recoilName3 = "recoil3"
+weaponAssault3 = 0
+weaponHard4 = "HP_SPECIAL_1"
+weaponName4 = "apfreezemine"
+weaponAssault4 = 0
+
+[CraftClass]
+
+[HoverCraftClass]
+
+[Lod1]
+//geometryName = "ivtankL1.fbx" ;geometry for lod1
+//distance = 50                 ;...distance over this many meters => switch to lod2
+
+[Lod2]
+//geometryName = "ivtankL2.fbx" ;geometry for lod2
+//distance = 100                 ;...distance over this many meters => switch to lod2

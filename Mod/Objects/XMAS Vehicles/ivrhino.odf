@@ -24,7 +24,7 @@ requireCount = 0
 
 /////// PROVIDES ///////////////////
 provideCount = 3
-provideName1 = "ivtank"
+provideName1 = "ivrhino"
 provideName2 = "VIRTUAL_CLASS_TANK"
 provideName3 = "DefendUnit"
 

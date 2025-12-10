@@ -11,7 +11,7 @@ scrapCost = 55
 scrapValue = 15
 maxHealth = 6000
 maxAmmo = 0
-unitName = "Factory"
+unitName = "Festivity"
 aiName = "BuildingProcess"
 aiName2 = "BuildingProcess"
 heatSignature = 2.0
@@ -67,26 +67,20 @@ reloadMsg = "ivrecy12.wav"
 rescueMsg = "ivrecy13.wav"
 selectUser1Msg = "mnu_enab.wav" // Selection Message of the object while it is Building something.
 
-buildItem1 = "ivsnowball2"
-buildItem2 = "ivsled"
-buildItem3 = "ivrhino"
-buildItem4 = "ivsleigh"
-buildItem5 = "ivnutcracker_dm"
-
-[BuildGroup6]
-buildLabel = "Jolly Combat"
 buildItem1 = "ivmbike_xmas"
 buildItem2 = "ivmisl_xmas"
 buildItem3 = "ivtank_xmas"
-
-[BuildGroup7]
-buildLabel = "Jolly Heavy"
-buildItem4 = "ivrckt_xmas"
-buildItem5 = "ivatank_xmas"
-buildItem6 = "ivwalk"
-buildItem7 = "ivapc"
-
-buildItem8 = "ivbomb_xmas"
+buildItem4 = "ivsnowball2"
+buildItem5 = "ivsled"
+buildItem6 = "ivrhino"
+buildItem7 = "ivsleigh"
+buildItem8 = "ivcookie"
+buildItem9 = "ivnutcracker_dm"
+[BuildGroup10]
+buildLabel = "Santa's Joy"
+buildItem1 = "ivrckt_xmas"
+buildItem2 = "ivatank_xmas"
+buildItem3 = "ivbomb_xmas"
 
 [Lod1]
 //geometryName = "ibfactL1.fbx" ;geometry for lod1

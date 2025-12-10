@@ -1,0 +1,19 @@
+//
+// xVehicles.odf - listing of multiplayer vehicles usable in BZ2
+//
+//
+// Tip: do not put .odf extension on cfg# = "" entries; added automatically on loading
+// 
+
+[MPVehicles]
+xsi1 = "iceball_pilot.fbx"
+cfg1 = "iviceball"
+Description1 = "Iceball Trooper"
+
+xsi2 = "iceblock_pilot.fbx"
+cfg2 = "iviceblock"
+Description2 = "Iceblock Trooper"
+
+xsi3 = "cookie_tree_pilot.fbx"
+cfg3 = "ivcookie"
+Description3 = "Cookie Trooper"

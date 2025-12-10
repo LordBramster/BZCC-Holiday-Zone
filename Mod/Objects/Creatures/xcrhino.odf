@@ -10,13 +10,27 @@ scrapCost = 0
 scrapValue = 0
 //pilotCost = 1
 
-maxHealth = 250
+maxHealth = 4500
 maxAmmo = 3
 
 heatSignature = 0.2
 imageSignature = 0.3
 radarSignature = 0.2
 canDetect = 1
+
+/////////LIGHTS AND EFFECTS //////////////////
+effectHard1 = "hp_emit_1"
+effectName1 = "emit_contrail1"
+effectFlags1 = 2147483639
+effectHard2 = "hp_emit_2" 
+effectName2 = "emit_contrail1"
+effectFlags2 = 2147483639
+effectHard3 = "hp_dust_1"
+effectName3 = "dusttrail"
+effectFlags3 = 2147483135
+effectHard4 = "hp_dust_2"
+effectName4 = "dusttrail"
+effectFlags4 = 2147483135
 
 [CraftClass]
 braccelFactor = 0.08

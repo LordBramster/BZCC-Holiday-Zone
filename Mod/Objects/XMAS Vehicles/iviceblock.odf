@@ -1,0 +1,107 @@
+[GameObjectClass]
+baseName = "iviceblock"
+geometryName = "iceblock_pilot.fbx"
+classLabel = "wingman"
+scrapValue = 20
+scrapCost = 55
+customCost = 65
+buildTime = 15.0
+customTime = 15.0
+maxHealth = 1500
+maxAmmo = 3000
+addAmmo = 5
+unitName = "Elf Iceblock"
+aiName = "SentryProcess"
+aiName2 = "SentryProcess"
+heatSignature = 1.0
+imageSignature = 2.5
+radarSignature = 0.5
+isAssault = 0
+armorClass = L
+
+/////// REQUIREMENTS ///////////////
+requireCount = 0
+
+/////// PROVIDES ///////////////////
+provideCount = 3
+provideName1 = "iviceblock"
+provideName2 = "VIRTUAL_CLASS_TANK"
+provideName3 = "DefendUnit"
+
+/////// WEAPONS ////////////////////
+weaponMask = 11111
+weaponHard1 = "HP_GUN_1"
+weaponName1 = "gminigun_a"
+weaponAssault1 = 1
+weaponHard2 = "HP_MORTAR_1"
+weaponName2 = ""
+weaponAssault2 = 0
+weaponHard3 = "HP_SPECIAL_1"
+weaponName3 = ""
+weaponAssault3 = 0
+
+/////////LIGHTS AND EFFECTS //////////////////
+effectHard1 = "hp_dust_1"
+effectName1 = "dusttrail"
+effectFlags1 = 2147483135
+effectHard2 = "hp_dust_1" 
+effectName2 = "emit_contrail1"
+effectFlags2 = 2147483639
+
+[CraftClass]
+canHunt = true
+rangeScan = 300.0f
+periodScan = 5.0f
+velocJam = 5.0f
+engageRange = 300
+
+attackTask = "MortarBikeAttack"  //"AssaultTankAttack"
+subAttackTask = "MortarBikeSubAttack"  //"SupportSubAttack"
+subAttackClass = "NNS"
+
+braccelFactor = 0.03
+velFactor = 0.2
+steerFactor = 1.5
+omegaFactor = 0.2
+strafeFactor = 0.8
+avoidSpeed = 20
+topSpeed = 35
+
+selectWaitMsg = "ivtank05.wav"
+selectAttackMsg = "ivtank02.wav"
+selectFollowMsg = "ivtank04.wav"
+selectGoMsg = "ivtank04.wav"
+selectOtherMsg = "ivtank05.wav"
+holdMsg = "ivtank12.wav"
+goMsg = "ivtank04.wav"
+attackMsg = "ivtank06.wav"
+followMeMsg = "ivtank08.wav"
+followMsg = "ivtank03.wav"
+repairMsg = "ivtank09.wav"
+reloadMsg = "ivtank09.wav"
+rescueMsg = "ivtank10.wav"
+recycleMsg = "ivtank11.wav"
+otherMsg = "ivtank05.wav"
+user1Msg = ""  
+killedMsg = "ivtank07.wav"
+diedMsg = ""
+
+[HoverCraftClass]
+velocForward = 35.0
+velocReverse = 20.0
+velocStrafe = 25.0
+accelThrust = 25.0 //acceleration
+accelDragStop = 7.0 //how fast it stops once hands are off controls
+accelJump = 15.0
+setAltitude = 0.025 // how high off the ground
+alphaTrack = 23.0 //springs speed it rights itself 
+alphaDamp = 9.0 //shocks 
+pitchPitch = 0.25 //nose up 
+pitchThrust = 0.1 //nose down 
+rollStrafe = 0.08 //rolls while strafing
+omegaSpin = 2.2 //spinning in place speed
+omegaTurn = 3.5 //turning while moving speed
+alphaSteer = 4.2 //how fast it responds to steering
+rollSteer = 0.15 //rolls while steering
+
+soundThrust = "itank01e.wav"

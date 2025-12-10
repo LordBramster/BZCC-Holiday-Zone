@@ -12,7 +12,7 @@ Description1 = "Naughty Snowman"
 
 xsi2 = "sleigh_santa.fbx"
 cfg2 = "ivsleigh"
-Description2 = "Nice-ish Sleigh"
+Description2 = "Assault Sleigh"
 
 xsi3 = "rhino_yule.fbx"
 cfg3 = "ivrhino"
@@ -27,8 +27,8 @@ cfg5 = "ivsnowball2"
 Description5 = "Mini Snowman II"
 
 xsi6 = "scav_sled.fbx"
-cfg6 = "ivsled"
-Description6 = "Sled Scavenger"
+cfg6 = "ivsled_dm"
+Description6 = "Scrooge Sled"
 
 xsi7 = "nutcracker.fbx"
 cfg7 = "ivnutcracker_dm"

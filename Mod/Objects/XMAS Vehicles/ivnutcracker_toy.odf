@@ -2,7 +2,7 @@
 classLabel = "ivnutcracker"
 geometryName = "nutcracker_toy.fbx"
 unitName = "Nutcracker"
-maxHealth = 5000 // 2500
+maxHealth = 6000 // 2500
 maxAmmo = 9000 // 3000
 addAmmo = 6 // 4
 
