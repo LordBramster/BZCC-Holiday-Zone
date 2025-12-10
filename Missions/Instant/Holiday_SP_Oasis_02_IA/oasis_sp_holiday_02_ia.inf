@@ -1,7 +1,7 @@
 [DESCRIPTION]
 missionName = "(Holiday) Frozen Wonderland at Night"
 mapTga = "oasis_sp_holiday_02_ia.bmp"
-mapDesc = "oasis_sp_holiday__02_ia.des"
+mapDesc = "oasis_sp_holiday_02_ia.des"
 mySide = 1
 
 Aware_v13 = true

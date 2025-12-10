@@ -8,12 +8,12 @@
 [MPVehicles]
 xsi1 = "iceball_pilot.fbx"
 cfg1 = "iviceball"
-Description1 = "Iceball Trooper"
+Description1 = "Elf on an Iceball"
 
 xsi2 = "iceblock_pilot.fbx"
 cfg2 = "iviceblock"
-Description2 = "Iceblock Trooper"
+Description2 = "Elf on an Iceblock"
 
 xsi3 = "cookie_tree_pilot.fbx"
-cfg3 = "ivcookie"
-Description3 = "Cookie Trooper"
+cfg3 = "ivcookie2"
+Description3 = "Elf on a Cookie"
