@@ -25,3 +25,6 @@ lightName2 = "spotred"//"omnired"
 lightHard3 = "hp_light_3"
 lightName3 = "spotgreen"//"omnigreen"  
 LightsOnlyWhenPiloted = true
+
+[CraftClass]
+engageRange = 500

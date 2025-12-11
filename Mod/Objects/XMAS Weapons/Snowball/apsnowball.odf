@@ -4,7 +4,9 @@ classLabel = "apmortar"
 
 scrapCost = 40
 
-unitName = "Snowballs"
+geometryName = "present03.fbx"
+
+unitName = "Snowball"
 
 requireCount = 1
 requireName1 = "ibarmo"

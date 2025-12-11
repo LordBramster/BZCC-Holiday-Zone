@@ -38,15 +38,16 @@ weaponName2 = "gmarshmallow"
 weaponAssault2 = 0
 weaponHard3 = "HP_ROCKET_1"
 recoilName3 = "recoil2"
-weaponName3 = "gshadow_a"
+weaponName3 = "gsnowballs"
 weaponAssault3 = 1
 
 ////////////////////////////////////
 
 
 [CraftClass]
-velocJam = 5.0f
-engageRange = 1200
+canHunt = true
+engageRange = 500
+velocJam = 5.0
 
 [TrackedVehicleClass]
 

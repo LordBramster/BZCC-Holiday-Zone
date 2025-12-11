@@ -1,9 +1,7 @@
 [GameObjectClass]
 classLabel = "ivsled"
-
 unitName = "Scrooge Sled"
-
-DAMAGE_SCALE = 0.5 // UH OH!
+DAMAGE_SCALE = 2.0 // UH OH!
 
 /////// WEAPONS ////////////////////
 weaponMask = 11111

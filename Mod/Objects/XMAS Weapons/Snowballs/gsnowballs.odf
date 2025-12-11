@@ -1,0 +1,20 @@
+[WeaponClass]
+classLabel = "mortar"
+ordName = "snowballs"
+wpnName = "Snowballs Toss"
+fireSound = "gtoss.wav"
+wpnReticle = "gsplint"
+wpnLadder = "gsplint.L0"
+wpnPriority = 2
+wpnCategory = "MORT"
+
+aiRange = 275 // 200.0
+//needLOS = false
+AllowAimHigh = false
+
+[CannonClass]
+shotDelay = 4.0
+shotAlternate = 1
+salvoCount = 3
+salvoDelay = 0.1
+shotVariance = 0.25

@@ -392,3 +392,14 @@ startRadius = 0.35
 finishRadius = 0.05
 segmentTime = 2.0
 textureRate = 0.05
+
+[SnowTrail_SM]
+renderBase = "draw_trail"
+textureName = "trail2.tga"
+textureBlend = "one one modulate"
+startColor = "255 255 255 40"
+finishColor = "100 255 255 0"
+startRadius = 0.15
+finishRadius = 0.01
+segmentTime = 1.0
+textureRate = 0.05

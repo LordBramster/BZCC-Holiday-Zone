@@ -32,11 +32,11 @@ Description6 = "Scrooge Sled"
 
 xsi7 = "nutcracker.fbx"
 cfg7 = "ivnutcracker_dm"
-Description7 = "Nutcracker"
+Description7 = "Toy Nutcracker"
 
 xsi8 = "cookie_tree_pilot.fbx"
 cfg8 = "ivcookie2"
-Description8 = "Combat Cookie"
+Description8 = "Yummy Cookie"
 
 xsi9 = "iceblock_pilot.fbx"
 cfg9 = "iviceblock"
@@ -45,3 +45,7 @@ Description9 = "Elf on an Iceblock"
 xsi10 = "iceball_pilot.fbx"
 cfg10 = "iviceball"
 Description10 = "Elf on an Iceball"
+
+xsi11 = "icesnowball_pilot.fbx"
+cfg11 = "ivicesball"
+Description11 = "Elf on a Snowball"

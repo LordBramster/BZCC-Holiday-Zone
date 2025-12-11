@@ -71,16 +71,29 @@ buildItem1 = "ivmbike_xmas"
 buildItem2 = "ivmisl_xmas"
 buildItem3 = "ivtank_xmas"
 buildItem4 = "ivsnowball2"
-buildItem5 = "ivsled"
-buildItem6 = "ivrhino"
-buildItem7 = "ivsleigh"
-buildItem8 = "ivcookie"
-buildItem9 = "ivnutcracker_dm"
+buildItem5 = "ivcookie2"
+buildItem6 = "ivnutcracker_dm"
+
+[BuildGroup7]
+buildLabel = "Elves"
+buildItem1 = "ivicesball"
+buildItem2 = "iviceball"
+buildItem3 = "iviceblock"
+
+[BuildGroup8]
+buildLabel = "Sleds"
+buildItem1 = "ivsled"
+buildItem2 = "ivrhino"
+
+[BuildGroup9]
+buildLabel = "Sleighs"
+buildItem1 = "ivsleigh"
+buildItem2 = "ivbomb_xmas"
+
 [BuildGroup10]
-buildLabel = "Santa's Joy"
+buildLabel = "Santa's Heavy Units"
 buildItem1 = "ivrckt_xmas"
 buildItem2 = "ivatank_xmas"
-buildItem3 = "ivbomb_xmas"
 
 [Lod1]
 //geometryName = "ibfactL1.fbx" ;geometry for lod1

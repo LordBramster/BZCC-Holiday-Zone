@@ -2,21 +2,21 @@
 baseName = "ivsnowball"
 geometryName = "snowman_mini.fbx"
 classLabel = "assaulthover"
-scrapValue = 40
-scrapCost = 70
-customCost = 80
-buildTime = 15.0
-customTime = 20.0
-maxHealth = 2500
-addhealth = 4
+scrapValue = 5
+scrapCost = 30
+customCost = 40
+buildTime = 8.0
+customTime = 10.0
+maxHealth = 1800
+addhealth = 5
 maxAmmo = 3000
-addAmmo = 3
+addAmmo = 5
 unitName = "Mini Snowman"
 aiName = "AssaultTankProcess"
 aiName2 = "AssaultTankProcess"
 heatSignature = 0.5
-imageSignature = 5.0
-radarSignature = 5.0
+imageSignature = 0.85
+radarSignature = 0.85
 isAssault = 1
 armorClass = L
 
@@ -35,6 +35,9 @@ weaponMask = 00111
 weaponHard1 = "HP_MORTAR_1"
 weaponAssault1 = 0
 weaponName1 = "gsnowball"
+weaponHard2 = "HP_SPECIAL_1"
+weaponName2 = ""
+weaponAssault2 = 0
 
 ////////////////////////////////////
 turretCount = 2
@@ -49,10 +52,10 @@ effectMinVelocity1 = 3.0
 effectMaxVelocity1 = 500.0
 
 [CraftClass]
-rangeScan = 300.0f
-periodScan = 4.0f
-velocJam = 0.0f
 engageRange = 260
+rangeScan = 300.0
+periodScan = 4.0
+velocJam = 0.0
 
 attackTask = "AssaultTankAttack"
 subAttackTask = "SupportSubAttack"
@@ -102,7 +105,6 @@ alphaSteer = 4.2 //how fast it responds to steering
 rollSteer = 0.15 //rolls while steering
 
 soundThrust = "itank01e.wav"
-
 
 [AssaultHoverClass]
 yawRate = 4.0

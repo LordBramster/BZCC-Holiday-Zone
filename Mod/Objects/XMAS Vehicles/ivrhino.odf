@@ -2,14 +2,14 @@
 baseName = "ivrhino"
 geometryName = "rhino_yule.fbx"
 classLabel = "wingman"
-scrapValue = 20
-scrapCost = 55
-customCost = 65
-buildTime = 15.0
+scrapValue = 40
+scrapCost = 70
+customCost = 75
+buildTime = 12.5
 customTime = 15.0
-maxHealth = 4500
+maxHealth = 3000
 maxAmmo = 3000
-addAmmo = 5
+addAmmo = 4
 unitName = "Yule Rhino"
 aiName = "SentryProcess"
 aiName2 = "SentryProcess"
@@ -34,7 +34,7 @@ weaponHard1 = "HP_CANNON_1"
 weaponName1 = "gfrost"
 weaponAssault1 = 0
 weaponHard2 = "HP_MORTAR_1"
-weaponName2 = "gsnowball"
+weaponName2 = "gsnowballs"
 weaponAssault2 = 0
 weaponHard3 = "HP_SPECIAL_1"
 weaponName3 = ""
@@ -56,10 +56,10 @@ effectFlags4 = 2147483135
 
 [CraftClass]
 canHunt = true
-rangeScan = 300.0f
-periodScan = 5.0f
-velocJam = 5.0f
-engageRange = 120
+engageRange = 500 // 120
+rangeScan = 300.0
+periodScan = 5.0
+velocJam = 5.0
 
 attackTask = "MortarBikeAttack"  //"AssaultTankAttack"
 subAttackTask = "MortarBikeSubAttack"  //"SupportSubAttack"

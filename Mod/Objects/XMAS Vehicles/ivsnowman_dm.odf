@@ -25,6 +25,8 @@ isStealth = false
 
 
 [CraftClass]
+canHunt = true
+engageRange = 500
 
 [HoverCraftClass]
 

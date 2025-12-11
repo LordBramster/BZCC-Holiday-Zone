@@ -29,6 +29,7 @@ lightName2 = ""
 
 [CraftClass]
 canHunt = true
+engageRange = 500
 topSpeed=42   // *30 {VSR-050}
 avoidSpeed=25 // *new {VSR-UNDOC}
 

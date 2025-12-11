@@ -2,22 +2,23 @@
 baseName = "iviceblock"
 geometryName = "iceblock_pilot.fbx"
 classLabel = "wingman"
-scrapValue = 20
-scrapCost = 55
-customCost = 65
-buildTime = 15.0
-customTime = 15.0
-maxHealth = 1500
-maxAmmo = 3000
+scrapValue = 2
+scrapCost = 15
+customCost = 20
+buildTime = 3.0
+customTime = 5.0
+maxHealth = 1250
+maxAmmo = 2000
 addAmmo = 5
 unitName = "Elf on an Iceblock"
+unitIcon = "icon_ispilo.tga"
 aiName = "SentryProcess"
 aiName2 = "SentryProcess"
 heatSignature = 1.0
 imageSignature = 2.5
 radarSignature = 0.5
 isAssault = 0
-armorClass = L
+armorClass = N
 
 /////// REQUIREMENTS ///////////////
 requireCount = 0
@@ -33,7 +34,7 @@ weaponMask = 11111
 weaponHard1 = "HP_GUN_1"
 weaponName1 = "gchain_a"
 weaponAssault1 = 1
-weaponHard2 = "HP_MORTAR_1"
+weaponHard2 = "HP_CANNON_1"
 weaponName2 = ""
 weaponAssault2 = 0
 weaponHard3 = "HP_SPECIAL_1"
@@ -50,9 +51,9 @@ effectFlags2 = 2147483639
 
 [CraftClass]
 canHunt = true
-rangeScan = 300.0f
-periodScan = 5.0f
-velocJam = 5.0f
+rangeScan = 300.0
+periodScan = 5.0
+velocJam = 5.0
 engageRange = 300
 
 attackTask = "MortarBikeAttack"  //"AssaultTankAttack"

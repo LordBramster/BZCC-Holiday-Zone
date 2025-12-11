@@ -1,7 +1,6 @@
 [GameObjectClass]
 classLabel="ivmbike"
 unitName = "Jingle Jackal"
-weaponName1 = "gsnowball"
 
 /////// weapons ////////////////////
 weaponMask = 00011
@@ -18,6 +17,7 @@ LightsOnlyWhenPiloted = true
 
 [CraftClass]
 canHunt = true
+engageRange = 500
 
 [HoverCraftClass]
 velocForward=32.0 // *35 {VSR-026}

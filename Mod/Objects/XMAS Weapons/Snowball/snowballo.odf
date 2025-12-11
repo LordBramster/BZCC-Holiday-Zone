@@ -14,13 +14,13 @@ ammoCost = 50
 lifeSpan = 1e30
 shotSpeed = 65.5 // 50.0
 
-damageValue(N) = 450 // none
-damageValue(L) = 400 // light
-damageValue(H) = 350 // heavy
+damageValue(N) = 550 // none
+damageValue(L) = 500 // light
+damageValue(H) = 450 // heavy
 
-damageValue(S) = 400 // standard
-damageValue(D) = 350 // deflection
-damageValue(A) = 450 // absorbtion
+damageValue(S) = 450 // standard
+damageValue(D) = 400 // deflection
+damageValue(A) = 500 // absorbtion
 
 [FrostTrail]
 renderBase = "draw_twirl_trail"

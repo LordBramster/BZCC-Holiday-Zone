@@ -2,15 +2,15 @@
 baseName = "ivnutcracker"
 geometryName = "nutcracker.fbx"
 classLabel = "turrettank"
+scrapValue = 40
 scrapCost = 80
 customCost = 85
-scrapValue = 40
-buildTime = 12.5
-customTime = 15.0
-maxHealth = 2500
-maxAmmo = 3000
-addAmmo = 4
-unitName = "Nutcracker"
+buildTime = 15.0
+customTime = 18.0
+maxHealth = 5000
+maxAmmo = 3500
+addAmmo = 5
+unitName = "Nutcracker Soldier"
 aiName = "TurretTankFriend"
 aiName2 = "TurretTankEnemy"
 heatSignature = 0.05
@@ -18,25 +18,25 @@ imageSignature = 1.15
 radarSignature = 0.15
 isAssault = 0
 armorClass = H // L
-requireCount = 0
 canSelect = false
 canDetect = false
 canInteract = true
 needPilot = false
 isStealth = true
+requireCount = 0
 
 /////// PROVIDES ///////////////////
 provideCount = 2
 provideName1 = "ivturr"
 provideName2 = "VIRTUAL_CLASS_TURRET"
 
-/////// weapons ////////////////////
+/////// WEAPONS ////////////////////
 weaponMask = 00011
 weaponHard1 = "HP_CANNON_1"
-weaponName1 = "gblast_c"
+weaponName1 = "gflash_c"
 weaponAssault1 = 0
 weaponHard2 = "HP_CANNON_2"
-weaponName2 = "gblast_c"
+weaponName2 = "gflash_c"
 weaponAssault2 = 0
 
 ////////////////////////////////////
@@ -52,6 +52,13 @@ effectMaxAltitude1 = 5.0
 effectFlags1 = 2147483127
 
 [CraftClass]
+engageRange = 500
+// engageRange = 275
+rangeScan = 300.0
+periodScan = 3.0
+velocJam = 1.0
+weaponPitch = 1.0
+
 attackTask = "TurretAttack"
 subAttackTask = "TurretDefendTask"
 subAttackClass = "ADS"
@@ -60,13 +67,6 @@ subAttackClass = "ADS"
 // 1st letter is either A or N.     A is include Air targets.         N is attack ground only.
 // 2nd letter is either D or N.     D is to deploy before attacking.  N for regular attack.
 // 3rd letter is either S or N.     S is to use Weapon Range.         N is use the Engage Range to attack. 
-
-
-rangeScan = 300.0
-periodScan = 3.0
-velocJam = 1.0
-engageRange = 275
-weaponPitch = 1.0
 
 selectGoMsg = "ivturr01.wav"
 selectAttackMsg = "ivturr03.wav"

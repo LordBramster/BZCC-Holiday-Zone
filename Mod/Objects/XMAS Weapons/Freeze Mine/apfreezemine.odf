@@ -1,5 +1,5 @@
 [GameObjectClass]
-baseName = "apfreezemine"
+baseName = "gfreezemine"
 classLabel = "apspecial"
 
 scrapCost = 40

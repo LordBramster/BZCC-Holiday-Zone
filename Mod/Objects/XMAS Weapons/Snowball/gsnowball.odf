@@ -1,6 +1,6 @@
 [WeaponClass]
 classLabel = "mortar"
-ordName = "snowball_c"
+ordName = "snowballo"
 wpnName = "Snowball"
 fireSound = "gtoss.wav"
 wpnReticle = "gsplint"

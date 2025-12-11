@@ -1,0 +1,18 @@
+[GameObjectClass]
+baseName = "apsnowballs"
+classLabel = "apmortar"
+
+scrapCost = 40
+
+geometryName = "present03.fbx"
+
+unitName = "Snowballs Toss"
+
+requireCount = 1
+requireName1 = "ibarmo"
+requireText1 = "Build Igloo Armory"
+
+[PowerUpClass]
+
+[WeaponPowerupClass]
+weaponName = "gsnowballs"

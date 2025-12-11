@@ -7,8 +7,9 @@ aiName2 = "AirCraftEnemy"
 classLabel = "aircraft"
 unitName = "Sleigh"
 scrapValue = 0
-scrapReturn = 60
-scrapCost = 85
+scrapReturn = 40
+scrapCost = 80
+customCost = 85
 buildTime = 16.0
 maxHealth = 2000
 maxAmmo = 1000
@@ -39,7 +40,6 @@ limitClass1Text = "Santa's Maximum"
 boxCollide = 1
 SmartIsAirUnitCheck = false
 enableServiceTruckPull = 0
-LightsOnlyWhenPiloted = true
 isFlying = 1
 
 provideCount = 6
@@ -84,7 +84,7 @@ effectFlags2 = 2147483639
 
 weaponMask = 0111
 weaponHard1 = "HP_GUN_1"
-weaponName1 = "gsnowball"
+weaponName1 = "gsnowballs"
 weaponAssault1 = 0
 weaponHard2 = "HP_CANNON_1"
 weaponName2 = "gpepperm"
@@ -95,6 +95,9 @@ weaponAssault3 = 0
 
 
 [CraftClass]
+canHunt = true
+engageRange = 500 // 400
+
 modeText28 = "Takeoff"
 modeText29 = "Land"
 modeText30 = "Unlock"
@@ -106,12 +109,10 @@ modeText23 = "Re-Assign Squad"
 rangeScan = 400
 periodScan = 8.0
 velocJam = 5.0
-engageRange = 400
 weaponPitch = 1.25
 subAttackClass = "ADN"
 canRescue = true
 canRecycle = true
-canHunt = true
 CanAIEject = false
 PathingType = 0
 AircraftAttackMustDeploy = true
@@ -176,7 +177,6 @@ rollStrafe = 0.5
 OverWaterLanded = false
 aiAltitude = 75
 overWaterFlying = true
-overWaterLanded = true
 liftSpring = 40.0 //9.0
 aiLiftSpring = 2.0 // 9.0
 maxTakeoffSpeed = 9999999

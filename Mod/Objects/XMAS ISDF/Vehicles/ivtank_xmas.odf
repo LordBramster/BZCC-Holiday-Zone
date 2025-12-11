@@ -18,7 +18,7 @@ weaponHard3 = "HP_GUN_2"
 weaponName3 = "glaser_c"
 weaponAssault3 = 0
 weaponHard4 = "HP_MORTAR_1"
-weaponName4 = "gsnowball" // "gmortar"
+weaponName4 = "gsnowballs" // "gmortar"
 weaponAssault4 = 0
 weaponHard5 = "HP_SPECIAL_1"
 weaponName5 = "gprezmine"
@@ -33,6 +33,7 @@ LightsOnlyWhenPiloted = true
 
 [CraftClass]
 canHunt = true
+engageRange = 500
 // AI
 AttackTaskUsesGroups=false // {VSR-039}
 GoToTaskHasLeader=false    // {VSR-039}

@@ -6,6 +6,6 @@ emissive = 0.000000  0.000000  0.000000  1.000000
 ambient = 0.000000  0.000000  0.000000  1.000000
 
 [texture]
-diffuse = bane2.dds
-normal = bane2_n.dds
-specular = bane2_s.dds
+diffuse = xmas_ice2_d.dds
+normal = xmas_ice_n.dds
+specular = xmas_ice_s.dds

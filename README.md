@@ -18,10 +18,9 @@ Play on some of the most popular maps, all with a Christmas twist!
     <img alt="Steam Guide" src="https://custom-icon-badges.demolab.com/badge/-How%20To%20Switch%20To%20Beta%20Patch-205479?style=for-the-badge&logoColor=white&logo=steam&labelColor=222f40">
 </a>
 
-## Acknowledgements 🎅
+<br>
 
-<!-- SPECIAL THANKS -->
-| Project Members | Contribution |
+| Project Members 🎅 | Contribution |
 | --- | --- |
 | `Cyber` | VSR Map Conversions |
 | `Zorn` | 3D Models / Textures |
@@ -33,13 +32,8 @@ Play on some of the most popular maps, all with a Christmas twist!
 | `Scrap Pool` | Biometal Mod Maps |
 | `GrizzlyOne & Karlopitek` | Voyager II 3D Assets |
 
-## Content 🎄
-<div align="left">
- <img src="./Extras/ivsnowman_icon.png" alt="logo" width="5%" height="auto"/>
-</div>
 
-<br>
-
+## Contents 🎄
 - Christmas UI Overhaul 🎄
 - Christmas ISDF Retexture 🧦
 - Christmas Map Decorations ☃️
@@ -52,6 +46,47 @@ Play on some of the most popular maps, all with a Christmas twist!
 - Festive Creatures 🦌
 - Present Powerups 🎁
 
+### Yule Units ⛄
+> Variants indicated with `CPU` should be used for `IA/MPI/STCTF` maps.
+
+<div align="left">
+ <img src="./Extras/ivsnowman_icon.png" alt="logo" width="8%" height="auto"/>
+</div>
+
+<br>
+
+| ODF | Name | Description | Use |
+| --- | --- | --- | --- |
+| `ibnutcracker` | Nutcracker | Tall Gun Tower w/ Plasma | RV |
+| `ibnutcracker_cpu` | Nutcracker Statue | Tall Gun Tower w/ Blast | CPU |
+| `ivnutcracker` | Nutcracker | Turret w/ Arc (Stealth) | - |
+| `ivnutcracker_dm` | Nutcracker | Turret w/ Flash | DM |
+| `ivnutcracker_toy` | Nutcracker Statue | Tall Turret w/ Blast | CPU |
+| `ivcookie` | Tree Cookie | | A |
+| `ivcookie2` | Tree Cookie II | | A |
+| `iviceball` | Elf On Iceball | | A |
+| `iviceblock` | Elf On Iceblock | | A |
+| `ivrhino` | Yule Rhino | Ice Rhino w/ Frost | A |
+| `ivsled` | Scrooge Sled | Scav w/ Frost | A |
+| `ivsled_dm` | Scrooge Sled | Scav w/ Frost + Bump DMG | DM |
+| `ivsleigh` | Sleigh | Flying Unit | A |
+| `ivsleigh_cpu` | Anti-Merry Sleigh | Flying Unit (Deployed) | CPU |
+| `ivsnowball` | Mini Snowman | Assault Hover | A |
+| `ivsnowball_m` | Empty Mini Snowman | - | RV |
+| `ivsnowball2` | Mini Snowman II | Wears a hat! | A |
+| `ivsnowman` | Naughty Snowman | Turret w/ Snowballs (Stealth) | CPU |
+| `ivsnowman_turr` | Rattled Snowman | Turret w/ Miniguns | RV |
+| `ivsnowman_dm` | Unfriendly Snowman | - | DM |
+
+### Multiplayer Vehicle Lists 🎮
+| Vehicle List | Title | Description |
+| --- | --- | --- |
+| `ElfVehicles` | Elf Piloted | Anything with a pilot on it |
+| `JollyVehicles` | Jolly Vehicles | New & unique XMAS units |
+| `SDFVehicles` | Santa's Defense Force Vehicles | Festive ISDF |
+| `SledVehicles` | Sleds | Anything with sleds |
+| `SnowballVehicles` | Snowball Throwers | Snowmen + Jingle Jackal |
+| `XMASVehicles` | Holiday Vehicles | All XMAS units + festive ISDF |
 
 ## Maps 🌒
 Here are some maps that have gotten a little christmas twist!
@@ -86,6 +121,9 @@ Here are some maps that have gotten a little christmas twist!
 > ⚠️ Reminder: please revert `options_instant_string1 = "ivrecy_xmas"` to `"ivrecy"`, and `svar5 = "ivrecy_xmas"` to `"ivrecy_mb"` for map-pack compatibility.
 
 ## New Christmas Assets 🍬
+
+### Props 🎄
+
 - Yak Deer (red-nosed Jak Killer) 🦌
 - Yule Rhino (Ice Rhino on skates) 🦏
 - Snowball Scrap ⚪
@@ -95,7 +133,6 @@ Here are some maps that have gotten a little christmas twist!
 - Candy Canes / Peppermints 🍬
 - Santa Hats 🎅
 - Presents 🎁 
-###
 - Christmas Tree 🎄
 - Gingerbread Man 🍪
 - Various Christmas Cookie(s) 🍪
@@ -113,7 +150,6 @@ Here are some maps that have gotten a little christmas twist!
 - Santa's Sleigh Bomber 🎅
 - Festive Sabre 🧦
 - Jolly Scout 🍬
-###
 - Igloo Armory 🧊
 - Service Pod Presents 🎁
 

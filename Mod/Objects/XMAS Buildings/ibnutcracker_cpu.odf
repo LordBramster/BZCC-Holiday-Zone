@@ -1,0 +1,49 @@
+[GameObjectClass]
+classLabel = "ibnutcracker"
+geometryName = "nutcracker_toy.fbx"
+unitName = "The Nutcracker"
+aiName = "GunTowerFriend"
+aiName2 = "GunTowerEnemy"
+maxHealth = 9500
+heatSignature = 0.75
+imageSignature = 1.0
+radarSignature = 1.0
+canSelect = false
+canDetect = false
+canInteract = false
+isStealth = true
+buildRequire = "F"
+powerCost = 0
+
+/////// REQUIREMENTS ///////////////
+requireCount = 0
+
+/////// PROVIDES ///////////////////
+provideCount = 3
+provideName1 = "ibgtow"
+provideName2 = "VIRTUAL_CLASS_GUNTOWER"
+provideName3 = "defender"
+
+/////// weapons ////////////////////
+weaponMask = 00011
+weaponHard1 = "HP_CANNON_1"
+weaponName1 = "gblast_a"
+weaponAssault1 = 1
+weaponHard2 = "HP_CANNON_2"
+weaponName2 = "gblast_a"
+weaponAssault2 = 1
+
+/////// LIGHTS and EFFECTS /////////
+
+
+/////// TURRETS ////////////////////
+
+
+[BuildingClass]
+soundAmbient = "bacrys2b.wav"
+
+[CraftClass]
+rangeScan = 400
+engageRange = 400
+
+[TurretCraftClass]

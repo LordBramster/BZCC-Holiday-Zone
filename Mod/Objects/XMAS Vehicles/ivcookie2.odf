@@ -1,23 +1,14 @@
 [GameObjectClass]
 classLabel = "ivcookie"
-unitName = "Combat Cookie II"
+unitName = "Yummy Cookie II"
 aiName = "TankFriend"
 aiName2 = "TankEnemy"
 
 /////// REQUIREMENTS ///////////////
-requireCount = 2
-requireName1 = "ibfact"
-requireText1 = "Build Factory"
-requireName2 = "ibcbun"
-requireText2 = "Build Relay Bunk"
 
 /////// PROVIDES ///////////////////
-provideCount = 3
-provideName1 = "ivcookie"
-provideName2 = "VIRTUAL_CLASS_TANK"
-provideName3 = "DefendUnit"
 
-/////// weapons ////////////////////
+/////// WEAPONS ////////////////////
 weaponMask = 11111
 weaponHard1 = "HP_CANNON_1"
 weaponName1 = "gpepperm"
@@ -32,7 +23,7 @@ weaponName3 = "glaser_c"
 recoilName3 = "recoil3"
 weaponAssault3 = 0
 weaponHard4 = "HP_SPECIAL_1"
-weaponName4 = "apfreezemine"
+weaponName4 = "gfreezemine"
 weaponAssault4 = 0
 
 [CraftClass]

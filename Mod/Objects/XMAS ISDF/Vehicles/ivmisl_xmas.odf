@@ -22,8 +22,7 @@ lightName1 = "spotgreen"
 
 [CraftClass]
 canHunt = true
-rangeScan = 400.0
-engageRange = 1200
+engageRange = 500
 // VSR Physics {VSR-000}
 GROUND_ELASTICITY=-0.2
 

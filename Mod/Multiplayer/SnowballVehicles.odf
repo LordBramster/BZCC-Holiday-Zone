@@ -18,6 +18,10 @@ xsi3 = "snowman_mini_hat.fbx"
 cfg3 = "ivsnowball2"
 Description3 = "Mini Snowman II"
 
-xsi4 = "ivmbik00.fbx"
-cfg4 = "ivmbike_xmas"
-Description4 = "Jingle Jackal"
+xsi4 = "icesnowball_pilot.fbx"
+cfg4 = "ivicesball"
+Description4 = "Elf on a Snowball"
+
+xsi5 = "ivmbik00.fbx"
+cfg5 = "ivmbike_xmas"
+Description5 = "Jingle Jackal"

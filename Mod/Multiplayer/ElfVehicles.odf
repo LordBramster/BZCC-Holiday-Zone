@@ -14,6 +14,10 @@ xsi2 = "iceblock_pilot.fbx"
 cfg2 = "iviceblock"
 Description2 = "Elf on an Iceblock"
 
-xsi3 = "cookie_tree_pilot.fbx"
-cfg3 = "ivcookie2"
-Description3 = "Elf on a Cookie"
+xsi3 = "icesnowball_pilot.fbx"
+cfg3 = "ivicesball"
+Description3 = "Elf on a Snowball"
+
+xsi4 = "cookie_tree_pilot.fbx"
+cfg4 = "ivcookie2"
+Description4 = "Elf on a Cookie"
