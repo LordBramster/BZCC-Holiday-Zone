@@ -6,17 +6,20 @@ scrapCost = 0
 scrapValue = 0
 maxHealth = 10000
 maxAmmo = 0
-unitName = "Christmas Tree!"
+unitName = "Christmas Tree"
 heatSignature = 0.01
 imageSignature = 0.20
 radarSignature = 0.20
-explosionName = "xplnxpl"
 canDetect = 0
 canInteract = 0
 canSnipe = 0
 ownsTerrain = 1
 canCollide = 0
+CanDemolish = false
+
+explosionName = "xscroogexpl"
 
 [BuildingClass]
 bldEdge = "wwww"
 soundAmbient = "amb_jingle.wav"
+UseExplosion = true

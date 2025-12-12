@@ -2,6 +2,8 @@
 baseName = "apwinds"
 classLabel = "apcannon"
 
+geometryName = "present_ap_03.fbx"
+
 scrapCost = 20
 
 unitName = "Polar Winds"

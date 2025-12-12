@@ -2,6 +2,8 @@
 baseName = "apmarshmallow"
 classLabel = "aprocket"
 
+geometryName = "present_ap_03.fbx"
+
 scrapCost = 1
 
 unitName = "Marshmallow"
