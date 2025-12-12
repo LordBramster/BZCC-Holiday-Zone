@@ -11,7 +11,7 @@ scrapCost = 55
 scrapValue = 15
 maxHealth = 6000
 maxAmmo = 0
-unitName = "Festivity"
+unitName = "Toy Factory"
 aiName = "BuildingProcess"
 aiName2 = "BuildingProcess"
 heatSignature = 2.0
@@ -79,6 +79,7 @@ buildLabel = "Elves"
 buildItem1 = "ivicesball"
 buildItem2 = "iviceball"
 buildItem3 = "iviceblock"
+buildItem4 = "ivelf"
 
 [BuildGroup8]
 buildLabel = "Sleds"
@@ -89,6 +90,7 @@ buildItem2 = "ivrhino"
 buildLabel = "Sleighs"
 buildItem1 = "ivsleigh"
 buildItem2 = "ivbomb_xmas"
+buildItem3 = "ivapc_xmas"
 
 [BuildGroup10]
 buildLabel = "Santa's Heavy Units"

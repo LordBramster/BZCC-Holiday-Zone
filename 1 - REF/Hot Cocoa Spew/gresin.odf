@@ -1,0 +1,18 @@
+[WeaponClass]
+classLabel = "mortar"
+ordName = "resin"
+wpnName = "Resin"
+fireSound = "rmort01.wav"
+wpnReticle = "gresin"
+wpnLadder = "gmortar.L0"
+wpnPriority = 2
+wpnCategory = "MORT"
+aiRange = 80
+
+[CannonClass]
+shotDelay = 0.0
+salvoCount = 5
+salvoDelay = 0.02
+shotVariance = 0.1
+
+SoundPerShot = 0

@@ -1,0 +1,85 @@
+// ==============
+// MINE EXPLOSION
+// ==============
+
+[ExplosionClass]
+classLabel = "explosion"
+
+particleTypes = 7
+
+particleClass1 = "xseekxpl.core"
+particleCount1 = 1
+particleVeloc1 = "0.0 0.0 0.0"
+particleInherit1 = "0.5 0.5 0.5"
+
+particleClass2 = "xseekxpl.puff"
+particleCount2 = 20 //40
+particleVeloc2 = "90.0 90.0 90.0"
+particlePosVar2 = "3.0 3.0 3.0"
+particleInherit2 = "0.5 0.5 0.5"
+
+particleClass3 = "xseekxpl.DisperseSmoke"
+particleCount3 = 10
+particleVeloc3 = "50.0 40.0 50.0"
+particlePosVar3 = "3.0 3.0 3.0"
+particleInherit3 = "0.5 0.5 0.5"
+
+particleClass4 = "xseekxpl.HullAsh"
+particleCount4 = 10 //20
+particleVeloc4 = "110.0 90.0 110.0"
+particlePosVar4 = "3.0 3.0 3.0"
+particleInherit4 = "0.5 0.5 0.5"
+
+particleClass5 = "xseekxpl.ShockSphere"
+particleCount5 = 1
+particleVeloc5 = "0.0 0.0 0.0"
+particleInherit5 = "0.5 0.5 0.5"
+
+particleClass6 = "xseekxpl.LightFlare"
+particleCount6 = 1
+particleVeloc6 = "0.0 0.0 0.0"
+particleInherit6 = "0.5 0.5 0.5"
+
+particleClass7 = "xseekxpl.trail"
+particleCount7 = 8
+particleVeloc7 = "60.0 50.0 60.0"
+particleBias7 = "0.0 1.0 0.0"
+particlePosVar7 = "3.0 3.0 3.0"
+particleInherit7 = "0.5 0.5 0.5"
+
+explSound = "xmv1.wav"
+
+damageRadius = 75.0
+
+damageValue(N) = 525 // none
+damageValue(L) = 525 // light
+damageValue(H) = 525 // heavy
+
+damageValue(S) = 525 // standard
+damageValue(D) = 525 // deflection
+damageValue(A) = 525 // absorbtion
+
+
+[Core]
+simulateBase = "sim_null"
+lifeTime = 1.0
+renderBase = "draw_twirl"
+textureName = "flame.tga"
+textureBlend = "one one modulate"
+startColor = "255 255 63 255"
+finishColor = "255 0 0 0"
+startRadius = 5.0
+finishRadius = 50.0
+animateTime = 1.0
+
+[Puff]
+simulateBase = "sim_smoke"
+lifeTime = 1.0
+renderBase = "draw_twirl"
+textureName = "flame.tga"
+textureBlend = "one one modulate"
+startColor = "255 255 63 255"
+finishColor = "255 0 0 0"
+startRadius = 10.0
+finishRadius = 1.0
+animateTime = 1.0

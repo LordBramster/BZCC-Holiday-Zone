@@ -1,0 +1,15 @@
+[WeaponClass]
+classLabel = "cannon"
+altName = "gplstab_a"
+ordName = "plstab_c"
+wpnName = "Pulse Stab"
+fireSound = "gmagg06.wav"
+wpnReticle = "gplstab"
+wpnCategory = "CANN"
+isAssault = 0
+aiRange = 100
+
+[CannonClass]
+shotDelay = 1.0
+shotAlternate = 1
+

@@ -1,0 +1,15 @@
+[WeaponClass]
+classLabel = "cannon"
+altName = "gtower"
+ordName = "towergn"
+wpnName = "Plasma"
+fireSound = "igtow03.wav"
+wpnReticle = "gplasma"
+wpnCategory = "CANN"
+isAssault = 0
+flashName = "gplasma_a.flash"
+aiRange = 200
+
+[CannonClass]
+shotDelay = 0.5 // 2/sec
+shotAlternate = 1

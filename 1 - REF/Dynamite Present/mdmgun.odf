@@ -1,0 +1,85 @@
+[OrdnanceClass]
+classLabel = "bouncebomb"
+
+shotGeometry = "ioartl00.fbx"
+shotSound = "crckt02.wav"
+
+xplGround = "xmortgnd"
+xplVehicle = "xmdmxpl"
+xplBuilding = "xmdmxpl"
+xplExpire = "xmdmxpl"
+
+renderName = "mdmgun.render"
+
+ammoCost = 60
+lifeSpan = 300
+shotSpeed = 60.0
+
+damageValue(N) = 600
+damageValue(L) = 500
+damageValue(H) = 400
+
+damageValue(S) = 500
+damageValue(D) = 400
+damageValue(A) = 600
+
+[BounceBombClass]
+bounceRatio = 0.5
+bounceSound = "mdmort03.wav"
+bounceBuilding = 1
+
+[Render]
+renderBase = "draw_multi"
+renderCount = 4
+renderName1 = "mdmgun.flare"
+renderName2 = "mdmgun.smoketrail"
+renderName3 = "mdmgun.hottrail"
+renderName4 = "mdmgun.glow"
+
+[Flare]
+renderBase = "draw_sprite"
+textureName = "lightflare.tga"
+textureBlend = "one one modulate"
+startColor = "255 255 255 255"
+finishColor = "255 255 255 255"
+startRadius = 0.5
+finishRadius = 0.5
+
+[glow]
+renderBase = "draw_sprite"
+textureName = "particle.tga"
+textureBlend = "one one modulate"
+startColor = "255 144 40 255"
+finishColor = "255 144 40 255"
+startRadius = 1.0
+finishRadius = 1.0
+
+[HotTrail]
+renderBase = "draw_trail"
+textureName = "firetrail2.tga"
+textureBlend = "one one modulate"
+textureRate = 0.25 //0.2
+startColor = "255 255 255 255"
+finishColor = "220 255 255 0"
+startRadius = 0.30
+finishRadius = 0.05
+segmentLength = 2.4 //3.0
+segmentTime = 0.1
+animateTime = 0.1
+segmentVariance = "3.0 3.0 3.0"
+
+[SmokeTrail]
+renderBase = "draw_twirl_trail"
+textureName = "smoke2.tga"
+textureBlend = "srcalpha invsrcalpha modulatealpha"
+startColor = "56 54 52 60"
+finishColor = "66 64 62 0"
+startRadius = 0.4
+finishRadius = 2.7
+rotationRate = 6.0
+animateTime = 2.5
+emitDelay = 0.02
+emitVariance = "3.7 3.7 3.7"
+emitInherit = "0.3 0.3 0.3"
+emitLife = 2.5
+BottomInteractsWithTerrain = false

@@ -1,0 +1,101 @@
+[OrdnanceClass]
+classLabel = "pulse"
+shotGeometry = "iostbp00.fbx"  //"gatstab.xsi"
+shotSound = "Ordin_c.wav"
+renderName = "plstab_c.render"
+xplGround = "xpulgnd_c"
+xplVehicle = "xpulhit_c"
+xplBuilding = "xpulhit_c"
+
+ammoCost = 14
+lifeSpan = 1.429 // 100.03m
+shotSpeed = 70.0
+
+damageValue(N) = 220 // none // 300
+damageValue(L) = 210 // light // 260
+damageValue(H) = 190 // heavy // 210
+
+damageValue(S) = 210 // standard // 260
+damageValue(D) = 190 // deflection // 270
+damageValue(A) = 220 // absorbtion // 240
+
+[PulseShellClass]
+pulseDelay = 0.3
+pulsePeriod = 0.3
+xplPulse = "xpulemit_c"
+
+[Render]
+renderBase = "draw_multi"
+renderCount = 5
+renderName1 = "plstab_c.Light"
+renderName2 = "plstab_c.PurpleFlameTrail"
+renderName3 = "plstab_c.Smoke"
+renderName4 = "plstab_c.SmokeTrail"
+renderName5 = "plstab_c.glow"
+
+[Light]
+renderBase = "draw_light"
+startColor = "249 24 88 255"
+finishColor = "249 24 88 255"
+startRadius = 25.0
+finishRadius = 25.0
+attenuateConstant = 1.0
+attenuateLinear = 0.0
+attenuateQuadratic = 15.0
+
+
+[PurpleFlameTrail]
+renderBase = "draw_trail"
+textureName = "firetrail1.tga"
+textureBlend = "one one modulate"
+textureRate = 0.2
+startColor = "255 0 127 255"
+finishColor = "255 10 10 0"
+startRadius = 0.4
+finishRadius = 0.02
+animateTime = 0.13
+segmentTime = 0.15
+segmentLength = 0.6
+segmentVariance = "0.2 0.2 0.2"
+TextureSpeed = 4.0
+
+[Smoke]
+renderBase = "draw_twirl_trail"
+textureName = "flame.tga"
+textureBlend = "one one modulate"
+startColor = "255 40 127 40"
+finishColor = "255 10 10 0"
+startRadius = 0.5
+finishRadius = 1.8
+rotationRate = 3.0
+animateTime = 0.15
+emitDelay = 0.005
+emitVelocity = "0.0 0.0 0.0"
+emitVariance = "4.0 4.0 4.0"
+emitInherit = "0.3 0.3 0.3"
+emitLife = 0.15
+
+[SmokeTrail]
+renderBase = "draw_twirl_trail"
+textureName = "smoke2.tga"
+textureBlend = "srcalpha invsrcalpha modulatealpha"
+startColor = "50 45 80 140"
+finishColor = "50 50 50 0"
+startRadius = 0.7
+finishRadius = 2.7
+rotationRate = 3.0
+animateTime = 1.7
+emitDelay = 0.04
+emitVelocity = "0.0 0.2 0.0"
+emitVariance = "3.0 3.0 3.0"
+emitInherit = "0.2 0.2 0.2"
+emitLife = 1.7
+
+[glow]
+renderBase = "draw_sprite"
+textureName = "particle.tga"
+textureBlend = "one one modulate"
+startColor = "249 24 88 255"
+finishColor = "249 24 88 255"
+startRadius = 2.0
+finishRadius = 2.0

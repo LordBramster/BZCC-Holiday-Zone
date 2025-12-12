@@ -63,13 +63,29 @@ reloadMsg = "ivrecy12.wav"
 rescueMsg = "ivrecy13.wav"
 selectUser1Msg = "mnu_enab.wav" // Selection Message of the object while it is Building something.
 
+[BuildGroup1]
+buildLabel = "Resourcing"
 buildItem1 = "ivhscav_xmas"
+buildItem2 = "ivhelf"
+
 buildItem2 = "ivscout_xmas"
-buildItem3 = "ivsnowman_turr"
+
+[BuildGroup3]
+buildLabel = "Defenders"
+buildItem1 = "ivsnowman_turr"
+buildItem2 = "ivsnowman"
+buildItem3 = "ivnutcracker_dm"
+
 buildItem4 = "ivtug"
 buildItem5 = "ivcons_xmas"
 buildItem6 = "ivserv"
-buildItem7 = "apserv_xmas"
+
+[BuildGroup7]
+buildLabel = "Presents"
+buildItem1 = "apserv_xmas"
+buildItem2 = "apammo_xmas"
+buildItem3 = "aprepa_xmas"
+
 buildItem8 = "ivsnowball"
 buildItem9 = "ivsnowball_m"
 buildEmptyItem = 9

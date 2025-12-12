@@ -1,0 +1,4 @@
+[OrdnanceClass]
+classLabel = "plasma_c"
+
+lifeSpan = 2.0 // 200 meters

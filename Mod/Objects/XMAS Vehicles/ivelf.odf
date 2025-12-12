@@ -1,6 +1,6 @@
 [GameObjectClass]
-baseName = "ivicesball"
-geometryName = "icesnowball_pilot.fbx"
+baseName = "ivelf"
+geometryName = "elf_sled.fbx"
 classLabel = "wingman"
 scrapValue = 2
 scrapCost = 15
@@ -10,13 +10,13 @@ customTime = 5.0
 maxHealth = 1250
 maxAmmo = 2000
 addAmmo = 5
-unitName = "Elf on a Snowball"
-unitIcon = "icon_ispilo.tga"
+unitName = "Elf on a Sled"
+unitIcon = "icon_ivelf.tga"
 aiName = "SentryProcess"
 aiName2 = "SentryProcess"
-heatSignature = 1.0
-imageSignature = 2.5
-radarSignature = 0.5
+heatSignature = 0.25
+imageSignature = 0.5
+radarSignature = 0.05
 isAssault = 0
 armorClass = N
 
@@ -25,21 +25,18 @@ requireCount = 0
 
 /////// PROVIDES ///////////////////
 provideCount = 3
-provideName1 = "ivicesball"
+provideName1 = "ivelf"
 provideName2 = "VIRTUAL_CLASS_TANK"
 provideName3 = "DefendUnit"
 
 /////// WEAPONS ////////////////////
 weaponMask = 11111
-weaponHard1 = "HP_MORTAR_1"
-weaponName1 = "gsnowball"
+weaponHard1 = "HP_CANNON_1"
+weaponName1 = "gfrost"
 weaponAssault1 = 1
-weaponHard2 = "HP_ROCKET_1"
+weaponHard2 = "HP_SPECIAL_1"
 weaponName2 = ""
 weaponAssault2 = 0
-weaponHard3 = "HP_SPECIAL_1"
-weaponName3 = ""
-weaponAssault3 = 0
 
 /////////LIGHTS AND EFFECTS //////////////////
 effectHard1 = "hp_dust_1"
@@ -94,7 +91,7 @@ velocStrafe = 25.0
 accelThrust = 25.0 //acceleration
 accelDragStop = 7.0 //how fast it stops once hands are off controls
 accelJump = 15.0
-setAltitude = 0.1 // how high off the ground
+setAltitude = 0.15 // how high off the ground
 alphaTrack = 23.0 //springs speed it rights itself 
 alphaDamp = 9.0 //shocks 
 pitchPitch = 0.25 //nose up 

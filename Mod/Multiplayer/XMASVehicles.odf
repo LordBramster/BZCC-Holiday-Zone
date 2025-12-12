@@ -80,3 +80,7 @@ Description18 = "Iced Interceptor"
 xsi19 = "scav_sled.fbx"
 cfg19 = "ivhscav_xmas"
 Description19 = "Sled Scavenger"
+
+xsi20 = "elf_sled.fbx"
+cfg20 = "ivelf"
+Description20 = "Sled Elf"
