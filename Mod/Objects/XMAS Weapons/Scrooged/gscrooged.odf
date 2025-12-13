@@ -1,0 +1,13 @@
+[WeaponClass]
+classLabel = "dispenser"
+wpnName = "Scrooged"
+fireSound = "santa.wav"
+wpnReticle = "gflare"
+wpnPriority = 1
+wpnCategory = "SPEC"
+
+localAmmo = 3
+
+[DispenserClass]
+shotDelay = 10
+objectClass = "apscrooge"

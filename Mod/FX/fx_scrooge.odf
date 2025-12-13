@@ -3,8 +3,16 @@
 ///////////////////////////////
 
 [scrooge]
-renderBase = "draw_multi"
-renderCount = 2
-renderName1 = "fx_scrooge."
+simulateBase = "sim_null"
+renderBase = "draw_sprite"
+textureName = "scrooge.tga"
+textureBlend = "srcalpha invsrcalpha modulatealpha"
+startColor = "255 255 255 255"
+finishColor = "255 255 255 0"
+startRadius = 10
+finishRadius = 20
+animateTime = 4
+lifeTime = 5
+SimulateSoundEffect = "scrooge5.wav"
 
 ///////////////////////////////

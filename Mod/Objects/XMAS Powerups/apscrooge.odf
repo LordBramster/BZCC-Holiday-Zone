@@ -32,13 +32,14 @@ aiName = "PowerUpProcess"
 explosionName = "xscroogexpl"
 
 [PowerUpClass]
-soundPickup = "santa.wav"
+soundPickup = "scrooge5.wav"
 
 // SCROOGE!!!
-soundReject = "gtoss.wav"
+soundReject = "scrooge5.wav"
 ExplodeOnBadHit = true
 DestroyOnBadHit = false
-PowerupClassMatch = 0
+// PowerupClassMatch = 0
+HitMask = 0
 
 [ServicePowerupClass]
-serviceUp = 2000
+serviceUp = 0
