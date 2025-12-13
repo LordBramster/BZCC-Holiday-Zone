@@ -1,0 +1,37 @@
+[Size]
+MetersPerGrid = 8.0
+HeightGranularity = 0.1
+MinX = -2048.0
+MinZ = -2048.0
+Width = 4096.0
+Depth = 4096.0
+Height = 165
+Tile = 1
+Color = "255 255 255 255"
+
+[NormalView]
+DiffuseColor = "178.5 178.5 178.5"
+SpecularColor = "10 10 10"
+SpecularPower = 100.0
+
+[World]
+// Gravity = 9.5f //12.5f
+MusicTrack1=14
+MusicTrack2=15
+MusicTrack3=16
+MusicTrack4=17
+MusicTrack5=18
+MusicTrack6=20
+
+[DefaultAllies]
+Entry1 = "1_2"
+
+[Texture]
+TileTexture1 = "bane.tga" // "mire.tga"
+TileTexture2 = "bane2.tga" // "mire2.tga"
+TileTexture3 = "bane4.tga" // "mire3.tga"
+TileTexture4 = "bane3.tga" // "mire4.tga"
+TileTexture5 = "bane5.tga" // "mire5.tga"
+TileTexture6 = "bane.tga" // "mire6.tga"
+TileTexture7 = "xmas_ice_d.tda" // Custom
+TileTexture8 = "xmas_ice2_d.tda" // Custom

@@ -24,7 +24,7 @@ Play on some of the most popular maps, all with a Christmas twist!
 | --- | --- |
 | `Cyber` | VSR Map Conversions |
 | `Zorn` | 3D Models / Textures |
-| `F9Bomber` | Custom Missions |
+| `F9bomber` | Custom Mission |
 | `General Black Dragon` | Modding Support |
 
 | Special Thanks To | For |
