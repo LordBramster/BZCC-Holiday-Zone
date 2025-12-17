@@ -35,7 +35,7 @@ Play on some of the most popular maps, all with a Christmas twist!
 | Project Members | Contribution |
 | --- | --- |
 | `Cyber` | VSR Map Conversions, Music |
-| `F9Bomber` | Custom Mission Script |
+| `F9bomber` | Custom Mission Script |
 | `Zorn` | Ice 3D Asset |
 | `General Black Dragon` | Modding Support, Fireworks Assets |
 
