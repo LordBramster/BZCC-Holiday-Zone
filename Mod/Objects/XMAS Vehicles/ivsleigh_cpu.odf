@@ -2,7 +2,16 @@
 classLabel = "ivsleigh"
 geometryScale = 0.4
 unitName = "Anti-Merry Sleigh"
-weaponName3 = ""
+weaponMask = 0111
+weaponHard1 = "HP_CANNON_1"
+weaponName1 = "gfrost"
+weaponAssault1 = 0
+weaponHard2 = "HP_GUN_2"
+weaponName2 = "gsnowballs"
+weaponAssault2 = 0
+weaponHard3 = "HP_ROCKET_1"
+weaponName3 = "gshadow_c"
+weaponAssault3 = 0
 
 [CraftClass]
 

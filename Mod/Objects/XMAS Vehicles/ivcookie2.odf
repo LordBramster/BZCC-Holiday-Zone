@@ -1,6 +1,7 @@
 [GameObjectClass]
 classLabel = "ivcookie"
 unitName = "Yummy Cookie II"
+unitIcon = "icon_ivcookie.tga"
 aiName = "TankFriend"
 aiName2 = "TankEnemy"
 
