@@ -197,19 +197,19 @@ function CheckVehicles()
 		ClearObjectives();
 		AddObjective(Mission._Fail, "red", 15.0);
 		AddObjective(Mission._TransportGone, "white", 15.0);
-		FailMission(5.0, "mission1_fail.des") -- TODO: Add des file here 
+		FailMission(GetTime() + 5, "mission1_fail.des") -- TODO: Add des file here 
 
     elseif not tugAround and transportAround then
 		ClearObjectives();
 		AddObjective(Mission._Fail, "red", 15.0);
 		AddObjective(Mission._TugGone, "white", 15.0);
-		FailMission(5.0, "mission1_fail.des") -- TODO: Add des file here 
+		FailMission(GetTime() + 5, "mission1_fail.des") -- TODO: Add des file here 
 
     else
 		ClearObjectives();
 		AddObjective(Mission._Fail, "red", 15.0);
 		AddObjective(Mission._TugAndTransportGone, "white", 15.0);
-		FailMission(5.0, "mission1_fail.des") -- TODO: Add des file here 
+		FailMission(GetTime() + 5, "mission1_fail.des") -- TODO: Add des file here 
     end
 end
 
@@ -361,7 +361,7 @@ function MissionLogic()
 	if Mission.BombBase == true and not IsAround(Mission.EnemyHQ) then
 		ClearObjectives();
 		AddObjective(Mission._Success, "green", 15.0);
-		SucceedMission(5.0, "mission1_pass.des") -- TODO: Add des file here
+		SucceedMission(GetTime() + 5, "mission1_pass.des") -- TODO: Add des file here
 		Mission.Success = true
 	end
 	

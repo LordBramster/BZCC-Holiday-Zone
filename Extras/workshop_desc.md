@@ -7,8 +7,7 @@ A Christmas-themed conversion mod for Battlezone: Combat Commander. This early b
 
 [img]https://i.imgur.com/j9n4bOl.gif[/img]
 
-[h1][u]HOW TO PLAY THIS MOD:[/u][/h1]
-[img]https://raw.githubusercontent.com/LordBramster/BZCC-Holiday-Zone/refs/heads/main/Extras/ivsnowman_icon.png[/img]
+[h1][u]HOW TO SETUP THIS MOD:[/u][/h1]
 [list]
 [*] Subscribe to this Steam Workshop mod.
 [*] Switch your version of BZCC to the [b]Beta Patch[/b], by following: [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3417282213]How To Switch To Beta Patch[/url] and using [b]SurpiseUpdate2[/b]. It only takes 20 seconds to get so many new and cool BZCC features!
@@ -17,7 +16,19 @@ A Christmas-themed conversion mod for Battlezone: Combat Commander. This early b
 [*] Comment problems or issues you find (or let a member of the development team know).💬
 [/list]
 
+[h1][u]HOW TO PLAY THIS MOD:[/u][/h1]
+For the best experience, here are some tips we recommend!
+[list]
+[*] Listen to some of the included Christmas music by having [b]Music[/b] set to [u]ON[/u], but with "Random Tracks" [u]OFF[/u].
+[*] Turn [b]Weather[/b] [u]ON[/u].
+[*] Set your [b]Graphics[/b] setting to [u]HIGH[/u].
+[*] Enjoy some classic Multiplayer and Instant Action maps, or slide over to [b]Single[/b] and try the Christmas mission! 
+[*] Sip on some Hot Cocoa and feel the snowy breeze! ☕
+[/list]
+
+
 [h1][u]WHAT'S AVAILABLE IN THE ALPHA? ⛄[/u][/h1]
+[img]https://raw.githubusercontent.com/LordBramster/BZCC-Holiday-Zone/refs/heads/main/Extras/ivsnowman_icon.png[/img]
 [list]
 [*] [b]A Holiday Themed Overhaul:[/b] New candycane Nav beacons, holiday-colored HUD, holiday lights across old ruins, and red-nosed Jak Killers!? Santa's brought it all. 🦌
 [*] [b]Winterized Classic Maps:[/b] Santa's not just bringing gifts this year, but classic Battlezone II maps engulfed in blizzards, hot cocoa scrap pools, and cheerful yule decor!🎄
@@ -29,13 +40,13 @@ A Christmas-themed conversion mod for Battlezone: Combat Commander. This early b
 [/list]
 
 [h2]VSR Map Pack 🔷[/h2]
-[img]https://raw.githubusercontent.com/LordBramster/BZCC-Holiday-Zone/refs/heads/main/Extras/vsr_cold.png[/img]
+[img]https://raw.githubusercontent.com/LordBramster/BZCC-Holiday-Zone/refs/heads/main/Extras/vsr_cold_fit.png[/img]
 Santa didn't forget about dropping some Christmas spirit across a couple VSR maps!❄️
 
 Want to play these Christmas maps made compatible for the VSR mod? [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1325933293] Subscribe now to VSR and play the current seasonal rotation of your most popular strategy maps, all holiday-converted by Cyber![/url]
 
 [h2]Save Christmas Eve 🎅[/h2]
-[img]https://raw.githubusercontent.com/LordBramster/BZCC-Holiday-Zone/refs/heads/main/Extras/manson_santahat.png[/img]
+[img]https://raw.githubusercontent.com/LordBramster/BZCC-Holiday-Zone/refs/heads/main/Extras/manson_santahat_fit.png[/img]
 T'was the night before Christmas...
 and the ISDF has been reassigned to save Santa.
 But... Santa's Elves are trapped by the Nutcrackers!
