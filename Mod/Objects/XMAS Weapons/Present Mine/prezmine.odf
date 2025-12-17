@@ -1,5 +1,5 @@
 [GameObjectClass]
-geometryName = "igprox00.fbx"
+geometryName = "present03.fbx" //"igprox00.fbx"
 classLabel = "proximity"
 scrapCost = 0
 scrapValue = 0
@@ -8,7 +8,7 @@ maxAmmo = 200
 unitName = "Present Mine"
 
 [MineClass]
-lifeSpan = 30
+lifeSpan = 45
 xplBlast = "xsnowballxpl"
 
 [ProximityMineClass]

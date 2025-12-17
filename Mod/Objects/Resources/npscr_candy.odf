@@ -1,8 +1,8 @@
 [GameObjectClass]
-geometryName = "candy_pp.fbx"
+geometryName = "candy_pp_sm.fbx"
 classLabel = "scrap"
 scrapCost = 0
-scrapValue = 5
+scrapValue = 10
 maxHealth = 0
 maxAmmo = 0
 unitName = "Candy"

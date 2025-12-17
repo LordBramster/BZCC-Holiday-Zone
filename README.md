@@ -22,9 +22,9 @@ Play on some of the most popular maps, all with a Christmas twist!
 
 | Project Members 🎅 | Contribution |
 | --- | --- |
-| `Cyber` | VSR Map Conversions |
-| `Zorn` | 3D Models / Textures |
-| `F9Bomber` | Custom Missions |
+| `Cyber` | VSR Map Conversions, Music |
+| `Zorn` | Ice 3D Assets |
+| `F9Bomber` | Custom Mission |
 | `General Black Dragon` | Modding Support |
 
 | Special Thanks To | For |
@@ -88,35 +88,41 @@ Play on some of the most popular maps, all with a Christmas twist!
 | `SnowballVehicles` | Snowball Throwers | Snowmen + Jingle Jackal |
 | `XMASVehicles` | Holiday Vehicles | All XMAS units + festive ISDF |
 
-## Maps 🌒
+## Maps 🏂
 Here are some maps that have gotten a little christmas twist!
+
+> Note: 🌒 = Night variant included
 
 | Map Name | Game Modes | Christmas Name | Source |
 |-------------------|------------|-------------------------|--------|
-| Alien Dunes | IA, MPI, ST, STCTF | Arctic Drifts | Stock 🔸 |
-| Bridges | IA, MPI, ST, STCTF| Saint Nick's Crossing | Stock 🔸 |
-| Canyons | IA, MPI, ST, STCTF| Jolly Chasm | Stock 🔸 |
-| Chill | IA, MPI, ST, STCTF | Windchill | Stock 🔸 |
-| Hi & Low |  IA, MPI, ST, STCTF | Ho Ho & Low | Stock 🔸 |
+| XY | DM | | ❄️ |
+| XY | KOTH | | ❄️ |
+| XY | IA, MPI, ST, STCTF | | ❄️ |
+| XY | FFA | | ❄️ |
+|  Alien Dunes | IA, MPI, ST, STCTF | Arctic Drifts 🌒 | Stock 🔸 |
+| ✅ Bridges | IA, MPI, ST, STCTF| Saint Nick's Crossing | Stock 🔸 |
+| ✅ Canyons | IA, MPI, ST, STCTF| Jolly Chasm | Stock 🔸 |
+| ✅ Chill | IA, MPI, ST, STCTF | Windchill | Stock 🔸 |
+| ✅ Hi & Low |  IA, MPI, ST, STCTF | Ho Ho & Low 🌒 | Stock 🔸 |
 | Iceberg | IA, MPI, ST, STCTF | Ice Cap | Stock 🔸 |
-| Sea Battle | IA, MPI, ST, STCTF| Icy Blue Sea | Stock 🔸 |
-| Quarry | IA, MPI, ST, STCTF | Winter Basin | Stock 🔸 |
+| ✅ Sea Battle | IA, MPI, ST, STCTF| Icy Blue Sea | Stock 🔸 |
+| ✅ Quarry | IA, MPI, ST, STCTF | Winter Basin | Stock 🔸 |
 | Rocks |  IA, MPI, ST, STCTF | Rockin' Around | Stock 🔸 |
 | Mars | IA, MPI, ST, STCTF | Candy-red Planet| Stock 🔸 |
-| Island | IA, MPI, ST, STCTF| Reindeer Isle | Stock 🔸 |
 | High Heat | IA, MPI, ST, STCTF | High Freeze | Stock 🔸 |
-| River 4 | IA, MPI, ST, STCTF| River of Ice | Stock 🔸 |
 | Ring of Fire | DM | Arctic Circle | Stock 🔸 |
-| Bane | DM | Glacier | Stock 🔸 |
-| Death Valley | CTF | Jingle Valley | Stock 🔸 |
-| Rend | KOTH | Evergreen | Stock 🔸 |
-| Pluto | RACE | Polar Run | Stock 🔸 |
-| Site 03 | IA, MPI, ST, STCTF | Polar Research Station 03 | FE ➕ |
-| Oasis | IA, MPI, ST, STCTF | Frozen Wonderland | Scrap Pool ➕ |
+| ✅ Bane | DM | Glacier | Stock 🔸 |
+| ✅ Death Valley | CTF | Jingle Valley | Stock 🔸 |
+| ✅ Rend | KOTH | Evergreen 🌒 | Stock 🔸 |
+| ✅ Pluto | RACE | Polar Run | Stock 🔸 |
+| ✅ Site 03 | IA, MPI, ST, STCTF | Polar Research Station 03 | Scrap Pool ➕ |
+| ✅ Oasis | IA, MPI, ST, STCTF | Frozen Wonderland 🌒 | Scrap Pool ➕ |
 | Giza | ST, MPI | Snowy Giza | VSR 🔹 |
 | Overlook | ST, MPI | Overfrost | VSR 🔹 |
 | Remnant | ST, MPI | Remnant of Winter | VSR 🔹 |
 | Haven | ST, MPI | Winter Haven | VSR 🔹 |
+
+More maps will be converted in the future! ☃️
 
 > ⚠️ Reminder: please revert `options_instant_string1 = "ivrecy_xmas"` to `"ivrecy"`, and `svar5 = "ivrecy_xmas"` to `"ivrecy_mb"` for map-pack compatibility.
 
@@ -138,7 +144,7 @@ Here are some maps that have gotten a little christmas twist!
 - Various Christmas Cookie(s) 🍪
 - Nutcracker Statue 🥜
 - Snowman Statue ⛄
-- Ice Sheet (featuring frozen pilots) 🧊
+- Ice Sheet 🧊
 - Igloo! 🧊 
 - Hot Cocoa Scrap Pool ☕ 
 

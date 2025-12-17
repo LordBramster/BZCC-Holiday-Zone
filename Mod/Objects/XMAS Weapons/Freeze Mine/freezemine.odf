@@ -4,15 +4,17 @@ classLabel = "weaponmine"
 scrapCost = 0
 scrapValue = 0
 maxHealth = 1250
-maxAmmo = 300
-unitName = "Freeze Mine"
+maxAmmo = 1000
+unitName = "Shock Hat"
+
+explosionName = "xsnowballxpl"
 
 weaponHard1 = "hp_cannon_1"
-weaponName1 = "gmboltmn"
+weaponName1 = "garc_c"
 
 [MineClass]
 lifeSpan = 120
 
 [WeaponMineClass]
-searchRadius = 100.0
+searchRadius = 150.0
 heightScale = 2.0

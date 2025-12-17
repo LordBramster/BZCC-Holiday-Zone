@@ -2,9 +2,11 @@
 baseName = "gfreezemine"
 classLabel = "apspecial"
 
+geometryName = "present_ap_03.fbx"
+
 scrapCost = 40
 
-unitName = "Freeze Mine"
+unitName = "Shock Hat"
 
 requireCount = 1
 requireName1 = "ibarmo"

@@ -1,6 +1,6 @@
 [WeaponClass]
 classLabel = "cannon"
-ordName = "sandbag"
+ordName = "marshmallow"
 wpnName = "Marshmallow"
 fireSound = "gpepperm.wav"
 wpnReticle = "gsandbag"

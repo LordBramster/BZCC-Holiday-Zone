@@ -1,0 +1,116 @@
+[GameObjectClass]
+baseName = "ivhelf"
+classLabel = "scavengerH"
+geometryName = "elf_sled.fbx"
+scrapValue = 80
+scrapCost = 40
+buildTime = 10.0
+maxHealth = 2000 // 2500
+maxAmmo = 2500
+unitName = "Pilferer Elf"
+unitIcon = "icon_ispilo.tga"
+aiName = "ScavHProcess"
+aiName2 = "ScavHProcess"
+heatSignature = 0.25
+imageSignature = 0.5
+radarSignature = 0.05
+isAssault = 1
+armorClass = L // H
+
+StayWithOwner = true
+
+DAMAGE_SCALE = 10.0 // UH OH!
+
+/////// REQUIREMENTS ///////////////
+requireCount = 0
+
+/////// PROVIDES ///////////////////
+provideCount = 1
+provideName1 = "ivhelf"
+
+/////////LIGHTS AND EFFECTS //////////////////
+effectHard1 = "hp_emit_1"
+effectName1 = "emit_contrail1"
+effectFlags1 = 2147483639
+effectHard2 = "hp_emit_2" 
+effectName2 = "emit_contrail1"
+effectFlags2 = 2147483639
+
+[CraftClass]
+modeText10 = "Go Pilfer!"
+rangeScan = 1000.0
+periodScan = 5.0
+velocJam = 5.0
+braccelFactor = 0.05
+velFactor =	0.2
+steerFactor = 1.5
+omegaFactor = 0.2
+
+avoidSpeed = 40
+TopSpeed = 60
+
+selectOtherMsg = "ivscav01.wav"
+selectWaitMsg = "ivscav01.wav"
+selectGoMsg = "ivscav02.wav"
+selectFollowMsg = "ivscav03.wav"
+selectPickupMsg = "ivscav11.wav"  //getting scrap
+selectDropoffMsg = "ivscav05.wav"  //dropping scrap
+selectUser1Msg = "ivscav12.wav"  //no scrap on radar
+selectUser2Msg = "ivscav12.wav"  //cant do
+otherMsg = "ivscav11.wav" // we read you
+goMsg = "ivscav04.wav"
+goObjectMsg = "ivscav13.wav"
+followMsg = "ivscav03.wav"
+followMeMsg = "ivscav07.wav"
+repairMsg = "ivscav08.wav"
+rescueMsg = "ivscav09.wav"
+recycleMsg = "ivscav10.wav"
+holdMsg = "ivscav04.wav"
+
+[HoverCraftClass]
+velocForward = 35.0
+velocReverse = 20.0
+velocStrafe = 25.0
+accelThrust = 50.0 //acceleration
+accelDragStop = 10.0 // how fast it stops once hands are off controls 
+accelJump = 10.0
+aiAccelDrag = 10
+
+setAltitude = 0.1 // how high off the ground
+
+alphaTrack = 20.0 //springs speed it rights itself 
+alphaDamp = 5.0 //shocks 
+
+pitchPitch = 0.05 // nose up 
+pitchThrust = 0.05 // nose down 
+
+rollStrafe = 0.1 // rolls while strafing 
+omegaSpin = 3.5 // spinning in place speed 
+omegaTurn = 3.5 // turning while moving speed 
+alphaSteer = 5.5 // how fast it responds to steering 
+rollSteer = 0.1 // rolls while steering 
+
+soundThrust = "itank01e.wav"
+soundTurbo = "ieng01b.wav"
+
+[DeployableClass]
+timeDeploy = 5.0
+timeUndeploy = 5.0
+soundDeploy = "irecy03.wav"
+soundUndeploy = "trundepl.wav"
+
+[ScavengerHClass]
+soundPickup = "elf.wav"
+scrapHold = 80
+deployClass = "ibscav"
+deployOffset = 4.5
+enablePoolGoTo = false
+doDrop = true
+DropDist = 2.0
+doDropRecycler = true
+doDropSilo = true
+doDropExtractor = true
+DeathScrapDropRatio = 1.25
+AddScrapHoldToTotal = false // auto scrap generation
+RequiresExtractor = true // auto scrap generation
+deployOffset = 16.0  //<saftest 6.0  //scav //4.5

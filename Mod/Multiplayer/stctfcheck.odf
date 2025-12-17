@@ -1,0 +1,11 @@
+[Check]
+//ST
+Check1 = "ipdrop"
+Check2 = "fpdrop"
+
+//CTF
+Check3 = "stctf_goal"
+Check4 = "stctf_goal2"
+Check5 = "stctf_goal3"
+Check6 = "stctf_goal4"
+Check7 = "stctf_goal5"

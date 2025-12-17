@@ -1,0 +1,132 @@
+[GameObjectClass]
+baseName = "ivsnowplow"
+geometryName = "ivapc00.fbx"
+cockpitName= "ivapc_cockpit.fbx"
+classLabel = "assaulthover"
+scrapValue = 10
+scrapCost = 50
+customCost = 60
+buildTime = 10.5
+customTime = 12.0
+maxHealth = 2750
+addhealth = 5
+maxAmmo = 3250
+addAmmo = 5
+unitName = "Snowplow APC"
+aiName = "AssaultTankProcess"
+aiName2 = "AssaultTankProcess"
+heatSignature = 0.5
+imageSignature = 0.85
+radarSignature = 0.85
+isAssault = 1
+armorClass = L
+
+/////// REQUIREMENTS ///////////////
+requireCount =  0
+
+/////// PROVIDES ///////////////////
+provideCount = 4
+provideName1 = "ivsnowplow"
+provideName2 = "VIRTUAL_CLASS_ASSAULTTANK"
+provideName3 = "assault"
+provideName4 = "DefendUnit"
+
+/////// weapons ////////////////////
+weaponMask = 00111
+weaponHard1 = "HP_MORTAR_1"
+weaponName1 = "gwinds"
+weaponAssault1 = 0
+weaponHard2 = "HP_CANNON_1"
+weaponName2 = "gpepperm"
+weaponAssault2 = 0
+weaponHard3 = "HP_GUN_2"
+weaponName3 = ""
+weaponAssault3 = 0
+weaponHard4 = "HP_SPECIAL_1"
+weaponName4 = ""
+weaponAssault4 = 0
+
+////////////////////////////////////
+turretCount = 2
+turretName1 = "turret_y"
+turretName2 = "turret_x"
+
+/////////LIGHTS AND EFFECTS//////////////////
+lightHard1 = "hp_light_1"
+lightName1 = "spotorange"
+lightHard2 = "hp_light_2"
+lightName2 = "spotorange"  
+LightsOnlyWhenPiloted = true
+
+effectHard1 = "hp_dust_3"
+effectName1 = "dusttrail"
+effectMinAltitude1 = 0.0
+effectMaxAltitude1 = 5.0
+effectFlags1 = 2147483135
+effectHard2 = "hp_dust_4"
+effectName2 = "dusttrail"
+effectMinAltitude2 = 0.0
+effectMaxAltitude2 = 5.0
+effectFlags2 = 2147483135
+
+[CraftClass]
+engageRange = 300
+rangeScan = 300.0
+periodScan = 4.0
+velocJam = 0.0
+DAMAGE_SCALE=20.0
+
+attackTask = "AssaultTankAttack"
+subAttackTask = "SupportSubAttack"
+subAttackClass = "ANS"
+
+braccelFactor = 0.02
+strafeFactor = 0.1
+velFactor = 0.5
+steerFactor = 1.5
+omegaFactor = 0.5
+
+selectAttackMsg = "avapcvf.wav"
+selectFollowMsg = "avapcv3.wav"
+selectGoMsg = "avapcvh.wav"
+reloadMsg = "avapcv4.wav"
+selectWaitMsg = "avapcva.wav"
+selectDropoffMsg = "avapcvf.wav"
+selectPickupMsg = "avapcvg.wav"
+selectOtherMsg = "avapcvj.wav"
+goMsg = "avapcv0.wav"
+attackMsg = "avapcv9.wav"
+followMsg = "avapcvh.wav"
+followMeMsg = "avapcv3.wav"
+repairMsg = "avapcv4.wav"
+recycleMsg = "avapcv6.wav"
+rescueMsg = "avapcv5.wav"
+otherMsg = "avapcvh.wav"
+deployedMsg = "avapcv2.wav"
+
+[HoverCraftClass]
+velocForward = 35.0
+velocReverse = 20.0
+velocStrafe = 25.0
+accelThrust = 25.0 //acceleration
+accelDragStop = 7.0 //how fast it stops once hands are off controls
+accelJump = 15.0
+setAltitude = 0.05 // how high off the ground
+alphaTrack = 23.0 //springs speed it rights itself 
+alphaDamp = 9.0 //shocks 
+pitchPitch = 0.25 //nose up 
+pitchThrust = 0.1 //nose down 
+rollStrafe = 0.08 //rolls while strafing
+omegaSpin = 2.2 //spinning in place speed
+omegaTurn = 3.5 //turning while moving speed
+alphaSteer = 4.2 //how fast it responds to steering
+rollSteer = 0.15 //rolls while steering
+
+soundThrust = "itank01e.wav"
+
+[AssaultHoverClass]
+yawRate = 4.0
+yawAlpha = 10.0
+pitchMin = -0.1
+pitchMax = 0.5
+laserName1 = "recoil_1"

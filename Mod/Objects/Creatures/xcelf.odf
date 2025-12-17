@@ -1,0 +1,89 @@
+[GameObjectClass]
+classLabel = "animal"
+geometryName = "elf_sled"// "rhino_yule.fbx"
+
+unitName = "Sledding Elf"
+aiName = "LandAnimalProcess"
+
+scrapCost = 0
+scrapValue = 0
+//pilotCost = 1
+
+maxHealth = 4500
+maxAmmo = 3
+
+heatSignature = 0.2
+imageSignature = 0.3
+radarSignature = 0.2
+canDetect = 1
+
+/////////LIGHTS AND EFFECTS //////////////////
+effectHard1 = "hp_emit_1"
+effectName1 = "emit_contrail1"
+effectFlags1 = 2147483639
+effectHard2 = "hp_emit_2" 
+effectName2 = "emit_contrail1"
+effectFlags2 = 2147483639
+effectHard3 = "hp_dust_1"
+effectName3 = "dusttrail"
+effectFlags3 = 2147483135
+effectHard4 = "hp_dust_2"
+effectName4 = "dusttrail"
+effectFlags4 = 2147483135
+
+[CraftClass]
+braccelFactor = 0.08
+velFactor = 0.4
+steerFactor = 1
+omegaFactor = 0.4
+strafeFactor = 0.1
+
+GotoTaskHasleader = false
+PathingType = 2
+AvoidType = 1
+
+LandAnimalTCoolDist = 250.0	  // for LandAnimalProcess.cpp. Dist looking for tanks
+LandAnimalTYumDist = 200.0	  // for LandAnimalProcess.cpp. Dist looking for pilots
+LandAnimalTGotoClose = 15.0	  // for LandAnimalProcess.cpp. 
+LandAnimalTGotoCloseMax = 30.0	  // for LandAnimalProcess.cpp. 
+LandAnimalTFleeDist = 75.0	  // for LandAnimalProcess.cpp. 
+LandAnimalTGoto2AttackDist = 15.0 // for LandAnimalProcess.cpp. How close we need to be to switch from GOTO to ATTACK
+LandAnimalTCrowdedDist = 30.0	  // for LandAnimalProcess.cpp. How close to other animals before moving away
+LandAnimalTDontStand = false	  // for LandAnimalProcess.cpp. 
+
+[LandCreature]
+animRate = 10.0
+velocJump = 20.0
+velocForward = 40.0
+accelThrust = 30.0
+
+TooFarDist = 5.5f		  // Distance at which attacks stop
+DamageBase = 100.0		  // This and below are used when applying damage to a target
+DamageArmor = 10.0
+DamageShield = 10.0
+DamageValue = 100.0
+
+burnSound1 = "elf.wav"
+
+crushSound = "elf.wav"
+
+curiousSound1 = "elf.wav"
+
+dieSound1  = "elf.wav"
+
+eatSound1 = "elf.wav"
+
+
+painSound1 = "elf.wav"
+
+jumpSound  = "jump.wav"
+landSound  = "iland01.wav"
+stepSound  = "jakstep.wav"
+
+// in degrees/sec
+alphaSteer = 20.0
+omegaSpin =  60.0
+omegaTurn = 150.0
+
+// leftfootpiece = "lfoot"
+// rightfootpiece = "rfoot"

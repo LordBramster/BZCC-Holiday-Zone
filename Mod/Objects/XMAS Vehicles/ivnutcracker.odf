@@ -61,7 +61,7 @@ weaponPitch = 1.0
 
 attackTask = "TurretAttack"
 subAttackTask = "TurretDefendTask"
-subAttackClass = "ADS"
+subAttackClass = "ADN"
 
 // subAttackClass uses 3 letters.
 // 1st letter is either A or N.     A is include Air targets.         N is attack ground only.

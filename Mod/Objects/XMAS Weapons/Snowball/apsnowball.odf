@@ -2,6 +2,8 @@
 baseName = "apsnowball"
 classLabel = "apmortar"
 
+geometryName = "present_ap_03.fbx"
+
 scrapCost = 40
 
 geometryName = "present03.fbx"

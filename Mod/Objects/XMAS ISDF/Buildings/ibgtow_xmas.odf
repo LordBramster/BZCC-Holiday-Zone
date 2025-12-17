@@ -1,0 +1,80 @@
+[GameObjectClass]
+baseName = "ibgtow"
+geometryName = "ibgtow00.fbx"
+cockpitName = "ibgtow_cockpit.fbx"
+classLabel = "turret"
+scrapCost = 55 //50
+scrapValue = 10
+maxHealth = 5000
+maxAmmo = 10000 // 0 is *not* treated as infinite ammo!
+unitName = "Gumdrop Tower"
+aiName = "GunTowerFriend"
+aiName2 = "GunTowerEnemy"
+heatSignature = 2.0
+imageSignature = 1.0
+radarSignature = 1.0
+isAssault = 1
+collisionRadius = 11.0
+armorClass = H
+AllowUndergroundSpawn = 1  //from pb137# to ensure ground preplacement
+
+/////// REQUIREMENTS ///////////////
+requireCount = 1
+requireName1 = "ibcbun"
+requireText1 = "Build Relay Bunker"
+
+/////// PROVIDES ///////////////////
+provideCount = 3
+provideName1 = "ibgtow"
+provideName2 = "VIRTUAL_CLASS_GUNTOWER"
+provideName3 = "defender"
+
+/////// weapons ////////////////////
+weaponMask = 00011
+weaponHard1 = "hp_cannon_1"
+recoilName1 = "recoil_l"
+weaponName1 = "gyule"
+weaponAssault1 = 0
+weaponHard2 = "hp_cannon_2"
+recoilName2 = "recoil_r"
+weaponName2 = "gyule"
+weaponAssault2 = 0
+
+/////// LIGHTS and EFFECTS /////////
+lightHard1 = "hp_light_1"
+lightName1 = "spotgreen"
+lightHard2 = "hp_light_2"
+lightName2 = "spotred"
+
+effectHard1 = "hp_emit_1"
+effectName1 = "emit_redblink"
+effectFlags1 = 2147483583 // only when powered.
+
+/////// TURRETS ////////////////////
+turretCount = 4
+turretName1 = "turret_y"
+turretName2 = "turret_x_1"
+turretName3 = "turret_x_2"
+turretName4 = "hp_eyepoint"
+
+[BuildingClass]
+soundAmbient = "igtow01.wav"
+
+[CraftClass]
+rangeScan = 250
+periodScan = 1.0
+velocJam = 0.0
+weaponPitch = 1.5
+steerFactor = 0.5
+engageRange = 250 //200
+
+CanBailout = false
+
+[TurretCraftClass]
+omegaTurret = 2.0
+detectRange = 210
+
+[Lod1]
+//geometryName = "ibgtowL1.fbx" ;geometry for lod1
+//distance = 150                   ;bsphere under 200 pixel => switch to lod1
+//dontShiftLOD = 1

@@ -64,6 +64,7 @@ effectFlags1 = 2147483135
 //////////////////////////////////	
 [CraftClass]
 canHunt = true
+modeText11 = "Go Caroling!"
 engageRange = 500
 attackTask = "MortarBikeAttack"  //"AssaultTankAttack"
 subAttackTask = "MortarBikeSubAttack"  //"SupportSubAttack"

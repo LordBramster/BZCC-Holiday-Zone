@@ -2,7 +2,7 @@
 classLabel = "anchor"
 
 shotGeometry = "mallow_ord.fbx"//"iomtag00.fbx"
-shotSound = "gwinds.wav" //"sandbag.wav"
+// shotSound = "gwinds.wav" //"sandbag.wav"
 
 xplGround = "xbulgnd"
 xplVehicle = "xbulcar"
@@ -10,23 +10,23 @@ xplBuilding = "xbulbld"
 
 renderName = "marshmallow.render"
 
-ammoCost = 5
+ammoCost = 8
 lifeSpan = 2.0
-shotSpeed = 70.0
+shotSpeed = 90.0
 
-damageValue(N) = 10
-damageValue(L) = 10
-damageValue(H) = 10
-damageValue(S) = 10
-damageValue(D) = 10
-damageValue(A) = 10
+damageValue(N) = 100
+damageValue(L) = 100
+damageValue(H) = 100
+damageValue(S) = 100
+damageValue(D) = 100
+damageValue(A) = 100
 
 [LeaderRoundClass]
 stickTime = 5.0
 
 [AnchorRocketClass]
-accelDrag = 8.0
-alphaDrag = 0.5
+accelDrag = 10.0
+alphaDrag = 0.75
 
 [Render]
 renderBase = "draw_multi"
@@ -46,8 +46,8 @@ finishRadius = 0.2  //0.5  xon
 [Trail]
 renderBase = "draw_trail"
 textureBlend = "one one modulate"
-startColor = "255 255 63 127"
-finishColor = "255 0 0 0"
+startColor = "0 255 255 225"
+finishColor = "255 255 255 0"
 startRadius = 0.1
 finishRadius = 0.0
 segmentTime = 0.5

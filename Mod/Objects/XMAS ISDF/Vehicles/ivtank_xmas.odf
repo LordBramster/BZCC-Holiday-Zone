@@ -33,6 +33,7 @@ LightsOnlyWhenPiloted = true
 
 [CraftClass]
 canHunt = true
+modeText11 = "Go Caroling!"
 engageRange = 500
 // AI
 AttackTaskUsesGroups=false // {VSR-039}

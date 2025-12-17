@@ -59,6 +59,7 @@ disableFog = 1
 
 [PoweredBuildingClass]
 detectRange = 300
+panelIcon = "icon_base_sat.tga"
 
 [Lod1]
 //geometryName = "ibcbunL1.fbx" ;geometry for lod1

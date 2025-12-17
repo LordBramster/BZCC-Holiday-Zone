@@ -4,20 +4,20 @@ classLabel = "grenade"
 shotGeometry = "snowball_sm.fbx"
 shotSound = "winds.wav"
 
-xplGround = "xsnowballgnd"
-xplVehicle = "xsnowballxpl"
-xplBuilding = "xsnowballxpl"
+xplGround = "xsnowballsxpl"
+xplVehicle = "xsnowballsxpl"
+xplBuilding = "xsnowballsxpl"
 
 renderName = "fx_xmas.SnowTrail_SM"
 
-ammoCost = 50
+ammoCost = 45
 lifeSpan = 1e30
-shotSpeed = 50
+shotSpeed = 35
 
-damageValue(N) = 200 // none
-damageValue(L) = 150 // light
-damageValue(H) = 125 // heavy
+damageValue(N) = 150 // none
+damageValue(L) = 100 // light
+damageValue(H) = 75 // heavy
 
-damageValue(S) = 150 // standard
-damageValue(D) = 125 // deflection
-damageValue(A) = 75 // absorbtion
+damageValue(S) = 100 // standard
+damageValue(D) = 75 // deflection
+damageValue(A) = 50 // absorbtion

@@ -43,8 +43,8 @@ GotoTaskHasleader = false
 PathingType = 2
 AvoidType = 1
 
-LandAnimalTCoolDist = 125.0	  // for LandAnimalProcess.cpp. Dist looking for tanks
-LandAnimalTYumDist = 75.0	  // for LandAnimalProcess.cpp. Dist looking for pilots
+LandAnimalTCoolDist = 250.0	  // for LandAnimalProcess.cpp. Dist looking for tanks
+LandAnimalTYumDist = 200.0	  // for LandAnimalProcess.cpp. Dist looking for pilots
 LandAnimalTGotoClose = 15.0	  // for LandAnimalProcess.cpp. 
 LandAnimalTGotoCloseMax = 30.0	  // for LandAnimalProcess.cpp. 
 LandAnimalTFleeDist = 75.0	  // for LandAnimalProcess.cpp. 
@@ -101,5 +101,5 @@ alphaSteer = 20.0
 omegaSpin =  60.0
 omegaTurn = 150.0
 
-leftfootpiece = "lfoot"
-rightfootpiece = "rfoot"
+// leftfootpiece = "lfoot"
+// rightfootpiece = "rfoot"

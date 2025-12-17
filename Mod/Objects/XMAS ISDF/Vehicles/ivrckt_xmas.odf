@@ -46,6 +46,7 @@ weaponAssault3 = 1
 
 [CraftClass]
 canHunt = true
+modeText11 = "Go Caroling!"
 engageRange = 500
 velocJam = 5.0
 

@@ -1,5 +1,5 @@
 [GameObjectClass]
-geometryName = "ibnav00.fbx" //"ibnav00.xsi"
+geometryName = "candystick.fbx" // "ibnav00.fbx"
 classLabel = "beacon"
 // animCount = 1
 // animName1 = "loop"
@@ -8,7 +8,7 @@ scrapCost = 0
 scrapValue = 0
 maxHealth = 0
 maxAmmo = 0
-unitName = "Candy Beacon"//""
+unitName = "Candy Beacon" // ""
 heatSignature = 0.0
 imageSignature = 0.0
 radarSignature = 0.0
@@ -18,4 +18,6 @@ CanBeIdleVictim = false
 //////////////////// FX //////////////////// 
 
 effectHard1 = "hp_emit_1"
+effectName1 = "fx_xmas.candy"
+effectHard1 = "hp_emit_2"
 effectName1 = "fx_xmas.candy"

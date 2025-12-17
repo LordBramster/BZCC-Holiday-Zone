@@ -1,7 +1,7 @@
 [GameObjectClass]
 maxHealth = 5000
 addHealth = 25
-unitName = "Santa's Bag"
+unitName = "Santa's Bag O' Presents"
 geometryName = "bag.fbx"
 classLabel = "artifact"
 scrapCost = 1

@@ -1,0 +1,21 @@
+return {
+    author = "F9bomber",
+	recyclerHandle = "Merry-cycler",
+	recyclerVehicleODF = "ivrecy_xmas",
+	recyclerBuildingODF = "ibrecy_xmas",
+	factoryHandle = "Toy Factory",
+	factoryODF = "ibfact_xmas",
+	transportODF = "ivsnowplow_o",
+	tugODF = "ivtug",
+	defender1 = "ivnutcracker_dm",
+	defender2 = "ibnutcracker_cpu",
+	defender3 = "ivnutcracker_dm",
+	navMarker = "ibnav",
+	hostageBuilding = "igloo",
+	presentOne = "stctf_goal5",
+	presentTwo = "stctf_goal5",
+	presentThree = "stctf_goal5",
+	santaClaus = "ibbomb_xmas",
+	enemyBuilding = "ibarmo_xmas",
+	power = "ibpgen"
+}

@@ -1,7 +1,7 @@
 [WeaponClass]
 classLabel = "mortar"
 ordName = "snowballs"
-wpnName = "Snowballs Toss"
+wpnName = "Snowball Toss"
 fireSound = "gtoss.wav"
 wpnReticle = "gsplint"
 wpnLadder = "gsplint.L0"

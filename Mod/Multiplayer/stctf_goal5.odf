@@ -1,8 +1,8 @@
 [GameObjectClass]
-maxHealth = 5000
-addHealth = 25
-unitName = "Santa's Presents"
-geometryName = "bag.fbx"
+maxHealth = 20000 //5000
+addHealth = 500 //25
+unitName = "Big Gift"
+geometryName = "present01.fbx"
 classLabel = "artifact"
 scrapCost = 1
 scrapValue = 0

@@ -26,6 +26,7 @@ isStealth = false
 
 [CraftClass]
 canHunt = true
+modeText11 = "Go Caroling!"
 engageRange = 500
 
 [HoverCraftClass]

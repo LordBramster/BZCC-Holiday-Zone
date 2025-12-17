@@ -3,10 +3,10 @@ baseName = "iviceblock"
 geometryName = "iceblock_pilot.fbx"
 classLabel = "wingman"
 scrapValue = 2
-scrapCost = 15
-customCost = 20
-buildTime = 3.0
-customTime = 5.0
+scrapCost = 20
+customCost = 30
+buildTime = 5.0
+customTime = 8.0
 maxHealth = 1250
 maxAmmo = 2000
 addAmmo = 5
@@ -32,8 +32,8 @@ provideName3 = "DefendUnit"
 /////// WEAPONS ////////////////////
 weaponMask = 11111
 weaponHard1 = "HP_GUN_1"
-weaponName1 = "gchain_a"
-weaponAssault1 = 1
+weaponName1 = "gchain_c"
+weaponAssault1 = 0
 weaponHard2 = "HP_CANNON_1"
 weaponName2 = ""
 weaponAssault2 = 0
@@ -51,6 +51,7 @@ effectFlags2 = 2147483639
 
 [CraftClass]
 canHunt = true
+modeText11 = "Go Caroling!"
 rangeScan = 300.0
 periodScan = 5.0
 velocJam = 5.0

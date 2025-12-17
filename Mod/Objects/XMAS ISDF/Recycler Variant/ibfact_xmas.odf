@@ -11,7 +11,7 @@ scrapCost = 55
 scrapValue = 15
 maxHealth = 6000
 maxAmmo = 0
-unitName = "Festivity"
+unitName = "Toy Factory"
 aiName = "BuildingProcess"
 aiName2 = "BuildingProcess"
 heatSignature = 2.0
@@ -70,30 +70,39 @@ selectUser1Msg = "mnu_enab.wav" // Selection Message of the object while it is B
 buildItem1 = "ivmbike_xmas"
 buildItem2 = "ivmisl_xmas"
 buildItem3 = "ivtank_xmas"
-buildItem4 = "ivsnowball2"
-buildItem5 = "ivcookie2"
-buildItem6 = "ivnutcracker_dm"
+buildItem4 = "ivintc_xmas"
+// buildItem5 = ""
+
+[BuildGroup5]
+buildLabel = "Jolly Vehicles"
+buildItem1 = "ivsnowball2"
+buildItem2 = "ivcookie"
+buildItem3 = "ivcookie2"
+buildItem4 = "ivsnowplow"
+buildItem5 = "ivnutcracker_dm"
+buildItem6 = "ivsleigh"
 
 [BuildGroup7]
 buildLabel = "Elves"
 buildItem1 = "ivicesball"
 buildItem2 = "iviceball"
 buildItem3 = "iviceblock"
+buildItem4 = "ivelf"
 
 [BuildGroup8]
-buildLabel = "Sleds"
+buildLabel = "Sledders"
 buildItem1 = "ivsled"
 buildItem2 = "ivrhino"
 
 [BuildGroup9]
-buildLabel = "Sleighs"
-buildItem1 = "ivsleigh"
-buildItem2 = "ivbomb_xmas"
-
-[BuildGroup10]
 buildLabel = "Santa's Heavy Units"
 buildItem1 = "ivrckt_xmas"
 buildItem2 = "ivatank_xmas"
+
+[BuildGroup10]
+buildLabel = "Santa's Air Units"
+buildItem1 = "ivapc_xmas"
+buildItem2 = "ivbomb_xmas"
 
 [Lod1]
 //geometryName = "ibfactL1.fbx" ;geometry for lod1

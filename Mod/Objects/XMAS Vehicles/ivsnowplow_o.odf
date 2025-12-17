@@ -1,0 +1,49 @@
+[GameObjectClass]
+baseName = "ivsnowplow"
+classLabel = "ivsnowplow"
+
+maxHealth = 3000
+addhealth = 10
+
+unitName = "Snowplow APC"
+
+armorClass = H
+
+canSnipe = 0
+
+/////// REQUIREMENTS ///////////////
+requireCount =  0
+
+/////// PROVIDES ///////////////////
+provideCount = 4
+provideName1 = "ivsnowplow"
+provideName2 = "VIRTUAL_CLASS_ASSAULTTANK"
+provideName3 = "assault"
+provideName4 = "DefendUnit"
+
+/////// weapons ////////////////////
+weaponMask = 00111
+weaponHard1 = "HP_MORTAR_1"
+weaponName1 = "gwinds"
+weaponAssault1 = 0
+weaponHard2 = "HP_CANNON_1"
+weaponName2 = ""
+weaponAssault2 = 0
+weaponHard3 = "HP_GUN_2"
+weaponName3 = ""
+weaponAssault3 = 0
+weaponHard4 = "HP_SPECIAL_1"
+weaponName4 = ""
+weaponAssault4 = 0
+
+[CraftClass]
+canRescue = 0
+CanRecycle = 0
+CanBailout = 0
+
+[HoverCraftClass]
+velocForward = 10.0
+velocReverse = 10.0
+velocStrafe = 10.0
+
+[AssaultHoverClass]

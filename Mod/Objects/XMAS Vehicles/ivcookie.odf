@@ -78,6 +78,7 @@ effectFlags2 = 2147483135
 
 [CraftClass]
 canHunt = true
+modeText11 = "Go Caroling!"
 rangeScan = 300.0
 periodScan = 5.0f
 velocJam = 5.0f

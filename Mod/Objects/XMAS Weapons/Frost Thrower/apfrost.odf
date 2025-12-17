@@ -2,6 +2,8 @@
 baseName = "apfrost"
 classLabel = "apcannon"
 
+geometryName = "present_ap_03.fbx"
+
 scrapCost = 5
 
 unitName = "Frost"

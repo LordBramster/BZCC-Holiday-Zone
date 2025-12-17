@@ -2,7 +2,7 @@
 geometryName = "snowball_md.fbx"
 classLabel = "scrap"
 scrapCost = 0
-scrapValue = 8
+scrapValue = 6
 maxHealth = 0
 maxAmmo = 0
 unitName = "Snowball"

@@ -22,6 +22,7 @@ lightName1 = "spotgreen"
 
 [CraftClass]
 canHunt = true
+modeText11 = "Go Caroling!"
 engageRange = 500
 // VSR Physics {VSR-000}
 GROUND_ELASTICITY=-0.2
@@ -42,5 +43,5 @@ airborneVelocSideMult=1.0
 airborneThrottleMult=1.2
 airborneMinHeightRatio=1.6
 airborneMaxHeightRatio=4.0
-LIFT_SPRING=6
-LIFT_DAMP=0.1
+// LIFT_SPRING=6
+// LIFT_DAMP=0.1

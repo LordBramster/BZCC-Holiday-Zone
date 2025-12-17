@@ -1,0 +1,11 @@
+[solid]
+diffuse = 1.000000  1.000000  1.000000  1.000000
+specular = 0.000000  0.000000  0.000000  1.000000
+specularPower = 20.000000
+emissive = 0.000000  0.000000  0.000000  1.000000
+ambient = 0.000000  0.000000  0.000000  1.000000
+
+[texture]
+diffuse = present02_d.dds
+normal = present02_n.dds
+specular = present02_s.dds

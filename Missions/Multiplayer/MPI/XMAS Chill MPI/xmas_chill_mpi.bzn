@@ -1,0 +1,9942 @@
+version [1] =
+1197
+saveType [1] =
+0
+binarySave [1] =
+false
+msn_filename = xmas_chill_mpi.bzn
+seq_count [1] =
+1656
+saveType [1] =
+0
+g_TerrainName = xmas_chill_mpi
+size [1] =
+99
+[GameObject]
+objClass = ivscout
+seqno [1] =
+8005f1
+team [1] =
+17
+isUser [1] =
+true
+objAddr = 00000001
+transform [1] =
+  right.x [1] =
+-1.24881908e-01
+  right.y [1] =
+-2.18796004e-02
+  right.z [1] =
+-9.91925895e-01
+  up.x [1] =
+-1.03368133e-03
+  up.y [1] =
+9.99754548e-01
+  up.z [1] =
+-2.19224207e-02
+  front.x [1] =
+9.92162168e-01
+  front.y [1] =
+-1.71369966e-03
+  front.z [1] =
+-1.24875665e-01
+  posit.x [1] =
+4.80596771e+02
+  posit.y [1] =
+1.41683350e+02
+  posit.z [1] =
+-2.57950897e+02
+abandoned [1] =
+0
+curAmmo [1] =
+1.50000000e+03
+maxAmmo [1] =
+1.50000000e+03
+addAmmo [1] =
+1.00000000e+00
+curPilot = ispilo
+ejectRatio [1] =
+3.00000012e-01
+illumination [1] =
+1.00000000e+00
+euler =
+ mass [1] =
+5.72595117e+03
+ mass_inv [1] =
+1.74643472e-04
+ v_mag [1] =
+7.39285490e-03
+ v_mag_inv [1] =
+1.35265747e+02
+ I [1] =
+3.92654805e+04
+ k_i [1] =
+2.54676615e-05
+ v [1] =
+  x [1] =
+8.14408668e-06
+  y [1] =
+-7.38841202e-03
+  z [1] =
+2.56135536e-04
+ omega [1] =
+  x [1] =
+1.28668267e-02
+  y [1] =
+-3.96026015e-01
+  z [1] =
+-5.45349978e-02
+ Accel [1] =
+  x [1] =
+1.50943233e-05
+  y [1] =
+6.21585846e-02
+  z [1] =
+-2.39250809e-03
+name = Scout
+saveFlags [1] =
+108
+isVisible [1] =
+65535
+isDamped [1] =
+0
+EffectsMask [1] =
+65535
+isSeen [1] =
+6
+groupNumber [1] =
+-1
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+true
+independence [1] =
+1
+[GameObject]
+objClass = pspwn_1
+seqno [1] =
+80050f
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 00000002
+transform [1] =
+  right.x [1] =
+9.99995768e-01
+  right.y [1] =
+0.00000000e+00
+  right.z [1] =
+0.00000000e+00
+  up.x [1] =
+0.00000000e+00
+  up.y [1] =
+9.99995649e-01
+  up.z [1] =
+0.00000000e+00
+  front.x [1] =
+0.00000000e+00
+  front.y [1] =
+0.00000000e+00
+  front.z [1] =
+9.99991417e-01
+  posit.x [1] =
+7.85663025e+02
+  posit.y [1] =
+2.00000000e+02
+  posit.z [1] =
+-3.87813995e+02
+name = Spawn
+[GameObject]
+objClass = snowman
+seqno [1] =
+609
+team [1] =
+0
+label = unnamed_snowman
+isUser [1] =
+false
+objAddr = 00000003
+transform [1] =
+  right.x [1] =
+5.34613490e-01
+  right.y [1] =
+-0.00000000e+00
+  right.z [1] =
+8.45091641e-01
+  up.x [1] =
+0.00000000e+00
+  up.y [1] =
+9.99995649e-01
+  up.z [1] =
+0.00000000e+00
+  front.x [1] =
+-8.45087945e-01
+  front.y [1] =
+0.00000000e+00
+  front.z [1] =
+5.34611166e-01
+  posit.x [1] =
+6.08331421e+02
+  posit.y [1] =
+2.02833694e+02
+  posit.z [1] =
+-3.13698425e+02
+saveClass = 
+illumination [1] =
+1.00000000e+00
+euler =
+ mass [1] =
+7.16367344e+04
+ mass_inv [1] =
+1.39593185e-05
+ v_mag [1] =
+0.00000000e+00
+ v_mag_inv [1] =
+1.00000002e+30
+ I [1] =
+2.02480200e+06
+ k_i [1] =
+4.93875461e-07
+ v [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ omega [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ Accel [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+name = Snowman
+saveFlags [1] =
+108
+isVisible [1] =
+65535
+isDamped [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+1
+[GameObject]
+objClass = snowman
+seqno [1] =
+80060a
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 00000004
+transform [1] =
+  right.x [1] =
+-9.50276554e-01
+  right.y [1] =
+0.00000000e+00
+  right.z [1] =
+-3.11393559e-01
+  up.x [1] =
+0.00000000e+00
+  up.y [1] =
+9.99995649e-01
+  up.z [1] =
+0.00000000e+00
+  front.x [1] =
+3.11392218e-01
+  front.y [1] =
+0.00000000e+00
+  front.z [1] =
+-9.50272441e-01
+  posit.x [1] =
+3.80274933e+02
+  posit.y [1] =
+1.61010590e+02
+  posit.z [1] =
+-5.18517273e+02
+saveClass = 
+illumination [1] =
+1.00000000e+00
+euler =
+ mass [1] =
+7.16367344e+04
+ mass_inv [1] =
+1.39593185e-05
+ v_mag [1] =
+0.00000000e+00
+ v_mag_inv [1] =
+1.00000002e+30
+ I [1] =
+2.02480200e+06
+ k_i [1] =
+4.93875461e-07
+ v [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ omega [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ Accel [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+name = Snowman
+saveFlags [1] =
+108
+isVisible [1] =
+65535
+isDamped [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+1
+[GameObject]
+objClass = snowman
+seqno [1] =
+80060b
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 00000005
+transform [1] =
+  right.x [1] =
+9.99844611e-01
+  right.y [1] =
+-0.00000000e+00
+  right.z [1] =
+1.73838846e-02
+  up.x [1] =
+0.00000000e+00
+  up.y [1] =
+9.99995649e-01
+  up.z [1] =
+0.00000000e+00
+  front.x [1] =
+-1.73838083e-02
+  front.y [1] =
+0.00000000e+00
+  front.z [1] =
+9.99840260e-01
+  posit.x [1] =
+3.53522095e+02
+  posit.y [1] =
+1.38747391e+02
+  posit.z [1] =
+-1.68011017e+02
+saveClass = 
+illumination [1] =
+1.00000000e+00
+euler =
+ mass [1] =
+7.16367344e+04
+ mass_inv [1] =
+1.39593185e-05
+ v_mag [1] =
+0.00000000e+00
+ v_mag_inv [1] =
+1.00000002e+30
+ I [1] =
+2.02480200e+06
+ k_i [1] =
+4.93875461e-07
+ v [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ omega [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ Accel [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+name = Snowman
+saveFlags [1] =
+108
+isVisible [1] =
+65535
+isDamped [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+1
+[GameObject]
+objClass = snowman
+seqno [1] =
+80060c
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 00000006
+transform [1] =
+  right.x [1] =
+-5.43982804e-01
+  right.y [1] =
+0.00000000e+00
+  right.z [1] =
+8.39091241e-01
+  up.x [1] =
+0.00000000e+00
+  up.y [1] =
+9.99995649e-01
+  up.z [1] =
+0.00000000e+00
+  front.x [1] =
+-8.39087605e-01
+  front.y [1] =
+0.00000000e+00
+  front.z [1] =
+-5.43980420e-01
+  posit.x [1] =
+2.14374634e+02
+  posit.y [1] =
+1.38674622e+02
+  posit.z [1] =
+-3.21563629e+02
+saveClass = 
+illumination [1] =
+1.00000000e+00
+euler =
+ mass [1] =
+7.16367344e+04
+ mass_inv [1] =
+1.39593185e-05
+ v_mag [1] =
+0.00000000e+00
+ v_mag_inv [1] =
+1.00000002e+30
+ I [1] =
+2.02480200e+06
+ k_i [1] =
+4.93875461e-07
+ v [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ omega [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ Accel [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+name = Snowman
+saveFlags [1] =
+108
+isVisible [1] =
+65535
+isDamped [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+1
+[GameObject]
+objClass = sleigh02
+seqno [1] =
+80060e
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 00000007
+transform [1] =
+  right.x [1] =
+8.32385540e-01
+  right.y [1] =
+-0.00000000e+00
+  right.z [1] =
+5.54189324e-01
+  up.x [1] =
+0.00000000e+00
+  up.y [1] =
+9.99995649e-01
+  up.z [1] =
+0.00000000e+00
+  front.x [1] =
+-5.54186940e-01
+  front.y [1] =
+0.00000000e+00
+  front.z [1] =
+8.32381904e-01
+  posit.x [1] =
+3.29243988e+02
+  posit.y [1] =
+2.05861435e+02
+  posit.z [1] =
+-1.12222290e+02
+saveClass = 
+illumination [1] =
+1.00000000e+00
+euler =
+ mass [1] =
+9.22867813e+04
+ mass_inv [1] =
+1.08357881e-05
+ v_mag [1] =
+0.00000000e+00
+ v_mag_inv [1] =
+1.00000002e+30
+ I [1] =
+3.04312975e+06
+ k_i [1] =
+3.28609048e-07
+ v [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ omega [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ Accel [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+name = Santa's Crashed Sleigh
+saveFlags [1] =
+108
+isVisible [1] =
+65535
+isDamped [1] =
+0
+EffectsMask [1] =
+65535
+isSeen [1] =
+7
+groupNumber [1] =
+-1
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+1
+[GameObject]
+objClass = present02
+seqno [1] =
+800614
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 00000008
+transform [1] =
+  right.x [1] =
+1.33086458e-01
+  right.y [1] =
+0.00000000e+00
+  right.z [1] =
+-9.91100132e-01
+  up.x [1] =
+0.00000000e+00
+  up.y [1] =
+9.99995649e-01
+  up.z [1] =
+0.00000000e+00
+  front.x [1] =
+9.91095841e-01
+  front.y [1] =
+-0.00000000e+00
+  front.z [1] =
+1.33085877e-01
+  posit.x [1] =
+3.96917938e+02
+  posit.y [1] =
+1.99203766e+02
+  posit.z [1] =
+-1.03142822e+02
+saveClass = 
+illumination [1] =
+1.00000000e+00
+euler =
+ mass [1] =
+2.30754844e+04
+ mass_inv [1] =
+4.33360365e-05
+ v_mag [1] =
+0.00000000e+00
+ v_mag_inv [1] =
+1.00000002e+30
+ I [1] =
+2.68650688e+05
+ k_i [1] =
+3.72230579e-06
+ v [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ omega [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ Accel [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+name = Geschenke
+saveFlags [1] =
+108
+isVisible [1] =
+65535
+isDamped [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+1
+[GameObject]
+objClass = present01
+seqno [1] =
+800615
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 00000009
+transform [1] =
+  right.x [1] =
+-7.31145263e-01
+  right.y [1] =
+0.00000000e+00
+  right.z [1] =
+6.82215452e-01
+  up.x [1] =
+0.00000000e+00
+  up.y [1] =
+9.99995649e-01
+  up.z [1] =
+0.00000000e+00
+  front.x [1] =
+-6.82212472e-01
+  front.y [1] =
+0.00000000e+00
+  front.z [1] =
+-7.31142104e-01
+  posit.x [1] =
+4.19743927e+02
+  posit.y [1] =
+1.94984009e+02
+  posit.z [1] =
+-1.00860291e+02
+saveClass = 
+illumination [1] =
+1.00000000e+00
+euler =
+ mass [1] =
+4.67229297e+04
+ mass_inv [1] =
+2.14027677e-05
+ v_mag [1] =
+0.00000000e+00
+ v_mag_inv [1] =
+1.00000002e+30
+ I [1] =
+8.70602688e+05
+ k_i [1] =
+1.14862962e-06
+ v [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ omega [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ Accel [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+name = Present
+saveFlags [1] =
+108
+isVisible [1] =
+65535
+isDamped [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+1
+[GameObject]
+objClass = pinetrees
+seqno [1] =
+800616
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 0000000A
+transform [1] =
+  right.x [1] =
+9.99995768e-01
+  right.y [1] =
+0.00000000e+00
+  right.z [1] =
+0.00000000e+00
+  up.x [1] =
+0.00000000e+00
+  up.y [1] =
+9.99995649e-01
+  up.z [1] =
+0.00000000e+00
+  front.x [1] =
+0.00000000e+00
+  front.y [1] =
+0.00000000e+00
+  front.z [1] =
+9.99991417e-01
+  posit.x [1] =
+4.65257782e+02
+  posit.y [1] =
+1.94333908e+02
+  posit.z [1] =
+-1.77253891e+02
+saveClass = 
+illumination [1] =
+1.00000000e+00
+euler =
+ mass [1] =
+6.49816400e+06
+ mass_inv [1] =
+1.53889616e-07
+ v_mag [1] =
+0.00000000e+00
+ v_mag_inv [1] =
+1.00000002e+30
+ I [1] =
+3.38240154e+09
+ k_i [1] =
+2.95647923e-10
+ v [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ omega [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ Accel [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+name = Pine Trees
+saveFlags [1] =
+108
+isVisible [1] =
+65535
+isDamped [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+1
+[GameObject]
+objClass = pinetrees
+seqno [1] =
+800617
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 0000000B
+transform [1] =
+  right.x [1] =
+6.23782039e-01
+  right.y [1] =
+0.00000000e+00
+  right.z [1] =
+-7.81592786e-01
+  up.x [1] =
+0.00000000e+00
+  up.y [1] =
+9.99995649e-01
+  up.z [1] =
+0.00000000e+00
+  front.x [1] =
+7.81589389e-01
+  front.y [1] =
+-0.00000000e+00
+  front.z [1] =
+6.23779297e-01
+  posit.x [1] =
+4.10987091e+02
+  posit.y [1] =
+1.94829498e+02
+  posit.z [1] =
+-1.22753571e+02
+saveClass = 
+illumination [1] =
+1.00000000e+00
+euler =
+ mass [1] =
+6.49816400e+06
+ mass_inv [1] =
+1.53889616e-07
+ v_mag [1] =
+0.00000000e+00
+ v_mag_inv [1] =
+1.00000002e+30
+ I [1] =
+3.38240154e+09
+ k_i [1] =
+2.95647923e-10
+ v [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ omega [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ Accel [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+name = Pine Trees
+saveFlags [1] =
+108
+isVisible [1] =
+65535
+isDamped [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+1
+[GameObject]
+objClass = pinetrees
+seqno [1] =
+800618
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 0000000C
+transform [1] =
+  right.x [1] =
+6.23782039e-01
+  right.y [1] =
+0.00000000e+00
+  right.z [1] =
+-7.81592786e-01
+  up.x [1] =
+0.00000000e+00
+  up.y [1] =
+9.99995649e-01
+  up.z [1] =
+0.00000000e+00
+  front.x [1] =
+7.81589389e-01
+  front.y [1] =
+-0.00000000e+00
+  front.z [1] =
+6.23779297e-01
+  posit.x [1] =
+4.83445099e+02
+  posit.y [1] =
+1.84498535e+02
+  posit.z [1] =
+-3.46412018e+02
+saveClass = 
+illumination [1] =
+1.00000000e+00
+euler =
+ mass [1] =
+6.49816400e+06
+ mass_inv [1] =
+1.53889616e-07
+ v_mag [1] =
+0.00000000e+00
+ v_mag_inv [1] =
+1.00000002e+30
+ I [1] =
+3.38240154e+09
+ k_i [1] =
+2.95647923e-10
+ v [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ omega [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ Accel [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+name = Pine Trees
+saveFlags [1] =
+108
+isVisible [1] =
+65535
+isDamped [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+1
+[GameObject]
+objClass = pinetrees
+seqno [1] =
+800619
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 0000000D
+transform [1] =
+  right.x [1] =
+9.96539295e-01
+  right.y [1] =
+0.00000000e+00
+  right.z [1] =
+-8.30718502e-02
+  up.x [1] =
+0.00000000e+00
+  up.y [1] =
+9.99995649e-01
+  up.z [1] =
+0.00000000e+00
+  front.x [1] =
+8.30714852e-02
+  front.y [1] =
+-0.00000000e+00
+  front.z [1] =
+9.96534944e-01
+  posit.x [1] =
+3.97414063e+02
+  posit.y [1] =
+1.84500015e+02
+  posit.z [1] =
+-3.79586823e+02
+saveClass = 
+illumination [1] =
+1.00000000e+00
+euler =
+ mass [1] =
+6.49816400e+06
+ mass_inv [1] =
+1.53889616e-07
+ v_mag [1] =
+0.00000000e+00
+ v_mag_inv [1] =
+1.00000002e+30
+ I [1] =
+3.38240154e+09
+ k_i [1] =
+2.95647923e-10
+ v [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ omega [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ Accel [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+name = Pine Trees
+saveFlags [1] =
+108
+isVisible [1] =
+65535
+isDamped [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+1
+[GameObject]
+objClass = pinetrees
+seqno [1] =
+80061a
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 0000000E
+transform [1] =
+  right.x [1] =
+9.96539295e-01
+  right.y [1] =
+0.00000000e+00
+  right.z [1] =
+-8.30718502e-02
+  up.x [1] =
+0.00000000e+00
+  up.y [1] =
+9.99995649e-01
+  up.z [1] =
+0.00000000e+00
+  front.x [1] =
+8.30714852e-02
+  front.y [1] =
+-0.00000000e+00
+  front.z [1] =
+9.96534944e-01
+  posit.x [1] =
+2.21128189e+02
+  posit.y [1] =
+1.99494934e+02
+  posit.z [1] =
+-3.98605011e+02
+saveClass = 
+illumination [1] =
+1.00000000e+00
+euler =
+ mass [1] =
+6.49816400e+06
+ mass_inv [1] =
+1.53889616e-07
+ v_mag [1] =
+0.00000000e+00
+ v_mag_inv [1] =
+1.00000002e+30
+ I [1] =
+3.38240154e+09
+ k_i [1] =
+2.95647923e-10
+ v [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ omega [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ Accel [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+name = Pine Trees
+saveFlags [1] =
+108
+isVisible [1] =
+65535
+isDamped [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+1
+[GameObject]
+objClass = pinetrees
+seqno [1] =
+80061b
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 0000000F
+transform [1] =
+  right.x [1] =
+-8.53949934e-02
+  right.y [1] =
+0.00000000e+00
+  right.z [1] =
+9.96342778e-01
+  up.x [1] =
+0.00000000e+00
+  up.y [1] =
+9.99995649e-01
+  up.z [1] =
+0.00000000e+00
+  front.x [1] =
+-9.96338427e-01
+  front.y [1] =
+0.00000000e+00
+  front.z [1] =
+-8.53946209e-02
+  posit.x [1] =
+1.55409729e+02
+  posit.y [1] =
+1.94415436e+02
+  posit.z [1] =
+-3.64617737e+02
+saveClass = 
+illumination [1] =
+1.00000000e+00
+euler =
+ mass [1] =
+6.49816400e+06
+ mass_inv [1] =
+1.53889616e-07
+ v_mag [1] =
+0.00000000e+00
+ v_mag_inv [1] =
+1.00000002e+30
+ I [1] =
+3.38240154e+09
+ k_i [1] =
+2.95647923e-10
+ v [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ omega [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ Accel [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+name = Pine Trees
+saveFlags [1] =
+108
+isVisible [1] =
+65535
+isDamped [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+1
+[GameObject]
+objClass = pinetrees
+seqno [1] =
+80061c
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 00000010
+transform [1] =
+  right.x [1] =
+-8.53949934e-02
+  right.y [1] =
+0.00000000e+00
+  right.z [1] =
+9.96342778e-01
+  up.x [1] =
+0.00000000e+00
+  up.y [1] =
+9.99995649e-01
+  up.z [1] =
+0.00000000e+00
+  front.x [1] =
+-9.96338427e-01
+  front.y [1] =
+0.00000000e+00
+  front.z [1] =
+-8.53946209e-02
+  posit.x [1] =
+1.54630875e+02
+  posit.y [1] =
+1.84383759e+02
+  posit.z [1] =
+-2.04896423e+02
+saveClass = 
+illumination [1] =
+1.00000000e+00
+euler =
+ mass [1] =
+6.49816400e+06
+ mass_inv [1] =
+1.53889616e-07
+ v_mag [1] =
+0.00000000e+00
+ v_mag_inv [1] =
+1.00000002e+30
+ I [1] =
+3.38240154e+09
+ k_i [1] =
+2.95647923e-10
+ v [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ omega [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ Accel [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+name = Pine Trees
+saveFlags [1] =
+108
+isVisible [1] =
+65535
+isDamped [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+1
+[GameObject]
+objClass = pinetrees
+seqno [1] =
+80061d
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 00000011
+transform [1] =
+  right.x [1] =
+-8.17229092e-01
+  right.y [1] =
+0.00000000e+00
+  right.z [1] =
+-5.76305389e-01
+  up.x [1] =
+0.00000000e+00
+  up.y [1] =
+9.99995649e-01
+  up.z [1] =
+0.00000000e+00
+  front.x [1] =
+5.76302886e-01
+  front.y [1] =
+0.00000000e+00
+  front.z [1] =
+-8.17225516e-01
+  posit.x [1] =
+1.95527161e+02
+  posit.y [1] =
+1.84400009e+02
+  posit.z [1] =
+-1.16847420e+02
+saveClass = 
+illumination [1] =
+1.00000000e+00
+euler =
+ mass [1] =
+6.49816400e+06
+ mass_inv [1] =
+1.53889616e-07
+ v_mag [1] =
+0.00000000e+00
+ v_mag_inv [1] =
+1.00000002e+30
+ I [1] =
+3.38240154e+09
+ k_i [1] =
+2.95647923e-10
+ v [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ omega [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ Accel [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+name = Pine Trees
+saveFlags [1] =
+108
+isVisible [1] =
+65535
+isDamped [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+1
+[GameObject]
+objClass = pinetree
+seqno [1] =
+80061e
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 00000012
+transform [1] =
+  right.x [1] =
+9.99995768e-01
+  right.y [1] =
+0.00000000e+00
+  right.z [1] =
+0.00000000e+00
+  up.x [1] =
+0.00000000e+00
+  up.y [1] =
+9.99995649e-01
+  up.z [1] =
+0.00000000e+00
+  front.x [1] =
+0.00000000e+00
+  front.y [1] =
+0.00000000e+00
+  front.z [1] =
+9.99991417e-01
+  posit.x [1] =
+7.69382446e+02
+  posit.y [1] =
+1.99970551e+02
+  posit.z [1] =
+-4.65865753e+02
+saveClass = 
+illumination [1] =
+1.00000000e+00
+euler =
+ mass [1] =
+1.00050188e+06
+ mass_inv [1] =
+9.99498411e-07
+ v_mag [1] =
+0.00000000e+00
+ v_mag_inv [1] =
+1.00000002e+30
+ I [1] =
+1.59327536e+08
+ k_i [1] =
+6.27637897e-09
+ v [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ omega [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ Accel [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+name = Pine Tree
+saveFlags [1] =
+108
+isVisible [1] =
+65535
+isDamped [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+1
+[GameObject]
+objClass = pinetree
+seqno [1] =
+80061f
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 00000013
+transform [1] =
+  right.x [1] =
+-1.22980639e-01
+  right.y [1] =
+0.00000000e+00
+  right.z [1] =
+-9.92404819e-01
+  up.x [1] =
+0.00000000e+00
+  up.y [1] =
+9.99995649e-01
+  up.z [1] =
+0.00000000e+00
+  front.x [1] =
+9.92400527e-01
+  front.y [1] =
+0.00000000e+00
+  front.z [1] =
+-1.22980103e-01
+  posit.x [1] =
+7.30516968e+02
+  posit.y [1] =
+2.00580688e+02
+  posit.z [1] =
+-5.20672607e+02
+saveClass = 
+illumination [1] =
+1.00000000e+00
+euler =
+ mass [1] =
+1.00050188e+06
+ mass_inv [1] =
+9.99498411e-07
+ v_mag [1] =
+0.00000000e+00
+ v_mag_inv [1] =
+1.00000002e+30
+ I [1] =
+1.59327536e+08
+ k_i [1] =
+6.27637897e-09
+ v [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ omega [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ Accel [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+name = Pine Tree
+saveFlags [1] =
+108
+isVisible [1] =
+65535
+isDamped [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+1
+[GameObject]
+objClass = pinetree
+seqno [1] =
+800620
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 00000014
+transform [1] =
+  right.x [1] =
+9.71931994e-01
+  right.y [1] =
+-0.00000000e+00
+  right.z [1] =
+2.35243663e-01
+  up.x [1] =
+0.00000000e+00
+  up.y [1] =
+9.99995649e-01
+  up.z [1] =
+0.00000000e+00
+  front.x [1] =
+-2.35242635e-01
+  front.y [1] =
+0.00000000e+00
+  front.z [1] =
+9.71927762e-01
+  posit.x [1] =
+6.84911316e+02
+  posit.y [1] =
+2.01661636e+02
+  posit.z [1] =
+-5.25077271e+02
+saveClass = 
+illumination [1] =
+1.00000000e+00
+euler =
+ mass [1] =
+1.00050188e+06
+ mass_inv [1] =
+9.99498411e-07
+ v_mag [1] =
+0.00000000e+00
+ v_mag_inv [1] =
+1.00000002e+30
+ I [1] =
+1.59327536e+08
+ k_i [1] =
+6.27637897e-09
+ v [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ omega [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ Accel [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+name = Pine Tree
+saveFlags [1] =
+108
+isVisible [1] =
+65535
+isDamped [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+1
+[GameObject]
+objClass = pinetree
+seqno [1] =
+800621
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 00000015
+transform [1] =
+  right.x [1] =
+9.71931994e-01
+  right.y [1] =
+-0.00000000e+00
+  right.z [1] =
+2.35243663e-01
+  up.x [1] =
+0.00000000e+00
+  up.y [1] =
+9.99995649e-01
+  up.z [1] =
+0.00000000e+00
+  front.x [1] =
+-2.35242635e-01
+  front.y [1] =
+0.00000000e+00
+  front.z [1] =
+9.71927762e-01
+  posit.x [1] =
+6.11790527e+02
+  posit.y [1] =
+2.00532043e+02
+  posit.z [1] =
+-3.71746002e+02
+saveClass = 
+illumination [1] =
+1.00000000e+00
+euler =
+ mass [1] =
+1.00050188e+06
+ mass_inv [1] =
+9.99498411e-07
+ v_mag [1] =
+0.00000000e+00
+ v_mag_inv [1] =
+1.00000002e+30
+ I [1] =
+1.59327536e+08
+ k_i [1] =
+6.27637897e-09
+ v [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ omega [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ Accel [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+name = Pine Tree
+saveFlags [1] =
+108
+isVisible [1] =
+65535
+isDamped [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+1
+[GameObject]
+objClass = pinetree
+seqno [1] =
+800622
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 00000016
+transform [1] =
+  right.x [1] =
+-9.96804774e-01
+  right.y [1] =
+0.00000000e+00
+  right.z [1] =
+7.98218027e-02
+  up.x [1] =
+0.00000000e+00
+  up.y [1] =
+9.99995649e-01
+  up.z [1] =
+0.00000000e+00
+  front.x [1] =
+-7.98214525e-02
+  front.y [1] =
+0.00000000e+00
+  front.z [1] =
+-9.96800423e-01
+  posit.x [1] =
+6.02760620e+02
+  posit.y [1] =
+2.06451263e+02
+  posit.z [1] =
+-1.42925140e+02
+saveClass = 
+illumination [1] =
+1.00000000e+00
+euler =
+ mass [1] =
+1.00050188e+06
+ mass_inv [1] =
+9.99498411e-07
+ v_mag [1] =
+0.00000000e+00
+ v_mag_inv [1] =
+1.00000002e+30
+ I [1] =
+1.59327536e+08
+ k_i [1] =
+6.27637897e-09
+ v [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ omega [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ Accel [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+name = Pine Tree
+saveFlags [1] =
+108
+isVisible [1] =
+65535
+isDamped [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+1
+[GameObject]
+objClass = pinetree
+seqno [1] =
+800623
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 00000017
+transform [1] =
+  right.x [1] =
+-9.17737067e-01
+  right.y [1] =
+0.00000000e+00
+  right.z [1] =
+-3.97177696e-01
+  up.x [1] =
+0.00000000e+00
+  up.y [1] =
+9.99995649e-01
+  up.z [1] =
+0.00000000e+00
+  front.x [1] =
+3.97175968e-01
+  front.y [1] =
+0.00000000e+00
+  front.z [1] =
+-9.17733073e-01
+  posit.x [1] =
+6.10852173e+02
+  posit.y [1] =
+2.03742706e+02
+  posit.z [1] =
+-1.70999649e+02
+saveClass = 
+illumination [1] =
+1.00000000e+00
+euler =
+ mass [1] =
+1.00050188e+06
+ mass_inv [1] =
+9.99498411e-07
+ v_mag [1] =
+0.00000000e+00
+ v_mag_inv [1] =
+1.00000002e+30
+ I [1] =
+1.59327536e+08
+ k_i [1] =
+6.27637897e-09
+ v [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ omega [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ Accel [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+name = Pine Tree
+saveFlags [1] =
+108
+isVisible [1] =
+65535
+isDamped [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+1
+[GameObject]
+objClass = pinetree
+seqno [1] =
+800624
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 00000018
+transform [1] =
+  right.x [1] =
+-9.17737067e-01
+  right.y [1] =
+0.00000000e+00
+  right.z [1] =
+-3.97177696e-01
+  up.x [1] =
+0.00000000e+00
+  up.y [1] =
+9.99995649e-01
+  up.z [1] =
+0.00000000e+00
+  front.x [1] =
+3.97175968e-01
+  front.y [1] =
+0.00000000e+00
+  front.z [1] =
+-9.17733073e-01
+  posit.x [1] =
+6.01580566e+02
+  posit.y [1] =
+1.97832092e+02
+  posit.z [1] =
+-8.21025314e+01
+saveClass = 
+illumination [1] =
+1.00000000e+00
+euler =
+ mass [1] =
+1.00050188e+06
+ mass_inv [1] =
+9.99498411e-07
+ v_mag [1] =
+0.00000000e+00
+ v_mag_inv [1] =
+1.00000002e+30
+ I [1] =
+1.59327536e+08
+ k_i [1] =
+6.27637897e-09
+ v [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ omega [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ Accel [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+name = Pine Tree
+saveFlags [1] =
+108
+isVisible [1] =
+65535
+isDamped [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+1
+[GameObject]
+objClass = pinetree
+seqno [1] =
+800626
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 00000019
+transform [1] =
+  right.x [1] =
+-8.22689235e-01
+  right.y [1] =
+0.00000000e+00
+  right.z [1] =
+-5.68483710e-01
+  up.x [1] =
+0.00000000e+00
+  up.y [1] =
+9.99995649e-01
+  up.z [1] =
+0.00000000e+00
+  front.x [1] =
+5.68481266e-01
+  front.y [1] =
+0.00000000e+00
+  front.z [1] =
+-8.22685659e-01
+  posit.x [1] =
+7.55600891e+02
+  posit.y [1] =
+2.01674438e+02
+  posit.z [1] =
+2.84013367e+00
+saveClass = 
+illumination [1] =
+1.00000000e+00
+euler =
+ mass [1] =
+1.00050188e+06
+ mass_inv [1] =
+9.99498411e-07
+ v_mag [1] =
+0.00000000e+00
+ v_mag_inv [1] =
+1.00000002e+30
+ I [1] =
+1.59327536e+08
+ k_i [1] =
+6.27637897e-09
+ v [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ omega [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ Accel [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+name = Pine Tree
+saveFlags [1] =
+108
+isVisible [1] =
+65535
+isDamped [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+1
+[GameObject]
+objClass = pinetree
+seqno [1] =
+800627
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 0000001A
+transform [1] =
+  right.x [1] =
+-9.96295929e-01
+  right.y [1] =
+0.00000000e+00
+  right.z [1] =
+-8.59394893e-02
+  up.x [1] =
+0.00000000e+00
+  up.y [1] =
+9.99995649e-01
+  up.z [1] =
+0.00000000e+00
+  front.x [1] =
+8.59391168e-02
+  front.y [1] =
+0.00000000e+00
+  front.z [1] =
+-9.96291578e-01
+  posit.x [1] =
+7.66350281e+02
+  posit.y [1] =
+1.99455673e+02
+  posit.z [1] =
+-1.62616959e+01
+saveClass = 
+illumination [1] =
+1.00000000e+00
+euler =
+ mass [1] =
+1.00050188e+06
+ mass_inv [1] =
+9.99498411e-07
+ v_mag [1] =
+0.00000000e+00
+ v_mag_inv [1] =
+1.00000002e+30
+ I [1] =
+1.59327536e+08
+ k_i [1] =
+6.27637897e-09
+ v [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ omega [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ Accel [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+name = Pine Tree
+saveFlags [1] =
+108
+isVisible [1] =
+65535
+isDamped [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+1
+[GameObject]
+objClass = pinetree
+seqno [1] =
+800628
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 0000001B
+transform [1] =
+  right.x [1] =
+-9.96295929e-01
+  right.y [1] =
+0.00000000e+00
+  right.z [1] =
+-8.59394893e-02
+  up.x [1] =
+0.00000000e+00
+  up.y [1] =
+9.99995649e-01
+  up.z [1] =
+0.00000000e+00
+  front.x [1] =
+8.59391168e-02
+  front.y [1] =
+0.00000000e+00
+  front.z [1] =
+-9.96291578e-01
+  posit.x [1] =
+3.64426117e+02
+  posit.y [1] =
+1.38863754e+02
+  posit.z [1] =
+-1.73364838e+02
+saveClass = 
+illumination [1] =
+1.00000000e+00
+euler =
+ mass [1] =
+1.00050188e+06
+ mass_inv [1] =
+9.99498411e-07
+ v_mag [1] =
+0.00000000e+00
+ v_mag_inv [1] =
+1.00000002e+30
+ I [1] =
+1.59327536e+08
+ k_i [1] =
+6.27637897e-09
+ v [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ omega [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ Accel [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+name = Pine Tree
+saveFlags [1] =
+108
+isVisible [1] =
+65535
+isDamped [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+1
+[GameObject]
+objClass = pinetree
+seqno [1] =
+800629
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 0000001C
+transform [1] =
+  right.x [1] =
+-9.96295929e-01
+  right.y [1] =
+0.00000000e+00
+  right.z [1] =
+-8.59394893e-02
+  up.x [1] =
+0.00000000e+00
+  up.y [1] =
+9.99995649e-01
+  up.z [1] =
+0.00000000e+00
+  front.x [1] =
+8.59391168e-02
+  front.y [1] =
+0.00000000e+00
+  front.z [1] =
+-9.96291578e-01
+  posit.x [1] =
+3.88460938e+02
+  posit.y [1] =
+1.35447098e+02
+  posit.z [1] =
+-3.20888458e+02
+saveClass = 
+illumination [1] =
+1.00000000e+00
+euler =
+ mass [1] =
+1.00050188e+06
+ mass_inv [1] =
+9.99498411e-07
+ v_mag [1] =
+0.00000000e+00
+ v_mag_inv [1] =
+1.00000002e+30
+ I [1] =
+1.59327536e+08
+ k_i [1] =
+6.27637897e-09
+ v [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ omega [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ Accel [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+name = Pine Tree
+saveFlags [1] =
+108
+isVisible [1] =
+65535
+isDamped [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+1
+[GameObject]
+objClass = pinetree
+seqno [1] =
+80062a
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 0000001D
+transform [1] =
+  right.x [1] =
+7.52645075e-01
+  right.y [1] =
+-0.00000000e+00
+  right.z [1] =
+6.58419788e-01
+  up.x [1] =
+0.00000000e+00
+  up.y [1] =
+9.99995649e-01
+  up.z [1] =
+0.00000000e+00
+  front.x [1] =
+-6.58416927e-01
+  front.y [1] =
+0.00000000e+00
+  front.z [1] =
+7.52641797e-01
+  posit.x [1] =
+1.93995987e+02
+  posit.y [1] =
+1.39324997e+02
+  posit.z [1] =
+-2.48833755e+02
+saveClass = 
+illumination [1] =
+1.00000000e+00
+euler =
+ mass [1] =
+1.00050188e+06
+ mass_inv [1] =
+9.99498411e-07
+ v_mag [1] =
+0.00000000e+00
+ v_mag_inv [1] =
+1.00000002e+30
+ I [1] =
+1.59327536e+08
+ k_i [1] =
+6.27637897e-09
+ v [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ omega [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ Accel [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+name = Pine Tree
+saveFlags [1] =
+108
+isVisible [1] =
+65535
+isDamped [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+1
+[GameObject]
+objClass = pinetree
+seqno [1] =
+80062b
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 0000001E
+transform [1] =
+  right.x [1] =
+7.52645075e-01
+  right.y [1] =
+-0.00000000e+00
+  right.z [1] =
+6.58419788e-01
+  up.x [1] =
+0.00000000e+00
+  up.y [1] =
+9.99995649e-01
+  up.z [1] =
+0.00000000e+00
+  front.x [1] =
+-6.58416927e-01
+  front.y [1] =
+0.00000000e+00
+  front.z [1] =
+7.52641797e-01
+  posit.x [1] =
+2.26964081e+02
+  posit.y [1] =
+1.38919128e+02
+  posit.z [1] =
+-3.35484100e+02
+saveClass = 
+illumination [1] =
+1.00000000e+00
+euler =
+ mass [1] =
+1.00050188e+06
+ mass_inv [1] =
+9.99498411e-07
+ v_mag [1] =
+0.00000000e+00
+ v_mag_inv [1] =
+1.00000002e+30
+ I [1] =
+1.59327536e+08
+ k_i [1] =
+6.27637897e-09
+ v [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ omega [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ Accel [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+name = Pine Tree
+saveFlags [1] =
+108
+isVisible [1] =
+65535
+isDamped [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+1
+[GameObject]
+objClass = pinetree
+seqno [1] =
+80062c
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 0000001F
+transform [1] =
+  right.x [1] =
+-7.03846037e-01
+  right.y [1] =
+0.00000000e+00
+  right.z [1] =
+-7.10346520e-01
+  up.x [1] =
+0.00000000e+00
+  up.y [1] =
+9.99995649e-01
+  up.z [1] =
+0.00000000e+00
+  front.x [1] =
+7.10343421e-01
+  front.y [1] =
+0.00000000e+00
+  front.z [1] =
+-7.03842998e-01
+  posit.x [1] =
+3.69773102e+02
+  posit.y [1] =
+1.60722824e+02
+  posit.z [1] =
+-5.27568176e+02
+saveClass = 
+illumination [1] =
+1.00000000e+00
+euler =
+ mass [1] =
+1.00050188e+06
+ mass_inv [1] =
+9.99498411e-07
+ v_mag [1] =
+0.00000000e+00
+ v_mag_inv [1] =
+1.00000002e+30
+ I [1] =
+1.59327536e+08
+ k_i [1] =
+6.27637897e-09
+ v [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ omega [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ Accel [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+name = Pine Tree
+saveFlags [1] =
+108
+isVisible [1] =
+65535
+isDamped [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+1
+[GameObject]
+objClass = pinetree
+seqno [1] =
+80062d
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 00000020
+transform [1] =
+  right.x [1] =
+-7.03846037e-01
+  right.y [1] =
+0.00000000e+00
+  right.z [1] =
+-7.10346520e-01
+  up.x [1] =
+0.00000000e+00
+  up.y [1] =
+9.99995649e-01
+  up.z [1] =
+0.00000000e+00
+  front.x [1] =
+7.10343421e-01
+  front.y [1] =
+0.00000000e+00
+  front.z [1] =
+-7.03842998e-01
+  posit.x [1] =
+3.11991119e+02
+  posit.y [1] =
+1.92923996e+02
+  posit.z [1] =
+3.51992981e+02
+saveClass = 
+illumination [1] =
+1.00000000e+00
+euler =
+ mass [1] =
+1.00050188e+06
+ mass_inv [1] =
+9.99498411e-07
+ v_mag [1] =
+0.00000000e+00
+ v_mag_inv [1] =
+1.00000002e+30
+ I [1] =
+1.59327536e+08
+ k_i [1] =
+6.27637897e-09
+ v [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ omega [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ Accel [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+name = Pine Tree
+saveFlags [1] =
+108
+isVisible [1] =
+65535
+isDamped [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+1
+[GameObject]
+objClass = pinetree
+seqno [1] =
+80062e
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 00000021
+transform [1] =
+  right.x [1] =
+4.96997148e-01
+  right.y [1] =
+-0.00000000e+00
+  right.z [1] =
+8.67747128e-01
+  up.x [1] =
+0.00000000e+00
+  up.y [1] =
+9.99995649e-01
+  up.z [1] =
+0.00000000e+00
+  front.x [1] =
+-8.67743373e-01
+  front.y [1] =
+0.00000000e+00
+  front.z [1] =
+4.96994972e-01
+  posit.x [1] =
+3.27587891e+02
+  posit.y [1] =
+1.93190475e+02
+  posit.z [1] =
+3.41227539e+02
+saveClass = 
+illumination [1] =
+1.00000000e+00
+euler =
+ mass [1] =
+1.00050188e+06
+ mass_inv [1] =
+9.99498411e-07
+ v_mag [1] =
+0.00000000e+00
+ v_mag_inv [1] =
+1.00000002e+30
+ I [1] =
+1.59327536e+08
+ k_i [1] =
+6.27637897e-09
+ v [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ omega [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ Accel [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+name = Pine Tree
+saveFlags [1] =
+108
+isVisible [1] =
+65535
+isDamped [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+1
+[GameObject]
+objClass = pinetree
+seqno [1] =
+80062f
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 00000022
+transform [1] =
+  right.x [1] =
+4.96997148e-01
+  right.y [1] =
+-0.00000000e+00
+  right.z [1] =
+8.67747128e-01
+  up.x [1] =
+0.00000000e+00
+  up.y [1] =
+9.99995649e-01
+  up.z [1] =
+0.00000000e+00
+  front.x [1] =
+-8.67743373e-01
+  front.y [1] =
+0.00000000e+00
+  front.z [1] =
+4.96994972e-01
+  posit.x [1] =
+2.34137146e+02
+  posit.y [1] =
+1.85974319e+02
+  posit.z [1] =
+3.50656311e+02
+saveClass = 
+illumination [1] =
+1.00000000e+00
+euler =
+ mass [1] =
+1.00050188e+06
+ mass_inv [1] =
+9.99498411e-07
+ v_mag [1] =
+0.00000000e+00
+ v_mag_inv [1] =
+1.00000002e+30
+ I [1] =
+1.59327536e+08
+ k_i [1] =
+6.27637897e-09
+ v [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ omega [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ Accel [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+name = Pine Tree
+saveFlags [1] =
+108
+isVisible [1] =
+65535
+isDamped [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+1
+[GameObject]
+objClass = pinetree
+seqno [1] =
+800630
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 00000023
+transform [1] =
+  right.x [1] =
+-9.48740602e-01
+  right.y [1] =
+0.00000000e+00
+  right.z [1] =
+-3.16042304e-01
+  up.x [1] =
+0.00000000e+00
+  up.y [1] =
+9.99995649e-01
+  up.z [1] =
+0.00000000e+00
+  front.x [1] =
+3.16040933e-01
+  front.y [1] =
+0.00000000e+00
+  front.z [1] =
+-9.48736489e-01
+  posit.x [1] =
+2.31374084e+02
+  posit.y [1] =
+1.85602432e+02
+  posit.z [1] =
+3.17421265e+02
+saveClass = 
+illumination [1] =
+1.00000000e+00
+euler =
+ mass [1] =
+1.00050188e+06
+ mass_inv [1] =
+9.99498411e-07
+ v_mag [1] =
+0.00000000e+00
+ v_mag_inv [1] =
+1.00000002e+30
+ I [1] =
+1.59327536e+08
+ k_i [1] =
+6.27637897e-09
+ v [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ omega [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ Accel [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+name = Pine Tree
+saveFlags [1] =
+108
+isVisible [1] =
+65535
+isDamped [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+1
+[GameObject]
+objClass = pinetree
+seqno [1] =
+800631
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 00000024
+transform [1] =
+  right.x [1] =
+-9.48740602e-01
+  right.y [1] =
+0.00000000e+00
+  right.z [1] =
+-3.16042304e-01
+  up.x [1] =
+0.00000000e+00
+  up.y [1] =
+9.99995649e-01
+  up.z [1] =
+0.00000000e+00
+  front.x [1] =
+3.16040933e-01
+  front.y [1] =
+0.00000000e+00
+  front.z [1] =
+-9.48736489e-01
+  posit.x [1] =
+5.01596832e+02
+  posit.y [1] =
+2.18846909e+02
+  posit.z [1] =
+2.66873505e+02
+saveClass = 
+illumination [1] =
+1.00000000e+00
+euler =
+ mass [1] =
+1.00050188e+06
+ mass_inv [1] =
+9.99498411e-07
+ v_mag [1] =
+0.00000000e+00
+ v_mag_inv [1] =
+1.00000002e+30
+ I [1] =
+1.59327536e+08
+ k_i [1] =
+6.27637897e-09
+ v [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ omega [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ Accel [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+name = Pine Tree
+saveFlags [1] =
+108
+isVisible [1] =
+65535
+isDamped [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+1
+[GameObject]
+objClass = pinetree
+seqno [1] =
+800632
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 00000025
+transform [1] =
+  right.x [1] =
+9.85618353e-01
+  right.y [1] =
+-0.00000000e+00
+  right.z [1] =
+1.68961003e-01
+  up.x [1] =
+0.00000000e+00
+  up.y [1] =
+9.99995649e-01
+  up.z [1] =
+0.00000000e+00
+  front.x [1] =
+-1.68960273e-01
+  front.y [1] =
+0.00000000e+00
+  front.z [1] =
+9.85614061e-01
+  posit.x [1] =
+6.12952820e+02
+  posit.y [1] =
+2.21804016e+02
+  posit.z [1] =
+2.89966827e+02
+saveClass = 
+illumination [1] =
+1.00000000e+00
+euler =
+ mass [1] =
+1.00050188e+06
+ mass_inv [1] =
+9.99498411e-07
+ v_mag [1] =
+0.00000000e+00
+ v_mag_inv [1] =
+1.00000002e+30
+ I [1] =
+1.59327536e+08
+ k_i [1] =
+6.27637897e-09
+ v [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ omega [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ Accel [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+name = Pine Tree
+saveFlags [1] =
+108
+isVisible [1] =
+65535
+isDamped [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+1
+[GameObject]
+objClass = pinetree
+seqno [1] =
+800633
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 00000026
+transform [1] =
+  right.x [1] =
+5.23313642e-01
+  right.y [1] =
+-0.00000000e+00
+  right.z [1] =
+8.52135122e-01
+  up.x [1] =
+0.00000000e+00
+  up.y [1] =
+9.99995649e-01
+  up.z [1] =
+0.00000000e+00
+  front.x [1] =
+-8.52131426e-01
+  front.y [1] =
+0.00000000e+00
+  front.z [1] =
+5.23311377e-01
+  posit.x [1] =
+7.67544495e+02
+  posit.y [1] =
+2.29825150e+02
+  posit.z [1] =
+2.68372498e+02
+saveClass = 
+illumination [1] =
+1.00000000e+00
+euler =
+ mass [1] =
+1.00050188e+06
+ mass_inv [1] =
+9.99498411e-07
+ v_mag [1] =
+0.00000000e+00
+ v_mag_inv [1] =
+1.00000002e+30
+ I [1] =
+1.59327536e+08
+ k_i [1] =
+6.27637897e-09
+ v [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ omega [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ Accel [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+name = Pine Tree
+saveFlags [1] =
+108
+isVisible [1] =
+65535
+isDamped [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+1
+[GameObject]
+objClass = pinetrees
+seqno [1] =
+800634
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 00000027
+transform [1] =
+  right.x [1] =
+9.99995768e-01
+  right.y [1] =
+0.00000000e+00
+  right.z [1] =
+0.00000000e+00
+  up.x [1] =
+0.00000000e+00
+  up.y [1] =
+9.99995649e-01
+  up.z [1] =
+0.00000000e+00
+  front.x [1] =
+0.00000000e+00
+  front.y [1] =
+0.00000000e+00
+  front.z [1] =
+9.99991417e-01
+  posit.x [1] =
+6.77908630e+02
+  posit.y [1] =
+2.28241974e+02
+  posit.z [1] =
+1.70493225e+02
+saveClass = 
+illumination [1] =
+1.00000000e+00
+euler =
+ mass [1] =
+6.49816400e+06
+ mass_inv [1] =
+1.53889616e-07
+ v_mag [1] =
+0.00000000e+00
+ v_mag_inv [1] =
+1.00000002e+30
+ I [1] =
+3.38240154e+09
+ k_i [1] =
+2.95647923e-10
+ v [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ omega [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ Accel [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+name = Pine Trees
+saveFlags [1] =
+108
+isVisible [1] =
+65535
+isDamped [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+1
+[GameObject]
+objClass = pinetrees
+seqno [1] =
+800635
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 00000028
+transform [1] =
+  right.x [1] =
+7.46854767e-02
+  right.y [1] =
+-0.00000000e+00
+  right.z [1] =
+9.97202873e-01
+  up.x [1] =
+0.00000000e+00
+  up.y [1] =
+9.99995649e-01
+  up.z [1] =
+0.00000000e+00
+  front.x [1] =
+-9.97198522e-01
+  front.y [1] =
+0.00000000e+00
+  front.z [1] =
+7.46851489e-02
+  posit.x [1] =
+7.99640442e+02
+  posit.y [1] =
+2.99023041e+02
+  posit.z [1] =
+1.20544853e+02
+saveClass = 
+illumination [1] =
+1.00000000e+00
+euler =
+ mass [1] =
+6.49816400e+06
+ mass_inv [1] =
+1.53889616e-07
+ v_mag [1] =
+0.00000000e+00
+ v_mag_inv [1] =
+1.00000002e+30
+ I [1] =
+3.38240154e+09
+ k_i [1] =
+2.95647923e-10
+ v [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ omega [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ Accel [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+name = Pine Trees
+saveFlags [1] =
+108
+isVisible [1] =
+65535
+isDamped [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+1
+[GameObject]
+objClass = pinetrees
+seqno [1] =
+800637
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 00000029
+transform [1] =
+  right.x [1] =
+7.46854767e-02
+  right.y [1] =
+-0.00000000e+00
+  right.z [1] =
+9.97202873e-01
+  up.x [1] =
+0.00000000e+00
+  up.y [1] =
+9.99995649e-01
+  up.z [1] =
+0.00000000e+00
+  front.x [1] =
+-9.97198522e-01
+  front.y [1] =
+0.00000000e+00
+  front.z [1] =
+7.46851489e-02
+  posit.x [1] =
+2.16161179e+02
+  posit.y [1] =
+3.02052948e+02
+  posit.z [1] =
+-6.09228821e+02
+saveClass = 
+illumination [1] =
+1.00000000e+00
+euler =
+ mass [1] =
+6.49816400e+06
+ mass_inv [1] =
+1.53889616e-07
+ v_mag [1] =
+0.00000000e+00
+ v_mag_inv [1] =
+1.00000002e+30
+ I [1] =
+3.38240154e+09
+ k_i [1] =
+2.95647923e-10
+ v [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ omega [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ Accel [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+name = Pine Trees
+saveFlags [1] =
+108
+isVisible [1] =
+65535
+isDamped [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+1
+[GameObject]
+objClass = pinetrees
+seqno [1] =
+800638
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 0000002A
+transform [1] =
+  right.x [1] =
+-9.87983882e-01
+  right.y [1] =
+0.00000000e+00
+  right.z [1] =
+1.54529497e-01
+  up.x [1] =
+0.00000000e+00
+  up.y [1] =
+9.99995649e-01
+  up.z [1] =
+0.00000000e+00
+  front.x [1] =
+-1.54528826e-01
+  front.y [1] =
+0.00000000e+00
+  front.z [1] =
+-9.87979591e-01
+  posit.x [1] =
+-3.95062218e+01
+  posit.y [1] =
+2.29192978e+02
+  posit.z [1] =
+-7.63177246e+02
+saveClass = 
+illumination [1] =
+1.00000000e+00
+euler =
+ mass [1] =
+6.49816400e+06
+ mass_inv [1] =
+1.53889616e-07
+ v_mag [1] =
+0.00000000e+00
+ v_mag_inv [1] =
+1.00000002e+30
+ I [1] =
+3.38240154e+09
+ k_i [1] =
+2.95647923e-10
+ v [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ omega [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ Accel [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+name = Pine Trees
+saveFlags [1] =
+108
+isVisible [1] =
+65535
+isDamped [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+1
+[GameObject]
+objClass = pinetrees
+seqno [1] =
+800639
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 0000002B
+transform [1] =
+  right.x [1] =
+5.30759215e-01
+  right.y [1] =
+-0.00000000e+00
+  right.z [1] =
+8.47517610e-01
+  up.x [1] =
+0.00000000e+00
+  up.y [1] =
+9.99995649e-01
+  up.z [1] =
+0.00000000e+00
+  front.x [1] =
+-8.47513914e-01
+  front.y [1] =
+0.00000000e+00
+  front.z [1] =
+5.30756891e-01
+  posit.x [1] =
+-1.44100891e+02
+  posit.y [1] =
+2.00208405e+02
+  posit.z [1] =
+-5.11876648e+02
+saveClass = 
+illumination [1] =
+1.00000000e+00
+euler =
+ mass [1] =
+6.49816400e+06
+ mass_inv [1] =
+1.53889616e-07
+ v_mag [1] =
+0.00000000e+00
+ v_mag_inv [1] =
+1.00000002e+30
+ I [1] =
+3.38240154e+09
+ k_i [1] =
+2.95647923e-10
+ v [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ omega [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ Accel [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+name = Pine Trees
+saveFlags [1] =
+108
+isVisible [1] =
+65535
+isDamped [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+1
+[GameObject]
+objClass = pinetree
+seqno [1] =
+80063a
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 0000002C
+transform [1] =
+  right.x [1] =
+9.99995768e-01
+  right.y [1] =
+0.00000000e+00
+  right.z [1] =
+0.00000000e+00
+  up.x [1] =
+0.00000000e+00
+  up.y [1] =
+9.99995649e-01
+  up.z [1] =
+0.00000000e+00
+  front.x [1] =
+0.00000000e+00
+  front.y [1] =
+0.00000000e+00
+  front.z [1] =
+9.99991417e-01
+  posit.x [1] =
+-2.67318115e+02
+  posit.y [1] =
+1.99559875e+02
+  posit.z [1] =
+-1.37982651e+02
+saveClass = 
+illumination [1] =
+1.00000000e+00
+euler =
+ mass [1] =
+1.00050188e+06
+ mass_inv [1] =
+9.99498411e-07
+ v_mag [1] =
+0.00000000e+00
+ v_mag_inv [1] =
+1.00000002e+30
+ I [1] =
+1.59327536e+08
+ k_i [1] =
+6.27637897e-09
+ v [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ omega [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ Accel [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+name = Pine Tree
+saveFlags [1] =
+108
+isVisible [1] =
+65535
+isDamped [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+1
+[GameObject]
+objClass = pinetree
+seqno [1] =
+80063b
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 0000002D
+transform [1] =
+  right.x [1] =
+-7.06835389e-01
+  right.y [1] =
+0.00000000e+00
+  right.z [1] =
+7.07371891e-01
+  up.x [1] =
+0.00000000e+00
+  up.y [1] =
+9.99995649e-01
+  up.z [1] =
+0.00000000e+00
+  front.x [1] =
+-7.07368791e-01
+  front.y [1] =
+0.00000000e+00
+  front.z [1] =
+-7.06832290e-01
+  posit.x [1] =
+1.40366898e+01
+  posit.y [1] =
+2.00173584e+02
+  posit.z [1] =
+-1.72819946e+02
+saveClass = 
+illumination [1] =
+1.00000000e+00
+euler =
+ mass [1] =
+1.00050188e+06
+ mass_inv [1] =
+9.99498411e-07
+ v_mag [1] =
+0.00000000e+00
+ v_mag_inv [1] =
+1.00000002e+30
+ I [1] =
+1.59327536e+08
+ k_i [1] =
+6.27637897e-09
+ v [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ omega [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ Accel [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+name = Pine Tree
+saveFlags [1] =
+108
+isVisible [1] =
+65535
+isDamped [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+1
+[GameObject]
+objClass = pinetree
+seqno [1] =
+80063c
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 0000002E
+transform [1] =
+  right.x [1] =
+-3.01941186e-01
+  right.y [1] =
+0.00000000e+00
+  right.z [1] =
+9.53321993e-01
+  up.x [1] =
+0.00000000e+00
+  up.y [1] =
+9.99995649e-01
+  up.z [1] =
+0.00000000e+00
+  front.x [1] =
+-9.53317821e-01
+  front.y [1] =
+0.00000000e+00
+  front.z [1] =
+-3.01939875e-01
+  posit.x [1] =
+-1.04248840e+02
+  posit.y [1] =
+2.02219193e+02
+  posit.z [1] =
+4.93674011e+01
+saveClass = 
+illumination [1] =
+1.00000000e+00
+euler =
+ mass [1] =
+1.00050188e+06
+ mass_inv [1] =
+9.99498411e-07
+ v_mag [1] =
+0.00000000e+00
+ v_mag_inv [1] =
+1.00000002e+30
+ I [1] =
+1.59327536e+08
+ k_i [1] =
+6.27637897e-09
+ v [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ omega [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ Accel [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+name = Pine Tree
+saveFlags [1] =
+108
+isVisible [1] =
+65535
+isDamped [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+1
+[GameObject]
+objClass = pinetree
+seqno [1] =
+80063d
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 0000002F
+transform [1] =
+  right.x [1] =
+-3.01941186e-01
+  right.y [1] =
+0.00000000e+00
+  right.z [1] =
+9.53321993e-01
+  up.x [1] =
+0.00000000e+00
+  up.y [1] =
+9.99995649e-01
+  up.z [1] =
+0.00000000e+00
+  front.x [1] =
+-9.53317821e-01
+  front.y [1] =
+0.00000000e+00
+  front.z [1] =
+-3.01939875e-01
+  posit.x [1] =
+-5.86268463e+01
+  posit.y [1] =
+2.09586761e+02
+  posit.z [1] =
+6.28433456e+01
+saveClass = 
+illumination [1] =
+1.00000000e+00
+euler =
+ mass [1] =
+1.00050188e+06
+ mass_inv [1] =
+9.99498411e-07
+ v_mag [1] =
+0.00000000e+00
+ v_mag_inv [1] =
+1.00000002e+30
+ I [1] =
+1.59327536e+08
+ k_i [1] =
+6.27637897e-09
+ v [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ omega [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ Accel [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+name = Pine Tree
+saveFlags [1] =
+108
+isVisible [1] =
+65535
+isDamped [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+1
+[GameObject]
+objClass = pinetree
+seqno [1] =
+80063e
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 00000030
+transform [1] =
+  right.x [1] =
+-3.01941186e-01
+  right.y [1] =
+0.00000000e+00
+  right.z [1] =
+9.53321993e-01
+  up.x [1] =
+0.00000000e+00
+  up.y [1] =
+9.99995649e-01
+  up.z [1] =
+0.00000000e+00
+  front.x [1] =
+-9.53317821e-01
+  front.y [1] =
+0.00000000e+00
+  front.z [1] =
+-3.01939875e-01
+  posit.x [1] =
+1.67419739e+01
+  posit.y [1] =
+1.98535309e+02
+  posit.z [1] =
+-1.38632233e+02
+saveClass = 
+illumination [1] =
+1.00000000e+00
+euler =
+ mass [1] =
+1.00050188e+06
+ mass_inv [1] =
+9.99498411e-07
+ v_mag [1] =
+0.00000000e+00
+ v_mag_inv [1] =
+1.00000002e+30
+ I [1] =
+1.59327536e+08
+ k_i [1] =
+6.27637897e-09
+ v [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ omega [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ Accel [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+name = Pine Tree
+saveFlags [1] =
+108
+isVisible [1] =
+65535
+isDamped [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+1
+[GameObject]
+objClass = pinetree
+seqno [1] =
+80063f
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 00000031
+transform [1] =
+  right.x [1] =
+-3.01941186e-01
+  right.y [1] =
+0.00000000e+00
+  right.z [1] =
+9.53321993e-01
+  up.x [1] =
+0.00000000e+00
+  up.y [1] =
+9.99995649e-01
+  up.z [1] =
+0.00000000e+00
+  front.x [1] =
+-9.53317821e-01
+  front.y [1] =
+0.00000000e+00
+  front.z [1] =
+-3.01939875e-01
+  posit.x [1] =
+1.30627022e+01
+  posit.y [1] =
+2.01695084e+02
+  posit.z [1] =
+-2.91649475e+02
+saveClass = 
+illumination [1] =
+1.00000000e+00
+euler =
+ mass [1] =
+1.00050188e+06
+ mass_inv [1] =
+9.99498411e-07
+ v_mag [1] =
+0.00000000e+00
+ v_mag_inv [1] =
+1.00000002e+30
+ I [1] =
+1.59327536e+08
+ k_i [1] =
+6.27637897e-09
+ v [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ omega [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ Accel [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+name = Pine Tree
+saveFlags [1] =
+108
+isVisible [1] =
+65535
+isDamped [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+1
+[GameObject]
+objClass = snowman
+seqno [1] =
+800640
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 00000032
+transform [1] =
+  right.x [1] =
+9.21352684e-01
+  right.y [1] =
+0.00000000e+00
+  right.z [1] =
+-3.88716936e-01
+  up.x [1] =
+0.00000000e+00
+  up.y [1] =
+9.99995649e-01
+  up.z [1] =
+0.00000000e+00
+  front.x [1] =
+3.88715237e-01
+  front.y [1] =
+-0.00000000e+00
+  front.z [1] =
+9.21348691e-01
+  posit.x [1] =
+1.74461098e+01
+  posit.y [1] =
+2.06808502e+02
+  posit.z [1] =
+-3.53868591e+02
+saveClass = 
+illumination [1] =
+1.00000000e+00
+euler =
+ mass [1] =
+7.16367344e+04
+ mass_inv [1] =
+1.39593185e-05
+ v_mag [1] =
+0.00000000e+00
+ v_mag_inv [1] =
+1.00000002e+30
+ I [1] =
+2.02480200e+06
+ k_i [1] =
+4.93875461e-07
+ v [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ omega [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ Accel [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+name = Snowman
+saveFlags [1] =
+108
+isVisible [1] =
+65535
+isDamped [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+1
+[GameObject]
+objClass = snowman
+seqno [1] =
+800641
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 00000033
+transform [1] =
+  right.x [1] =
+6.07572734e-01
+  right.y [1] =
+-0.00000000e+00
+  right.z [1] =
+7.94258714e-01
+  up.x [1] =
+0.00000000e+00
+  up.y [1] =
+9.99995649e-01
+  up.z [1] =
+0.00000000e+00
+  front.x [1] =
+-7.94255257e-01
+  front.y [1] =
+0.00000000e+00
+  front.z [1] =
+6.07570112e-01
+  posit.x [1] =
+2.15994431e+02
+  posit.y [1] =
+1.41750290e+02
+  posit.z [1] =
+3.27493095e+01
+saveClass = 
+illumination [1] =
+1.00000000e+00
+euler =
+ mass [1] =
+7.16367344e+04
+ mass_inv [1] =
+1.39593185e-05
+ v_mag [1] =
+0.00000000e+00
+ v_mag_inv [1] =
+1.00000002e+30
+ I [1] =
+2.02480200e+06
+ k_i [1] =
+4.93875461e-07
+ v [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ omega [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ Accel [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+name = Snowman
+saveFlags [1] =
+108
+isVisible [1] =
+65535
+isDamped [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+1
+[GameObject]
+objClass = snowman
+seqno [1] =
+800642
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 00000034
+transform [1] =
+  right.x [1] =
+9.89480674e-01
+  right.y [1] =
+0.00000000e+00
+  right.z [1] =
+-1.44636378e-01
+  up.x [1] =
+0.00000000e+00
+  up.y [1] =
+9.99995649e-01
+  up.z [1] =
+0.00000000e+00
+  front.x [1] =
+1.44635752e-01
+  front.y [1] =
+-0.00000000e+00
+  front.z [1] =
+9.89476383e-01
+  posit.x [1] =
+4.41372345e+02
+  posit.y [1] =
+2.02354294e+02
+  posit.z [1] =
+3.32361023e+02
+saveClass = 
+illumination [1] =
+1.00000000e+00
+euler =
+ mass [1] =
+7.16367344e+04
+ mass_inv [1] =
+1.39593185e-05
+ v_mag [1] =
+0.00000000e+00
+ v_mag_inv [1] =
+1.00000002e+30
+ I [1] =
+2.02480200e+06
+ k_i [1] =
+4.93875461e-07
+ v [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ omega [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ Accel [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+name = Snowman
+saveFlags [1] =
+108
+isVisible [1] =
+65535
+isDamped [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+1
+[GameObject]
+objClass = snowman
+seqno [1] =
+800643
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 00000035
+transform [1] =
+  right.x [1] =
+9.16479707e-01
+  right.y [1] =
+0.00000000e+00
+  right.z [1] =
+-4.00070548e-01
+  up.x [1] =
+0.00000000e+00
+  up.y [1] =
+9.99995649e-01
+  up.z [1] =
+0.00000000e+00
+  front.x [1] =
+4.00068820e-01
+  front.y [1] =
+-0.00000000e+00
+  front.z [1] =
+9.16475713e-01
+  posit.x [1] =
+7.67237854e+02
+  posit.y [1] =
+2.31536896e+02
+  posit.z [1] =
+2.91587555e+02
+saveClass = 
+illumination [1] =
+1.00000000e+00
+euler =
+ mass [1] =
+7.16367344e+04
+ mass_inv [1] =
+1.39593185e-05
+ v_mag [1] =
+0.00000000e+00
+ v_mag_inv [1] =
+1.00000002e+30
+ I [1] =
+2.02480200e+06
+ k_i [1] =
+4.93875461e-07
+ v [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ omega [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ Accel [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+name = Snowman
+saveFlags [1] =
+108
+isVisible [1] =
+65535
+isDamped [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+1
+[GameObject]
+objClass = snowman
+seqno [1] =
+800644
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 00000036
+transform [1] =
+  right.x [1] =
+9.16479707e-01
+  right.y [1] =
+0.00000000e+00
+  right.z [1] =
+-4.00070548e-01
+  up.x [1] =
+0.00000000e+00
+  up.y [1] =
+9.99995649e-01
+  up.z [1] =
+0.00000000e+00
+  front.x [1] =
+4.00068820e-01
+  front.y [1] =
+-0.00000000e+00
+  front.z [1] =
+9.16475713e-01
+  posit.x [1] =
+8.05667603e+02
+  posit.y [1] =
+2.00171616e+02
+  posit.z [1] =
+-4.24923401e+01
+saveClass = 
+illumination [1] =
+1.00000000e+00
+euler =
+ mass [1] =
+7.16367344e+04
+ mass_inv [1] =
+1.39593185e-05
+ v_mag [1] =
+0.00000000e+00
+ v_mag_inv [1] =
+1.00000002e+30
+ I [1] =
+2.02480200e+06
+ k_i [1] =
+4.93875461e-07
+ v [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ omega [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ Accel [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+name = Snowman
+saveFlags [1] =
+108
+isVisible [1] =
+65535
+isDamped [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+1
+[GameObject]
+objClass = snowman
+seqno [1] =
+800645
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 00000037
+transform [1] =
+  right.x [1] =
+-5.58802187e-01
+  right.y [1] =
+0.00000000e+00
+  right.z [1] =
+-8.29295754e-01
+  up.x [1] =
+0.00000000e+00
+  up.y [1] =
+9.99995649e-01
+  up.z [1] =
+0.00000000e+00
+  front.x [1] =
+8.29292119e-01
+  front.y [1] =
+0.00000000e+00
+  front.z [1] =
+-5.58799744e-01
+  posit.x [1] =
+3.73971527e+02
+  posit.y [1] =
+1.85347168e+02
+  posit.z [1] =
+-7.89521362e+02
+saveClass = 
+illumination [1] =
+1.00000000e+00
+euler =
+ mass [1] =
+7.16367344e+04
+ mass_inv [1] =
+1.39593185e-05
+ v_mag [1] =
+0.00000000e+00
+ v_mag_inv [1] =
+1.00000002e+30
+ I [1] =
+2.02480200e+06
+ k_i [1] =
+4.93875461e-07
+ v [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ omega [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ Accel [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+name = Snowman
+saveFlags [1] =
+108
+isVisible [1] =
+65535
+isDamped [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+1
+[GameObject]
+objClass = pinetree
+seqno [1] =
+800646
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 00000038
+transform [1] =
+  right.x [1] =
+9.99995768e-01
+  right.y [1] =
+0.00000000e+00
+  right.z [1] =
+0.00000000e+00
+  up.x [1] =
+0.00000000e+00
+  up.y [1] =
+9.99995649e-01
+  up.z [1] =
+0.00000000e+00
+  front.x [1] =
+0.00000000e+00
+  front.y [1] =
+0.00000000e+00
+  front.z [1] =
+9.99991417e-01
+  posit.x [1] =
+2.99174866e+02
+  posit.y [1] =
+1.83512024e+02
+  posit.z [1] =
+-7.88841187e+02
+saveClass = 
+illumination [1] =
+1.00000000e+00
+euler =
+ mass [1] =
+1.00050188e+06
+ mass_inv [1] =
+9.99498411e-07
+ v_mag [1] =
+0.00000000e+00
+ v_mag_inv [1] =
+1.00000002e+30
+ I [1] =
+1.59327536e+08
+ k_i [1] =
+6.27637897e-09
+ v [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ omega [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ Accel [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+name = Pine Tree
+saveFlags [1] =
+108
+isVisible [1] =
+65535
+isDamped [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+1
+[GameObject]
+objClass = pinetree
+seqno [1] =
+800647
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 00000039
+transform [1] =
+  right.x [1] =
+-7.76529014e-01
+  right.y [1] =
+0.00000000e+00
+  right.z [1] =
+6.30074739e-01
+  up.x [1] =
+0.00000000e+00
+  up.y [1] =
+9.99995649e-01
+  up.z [1] =
+0.00000000e+00
+  front.x [1] =
+-6.30071998e-01
+  front.y [1] =
+0.00000000e+00
+  front.z [1] =
+-7.76525617e-01
+  posit.x [1] =
+3.59754608e+02
+  posit.y [1] =
+1.84583710e+02
+  posit.z [1] =
+-8.05110474e+02
+saveClass = 
+illumination [1] =
+1.00000000e+00
+euler =
+ mass [1] =
+1.00050188e+06
+ mass_inv [1] =
+9.99498411e-07
+ v_mag [1] =
+0.00000000e+00
+ v_mag_inv [1] =
+1.00000002e+30
+ I [1] =
+1.59327536e+08
+ k_i [1] =
+6.27637897e-09
+ v [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ omega [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ Accel [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+name = Pine Tree
+saveFlags [1] =
+108
+isVisible [1] =
+65535
+isDamped [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+1
+[GameObject]
+objClass = present01
+seqno [1] =
+800649
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 0000003A
+transform [1] =
+  right.x [1] =
+-7.40032196e-01
+  right.y [1] =
+0.00000000e+00
+  right.z [1] =
+-6.72565043e-01
+  up.x [1] =
+0.00000000e+00
+  up.y [1] =
+9.99995649e-01
+  up.z [1] =
+0.00000000e+00
+  front.x [1] =
+6.72562122e-01
+  front.y [1] =
+0.00000000e+00
+  front.z [1] =
+-7.40028977e-01
+  posit.x [1] =
+3.75426453e+02
+  posit.y [1] =
+1.84189209e+02
+  posit.z [1] =
+-7.79731140e+02
+saveClass = 
+illumination [1] =
+1.00000000e+00
+euler =
+ mass [1] =
+4.67229297e+04
+ mass_inv [1] =
+2.14027677e-05
+ v_mag [1] =
+0.00000000e+00
+ v_mag_inv [1] =
+1.00000002e+30
+ I [1] =
+8.70602688e+05
+ k_i [1] =
+1.14862962e-06
+ v [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ omega [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ Accel [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+name = Present
+saveFlags [1] =
+108
+isVisible [1] =
+65535
+isDamped [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+1
+[GameObject]
+objClass = present03
+seqno [1] =
+80064a
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 0000003B
+transform [1] =
+  right.x [1] =
+9.99995649e-01
+  right.y [1] =
+0.00000000e+00
+  right.z [1] =
+0.00000000e+00
+  up.x [1] =
+0.00000000e+00
+  up.y [1] =
+9.99995649e-01
+  up.z [1] =
+0.00000000e+00
+  front.x [1] =
+0.00000000e+00
+  front.y [1] =
+0.00000000e+00
+  front.z [1] =
+9.99991298e-01
+  posit.x [1] =
+1.06981987e+02
+  posit.y [1] =
+2.15031006e+02
+  posit.z [1] =
+-7.45173096e+02
+saveClass = 
+illumination [1] =
+1.00000000e+00
+euler =
+ mass [1] =
+5.79312061e+03
+ mass_inv [1] =
+1.72618529e-04
+ v_mag [1] =
+0.00000000e+00
+ v_mag_inv [1] =
+1.00000002e+30
+ I [1] =
+2.68405137e+04
+ k_i [1] =
+3.72571121e-05
+ v [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ omega [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ Accel [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+name = Gift
+saveFlags [1] =
+108
+isVisible [1] =
+65535
+isDamped [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+1
+[GameObject]
+objClass = present03
+seqno [1] =
+80064b
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 0000003C
+transform [1] =
+  right.x [1] =
+4.90389198e-01
+  right.y [1] =
+-0.00000000e+00
+  right.z [1] =
+8.71498644e-01
+  up.x [1] =
+0.00000000e+00
+  up.y [1] =
+9.99995649e-01
+  up.z [1] =
+0.00000000e+00
+  front.x [1] =
+-8.71494830e-01
+  front.y [1] =
+0.00000000e+00
+  front.z [1] =
+4.90387052e-01
+  posit.x [1] =
+7.00883865e+01
+  posit.y [1] =
+2.21235382e+02
+  posit.z [1] =
+-6.93032959e+02
+saveClass = 
+illumination [1] =
+1.00000000e+00
+euler =
+ mass [1] =
+5.79312061e+03
+ mass_inv [1] =
+1.72618529e-04
+ v_mag [1] =
+0.00000000e+00
+ v_mag_inv [1] =
+1.00000002e+30
+ I [1] =
+2.68405137e+04
+ k_i [1] =
+3.72571121e-05
+ v [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ omega [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ Accel [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+name = Gift
+saveFlags [1] =
+108
+isVisible [1] =
+65535
+isDamped [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+1
+[GameObject]
+objClass = present02
+seqno [1] =
+80064c
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 0000003D
+transform [1] =
+  right.x [1] =
+5.29397428e-01
+  right.y [1] =
+-0.00000000e+00
+  right.z [1] =
+8.48368943e-01
+  up.x [1] =
+0.00000000e+00
+  up.y [1] =
+9.99995649e-01
+  up.z [1] =
+0.00000000e+00
+  front.x [1] =
+-8.48365247e-01
+  front.y [1] =
+0.00000000e+00
+  front.z [1] =
+5.29395103e-01
+  posit.x [1] =
+-4.89634399e+01
+  posit.y [1] =
+2.28400482e+02
+  posit.z [1] =
+-7.55021179e+02
+saveClass = 
+illumination [1] =
+1.00000000e+00
+euler =
+ mass [1] =
+2.30754844e+04
+ mass_inv [1] =
+4.33360365e-05
+ v_mag [1] =
+0.00000000e+00
+ v_mag_inv [1] =
+1.00000002e+30
+ I [1] =
+2.68650688e+05
+ k_i [1] =
+3.72230579e-06
+ v [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ omega [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ Accel [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+name = Geschenke
+saveFlags [1] =
+108
+isVisible [1] =
+65535
+isDamped [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+1
+[GameObject]
+objClass = present02
+seqno [1] =
+80064d
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 0000003E
+transform [1] =
+  right.x [1] =
+-3.69879603e-01
+  right.y [1] =
+0.00000000e+00
+  right.z [1] =
+-9.29075062e-01
+  up.x [1] =
+0.00000000e+00
+  up.y [1] =
+9.99995649e-01
+  up.z [1] =
+0.00000000e+00
+  front.x [1] =
+9.29071009e-01
+  front.y [1] =
+0.00000000e+00
+  front.z [1] =
+-3.69877994e-01
+  posit.x [1] =
+-1.61348099e+02
+  posit.y [1] =
+2.00531952e+02
+  posit.z [1] =
+-4.89198547e+02
+saveClass = 
+illumination [1] =
+1.00000000e+00
+euler =
+ mass [1] =
+2.30754844e+04
+ mass_inv [1] =
+4.33360365e-05
+ v_mag [1] =
+0.00000000e+00
+ v_mag_inv [1] =
+1.00000002e+30
+ I [1] =
+2.68650688e+05
+ k_i [1] =
+3.72230579e-06
+ v [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ omega [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ Accel [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+name = Geschenke
+saveFlags [1] =
+108
+isVisible [1] =
+65535
+isDamped [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+1
+[GameObject]
+objClass = candy
+seqno [1] =
+80064e
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 0000003F
+transform [1] =
+  right.x [1] =
+6.20406151e-01
+  right.y [1] =
+0.00000000e+00
+  right.z [1] =
+-7.84275174e-01
+  up.x [1] =
+0.00000000e+00
+  up.y [1] =
+9.99995649e-01
+  up.z [1] =
+0.00000000e+00
+  front.x [1] =
+7.84271777e-01
+  front.y [1] =
+-0.00000000e+00
+  front.z [1] =
+6.20403469e-01
+  posit.x [1] =
+-1.65000305e+02
+  posit.y [1] =
+2.00904694e+02
+  posit.z [1] =
+-4.82187103e+02
+saveClass = 
+illumination [1] =
+1.00000000e+00
+euler =
+ mass [1] =
+8.12352844e+02
+ mass_inv [1] =
+1.23099214e-03
+ v_mag [1] =
+0.00000000e+00
+ v_mag_inv [1] =
+1.00000002e+30
+ I [1] =
+2.49429321e+03
+ k_i [1] =
+4.00915189e-04
+ v [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ omega [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ Accel [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+name = Candy
+saveFlags [1] =
+108
+isVisible [1] =
+65535
+isDamped [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+1
+[GameObject]
+objClass = candy
+seqno [1] =
+80064f
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 00000040
+transform [1] =
+  right.x [1] =
+-8.71082008e-01
+  right.y [1] =
+0.00000000e+00
+  right.z [1] =
+-4.91128713e-01
+  up.x [1] =
+0.00000000e+00
+  up.y [1] =
+9.99995649e-01
+  up.z [1] =
+0.00000000e+00
+  front.x [1] =
+4.91126567e-01
+  front.y [1] =
+0.00000000e+00
+  front.z [1] =
+-8.71078193e-01
+  posit.x [1] =
+2.13006306e+01
+  posit.y [1] =
+1.94151428e+02
+  posit.z [1] =
+-3.94283661e+02
+saveClass = 
+illumination [1] =
+1.00000000e+00
+euler =
+ mass [1] =
+8.12352844e+02
+ mass_inv [1] =
+1.23099214e-03
+ v_mag [1] =
+0.00000000e+00
+ v_mag_inv [1] =
+1.00000002e+30
+ I [1] =
+2.49429321e+03
+ k_i [1] =
+4.00915189e-04
+ v [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ omega [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ Accel [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+name = Candy
+saveFlags [1] =
+108
+isVisible [1] =
+65535
+isDamped [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+1
+[GameObject]
+objClass = candy
+seqno [1] =
+800650
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 00000041
+transform [1] =
+  right.x [1] =
+-8.71082008e-01
+  right.y [1] =
+0.00000000e+00
+  right.z [1] =
+-4.91128713e-01
+  up.x [1] =
+0.00000000e+00
+  up.y [1] =
+9.99995649e-01
+  up.z [1] =
+0.00000000e+00
+  front.x [1] =
+4.91126567e-01
+  front.y [1] =
+0.00000000e+00
+  front.z [1] =
+-8.71078193e-01
+  posit.x [1] =
+2.77897949e+01
+  posit.y [1] =
+1.87945862e+02
+  posit.z [1] =
+-4.06361084e+02
+saveClass = 
+illumination [1] =
+1.00000000e+00
+euler =
+ mass [1] =
+8.12352844e+02
+ mass_inv [1] =
+1.23099214e-03
+ v_mag [1] =
+0.00000000e+00
+ v_mag_inv [1] =
+1.00000002e+30
+ I [1] =
+2.49429321e+03
+ k_i [1] =
+4.00915189e-04
+ v [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ omega [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ Accel [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+name = Candy
+saveFlags [1] =
+108
+isVisible [1] =
+65535
+isDamped [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+1
+[GameObject]
+objClass = candy
+seqno [1] =
+800651
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 00000042
+transform [1] =
+  right.x [1] =
+-8.71082008e-01
+  right.y [1] =
+0.00000000e+00
+  right.z [1] =
+-4.91128713e-01
+  up.x [1] =
+0.00000000e+00
+  up.y [1] =
+9.99995649e-01
+  up.z [1] =
+0.00000000e+00
+  front.x [1] =
+4.91126567e-01
+  front.y [1] =
+0.00000000e+00
+  front.z [1] =
+-8.71078193e-01
+  posit.x [1] =
+3.51520920e+01
+  posit.y [1] =
+1.81229813e+02
+  posit.z [1] =
+-4.10494537e+02
+saveClass = 
+illumination [1] =
+1.00000000e+00
+euler =
+ mass [1] =
+8.12352844e+02
+ mass_inv [1] =
+1.23099214e-03
+ v_mag [1] =
+0.00000000e+00
+ v_mag_inv [1] =
+1.00000002e+30
+ I [1] =
+2.49429321e+03
+ k_i [1] =
+4.00915189e-04
+ v [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ omega [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ Accel [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+name = Candy
+saveFlags [1] =
+108
+isVisible [1] =
+65535
+isDamped [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+1
+[GameObject]
+objClass = candy
+seqno [1] =
+800652
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 00000043
+transform [1] =
+  right.x [1] =
+-9.77383181e-02
+  right.y [1] =
+0.00000000e+00
+  right.z [1] =
+9.95207846e-01
+  up.x [1] =
+0.00000000e+00
+  up.y [1] =
+9.99995649e-01
+  up.z [1] =
+0.00000000e+00
+  front.x [1] =
+-9.95203495e-01
+  front.y [1] =
+0.00000000e+00
+  front.z [1] =
+-9.77378935e-02
+  posit.x [1] =
+3.68169983e+02
+  posit.y [1] =
+1.37341629e+02
+  posit.z [1] =
+-1.86865723e+02
+saveClass = 
+illumination [1] =
+1.00000000e+00
+euler =
+ mass [1] =
+8.12352844e+02
+ mass_inv [1] =
+1.23099214e-03
+ v_mag [1] =
+0.00000000e+00
+ v_mag_inv [1] =
+1.00000002e+30
+ I [1] =
+2.49429321e+03
+ k_i [1] =
+4.00915189e-04
+ v [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ omega [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ Accel [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+name = Candy
+saveFlags [1] =
+108
+isVisible [1] =
+65535
+isDamped [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+1
+[GameObject]
+objClass = candy
+seqno [1] =
+800653
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 00000044
+transform [1] =
+  right.x [1] =
+8.54813457e-01
+  right.y [1] =
+0.00000000e+00
+  right.z [1] =
+-5.18927336e-01
+  up.x [1] =
+0.00000000e+00
+  up.y [1] =
+9.99995649e-01
+  up.z [1] =
+0.00000000e+00
+  front.x [1] =
+5.18925071e-01
+  front.y [1] =
+-0.00000000e+00
+  front.z [1] =
+8.54809761e-01
+  posit.x [1] =
+3.70524658e+02
+  posit.y [1] =
+1.32509186e+02
+  posit.z [1] =
+-3.30032043e+02
+saveClass = 
+illumination [1] =
+1.00000000e+00
+euler =
+ mass [1] =
+8.12352844e+02
+ mass_inv [1] =
+1.23099214e-03
+ v_mag [1] =
+0.00000000e+00
+ v_mag_inv [1] =
+1.00000002e+30
+ I [1] =
+2.49429321e+03
+ k_i [1] =
+4.00915189e-04
+ v [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ omega [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ Accel [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+name = Candy
+saveFlags [1] =
+108
+isVisible [1] =
+65535
+isDamped [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+1
+[GameObject]
+objClass = candy
+seqno [1] =
+800654
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 00000045
+transform [1] =
+  right.x [1] =
+7.78439194e-02
+  right.y [1] =
+0.00000000e+00
+  right.z [1] =
+-9.96961296e-01
+  up.x [1] =
+0.00000000e+00
+  up.y [1] =
+9.99995649e-01
+  up.z [1] =
+0.00000000e+00
+  front.x [1] =
+9.96956944e-01
+  front.y [1] =
+-0.00000000e+00
+  front.z [1] =
+7.78435841e-02
+  posit.x [1] =
+2.07249237e+02
+  posit.y [1] =
+1.39517532e+02
+  posit.z [1] =
+-3.15992279e+02
+saveClass = 
+illumination [1] =
+1.00000000e+00
+euler =
+ mass [1] =
+8.12352844e+02
+ mass_inv [1] =
+1.23099214e-03
+ v_mag [1] =
+0.00000000e+00
+ v_mag_inv [1] =
+1.00000002e+30
+ I [1] =
+2.49429321e+03
+ k_i [1] =
+4.00915189e-04
+ v [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ omega [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ Accel [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+name = Candy
+saveFlags [1] =
+108
+isVisible [1] =
+65535
+isDamped [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+1
+[GameObject]
+objClass = candy
+seqno [1] =
+800655
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 00000046
+transform [1] =
+  right.x [1] =
+-8.69149506e-01
+  right.y [1] =
+0.00000000e+00
+  right.z [1] =
+-4.94540811e-01
+  up.x [1] =
+0.00000000e+00
+  up.y [1] =
+9.99995649e-01
+  up.z [1] =
+0.00000000e+00
+  front.x [1] =
+4.94538665e-01
+  front.y [1] =
+0.00000000e+00
+  front.z [1] =
+-8.69145751e-01
+  posit.x [1] =
+2.00771622e+02
+  posit.y [1] =
+1.39547806e+02
+  posit.z [1] =
+-2.38451035e+02
+saveClass = 
+illumination [1] =
+1.00000000e+00
+euler =
+ mass [1] =
+8.12352844e+02
+ mass_inv [1] =
+1.23099214e-03
+ v_mag [1] =
+0.00000000e+00
+ v_mag_inv [1] =
+1.00000002e+30
+ I [1] =
+2.49429321e+03
+ k_i [1] =
+4.00915189e-04
+ v [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ omega [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ Accel [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+name = Candy
+saveFlags [1] =
+108
+isVisible [1] =
+65535
+isDamped [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+1
+[GameObject]
+objClass = candy
+seqno [1] =
+800656
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 00000047
+transform [1] =
+  right.x [1] =
+3.93509045e-02
+  right.y [1] =
+-0.00000000e+00
+  right.z [1] =
+9.99221265e-01
+  up.x [1] =
+0.00000000e+00
+  up.y [1] =
+9.99995649e-01
+  up.z [1] =
+0.00000000e+00
+  front.x [1] =
+-9.99216914e-01
+  front.y [1] =
+0.00000000e+00
+  front.z [1] =
+3.93507332e-02
+  posit.x [1] =
+2.14495270e+02
+  posit.y [1] =
+1.43313019e+02
+  posit.z [1] =
+2.79679260e+01
+saveClass = 
+illumination [1] =
+1.00000000e+00
+euler =
+ mass [1] =
+8.12352844e+02
+ mass_inv [1] =
+1.23099214e-03
+ v_mag [1] =
+0.00000000e+00
+ v_mag_inv [1] =
+1.00000002e+30
+ I [1] =
+2.49429321e+03
+ k_i [1] =
+4.00915189e-04
+ v [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ omega [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ Accel [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+name = Candy
+saveFlags [1] =
+108
+isVisible [1] =
+65535
+isDamped [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+1
+[GameObject]
+objClass = present02
+seqno [1] =
+800658
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 00000048
+transform [1] =
+  right.x [1] =
+-5.36997616e-01
+  right.y [1] =
+0.00000000e+00
+  right.z [1] =
+8.43578756e-01
+  up.x [1] =
+0.00000000e+00
+  up.y [1] =
+9.99995649e-01
+  up.z [1] =
+0.00000000e+00
+  front.x [1] =
+-8.43575060e-01
+  front.y [1] =
+0.00000000e+00
+  front.z [1] =
+-5.36995292e-01
+  posit.x [1] =
+3.65952576e+02
+  posit.y [1] =
+1.39773926e+02
+  posit.z [1] =
+3.25409889e+01
+saveClass = 
+illumination [1] =
+1.00000000e+00
+euler =
+ mass [1] =
+2.30754844e+04
+ mass_inv [1] =
+4.33360365e-05
+ v_mag [1] =
+0.00000000e+00
+ v_mag_inv [1] =
+1.00000002e+30
+ I [1] =
+2.68650688e+05
+ k_i [1] =
+3.72230579e-06
+ v [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ omega [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ Accel [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+name = Geschenke
+saveFlags [1] =
+108
+isVisible [1] =
+65535
+isDamped [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+1
+[GameObject]
+objClass = present02
+seqno [1] =
+800659
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 00000049
+transform [1] =
+  right.x [1] =
+9.78399098e-01
+  right.y [1] =
+0.00000000e+00
+  right.z [1] =
+-2.06704333e-01
+  up.x [1] =
+0.00000000e+00
+  up.y [1] =
+9.99995649e-01
+  up.z [1] =
+0.00000000e+00
+  front.x [1] =
+2.06703439e-01
+  front.y [1] =
+-0.00000000e+00
+  front.z [1] =
+9.78394866e-01
+  posit.x [1] =
+5.64203186e+02
+  posit.y [1] =
+1.41566895e+02
+  posit.z [1] =
+-1.71651123e+02
+saveClass = 
+illumination [1] =
+1.00000000e+00
+euler =
+ mass [1] =
+2.30754844e+04
+ mass_inv [1] =
+4.33360365e-05
+ v_mag [1] =
+0.00000000e+00
+ v_mag_inv [1] =
+1.00000002e+30
+ I [1] =
+2.68650688e+05
+ k_i [1] =
+3.72230579e-06
+ v [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ omega [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ Accel [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+name = Geschenke
+saveFlags [1] =
+108
+isVisible [1] =
+65535
+isDamped [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+1
+[GameObject]
+objClass = present02
+seqno [1] =
+80065a
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 0000004A
+transform [1] =
+  right.x [1] =
+-4.20166582e-01
+  right.y [1] =
+0.00000000e+00
+  right.z [1] =
+-9.07442331e-01
+  up.x [1] =
+0.00000000e+00
+  up.y [1] =
+9.99995649e-01
+  up.z [1] =
+0.00000000e+00
+  front.x [1] =
+9.07438397e-01
+  front.y [1] =
+0.00000000e+00
+  front.z [1] =
+-4.20164764e-01
+  posit.x [1] =
+7.16021057e+02
+  posit.y [1] =
+2.00702896e+02
+  posit.z [1] =
+-5.23375854e+02
+saveClass = 
+illumination [1] =
+1.00000000e+00
+euler =
+ mass [1] =
+2.30754844e+04
+ mass_inv [1] =
+4.33360365e-05
+ v_mag [1] =
+0.00000000e+00
+ v_mag_inv [1] =
+1.00000002e+30
+ I [1] =
+2.68650688e+05
+ k_i [1] =
+3.72230579e-06
+ v [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ omega [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ Accel [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+name = Geschenke
+saveFlags [1] =
+108
+isVisible [1] =
+65535
+isDamped [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+1
+[GameObject]
+objClass = present01
+seqno [1] =
+80065b
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 0000004B
+transform [1] =
+  right.x [1] =
+-5.55559695e-01
+  right.y [1] =
+0.00000000e+00
+  right.z [1] =
+-8.31471503e-01
+  up.x [1] =
+0.00000000e+00
+  up.y [1] =
+9.99995649e-01
+  up.z [1] =
+0.00000000e+00
+  front.x [1] =
+8.31467867e-01
+  front.y [1] =
+0.00000000e+00
+  front.z [1] =
+-5.55557251e-01
+  posit.x [1] =
+8.09586731e+02
+  posit.y [1] =
+1.99346893e+02
+  posit.z [1] =
+-5.38899918e+01
+saveClass = 
+illumination [1] =
+1.00000000e+00
+euler =
+ mass [1] =
+4.67229297e+04
+ mass_inv [1] =
+2.14027677e-05
+ v_mag [1] =
+0.00000000e+00
+ v_mag_inv [1] =
+1.00000002e+30
+ I [1] =
+8.70602688e+05
+ k_i [1] =
+1.14862962e-06
+ v [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ omega [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ Accel [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+name = Present
+saveFlags [1] =
+108
+isVisible [1] =
+65535
+isDamped [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+1
+[GameObject]
+objClass = present01
+seqno [1] =
+80065d
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 0000004C
+transform [1] =
+  right.x [1] =
+-5.55559695e-01
+  right.y [1] =
+0.00000000e+00
+  right.z [1] =
+-8.31471503e-01
+  up.x [1] =
+0.00000000e+00
+  up.y [1] =
+9.99995649e-01
+  up.z [1] =
+0.00000000e+00
+  front.x [1] =
+8.31467867e-01
+  front.y [1] =
+0.00000000e+00
+  front.z [1] =
+-5.55557251e-01
+  posit.x [1] =
+7.49950317e+02
+  posit.y [1] =
+2.28256851e+02
+  posit.z [1] =
+2.90150330e+02
+saveClass = 
+illumination [1] =
+1.00000000e+00
+euler =
+ mass [1] =
+4.67229297e+04
+ mass_inv [1] =
+2.14027677e-05
+ v_mag [1] =
+0.00000000e+00
+ v_mag_inv [1] =
+1.00000002e+30
+ I [1] =
+8.70602688e+05
+ k_i [1] =
+1.14862962e-06
+ v [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ omega [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ Accel [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+name = Present
+saveFlags [1] =
+108
+isVisible [1] =
+65535
+isDamped [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+1
+[GameObject]
+objClass = present03
+seqno [1] =
+80065e
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 0000004D
+transform [1] =
+  right.x [1] =
+-1.92001596e-01
+  right.y [1] =
+0.00000000e+00
+  right.z [1] =
+-9.81390297e-01
+  up.x [1] =
+0.00000000e+00
+  up.y [1] =
+9.99995649e-01
+  up.z [1] =
+0.00000000e+00
+  front.x [1] =
+9.81386006e-01
+  front.y [1] =
+0.00000000e+00
+  front.z [1] =
+-1.92000762e-01
+  posit.x [1] =
+7.42881470e+02
+  posit.y [1] =
+2.29212845e+02
+  posit.z [1] =
+2.94340576e+02
+saveClass = 
+illumination [1] =
+1.00000000e+00
+euler =
+ mass [1] =
+5.79312061e+03
+ mass_inv [1] =
+1.72618529e-04
+ v_mag [1] =
+0.00000000e+00
+ v_mag_inv [1] =
+1.00000002e+30
+ I [1] =
+2.68405137e+04
+ k_i [1] =
+3.72571121e-05
+ v [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ omega [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ Accel [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+name = Gift
+saveFlags [1] =
+108
+isVisible [1] =
+65535
+isDamped [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+1
+[GameObject]
+objClass = present03
+seqno [1] =
+80065f
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 0000004E
+transform [1] =
+  right.x [1] =
+-1.71367019e-01
+  right.y [1] =
+0.00000000e+00
+  right.z [1] =
+9.85202909e-01
+  up.x [1] =
+0.00000000e+00
+  up.y [1] =
+9.99995649e-01
+  up.z [1] =
+0.00000000e+00
+  front.x [1] =
+-9.85198617e-01
+  front.y [1] =
+0.00000000e+00
+  front.z [1] =
+-1.71366274e-01
+  posit.x [1] =
+4.50308350e+02
+  posit.y [1] =
+2.01803802e+02
+  posit.z [1] =
+3.31028198e+02
+saveClass = 
+illumination [1] =
+1.00000000e+00
+euler =
+ mass [1] =
+5.79312061e+03
+ mass_inv [1] =
+1.72618529e-04
+ v_mag [1] =
+0.00000000e+00
+ v_mag_inv [1] =
+1.00000002e+30
+ I [1] =
+2.68405137e+04
+ k_i [1] =
+3.72571121e-05
+ v [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ omega [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ Accel [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+name = Gift
+saveFlags [1] =
+108
+isVisible [1] =
+65535
+isDamped [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+1
+[GameObject]
+objClass = present03
+seqno [1] =
+800660
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 0000004F
+transform [1] =
+  right.x [1] =
+-3.34958851e-01
+  right.y [1] =
+0.00000000e+00
+  right.z [1] =
+9.42228258e-01
+  up.x [1] =
+0.00000000e+00
+  up.y [1] =
+9.99995649e-01
+  up.z [1] =
+0.00000000e+00
+  front.x [1] =
+-9.42224145e-01
+  front.y [1] =
+0.00000000e+00
+  front.z [1] =
+-3.34957391e-01
+  posit.x [1] =
+2.32578522e+02
+  posit.y [1] =
+1.85100830e+02
+  posit.z [1] =
+3.33622498e+02
+saveClass = 
+illumination [1] =
+1.00000000e+00
+euler =
+ mass [1] =
+5.79312061e+03
+ mass_inv [1] =
+1.72618529e-04
+ v_mag [1] =
+0.00000000e+00
+ v_mag_inv [1] =
+1.00000002e+30
+ I [1] =
+2.68405137e+04
+ k_i [1] =
+3.72571121e-05
+ v [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ omega [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ Accel [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+name = Gift
+saveFlags [1] =
+108
+isVisible [1] =
+65535
+isDamped [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+1
+[GameObject]
+objClass = present03
+seqno [1] =
+800661
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 00000050
+transform [1] =
+  right.x [1] =
+-3.34958851e-01
+  right.y [1] =
+0.00000000e+00
+  right.z [1] =
+9.42228258e-01
+  up.x [1] =
+0.00000000e+00
+  up.y [1] =
+9.99995649e-01
+  up.z [1] =
+0.00000000e+00
+  front.x [1] =
+-9.42224145e-01
+  front.y [1] =
+0.00000000e+00
+  front.z [1] =
+-3.34957391e-01
+  posit.x [1] =
+1.16164703e+01
+  posit.y [1] =
+1.97986389e+02
+  posit.z [1] =
+-1.21541809e+02
+saveClass = 
+illumination [1] =
+1.00000000e+00
+euler =
+ mass [1] =
+5.79312061e+03
+ mass_inv [1] =
+1.72618529e-04
+ v_mag [1] =
+0.00000000e+00
+ v_mag_inv [1] =
+1.00000002e+30
+ I [1] =
+2.68405137e+04
+ k_i [1] =
+3.72571121e-05
+ v [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ omega [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ Accel [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+name = Gift
+saveFlags [1] =
+108
+isVisible [1] =
+65535
+isDamped [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+1
+[GameObject]
+objClass = present03
+seqno [1] =
+800662
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 00000051
+transform [1] =
+  right.x [1] =
+-4.52840984e-01
+  right.y [1] =
+0.00000000e+00
+  right.z [1] =
+8.91586542e-01
+  up.x [1] =
+0.00000000e+00
+  up.y [1] =
+9.99995649e-01
+  up.z [1] =
+0.00000000e+00
+  front.x [1] =
+-8.91582668e-01
+  front.y [1] =
+0.00000000e+00
+  front.z [1] =
+-4.52839017e-01
+  posit.x [1] =
+-6.75924301e+01
+  posit.y [1] =
+2.02596497e+02
+  posit.z [1] =
+5.18698807e+01
+saveClass = 
+illumination [1] =
+1.00000000e+00
+euler =
+ mass [1] =
+5.79312061e+03
+ mass_inv [1] =
+1.72618529e-04
+ v_mag [1] =
+0.00000000e+00
+ v_mag_inv [1] =
+1.00000002e+30
+ I [1] =
+2.68405137e+04
+ k_i [1] =
+3.72571121e-05
+ v [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ omega [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ Accel [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+name = Gift
+saveFlags [1] =
+108
+isVisible [1] =
+65535
+isDamped [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+1
+[GameObject]
+objClass = present03
+seqno [1] =
+800663
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 00000052
+transform [1] =
+  right.x [1] =
+-4.52840984e-01
+  right.y [1] =
+0.00000000e+00
+  right.z [1] =
+8.91586542e-01
+  up.x [1] =
+0.00000000e+00
+  up.y [1] =
+9.99995649e-01
+  up.z [1] =
+0.00000000e+00
+  front.x [1] =
+-8.91582668e-01
+  front.y [1] =
+0.00000000e+00
+  front.z [1] =
+-4.52839017e-01
+  posit.x [1] =
+6.09907593e+02
+  posit.y [1] =
+2.01463638e+02
+  posit.z [1] =
+-3.06966522e+02
+saveClass = 
+illumination [1] =
+1.00000000e+00
+euler =
+ mass [1] =
+5.79312061e+03
+ mass_inv [1] =
+1.72618529e-04
+ v_mag [1] =
+0.00000000e+00
+ v_mag_inv [1] =
+1.00000002e+30
+ I [1] =
+2.68405137e+04
+ k_i [1] =
+3.72571121e-05
+ v [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ omega [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ Accel [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+name = Gift
+saveFlags [1] =
+108
+isVisible [1] =
+65535
+isDamped [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+1
+[GameObject]
+objClass = xepool01
+seqno [1] =
+664
+team [1] =
+0
+label = unnamed_xepool01
+isUser [1] =
+false
+objAddr = 00000053
+transform [1] =
+  right.x [1] =
+1.00000000e+00
+  right.y [1] =
+0.00000000e+00
+  right.z [1] =
+0.00000000e+00
+  up.x [1] =
+0.00000000e+00
+  up.y [1] =
+1.00000000e+00
+  up.z [1] =
+0.00000000e+00
+  front.x [1] =
+0.00000000e+00
+  front.y [1] =
+0.00000000e+00
+  front.z [1] =
+1.00000000e+00
+  posit.x [1] =
+-8.00000000e+01
+  posit.y [1] =
+2.29500015e+02
+  posit.z [1] =
+-7.52000000e+02
+saveClass = 
+illumination [1] =
+1.00000000e+00
+euler =
+ mass [1] =
+8.44070813e+05
+ mass_inv [1] =
+1.18473474e-06
+ v_mag [1] =
+0.00000000e+00
+ v_mag_inv [1] =
+1.00000002e+30
+ I [1] =
+1.78600736e+08
+ k_i [1] =
+5.59908120e-09
+ v [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ omega [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ Accel [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+name = Hot Cocoa
+saveFlags [1] =
+108
+isVisible [1] =
+65535
+isDamped [1] =
+0
+EffectsMask [1] =
+65535
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+1
+[GameObject]
+objClass = xepool02
+seqno [1] =
+665
+team [1] =
+0
+label = unnamed_xepool02
+isUser [1] =
+false
+objAddr = 00000054
+transform [1] =
+  right.x [1] =
+0.00000000e+00
+  right.y [1] =
+0.00000000e+00
+  right.z [1] =
+-1.00000000e+00
+  up.x [1] =
+0.00000000e+00
+  up.y [1] =
+1.00000000e+00
+  up.z [1] =
+0.00000000e+00
+  front.x [1] =
+1.00000000e+00
+  front.y [1] =
+0.00000000e+00
+  front.z [1] =
+0.00000000e+00
+  posit.x [1] =
+3.36000000e+02
+  posit.y [1] =
+1.84500031e+02
+  posit.z [1] =
+-7.84000000e+02
+saveClass = 
+illumination [1] =
+1.00000000e+00
+euler =
+ mass [1] =
+4.02352188e+05
+ mass_inv [1] =
+2.48538481e-06
+ v_mag [1] =
+0.00000000e+00
+ v_mag_inv [1] =
+1.00000002e+30
+ I [1] =
+8.30229120e+07
+ k_i [1] =
+1.20448682e-08
+ v [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ omega [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ Accel [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+name = Hot Chocolate
+saveFlags [1] =
+108
+isVisible [1] =
+65535
+isDamped [1] =
+0
+EffectsMask [1] =
+65535
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+1
+[GameObject]
+objClass = xepool01
+seqno [1] =
+667
+team [1] =
+0
+label = unnamed_xepool01
+isUser [1] =
+false
+objAddr = 00000055
+transform [1] =
+  right.x [1] =
+1.00000000e+00
+  right.y [1] =
+0.00000000e+00
+  right.z [1] =
+0.00000000e+00
+  up.x [1] =
+0.00000000e+00
+  up.y [1] =
+1.00000000e+00
+  up.z [1] =
+0.00000000e+00
+  front.x [1] =
+0.00000000e+00
+  front.y [1] =
+0.00000000e+00
+  front.z [1] =
+1.00000000e+00
+  posit.x [1] =
+-1.60000000e+01
+  posit.y [1] =
+2.00000015e+02
+  posit.z [1] =
+-1.76000000e+02
+saveClass = 
+illumination [1] =
+1.00000000e+00
+euler =
+ mass [1] =
+8.44070813e+05
+ mass_inv [1] =
+1.18473474e-06
+ v_mag [1] =
+0.00000000e+00
+ v_mag_inv [1] =
+1.00000002e+30
+ I [1] =
+1.78600736e+08
+ k_i [1] =
+5.59908120e-09
+ v [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ omega [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ Accel [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+name = Hot Cocoa
+saveFlags [1] =
+108
+isVisible [1] =
+65535
+isDamped [1] =
+0
+EffectsMask [1] =
+65535
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+1
+[GameObject]
+objClass = xepool01
+seqno [1] =
+668
+team [1] =
+0
+label = unnamed_xepool01
+isUser [1] =
+false
+objAddr = 00000056
+transform [1] =
+  right.x [1] =
+1.00000000e+00
+  right.y [1] =
+0.00000000e+00
+  right.z [1] =
+0.00000000e+00
+  up.x [1] =
+0.00000000e+00
+  up.y [1] =
+1.00000000e+00
+  up.z [1] =
+0.00000000e+00
+  front.x [1] =
+0.00000000e+00
+  front.y [1] =
+0.00000000e+00
+  front.z [1] =
+1.00000000e+00
+  posit.x [1] =
+3.04000000e+02
+  posit.y [1] =
+1.20000000e+02
+  posit.z [1] =
+-2.72000000e+02
+saveClass = 
+illumination [1] =
+1.00000000e+00
+euler =
+ mass [1] =
+8.44070813e+05
+ mass_inv [1] =
+1.18473474e-06
+ v_mag [1] =
+0.00000000e+00
+ v_mag_inv [1] =
+1.00000002e+30
+ I [1] =
+1.78600736e+08
+ k_i [1] =
+5.59908120e-09
+ v [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ omega [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ Accel [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+name = Hot Cocoa
+saveFlags [1] =
+108
+isVisible [1] =
+65535
+isDamped [1] =
+0
+EffectsMask [1] =
+65535
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+1
+[GameObject]
+objClass = xepool01
+seqno [1] =
+669
+team [1] =
+0
+label = unnamed_xepool01
+isUser [1] =
+false
+objAddr = 00000057
+transform [1] =
+  right.x [1] =
+1.00000000e+00
+  right.y [1] =
+0.00000000e+00
+  right.z [1] =
+0.00000000e+00
+  up.x [1] =
+0.00000000e+00
+  up.y [1] =
+1.00000000e+00
+  up.z [1] =
+0.00000000e+00
+  front.x [1] =
+0.00000000e+00
+  front.y [1] =
+0.00000000e+00
+  front.z [1] =
+1.00000000e+00
+  posit.x [1] =
+2.72000000e+02
+  posit.y [1] =
+1.86100006e+02
+  posit.z [1] =
+3.36000000e+02
+saveClass = 
+illumination [1] =
+1.00000000e+00
+euler =
+ mass [1] =
+8.44070813e+05
+ mass_inv [1] =
+1.18473474e-06
+ v_mag [1] =
+0.00000000e+00
+ v_mag_inv [1] =
+1.00000002e+30
+ I [1] =
+1.78600736e+08
+ k_i [1] =
+5.59908120e-09
+ v [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ omega [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ Accel [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+name = Hot Cocoa
+saveFlags [1] =
+108
+isVisible [1] =
+65535
+isDamped [1] =
+0
+EffectsMask [1] =
+65535
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+1
+[GameObject]
+objClass = xepool01
+seqno [1] =
+66a
+team [1] =
+0
+label = unnamed_xepool01
+isUser [1] =
+false
+objAddr = 00000058
+transform [1] =
+  right.x [1] =
+0.00000000e+00
+  right.y [1] =
+0.00000000e+00
+  right.z [1] =
+-1.00000000e+00
+  up.x [1] =
+0.00000000e+00
+  up.y [1] =
+1.00000000e+00
+  up.z [1] =
+0.00000000e+00
+  front.x [1] =
+1.00000000e+00
+  front.y [1] =
+0.00000000e+00
+  front.z [1] =
+0.00000000e+00
+  posit.x [1] =
+6.88000000e+02
+  posit.y [1] =
+2.29100006e+02
+  posit.z [1] =
+2.40000015e+02
+saveClass = 
+illumination [1] =
+1.00000000e+00
+euler =
+ mass [1] =
+8.44070813e+05
+ mass_inv [1] =
+1.18473474e-06
+ v_mag [1] =
+0.00000000e+00
+ v_mag_inv [1] =
+1.00000002e+30
+ I [1] =
+1.78600736e+08
+ k_i [1] =
+5.59908120e-09
+ v [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ omega [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ Accel [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+name = Hot Cocoa
+saveFlags [1] =
+108
+isVisible [1] =
+65535
+isDamped [1] =
+0
+EffectsMask [1] =
+65535
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+1
+[GameObject]
+objClass = xepool01
+seqno [1] =
+66b
+team [1] =
+0
+label = unnamed_xepool01
+isUser [1] =
+false
+objAddr = 00000059
+transform [1] =
+  right.x [1] =
+-1.00000000e+00
+  right.y [1] =
+0.00000000e+00
+  right.z [1] =
+0.00000000e+00
+  up.x [1] =
+0.00000000e+00
+  up.y [1] =
+1.00000000e+00
+  up.z [1] =
+0.00000000e+00
+  front.x [1] =
+0.00000000e+00
+  front.y [1] =
+0.00000000e+00
+  front.z [1] =
+-1.00000000e+00
+  posit.x [1] =
+6.56000000e+02
+  posit.y [1] =
+2.00000015e+02
+  posit.z [1] =
+-3.36000000e+02
+saveClass = 
+illumination [1] =
+1.00000000e+00
+euler =
+ mass [1] =
+8.44070813e+05
+ mass_inv [1] =
+1.18473474e-06
+ v_mag [1] =
+0.00000000e+00
+ v_mag_inv [1] =
+1.00000002e+30
+ I [1] =
+1.78600736e+08
+ k_i [1] =
+5.59908120e-09
+ v [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ omega [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ Accel [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+name = Hot Cocoa
+saveFlags [1] =
+108
+isVisible [1] =
+65535
+isDamped [1] =
+0
+EffectsMask [1] =
+65535
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+1
+[GameObject]
+objClass = bag
+seqno [1] =
+66c
+team [1] =
+0
+label = unnamed_bag
+isUser [1] =
+false
+objAddr = 0000005A
+transform [1] =
+  right.x [1] =
+-9.96958375e-01
+  right.y [1] =
+0.00000000e+00
+  right.z [1] =
+-7.78998956e-02
+  up.x [1] =
+0.00000000e+00
+  up.y [1] =
+1.00000000e+00
+  up.z [1] =
+0.00000000e+00
+  front.x [1] =
+7.78995603e-02
+  front.y [1] =
+0.00000000e+00
+  front.z [1] =
+-9.96954024e-01
+  posit.x [1] =
+3.42957306e+02
+  posit.y [1] =
+2.02938171e+02
+  posit.z [1] =
+-1.07449898e+02
+saveClass = 
+illumination [1] =
+1.00000000e+00
+euler =
+ mass [1] =
+2.97387480e+04
+ mass_inv [1] =
+3.36261619e-05
+ v_mag [1] =
+0.00000000e+00
+ v_mag_inv [1] =
+1.00000002e+30
+ I [1] =
+4.05086000e+05
+ k_i [1] =
+2.46861168e-06
+ v [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ omega [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ Accel [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+name = Santa's Bag O' Presents
+saveFlags [1] =
+108
+isVisible [1] =
+65535
+isDamped [1] =
+0
+EffectsMask [1] =
+65535
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+true
+independence [1] =
+1
+[GameObject]
+objClass = present03
+seqno [1] =
+66d
+team [1] =
+0
+label = unnamed_present03
+isUser [1] =
+false
+objAddr = 0000005B
+transform [1] =
+  right.x [1] =
+-6.30502939e-01
+  right.y [1] =
+0.00000000e+00
+  right.z [1] =
+7.76186705e-01
+  up.x [1] =
+0.00000000e+00
+  up.y [1] =
+1.00000000e+00
+  up.z [1] =
+0.00000000e+00
+  front.x [1] =
+-7.76183307e-01
+  front.y [1] =
+0.00000000e+00
+  front.z [1] =
+-6.30500197e-01
+  posit.x [1] =
+3.55496277e+02
+  posit.y [1] =
+1.99774261e+02
+  posit.z [1] =
+-1.07902924e+02
+saveClass = 
+illumination [1] =
+1.00000000e+00
+euler =
+ mass [1] =
+5.79312061e+03
+ mass_inv [1] =
+1.72618529e-04
+ v_mag [1] =
+0.00000000e+00
+ v_mag_inv [1] =
+1.00000002e+30
+ I [1] =
+2.68405137e+04
+ k_i [1] =
+3.72571121e-05
+ v [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ omega [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ Accel [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+name = Gift
+saveFlags [1] =
+108
+isVisible [1] =
+65535
+isDamped [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+1
+[GameObject]
+objClass = present03
+seqno [1] =
+66e
+team [1] =
+0
+label = unnamed_present03
+isUser [1] =
+false
+objAddr = 0000005C
+transform [1] =
+  right.x [1] =
+9.87100482e-01
+  right.y [1] =
+-0.00000000e+00
+  right.z [1] =
+1.60083592e-01
+  up.x [1] =
+0.00000000e+00
+  up.y [1] =
+1.00000000e+00
+  up.z [1] =
+0.00000000e+00
+  front.x [1] =
+-1.60082892e-01
+  front.y [1] =
+0.00000000e+00
+  front.z [1] =
+9.87096190e-01
+  posit.x [1] =
+3.91435577e+02
+  posit.y [1] =
+1.98968414e+02
+  posit.z [1] =
+-9.87676697e+01
+saveClass = 
+illumination [1] =
+1.00000000e+00
+euler =
+ mass [1] =
+5.79312061e+03
+ mass_inv [1] =
+1.72618529e-04
+ v_mag [1] =
+0.00000000e+00
+ v_mag_inv [1] =
+1.00000002e+30
+ I [1] =
+2.68405137e+04
+ k_i [1] =
+3.72571121e-05
+ v [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ omega [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ Accel [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+name = Gift
+saveFlags [1] =
+108
+isVisible [1] =
+65535
+isDamped [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+1
+[GameObject]
+objClass = spscrooge
+seqno [1] =
+670
+team [1] =
+0
+label = unnamed_spscrooge
+isUser [1] =
+false
+objAddr = 0000005D
+transform [1] =
+  right.x [1] =
+1.00000000e+00
+  right.y [1] =
+0.00000000e+00
+  right.z [1] =
+0.00000000e+00
+  up.x [1] =
+0.00000000e+00
+  up.y [1] =
+1.00000000e+00
+  up.z [1] =
+0.00000000e+00
+  front.x [1] =
+0.00000000e+00
+  front.y [1] =
+0.00000000e+00
+  front.z [1] =
+1.00000000e+00
+  posit.x [1] =
+3.72479675e+02
+  posit.y [1] =
+1.99961670e+02
+  posit.z [1] =
+-1.03637611e+02
+spawnHandle [1] =
+0
+spawnTimer [1] =
+0.00000000e+00
+saveClass = 
+illumination [1] =
+1.00000000e+00
+euler =
+ mass [1] =
+5.03162939e+03
+ mass_inv [1] =
+1.98742782e-04
+ v_mag [1] =
+0.00000000e+00
+ v_mag_inv [1] =
+1.00000002e+30
+ I [1] =
+2.71963594e+04
+ k_i [1] =
+3.67696266e-05
+ v [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ omega [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ Accel [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+name = Object Spawn
+saveFlags [1] =
+108
+isVisible [1] =
+65535
+isDamped [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+1
+[GameObject]
+objClass = spserv_xmas
+seqno [1] =
+671
+team [1] =
+0
+label = unnamed_spserv_xmas
+isUser [1] =
+false
+objAddr = 0000005E
+transform [1] =
+  right.x [1] =
+1.00000000e+00
+  right.y [1] =
+0.00000000e+00
+  right.z [1] =
+0.00000000e+00
+  up.x [1] =
+0.00000000e+00
+  up.y [1] =
+1.00000000e+00
+  up.z [1] =
+0.00000000e+00
+  front.x [1] =
+0.00000000e+00
+  front.y [1] =
+0.00000000e+00
+  front.z [1] =
+1.00000000e+00
+  posit.x [1] =
+1.42028397e+02
+  posit.y [1] =
+2.47778595e+02
+  posit.z [1] =
+-6.42605225e+02
+spawnHandle [1] =
+0
+spawnTimer [1] =
+0.00000000e+00
+saveClass = 
+illumination [1] =
+1.00000000e+00
+euler =
+ mass [1] =
+5.03162939e+03
+ mass_inv [1] =
+1.98742782e-04
+ v_mag [1] =
+0.00000000e+00
+ v_mag_inv [1] =
+1.00000002e+30
+ I [1] =
+2.71963594e+04
+ k_i [1] =
+3.67696266e-05
+ v [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ omega [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ Accel [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+name = Object Spawn
+saveFlags [1] =
+108
+isVisible [1] =
+65535
+isDamped [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+1
+[GameObject]
+objClass = spserv_xmas
+seqno [1] =
+672
+team [1] =
+0
+label = unnamed_spserv_xmas
+isUser [1] =
+false
+objAddr = 0000005F
+transform [1] =
+  right.x [1] =
+1.00000000e+00
+  right.y [1] =
+0.00000000e+00
+  right.z [1] =
+0.00000000e+00
+  up.x [1] =
+0.00000000e+00
+  up.y [1] =
+1.00000000e+00
+  up.z [1] =
+0.00000000e+00
+  front.x [1] =
+0.00000000e+00
+  front.y [1] =
+0.00000000e+00
+  front.z [1] =
+1.00000000e+00
+  posit.x [1] =
+4.70269501e+02
+  posit.y [1] =
+2.52690552e+02
+  posit.z [1] =
+2.36954880e+02
+spawnHandle [1] =
+0
+spawnTimer [1] =
+0.00000000e+00
+saveClass = 
+illumination [1] =
+1.00000000e+00
+euler =
+ mass [1] =
+5.03162939e+03
+ mass_inv [1] =
+1.98742782e-04
+ v_mag [1] =
+0.00000000e+00
+ v_mag_inv [1] =
+1.00000002e+30
+ I [1] =
+2.71963594e+04
+ k_i [1] =
+3.67696266e-05
+ v [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ omega [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ Accel [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+name = Object Spawn
+saveFlags [1] =
+108
+isVisible [1] =
+65535
+isDamped [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+1
+[GameObject]
+objClass = bbruin03
+seqno [1] =
+673
+team [1] =
+0
+label = unnamed_bbruin03
+isUser [1] =
+false
+objAddr = 00000060
+transform [1] =
+  right.x [1] =
+-8.51381421e-01
+  right.y [1] =
+0.00000000e+00
+  right.z [1] =
+5.24546802e-01
+  up.x [1] =
+0.00000000e+00
+  up.y [1] =
+1.00000000e+00
+  up.z [1] =
+0.00000000e+00
+  front.x [1] =
+-5.24544537e-01
+  front.y [1] =
+0.00000000e+00
+  front.z [1] =
+-8.51377726e-01
+  posit.x [1] =
+4.33406403e+02
+  posit.y [1] =
+1.74992188e+02
+  posit.z [1] =
+-3.67495605e+02
+saveClass = 
+illumination [1] =
+1.00000000e+00
+euler =
+ mass [1] =
+1.27008000e+07
+ mass_inv [1] =
+7.87351979e-08
+ v_mag [1] =
+0.00000000e+00
+ v_mag_inv [1] =
+1.00000002e+30
+ I [1] =
+1.00491909e+10
+ k_i [1] =
+9.95104971e-11
+ v [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ omega [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ Accel [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+name = Ruins
+saveFlags [1] =
+108
+isVisible [1] =
+65535
+isDamped [1] =
+0
+EffectsMask [1] =
+65535
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+1
+[GameObject]
+objClass = bbruin01
+seqno [1] =
+675
+team [1] =
+0
+label = unnamed_bbruin01
+isUser [1] =
+false
+objAddr = 00000061
+transform [1] =
+  right.x [1] =
+-5.98124683e-01
+  right.y [1] =
+0.00000000e+00
+  right.z [1] =
+-8.01403046e-01
+  up.x [1] =
+0.00000000e+00
+  up.y [1] =
+1.00000000e+00
+  up.z [1] =
+0.00000000e+00
+  front.x [1] =
+8.01399529e-01
+  front.y [1] =
+0.00000000e+00
+  front.z [1] =
+-5.98122060e-01
+  posit.x [1] =
+1.23495178e+02
+  posit.y [1] =
+1.73662018e+02
+  posit.z [1] =
+-1.40886230e+02
+saveClass = 
+illumination [1] =
+1.00000000e+00
+euler =
+ mass [1] =
+1.00354730e+07
+ mass_inv [1] =
+9.96465204e-08
+ v_mag [1] =
+0.00000000e+00
+ v_mag_inv [1] =
+1.00000002e+30
+ I [1] =
+7.32193741e+09
+ k_i [1] =
+1.36575876e-10
+ v [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ omega [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ Accel [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+name = Ruins
+saveFlags [1] =
+108
+isVisible [1] =
+65535
+isDamped [1] =
+0
+EffectsMask [1] =
+65535
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+1
+[GameObject]
+objClass = bbruin01
+seqno [1] =
+676
+team [1] =
+0
+label = unnamed_bbruin01
+isUser [1] =
+false
+objAddr = 00000062
+transform [1] =
+  right.x [1] =
+-1.16118506e-01
+  right.y [1] =
+0.00000000e+00
+  right.z [1] =
+-9.93235111e-01
+  up.x [1] =
+0.00000000e+00
+  up.y [1] =
+1.00000000e+00
+  up.z [1] =
+0.00000000e+00
+  front.x [1] =
+9.93230760e-01
+  front.y [1] =
+0.00000000e+00
+  front.z [1] =
+-1.16117999e-01
+  posit.x [1] =
+3.04733257e+01
+  posit.y [1] =
+2.90000000e+02
+  posit.z [1] =
+-8.34137756e+02
+saveClass = 
+illumination [1] =
+1.00000000e+00
+euler =
+ mass [1] =
+1.00354730e+07
+ mass_inv [1] =
+9.96465204e-08
+ v_mag [1] =
+0.00000000e+00
+ v_mag_inv [1] =
+1.00000002e+30
+ I [1] =
+7.32193741e+09
+ k_i [1] =
+1.36575876e-10
+ v [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ omega [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ Accel [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+name = Ruins
+saveFlags [1] =
+108
+isVisible [1] =
+65535
+isDamped [1] =
+0
+EffectsMask [1] =
+65535
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+1
+[GameObject]
+objClass = bbruin01
+seqno [1] =
+677
+team [1] =
+0
+label = unnamed_bbruin01
+isUser [1] =
+false
+objAddr = 00000063
+transform [1] =
+  right.x [1] =
+-2.67469026e-02
+  right.y [1] =
+0.00000000e+00
+  right.z [1] =
+-9.99642134e-01
+  up.x [1] =
+0.00000000e+00
+  up.y [1] =
+1.00000000e+00
+  up.z [1] =
+0.00000000e+00
+  front.x [1] =
+9.99637783e-01
+  front.y [1] =
+0.00000000e+00
+  front.z [1] =
+-2.67467871e-02
+  posit.x [1] =
+3.80061279e+02
+  posit.y [1] =
+2.88919189e+02
+  posit.z [1] =
+1.85409622e+02
+saveClass = 
+illumination [1] =
+1.00000000e+00
+euler =
+ mass [1] =
+1.00354730e+07
+ mass_inv [1] =
+9.96465204e-08
+ v_mag [1] =
+0.00000000e+00
+ v_mag_inv [1] =
+1.00000002e+30
+ I [1] =
+7.32193741e+09
+ k_i [1] =
+1.36575876e-10
+ v [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ omega [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+ Accel [1] =
+  x [1] =
+0.00000000e+00
+  y [1] =
+0.00000000e+00
+  z [1] =
+0.00000000e+00
+name = Ruins
+saveFlags [1] =
+108
+isVisible [1] =
+65535
+isDamped [1] =
+0
+EffectsMask [1] =
+65535
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+1
+groupTargets = 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+dllName = mpinstant.dll
+[AiMission]
+[AOIs]
+size [1] =
+0
+[AiPaths]
+count [1] =
+24
+name = AiPath
+sObject = 00000064
+size [1] =
+10
+label = tankEnemy3
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+-1.34647003e+02
+  z [1] =
+-2.13783005e+02
+pathType = 00000000
+name = AiPath
+sObject = 00000065
+size [1] =
+12
+label = turretEnemy1
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+-9.32696991e+01
+  z [1] =
+-1.11584000e+02
+pathType = 00000000
+name = AiPath
+sObject = 00000066
+size [1] =
+9
+label = edge_path
+pointCount [1] =
+5
+points [5] =
+  x [1] =
+-3.51485992e+02
+  z [1] =
+4.18230011e+02
+  x [1] =
+9.58249023e+02
+  z [1] =
+4.08308014e+02
+  x [1] =
+9.54280029e+02
+  z [1] =
+-8.42554993e+02
+  x [1] =
+-3.85221985e+02
+  z [1] =
+-8.35940002e+02
+  x [1] =
+-3.51485992e+02
+  z [1] =
+4.18230011e+02
+pathType = 00000000
+name = AiPath
+sObject = 00000067
+size [1] =
+12
+label = turretEnemy2
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+-9.79363022e+01
+  z [1] =
+-2.26848999e+02
+pathType = 00000000
+name = AiPath
+sObject = 00000068
+size [1] =
+5
+label = tank1
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+8.30403992e+02
+  z [1] =
+-2.80049011e+02
+pathType = 00000000
+name = AiPath
+sObject = 00000069
+size [1] =
+5
+label = gtow2
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+-2.70076008e+01
+  z [1] =
+-4.75273010e+02
+pathType = 00000000
+name = AiPath
+sObject = 0000006A
+size [1] =
+5
+label = tank3
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+7.76737976e+02
+  z [1] =
+-2.82381989e+02
+pathType = 00000000
+name = AiPath
+sObject = 0000006B
+size [1] =
+13
+label = RecyclerEnemy
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+-1.75401993e+02
+  z [1] =
+-1.68671997e+02
+pathType = 00000000
+name = AiPath
+sObject = 0000006C
+size [1] =
+5
+label = tank2
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+8.07070984e+02
+  z [1] =
+-2.86270996e+02
+pathType = 00000000
+name = AiPath
+sObject = 0000006D
+size [1] =
+10
+label = tankEnemy1
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+-1.51757996e+02
+  z [1] =
+-9.32292023e+01
+pathType = 00000000
+name = AiPath
+sObject = 0000006E
+size [1] =
+6
+label = stage1
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+2.69473999e+02
+  z [1] =
+-2.74925995e+02
+pathType = 00000000
+name = AiPath
+sObject = 0000006F
+size [1] =
+5
+label = gtow5
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+5.27940979e+02
+  z [1] =
+-4.63877991e+02
+pathType = 00000000
+name = AiPath
+sObject = 00000070
+size [1] =
+6
+label = stage3
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+1.89363998e+02
+  z [1] =
+-4.85234985e+02
+pathType = 00000000
+name = AiPath
+sObject = 00000071
+size [1] =
+5
+label = gtow3
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+2.76942993e+02
+  z [1] =
+-1.85701008e+01
+pathType = 00000000
+name = AiPath
+sObject = 00000072
+size [1] =
+5
+label = hold2
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+3.28158997e+02
+  z [1] =
+-2.91477997e+02
+pathType = 00000000
+name = AiPath
+sObject = 00000073
+size [1] =
+5
+label = hold1
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+3.26752991e+02
+  z [1] =
+-2.40947006e+02
+pathType = 00000000
+name = AiPath
+sObject = 00000074
+size [1] =
+6
+label = stage2
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+1.76919998e+02
+  z [1] =
+-1.42191000e+01
+pathType = 00000000
+name = AiPath
+sObject = 00000075
+size [1] =
+5
+label = gtow1
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+-6.77622986e+01
+  z [1] =
+-1.77854996e+02
+pathType = 00000000
+name = AiPath
+sObject = 00000076
+size [1] =
+10
+label = tankEnemy2
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+-1.12869003e+02
+  z [1] =
+-1.48451004e+02
+pathType = 00000000
+name = AiPath
+sObject = 00000077
+size [1] =
+5
+label = hold4
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+4.19283997e+02
+  z [1] =
+-1.77278996e+01
+pathType = 00000000
+name = AiPath
+sObject = 00000078
+size [1] =
+5
+label = gtow4
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+4.96316986e+02
+  z [1] =
+-1.53648005e+01
+pathType = 00000000
+name = AiPath
+sObject = 00000079
+size [1] =
+8
+label = Recycler
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+7.73630005e+02
+  z [1] =
+-3.54868988e+02
+pathType = 00000000
+name = AiPath
+sObject = 0000007A
+size [1] =
+5
+label = hold3
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+3.43346985e+02
+  z [1] =
+-4.76071991e+02
+pathType = 00000000
+name = AiPath
+sObject = 0000007B
+size [1] =
+10
+label = stctf_goal
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+3.00151978e+02
+  z [1] =
+-2.48516235e+02
+pathType = 00000000
+hasEntered [1] =
+false
+ownerObj [1] =
+0
+ownerObj [1] =
+0
+ownerObj [1] =
+0
+PadData = 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+PadData2 = 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000

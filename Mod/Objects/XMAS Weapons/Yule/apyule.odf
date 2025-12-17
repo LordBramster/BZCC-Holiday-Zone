@@ -2,6 +2,8 @@
 baseName = "apyule"
 classLabel = "apcannon"
 
+geometryName = "present_ap_03.fbx"
+
 scrapCost = 40
 
 unitName = "Yule!"

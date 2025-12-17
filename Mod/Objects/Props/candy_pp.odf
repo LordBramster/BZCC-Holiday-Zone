@@ -1,5 +1,5 @@
 [GameObjectClass]
-geometryName = "candy_pp.fbx"
+geometryName = "candy_pp_xl.fbx"
 classLabel = "I76Building"
 collisionRadius = 0.1
 scrapCost = 0

@@ -1,6 +1,6 @@
 [GameObjectClass]
 classLabel="ivscout"
-unitName = "Jolly Scout"
+unitName = "Jolly Finder"
 scrapCost=40 // {VSR-035}
 
 mass=4314.09 // Stock ISDF Scout Mass {VSR-012}
@@ -29,6 +29,7 @@ lightName2 = ""
 
 [CraftClass]
 canHunt = true
+modeText11 = "Go Caroling!"
 engageRange = 500
 topSpeed=42   // *30 {VSR-050}
 avoidSpeed=25 // *new {VSR-UNDOC}

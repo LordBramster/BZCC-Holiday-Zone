@@ -96,6 +96,7 @@ weaponAssault3 = 0
 
 [CraftClass]
 canHunt = true
+modeText11 = "Go Caroling!"
 engageRange = 500 // 400
 
 modeText28 = "Takeoff"

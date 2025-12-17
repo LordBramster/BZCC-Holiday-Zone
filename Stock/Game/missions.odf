@@ -1,0 +1,81 @@
+[MissionInfo]
+countISDF = 1
+countScion = 0
+
+[ISDF 1]
+missionTitle = "Save Christmas Eve!"
+missionInfo = "xmas_mission1.des"
+missionFile = "xmas_mission1.bzn"
+planetName = "The North Pole"
+planetInfo = "bane.des"
+planetGeom = "bane.fbx"
+preBriefMovie = "Flyby_1.ogv"
+
+techCount = 3
+techName1 = "Snowplow Transport"
+techInfo1 = "ivsnowplow.inf"
+techGeom1 = "ivapc00.fbx"
+techName2 = "Combat Cookie"
+techInfo2 = "ivcookie2.inf"
+techGeom2 = "cookie_tree_pilot.fbx"
+techName3 = "Santa's Sleigh Bag"
+techInfo3 = "bag.inf"
+techGeom3 = "bag.fbx"
+
+mailCount = 3
+mailName1 = "Santa Claus"
+mailInfo1 = "mission1_mail1.des"
+mailGeom1 = ""
+mailWave1 = "mission1_mail1.wav"
+mailName2 = "Major Manson"
+mailInfo2 = "mission1_mail2.des"
+mailGeom2 = ""
+mailWave2 = "mission1_mail2.wav"
+mailName3 = "Santa's Head Elf"
+mailInfo3 = "mission1_mail3.des"
+mailGeom3 = ""
+mailWave3 = "elf.wav"
+
+briefInfo = "mission1.brf"
+
+launchMessage = "santa.wav"
+launchBackground = "intro.tga"
+
+[ISDF 2]
+missionTitle = "Save Christmas Eve!"
+missionInfo = "xmas_mission1.des"
+missionFile = "xmas_mission1.bzn"
+planetName = "The North Pole"
+planetInfo = "bane.des"
+planetGeom = "bane.fbx"
+preBriefMovie = "Flyby_1.ogv"
+
+techCount = 3
+techName1 = "Snowplow Transport"
+techInfo1 = "ivsnowplow.inf"
+techGeom1 = "ivapc00.fbx"
+techName2 = "Combat Cookie"
+techInfo2 = "ivcookie2.inf"
+techGeom2 = "cookie_tree_pilot.fbx"
+techName3 = "Santa's Sleigh Bag"
+techInfo3 = "bag.inf"
+techGeom3 = "bag.fbx"
+
+mailCount = 3
+mailName1 = "Santa Claus"
+mailInfo1 = "mission1_mail1.des"
+mailGeom1 = ""
+mailWave1 = "mission1_mail1.wav"
+mailName2 = "Major Manson"
+mailInfo2 = "mission1_mail2.des"
+mailGeom2 = ""
+mailWave2 = "mission1_mail2.wav"
+mailName3 = "Santa's Head Elf"
+mailInfo3 = "mission1_mail3.des"
+mailGeom3 = ""
+mailWave3 = "elf.wav"
+
+briefInfo = "mission1.brf"
+
+launchMessage = "santa.wav"
+launchBackground = "intro.tga"

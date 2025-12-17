@@ -8,7 +8,7 @@
 [MPVehicles]
 xsi5 = "ivscout00.fbx"
 cfg5 = "ivscout_xmas"
-Description5 = "Jolly Scout"
+Description5 = "Jolly Finder"
 
 xsi6 = "ivtank00.fbx"
 cfg6 = "ivtank_xmas"
@@ -37,3 +37,11 @@ Description11 = "Sled Scavenger"
 xsi12 = "ivstas00.fbx"
 cfg12 = "ivintc_xmas"
 Description12 = "Iced Interceptor"
+
+xsi13 = "ivapc00.fbx"
+cfg13 = "ivsnowplow"
+Description13 = "Snowplow APC"
+
+xsi14 = "ispilo_rifle_skel.fbx"
+cfg14 = "ispilo"
+Description14 = "Elf Pilot"

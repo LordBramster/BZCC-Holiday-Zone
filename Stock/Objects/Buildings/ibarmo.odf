@@ -64,6 +64,8 @@ detectRange = 100
 soundBuild = "ibrecy02.wav"
 soundFinish = "iapc04.wav"
 
+buildItem9 = "apwrck"
+
 [ArmoryGroup1]
 buildLabel = "Guns"
 buildItem1 = "apmini"
@@ -121,18 +123,6 @@ buildLabel = "Supply"
 buildItem1 = "apserv"
 buildItem2 = "apammo"
 buildItem3 = "aprepa"
-
-[ArmoryGroup9]
-buildLabel = "Holiday!"
-buildItem1 = "apsnowball"
-buildItem2 = "appepperm"
-buildItem3 = "apmarshmallow"
-buildItem4 = "apwinds"
-buildItem5 = "apfrost"
-buildItem6 = "gfreezemine"
-buildItem7 = "apprezmine"
-buildItem8 = "apyule"
-buildItem9 = "apwrck"
 
 [steam]
 renderBase = "draw_twirl_trail"
