@@ -124,8 +124,12 @@ end
 function Start()
 	print("Holiday Zone mission by " .. config.author);
 	AddObjective(Mission._Text1, "blue", 15.0);
-	AudioMessage("mission1_1.wav");
 	Ally(1, 2);
+
+	SetupTeamColors() -- Enemy team (6) is RED, while Player has no active teamcolor.
+
+	AudioMessage("mission1_1.wav");
+
 	AttackWave(config.wave1A, "transport_spawn", "recycler", 1);
 	AttackWave(config.wave1C, "transport_spawn", "recycler", 1);
 	AttackWave(config.wave1B, "gtow3", "recycler", 1);
@@ -198,6 +202,11 @@ function AttackWave(odfName, spawnPath, destPath, unitCount)
 	for i = 1, unitCount  do
 		Goto(BuildObject(odfName, 6, GetPositionNear(spawnPath, 0, spawnMinRange, spawnMaxRange)), destPath);
 	end
+end
+
+function SetupTeamColors()
+ 	-- Team6=RED
+	SetTeamColor(6, 140, 45, 45)
 end
 
 function CheckVehicles()
