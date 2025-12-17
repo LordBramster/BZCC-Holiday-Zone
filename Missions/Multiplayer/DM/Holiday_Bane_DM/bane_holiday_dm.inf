@@ -1,6 +1,6 @@
 [DESCRIPTION]
 missionName = "(Holiday) DM: Glacier"
-mapTga = "bane_holiday_dm.bmp"
+mapTga = "xmas_bane.bmp"
 mapDesc = "bane_holiday_dm.des"
 
 [NetVars]
