@@ -12,9 +12,9 @@ return {
 	defender3 = "ivnutcracker_dm",
 	navMarker = "ibnav",
 	hostageBuilding = "igloo",
-	presentOne = "stctf_goal5",
-	presentTwo = "stctf_goal5",
-	presentThree = "stctf_goal5",
+	presentOne = "xopres1",
+	presentTwo = "xopres2",
+	presentThree = "xopres3",
 	santaClaus = "ibbomb_xmas",
 	enemyBuilding = "ibarmo_xmas",
 	power = "ibpgen"

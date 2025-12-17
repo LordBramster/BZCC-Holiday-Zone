@@ -1,0 +1,17 @@
+[GameObjectClass]
+classLabel = "artifact"
+geometryName = "present01.fbx"
+maxHealth = 20000 // 5000
+addHealth = 500 // 25
+unitName = "Big Gift"
+aiName = "PowerUpProcess"
+scrapCost = 1
+scrapValue = 0
+maxAmmo = 0
+heatSignature = 0.0
+imageSignature = 0.0
+radarSignature = 0.0
+canCollide = 1
+
+[CameraPodClass]
+periodScan = 0.0

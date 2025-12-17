@@ -15,11 +15,11 @@ techCount = 3
 techName1 = "Snowplow Transport"
 techInfo1 = "ivsnowplow.inf"
 techGeom1 = "ivapc00.fbx"
-techName2 = "Combat Cookie"
+techName2 = "Yummy Cookie"
 techInfo2 = "ivcookie2.inf"
 techGeom2 = "cookie_tree_pilot.fbx"
 techName3 = "Santa's Sleigh Bag"
-techInfo3 = "bag.inf"
+techInfo3 = "xopres1.inf"
 techGeom3 = "bag.fbx"
 
 mailCount = 3

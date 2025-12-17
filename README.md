@@ -11,26 +11,39 @@
 
 > **Holidayzone** is designed to bring a new Christmas theme to Battlezone: Combat Commander!
 Play on some of the most popular maps, all with a Christmas twist!
+> `⚠️ NOTE: THIS MOD REQUIRES THE LATEST BZCC BETA-PATCH (203+)`
 
-⚠️ `NOTE: PLAYING THIS MOD REQUIRES THE BZCC BETA PATCH`
 
+<a href="https://discord.com/channels/271066904284758027/1440908604378058856">
+  <img alt="Discord" title="Discord" src="https://custom-icon-badges.demolab.com/badge/-Follow%20On%20Discord-7289da?style=for-the-badge&logoColor=white&logo=discord&labelColor=40464a"/>
+</a>
 <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3417282213">
-    <img alt="Steam Guide" src="https://custom-icon-badges.demolab.com/badge/-How%20To%20Switch%20To%20Beta%20Patch-205479?style=for-the-badge&logoColor=white&logo=steam&labelColor=222f40">
+    <img alt="Steam Guide" src="https://custom-icon-badges.demolab.com/badge/-Guide:%20How%20To%20Switch%20To%20Beta%20Patch-205479?style=for-the-badge&logoColor=white&logo=steam&labelColor=222f40">
+</a>
+<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=1325933293">
+    <img alt="Steam Guide" src="https://custom-icon-badges.demolab.com/badge/-Download:%20VSR%20For%20Seasonal%20VSR%20Maps-205479?style=for-the-badge&logoColor=white&logo=steam&labelColor=222f40">
 </a>
 
 <br>
 
-| Project Members 🎅 | Contribution |
+
+## Credits 🎅
+<div align="left">
+ <img src="./Extras/manson_santahat.png" alt="logo" width="20%" height="auto" />
+</div>
+
+| Project Members | Contribution |
 | --- | --- |
 | `Cyber` | VSR Map Conversions, Music |
-| `Zorn` | Ice 3D Assets |
-| `F9Bomber` | Custom Mission |
-| `General Black Dragon` | Modding Support |
+| `F9Bomber` | Custom Mission Script |
+| `Zorn` | Ice 3D Asset |
+| `General Black Dragon` | Modding Support, Fireworks Assets |
 
 | Special Thanks To | For |
 | --- | --- |
-| `Scrap Pool` | Biometal Mod Maps |
-| `GrizzlyOne & Karlopitek` | Voyager II 3D Assets |
+| `Nielk1` | Ported Hyper SFX |
+| `Scrap Pool` | BioMetal Map Pack |
+<!-- | `GrizzlyOne & Karlopitek` | Voyager II 3D Assets | -->
 
 
 ## Contents 🎄
@@ -99,12 +112,12 @@ Here are some maps that have gotten a little christmas twist!
 | XY | KOTH | | ❄️ |
 | XY | IA, MPI, ST, STCTF | | ❄️ |
 | XY | FFA | | ❄️ |
-|  Alien Dunes | IA, MPI, ST, STCTF | Arctic Drifts 🌒 | Stock 🔸 |
+| ✅Alien Dunes | IA, MPI, ST, STCTF | Arctic Drifts 🌒 | Stock 🔸 |
 | ✅ Bridges | IA, MPI, ST, STCTF| Saint Nick's Crossing | Stock 🔸 |
 | ✅ Canyons | IA, MPI, ST, STCTF| Jolly Chasm | Stock 🔸 |
 | ✅ Chill | IA, MPI, ST, STCTF | Windchill | Stock 🔸 |
 | ✅ Hi & Low |  IA, MPI, ST, STCTF | Ho Ho & Low 🌒 | Stock 🔸 |
-| Iceberg | IA, MPI, ST, STCTF | Ice Cap | Stock 🔸 |
+| ✅Iceberg | IA, MPI, ST, STCTF | Ice Cap | Stock 🔸 |
 | ✅ Sea Battle | IA, MPI, ST, STCTF| Icy Blue Sea | Stock 🔸 |
 | ✅ Quarry | IA, MPI, ST, STCTF | Winter Basin | Stock 🔸 |
 | Rocks |  IA, MPI, ST, STCTF | Rockin' Around | Stock 🔸 |
@@ -123,8 +136,12 @@ Here are some maps that have gotten a little christmas twist!
 | Haven | ST, MPI | Winter Haven | VSR 🔹 |
 
 More maps will be converted in the future! ☃️
-
 > ⚠️ Reminder: please revert `options_instant_string1 = "ivrecy_xmas"` to `"ivrecy"`, and `svar5 = "ivrecy_xmas"` to `"ivrecy_mb"` for map-pack compatibility.
+
+<div align="left">
+ <img src="./Extras/vsr_cold.png" alt="logo" width="20%" height="auto" />
+</div>
+Don't forget to try the VSR compatible maps! 🎮
 
 ## New Christmas Assets 🍬
 

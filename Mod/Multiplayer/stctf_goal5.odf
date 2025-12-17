@@ -1,6 +1,6 @@
 [GameObjectClass]
-maxHealth = 20000 //5000
-addHealth = 500 //25
+maxHealth = 5000
+addHealth = 25
 unitName = "Big Gift"
 geometryName = "present01.fbx"
 classLabel = "artifact"
