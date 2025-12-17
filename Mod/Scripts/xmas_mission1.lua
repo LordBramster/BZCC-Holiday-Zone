@@ -126,6 +126,10 @@ function Start()
 	AddObjective(Mission._Text1, "blue", 15.0);
 	AudioMessage("mission1_1.wav");
 	Ally(1, 2);
+	AttackWave(config.wave1A, "transport_spawn", "recycler", 1);
+	AttackWave(config.wave1C, "transport_spawn", "recycler", 1);
+	AttackWave(config.wave1B, "gtow3", "recycler", 1);
+	AttackWave(config.wave1C, "gtow2", "recycler", 1);
 end
 
 function Update()
@@ -188,6 +192,14 @@ function DeletePilots()
     return next(Mission.Pilots) == nil
 end
 
+function AttackWave(odfName, spawnPath, destPath, unitCount)
+	local spawnMinRange = 10
+	local spawnMaxRange = 75 -- 50
+	for i = 1, unitCount  do
+		Goto(BuildObject(odfName, 6, GetPositionNear(spawnPath, 0, spawnMinRange, spawnMaxRange)), destPath);
+	end
+end
+
 function CheckVehicles()
     local tugAround = IsAround(Mission.Tug)
     local transportAround = IsAround(Mission.Transport)
@@ -222,7 +234,7 @@ function MissionLogic()
 		ClearObjectives();
 		AddObjective(Mission._Text1Success, "green", 15.0);
 		AddObjective(Mission._Text2, "blue", 15.0);
-		AudioMessage("mission1_2.wav");
+
 		Mission.IsTransportsInRoute = true;
 		Mission.Transport = BuildObject(config.transportODF, 2, "transport_spawn");
 		SetObjectiveName(Mission.Transport, "Transport");
@@ -238,7 +250,13 @@ function MissionLogic()
 		Mission.Tug = BuildObject(config.tugODF, 2, pos);
 		SetObjectiveName(Mission.Tug, "Tug");
 		SetObjectiveOn(Mission.Tug)
-		Follow(Mission.Tug, Mission.Transport);	
+		Follow(Mission.Tug, Mission.Transport);
+
+		AudioMessage("mission1_2.wav");
+		
+		AttackWave(config.wave1A, "gtow2", "recycler", 2);
+		AttackWave(config.wave1B, "gtow3", "recycler", 2);
+		AttackWave(config.wave1C, "recyclerEnemy", "recycler", 3);
 	end
 	
 	if ((GetDistance(Mission.Transport, "transport_give") < 50.0) and Mission.IsBaseOperational == false) then
@@ -258,8 +276,6 @@ function MissionLogic()
 		AddObjective(Mission._Text2Success, "green", 15.0);
 		AddObjective(Mission._Text3, "blue", 15.0);
 
-		AudioMessage("mission1_3.wav");
-
 		Mission.NavBeacon = BuildObject(config.navMarker, 1, "nav1");
 		SetObjectiveName(Mission.NavBeacon, "Trapped Elves");
 		SetObjectiveOn(Mission.NavBeacon)
@@ -268,6 +284,12 @@ function MissionLogic()
 		Mission.Defender3 = BuildObject(config.defender3, 6, "df3");
 		Mission.Building = BuildObject(config.hostageBuilding, 0, "bunk");
 		Mission.FirstObjective = true;
+
+		AudioMessage("mission1_3.wav");
+
+		AttackWave(config.wave2A, "recyclerEnemy", "nav1", 1);
+		AttackWave(config.wave2B, "recyclerEnemy", "nav1" 2);
+		AttackWave(config.wave2C, "transport_spawn", "recycler", 2);
 	end
 	
 	local check = Mission.GoToBunker;
@@ -294,10 +316,22 @@ function MissionLogic()
 			ClearObjectives();
 			AddObjective(Mission._Text3Success, "green", 15.0);
 			AddObjective(Mission._Text4, "blue", 15.0);
-			AudioMessage("mission1_4.wav");
+
 			SpawnPilots()
 			Stop(Mission.Transport, 0);
 			Mission.PilotMoveOut = true;
+
+			AudioMessage("mission1_4.wav");
+
+			AttackWave(config.wave1B, "transport_spawn", "recycler", 2);
+			AttackWave(config.wave1C, "recyclerEnemy", "recycler", 1);
+			AttackWave(config.wave2B, "recyclerEnemy", "recycler", 2);
+			AttackWave(config.wave3A, "recyclerEnemy", "nav1", 1);
+			AttackWave(config.wave3B, "recyclerEnemy", "nav1" 2);
+			AttackWave(config.wave3C, "recyclerEnemy", "hold4", 1);
+			AttackWave(config.wave0A, "recyclerEnemy", "gtow3", 1);
+			AttackWave(config.wave0B, "recyclerEnemy", "gtow4", 1);
+			AttackWave(config.wave0B, "recyclerEnemy", "gtow5", 1);
 		end		
 	end
 	
@@ -312,8 +346,6 @@ function MissionLogic()
 		ClearObjectives();
 		AddObjective(Mission._Text4Success, "green", 15.0);
 		AddObjective(Mission._Text5, "blue", 15.0);
-
-		AudioMessage("mission1_5.wav");
 
 		Mission.NavBeacon = BuildObject(config.navMarker, 1, "nav2");
 		SetObjectiveName(Mission.NavBeacon, "Presents");
@@ -331,8 +363,18 @@ function MissionLogic()
 		SetObjectiveOn(Mission.Gift3)
 		SetObjectiveName(Mission.Gift3, "Present");
 
-		
 		Mission.HostagesRecovered = true;
+
+		AudioMessage("mission1_5.wav");
+
+		AttackWave(config.wave2B, "recyclerEnemy", "recycler", 1);
+		AttackWave(config.wave3A, "recyclerEnemy", "recycler", 1);
+		AttackWave(config.wave2B, "recyclerEnemy", "recycler" 2);
+		AttackWave(config.wave3A, "recyclerEnemy", "nav2", 1);
+		AttackWave(config.wave2B, "recyclerEnemy", "nav2" 2);
+		AttackWave(config.wave3C, "recyclerEnemy", "nav2", 1);
+		AttackWave(config.wave0A, "gtow1", "nav2", 1);
+		AttackWave(config.wave0B, "recyclerEnemy", "nav2", 1);
 	end
 	
 	if (GetDistance(Mission.Gift1, "transport_give") < 350.0) and (GetDistance(Mission.Gift2, "transport_give") < 350.0)
@@ -345,17 +387,27 @@ function MissionLogic()
 		AddObjective(Mission._Text5Success, "green", 15.0);
 		AddObjective(Mission._Text6, "blue", 15.0);
 		
-		AudioMessage("mission1_6.wav");
-
 		SetObjectiveOff(Mission.Gift1)
 		SetObjectiveOff(Mission.Gift2)
 		SetObjectiveOff(Mission.Gift3)
-		
+
 		Mission.EnemyHQ = BuildObject(config.enemyBuilding, 6, "hq");
 		Mission.Santa = BuildObject(config.santaClaus, 1, "santa");
 		Mission.SantaPower = BuildObject(config.power, 1, "pow");
 		SetObjectiveOn(Mission.EnemyHQ)
 		Mission.BombBase = true;
+
+		AudioMessage("mission1_6.wav");
+
+		AttackWave(config.wave2B, "recyclerEnemy", "recycler", 1);
+		AttackWave(config.wave3A, "recyclerEnemy", "recycler", 1);
+		AttackWave(config.wave2B, "recyclerEnemy", "recycler" 2);
+		AttackWave(config.wave3A, "recyclerEnemy", "recycler", 1);
+		AttackWave(config.wave2B, "recyclerEnemy", "recycler" 2);
+		AttackWave(config.wave3C, "recyclerEnemy", "recycler", 1);
+		AttackWave(config.wave0B, "recyclerEnemy", "hold1", 1);
+		AttackWave(config.wave0B, "recyclerEnemy", "hold2", 1);
+
 	end
 	
 	if Mission.BombBase == true and not IsAround(Mission.EnemyHQ) then

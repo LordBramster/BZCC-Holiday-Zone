@@ -17,6 +17,8 @@ return {
 	presentThree = "xopres3",
 	santaClaus = "ibbomb_xmas",
 	enemyBuilding = "ibarmo_xmas",
+	wave0A = "ivsnowman",
+	wave0B = "ivnutcracker_dm",
 	wave1A = "ivelf",
 	wave1B = "ivicesball",
 	wave1C = "ivsnowball",
@@ -26,4 +28,19 @@ return {
 	wave3A = "ivrhino",
 	wave3B = "ivcookie2",
 	wave3C = "ivsleigh_cpu"
+	-- transport_path
+	-- transport_spawn
+	-- transport_give
+	-- nav1
+	-- df1
+	-- df2
+	-- df3
+	-- bunk
+	-- nav2
+	-- pres1
+	-- pres2
+	-- pres3
+	-- hq
+	-- santa
+	-- pow
 }
