@@ -1,0 +1,10 @@
+[WeaponClass]
+classLabel = "dispenser"
+wpnName = "Naughty Finder"
+wpnReticle = "gseek"
+wpnCategory = "SPEC"
+fireSound = "mmine01.wav"
+
+[DispenserClass]
+shotDelay = 2.0
+objectClass = "naughty_d"

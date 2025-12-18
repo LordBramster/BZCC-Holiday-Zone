@@ -1,6 +1,6 @@
 [WeaponClass]
 classLabel = "dispenser"
-wpnName = "Shock Hat"
+wpnName = "Jolt Cap"
 fireSound = "hohoho.wav"
 wpnReticle = "gbolt"
 wpnPriority = 5

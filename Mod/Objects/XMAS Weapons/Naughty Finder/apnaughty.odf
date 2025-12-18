@@ -1,0 +1,17 @@
+[GameObjectClass]
+baseName = "apnaughty"
+classLabel = "apspecial"
+geometryName = "present_ap_03.fbx"
+scrapCost = 40
+unitName = "Naughty Finder"
+
+requireCount = 2
+requireName1 = "ibarmo"
+requireText1 = "Build Igloory"
+requireName2 = "ibcbun"
+requireText2 = "Build Relay Bunker"
+
+[PowerUpClass]
+
+[WeaponPowerupClass]
+weaponName = "gnaughty"

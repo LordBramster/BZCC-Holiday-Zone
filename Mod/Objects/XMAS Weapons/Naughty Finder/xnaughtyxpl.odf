@@ -1,0 +1,74 @@
+// ==============
+// MINE EXPLOSION
+// ==============
+
+[ExplosionClass]
+classLabel = "explosion"
+
+explSound = "xbuild.wav"
+
+damageRadius = 50.0
+
+damageValue(N) = 250	// none
+damageValue(L) = 150	// light
+damageValue(H) = 50	// heavy
+
+damageValue(S) = 150	// stasis
+damageValue(D) = 250	// deflection
+damageValue(A) = 50	// absorbtion
+
+kickRadius = 50.0
+kickOmega = 5.0
+kickVeloc = 7.0
+
+particleTypes = 13
+
+particleClass1 = "fx_xmas.planar"
+particleCount1 = 1
+particleVeloc1 = "0.0 0.0 0.0"
+
+particleClass2 = "fx_xmas.shockplanar"
+particleCount2 = 1
+particleVeloc2 = "0.0 0.0 0.0"
+
+particleClass3 = "fx_xmas.shock"
+particleCount3 = 1
+particleVeloc3 = "0.0 0.0 0.0"
+
+particleClass4 = "fx_xmas.cloud"
+particleCount4 = 1
+particleVeloc4 = "0.0 10.0 0.0"
+
+// particleClass5 = "fx_xmas.light"
+// particleCount5 = 1
+// particleVeloc5 = "0.0 0.0 0.0"
+
+particleClass6 = "fx_xmas.GroundSmoke"
+particleCount6 = 15
+particleVeloc6 = "35.0 35.0 35.0"
+particlePosVar6 = "5.0 0.0 5.0"
+
+particleClass7 = "fx_xmas.SmokePlume"
+particleCount7 = 15
+particleVeloc7 = "20.0 65.0 20.0"
+particlePosVar7 = "5.0 0.0 5.0"
+
+particleClass8 = "fx_xmas.trail"
+particleCount8 = 8
+particleVeloc8 = "60.0 50.0 60.0"
+particleBias8 = "0.0 1.0 0.0"
+
+particleClass9 = "fx_xmas.DirtKickup"
+particleCount9 = 7
+particleVeloc9 = "10.0 22.0 10.0"
+
+particleClass10 = "fx_xmas.Chunks"
+particleCount10 = 15
+particleVeloc10 = "75.0 65.0 75.0"
+particlePosVar10 = "5.0 0.0 5.0"
+
+particleClass11 = "fx_scrooge.naughty"
+particleCount11 = 1
+particleVeloc11 = "5.0 5.0 5.0"
+particlePosVar11 = "5.0 30.0 5.0"
+particleInherit11 = "5.0 5.0 5.0"

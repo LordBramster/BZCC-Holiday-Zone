@@ -123,20 +123,25 @@ buildLabel = "Supply"
 buildItem1 = "apserv_xmas"
 buildItem2 = "apammo_xmas"
 buildItem3 = "aprepa_xmas"
-buildItem4 = "apscrooge"
 
 [ArmoryGroup9]
-buildLabel = "Holiday!"
+buildLabel = "Holiday Weapons"
 buildItem1 = "apsnowball"
 buildItem2 = "apsnowballs"
 buildItem3 = "appepperm"
 buildItem4 = "apmarshmallow"
 buildItem5 = "apwinds"
 buildItem6 = "apfrost"
-buildItem7 = "apfreezemine"
-buildItem8 = "apprezmine"
-buildItem9 = "apyule"
-buildItem10 = "apwrck"
+buildItem7 = "apyule"
+buildItem8 = "apwrck"
+
+[ArmoryGroup10]
+buildLabel = "Holiday Specials"
+buildItem1 = "apfreezemine"
+buildItem2 = "apprezmine"
+buildItem3 = "apnaughty"
+buildItem4 = "apwrck"
+buildItem5 = "apscrooge"
 
 [steam]
 renderBase = "draw_twirl_trail"

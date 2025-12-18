@@ -5,7 +5,7 @@ scrapCost = 0
 scrapValue = 0
 maxHealth = 1250
 maxAmmo = 1000
-unitName = "Shock Hat"
+unitName = "Jolt Cap"
 
 explosionName = "xsnowballxpl"
 
