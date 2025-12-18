@@ -42,7 +42,10 @@ weaponName3 = "gsnowballs"
 weaponAssault3 = 1
 
 ////////////////////////////////////
-
+lightHard1 = "hp_light_1"
+lightName1 = ""
+lightHard2 = "hp_light_2"
+lightName2 = ""  
 
 [CraftClass]
 canHunt = true

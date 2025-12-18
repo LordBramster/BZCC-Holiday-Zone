@@ -1,6 +1,6 @@
 [GameObjectClass]
 classLabel="ivscout"
-unitName = "Jolly Finder"
+unitName = "Jolly Finder Scout"
 scrapCost=40 // {VSR-035}
 
 mass=4314.09 // Stock ISDF Scout Mass {VSR-012}
@@ -9,11 +9,11 @@ mass=4314.09 // Stock ISDF Scout Mass {VSR-012}
 /////// WEAPONS ////////////////////
 weaponMask = 00001
 weaponHard1 = "HP_GUN_1"
-weaponName1 = "glaser_c"
-weaponAssault1 = 0
+weaponName1 = "glaser_a"
+weaponAssault1 = 1
 weaponHard2 = "HP_GUN_2"
-weaponName2 = "glaser_c"
-weaponAssault2 = 0
+weaponName2 = "glaser_a"
+weaponAssault2 = 1
 weaponHard3 = "HP_ROCKET_1"
 weaponName3 = "gmarshmallow"
 weaponAssault3 = 0
@@ -23,7 +23,7 @@ weaponAssault4 = 0
 
 /////////LIGHTS & EFFECTS//////////////////
 lightHard1 = "hp_light_1"
-lightName1 = "spotgreen"
+lightName1 = "" //spotgreen
 lightHard2 = "hp_light_2"
 lightName2 = ""
 

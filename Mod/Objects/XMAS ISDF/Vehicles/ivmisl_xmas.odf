@@ -18,7 +18,7 @@ weaponName3 = "gprezmine"
 
 /////////LIGHTS & EFFECTS//////////////////
 lightHard1 = "hp_light_1"
-lightName1 = "spotgreen"
+lightName1 = "" // spotgreen
 
 [CraftClass]
 canHunt = true

@@ -179,14 +179,6 @@ Don't forget to try the VSR compatible maps! 🎮
 - Igloo Armory 🧊
 - Service Pod Presents 🎁
 
-### Santa's Christmas Weapons 💣
-- Snowballs! ⚪
-- Freeze Mine ❄️
-- Peppermint Stabber 🍬
-- Polar Winds 🌨️
-- Present Mine 🎁
-- Ice Trap 🧊
-
 ## VSR Map Pack Prep 🚀
 1. `Assets/` is the folder with assets from VSR needed to run in this mod.
 1. `Shared/` is the folder with assets needed to run these VSR maps (in addition to props).

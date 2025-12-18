@@ -52,7 +52,7 @@ weaponName4 = "apprezmine"
 
 /////////LIGHTS AND EFFECTS//////////////////
 lightHard1 = "hp_light_1"
-lightName1 = "spotgreen"  
+lightName1 = "" // spotgreen  
 LightsOnlyWhenPiloted = true
 
 effectHard1 = "hp_dust_1"

@@ -19,11 +19,11 @@ weaponName3 = "gsnowball"
 
 /////////LIGHTS AND EFFECTS//////////////////
 lightHard1 = "hp_light_1"
-lightName1 = "spotgreen"//"omnigreen"
+lightName1 = ""//"omnigreen"
 lightHard2 = "hp_light_2"
-lightName2 = "spotred"//"omnired" 
+lightName2 = ""//"omnired" 
 lightHard3 = "hp_light_3"
-lightName3 = "spotgreen"//"omnigreen"  
+lightName3 = ""//"omnigreen"  
 LightsOnlyWhenPiloted = true
 
 [CraftClass]
