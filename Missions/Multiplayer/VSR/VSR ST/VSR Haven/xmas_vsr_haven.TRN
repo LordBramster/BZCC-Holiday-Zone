@@ -1,0 +1,27 @@
+[Texture]
+TileTexture1 = "bane4.tga"
+TileTexture2 = "bane2.tga"
+TileTexture3 = "bane3.tga"
+TileTexture4  = "bane1.tga"
+TileTexture10  = "bane5.tga"
+
+[NormalView]
+SpecularPower = 1024
+
+[World]
+MusicTrack1=18
+MusicTrack2=17
+MusicTrack3=16
+MusicTrack4=13
+MusicTrack5=14
+MusicTrack6=19
+MusicTrack7=20
+
+
+[DLL]
+CaptureIsRandom = false
+CaptureTarget1 = "VSRcap1"
+CaptureTarget2 = "VSRcap2"
+CaptureTarget3 = "VSRcap3"
+CaptureTarget4 = "VSRcap5"
+CaptureTarget5 = "VSRcap5"

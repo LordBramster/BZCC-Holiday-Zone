@@ -73,7 +73,7 @@ Santa didn't forget about dropping some Christmas spirit across a couple VSR map
     [/tr]
     [tr]
         [td]GeneralBlackDragon[/td]
-        [td]Modding Support, Fireworks Assets[/td]
+        [td]Modding Support, Fireworks, Snowy Giza[/td]
     [/tr]
 [/table]
 

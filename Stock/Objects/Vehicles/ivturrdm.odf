@@ -1,0 +1,26 @@
+[GameObjectClass]
+classLabel = "ivturr"
+unitName = "Rattled Snowman"
+unitIcon = "icon_ivsnowman.tga"
+
+aiAddHealth = 0
+aiAddAmmo = 20
+collisionRadius = 0.0
+
+/////// PROVIDES ///////////////////
+
+provideCount = 3
+provideName2 = "ivturrdm"
+provideName3 = "VIRTUAL_CLASS_TURRET"
+
+////////////////////////////////////
+
+[CraftClass]
+engageRange = 1200
+weaponPitch = 1.5
+
+[HoverCraftClass]
+
+[DeployableClass]
+
+[TurretTankClass]

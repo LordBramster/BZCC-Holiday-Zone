@@ -130,10 +130,10 @@ function Start()
 
 	AudioMessage("mission1_1.wav");
 
-	AttackWave(config.wave1A, "transport_spawn", "recycler", 1);
-	AttackWave(config.wave1C, "transport_spawn", "recycler", 1);
-	AttackWave(config.wave1B, "gtow3", "recycler", 1);
-	AttackWave(config.wave1C, "gtow2", "recycler", 1);
+	AttackWave(config.wave1A, "transport_spawn", "transport_path", 1);
+	AttackWave(config.wave1C, "transport_spawn", "transport_path", 1);
+	AttackWave(config.wave1B, "gtow3", "Recycler", 1);
+	AttackWave(config.wave1C, "gtow2", "Recycler", 1);
 end
 
 function Update()
@@ -263,9 +263,9 @@ function MissionLogic()
 
 		AudioMessage("mission1_2.wav");
 		
-		AttackWave(config.wave1A, "gtow2", "recycler", 2);
-		AttackWave(config.wave1B, "gtow3", "recycler", 2);
-		AttackWave(config.wave1C, "recyclerEnemy", "recycler", 3);
+		AttackWave(config.wave1A, "gtow2", "Recycler", 2);
+		AttackWave(config.wave1B, "gtow3", "Recycler", 2);
+		AttackWave(config.wave1C, "recyclerEnemy", "Recycler", 3);
 	end
 	
 	if ((GetDistance(Mission.Transport, "transport_give") < 50.0) and Mission.IsBaseOperational == false) then
@@ -297,8 +297,8 @@ function MissionLogic()
 		AudioMessage("mission1_3.wav");
 
 		AttackWave(config.wave2A, "recyclerEnemy", "nav1", 1);
-		AttackWave(config.wave2B, "recyclerEnemy", "nav1" 2);
-		AttackWave(config.wave2C, "transport_spawn", "recycler", 2);
+		AttackWave(config.wave2B, "recyclerEnemy", "nav1", 2);
+		AttackWave(config.wave2C, "transport_spawn", "transport_path", 2);
 	end
 	
 	local check = Mission.GoToBunker;
@@ -332,11 +332,11 @@ function MissionLogic()
 
 			AudioMessage("mission1_4.wav");
 
-			AttackWave(config.wave1B, "transport_spawn", "recycler", 2);
-			AttackWave(config.wave1C, "recyclerEnemy", "recycler", 1);
-			AttackWave(config.wave2B, "recyclerEnemy", "recycler", 2);
+			AttackWave(config.wave1B, "transport_spawn", "transport_path", 2);
+			AttackWave(config.wave1C, "recyclerEnemy", "Recycler", 1);
+			AttackWave(config.wave2B, "recyclerEnemy", "Recycler", 2);
 			AttackWave(config.wave3A, "recyclerEnemy", "nav1", 1);
-			AttackWave(config.wave3B, "recyclerEnemy", "nav1" 2);
+			AttackWave(config.wave3B, "recyclerEnemy", "nav1", 2);
 			AttackWave(config.wave3C, "recyclerEnemy", "hold4", 1);
 			AttackWave(config.wave0A, "recyclerEnemy", "gtow3", 1);
 			AttackWave(config.wave0B, "recyclerEnemy", "gtow4", 1);
@@ -376,11 +376,11 @@ function MissionLogic()
 
 		AudioMessage("mission1_5.wav");
 
-		AttackWave(config.wave2B, "recyclerEnemy", "recycler", 1);
-		AttackWave(config.wave3A, "recyclerEnemy", "recycler", 1);
-		AttackWave(config.wave2B, "recyclerEnemy", "recycler" 2);
+		AttackWave(config.wave2B, "recyclerEnemy", "Recycler", 1);
+		AttackWave(config.wave3A, "recyclerEnemy", "Recycler", 1);
+		AttackWave(config.wave2B, "recyclerEnemy", "Recycler", 2);
 		AttackWave(config.wave3A, "recyclerEnemy", "nav2", 1);
-		AttackWave(config.wave2B, "recyclerEnemy", "nav2" 2);
+		AttackWave(config.wave2B, "recyclerEnemy", "nav2", 2);
 		AttackWave(config.wave3C, "recyclerEnemy", "nav2", 1);
 		AttackWave(config.wave0A, "gtow1", "nav2", 1);
 		AttackWave(config.wave0B, "recyclerEnemy", "nav2", 1);
@@ -408,12 +408,12 @@ function MissionLogic()
 
 		AudioMessage("mission1_6.wav");
 
-		AttackWave(config.wave2B, "recyclerEnemy", "recycler", 1);
-		AttackWave(config.wave3A, "recyclerEnemy", "recycler", 1);
-		AttackWave(config.wave2B, "recyclerEnemy", "recycler" 2);
-		AttackWave(config.wave3A, "recyclerEnemy", "recycler", 1);
-		AttackWave(config.wave2B, "recyclerEnemy", "recycler" 2);
-		AttackWave(config.wave3C, "recyclerEnemy", "recycler", 1);
+		AttackWave(config.wave2B, "recyclerEnemy", "Recycler", 1);
+		AttackWave(config.wave3A, "recyclerEnemy", "Recycler", 1);
+		AttackWave(config.wave2B, "recyclerEnemy", "Recycler", 2);
+		AttackWave(config.wave3A, "recyclerEnemy", "Recycler", 1);
+		AttackWave(config.wave2B, "recyclerEnemy", "Recycler", 2);
+		AttackWave(config.wave3C, "recyclerEnemy", "Recycler", 1);
 		AttackWave(config.wave0B, "recyclerEnemy", "hold1", 1);
 		AttackWave(config.wave0B, "recyclerEnemy", "hold2", 1);
 

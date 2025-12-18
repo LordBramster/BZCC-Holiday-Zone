@@ -4,7 +4,7 @@ geometryName = "nutcracker_toy.fbx"
 classLabel = "turret"
 scrapCost = 75
 scrapValue = 40
-maxHealth = 6500
+maxHealth = 6000
 maxAmmo = 10000 // 0 is *not* treated as infinite ammo!
 unitName = "Nutcracker"
 aiName = "GunTowerFriend"
@@ -17,6 +17,7 @@ collisionRadius = 1
 armorClass = H
 AllowUndergroundSpawn = 1  //from pb137# to ensure ground preplacement
 ownsTerrain = true
+buildSupport = "A"
 buildRequire = "F"
 
 /////// REQUIREMENTS ///////////////
@@ -61,7 +62,7 @@ weaponPitch = 1.5
 steerFactor = 0.5
 
 [TurretCraftClass]
-// detectRange = 200
+detectRange = 350
 
 // // TODO
 // powerTap1 = "hp_tap_2"

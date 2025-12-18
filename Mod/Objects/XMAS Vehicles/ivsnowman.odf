@@ -2,11 +2,11 @@
 baseName = "ivsnowman"
 geometryName = "snowman_frosty.fbx"
 classLabel = "turrettank"
-scrapCost = 50
-customCost = 60
+scrapCost = 65
+customCost = 75
 scrapValue = 30
-buildTime = 12
-customTime = 15.0
+buildTime = 15
+customTime = 18
 maxHealth = 5000
 maxAmmo = 9000
 addAmmo = 6

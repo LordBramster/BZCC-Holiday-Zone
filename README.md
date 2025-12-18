@@ -37,7 +37,7 @@ Play on some of the most popular maps, all with a Christmas twist!
 | `Cyber` | VSR Map Conversions, Music |
 | `F9bomber` | Custom Mission Script |
 | `Zorn` | Ice 3D Asset |
-| `General Black Dragon` | Modding Support, Fireworks Assets |
+| `General Black Dragon` | Modding Support, Fireworks, Snowy Giza |
 
 | Special Thanks To | For |
 | --- | --- |
@@ -188,5 +188,8 @@ Don't forget to try the VSR compatible maps! 🎮
 - Ice Trap 🧊
 
 ## VSR Map Pack Prep 🚀
-1. Remove duplicate assets from `VSR: Consciousness` by deleting the `assets/` folder from the map folder.
+1. `Assets/` is the folder with assets from VSR needed to run in this mod.
+1. `Shared/` is the folder with assets needed to run these VSR maps (in addition to props).
+1. `VSR ONLY/` are for maps that are designed just for VSR DLLs.
+1. `VSR ST/` are for maps saved with a new `.BZN` file to work in this mod's ST DLL.
 1. Save VSR maps under a new `.BZN` to be compatible with stock.

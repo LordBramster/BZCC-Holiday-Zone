@@ -11,6 +11,7 @@ addhealth = 5
 maxAmmo = 3250
 addAmmo = 5
 unitName = "Mini Snowman II"
+unitIcon = "icon_ivsnowball2.tga"
 aiName = "AssaultTankProcess"
 aiName2 = "AssaultTankProcess"
 armorClass = N

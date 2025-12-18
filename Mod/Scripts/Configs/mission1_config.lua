@@ -17,6 +17,7 @@ return {
 	presentThree = "xopres3",
 	santaClaus = "ibbomb_xmas",
 	enemyBuilding = "ibarmo_xmas",
+	power = "ibpgen",
 	wave0A = "ivsnowman",
 	wave0B = "ivnutcracker_dm",
 	wave1A = "ivelf",
