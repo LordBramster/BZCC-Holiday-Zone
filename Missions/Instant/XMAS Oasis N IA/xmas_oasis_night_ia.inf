@@ -1,6 +1,6 @@
 [DESCRIPTION]
 missionName = "(Holiday) Frozen Wonderland at Night"
-mapTga = "xmas_oasis_night.bmp"
+mapTga = "xmas_oasis_night.dds"
 mapDesc = "xmas_oasis_night_ia.des"
 mySide = 1
 

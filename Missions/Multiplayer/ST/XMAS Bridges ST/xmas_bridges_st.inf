@@ -1,6 +1,6 @@
 [DESCRIPTION]
 missionName = "(Holiday) ST: Saint Nick's Crossings"
-mapTga = "xmas_bridges.bmp"
+mapTga = "xmas_bridges.dds"
 mapDesc = "xmas_bridges_st.des"
 
 [NetVars]

@@ -1,6 +1,6 @@
 [DESCRIPTION]
 missionName = "(Holiday) ST: Winter Basin"
-mapTga = "xmas_quarry.bmp"
+mapTga = "xmas_quarry.dds"
 mapDesc = "xmas_quarry_st.des"
 mySide = 1
 

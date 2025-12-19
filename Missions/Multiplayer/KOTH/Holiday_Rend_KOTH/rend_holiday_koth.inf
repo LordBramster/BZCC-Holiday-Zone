@@ -1,6 +1,6 @@
 [DESCRIPTION]
 missionName = "(Holiday) KOTH: Evergreen"
-mapTga = "xmas_rend.bmp"    //no TGA until carey paints map
+mapTga = "xmas_rend.dds"    //no TGA until carey paints map
 mapDesc = "rend_holiday_koth.des"
 mySide = 1
 

@@ -1,6 +1,6 @@
 [DESCRIPTION]
 missionName = "(Holiday) ST: Arctic Drifts"
-mapTga = "xmas_dunes.bmp"
+mapTga = "xmas_dunes.dds"
 mapDesc = "xmas_dunes_st.des"
 
 [NetVars]

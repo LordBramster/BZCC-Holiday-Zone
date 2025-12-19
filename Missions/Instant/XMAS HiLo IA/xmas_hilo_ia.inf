@@ -1,6 +1,6 @@
 [DESCRIPTION]
 missionName = "(Holiday) Ho Ho & Low"
-mapTga = "xmas_hilo.bmp"
+mapTga = "xmas_hilo.dds"
 mapDesc = "xmas_hilo_ia.des"
 mySide = 1
 

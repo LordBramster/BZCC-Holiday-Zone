@@ -1,6 +1,6 @@
 [DESCRIPTION]
 missionName = "(Holiday) RACE: Polar Run"
-mapTga = "xmas_pluto.bmp"
+mapTga = "xmas_pluto.dds"
 mapDesc = "pluto_holiday_race.des"
 mySide = 1
 

@@ -1,6 +1,6 @@
 [DESCRIPTION]
 missionName = "(Holiday) ST: (VSR) Snowy Giza"
-mapTga = "xmasgiza.bmp"
+mapTga = "xmasgiza.dds"
 mapDesc = "xmas_vsr_giza.des"
 
 [NetVars]

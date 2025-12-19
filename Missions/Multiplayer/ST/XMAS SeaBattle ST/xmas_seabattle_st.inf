@@ -1,6 +1,6 @@
 [DESCRIPTION]
 missionName = "(Holiday) ST: Icy Blue Sea"
-mapTga = "xmas_seabattle.bmp"
+mapTga = "xmas_seabattle.dds"
 mapDesc = "xmas_seabattle_st.des"
 
 [NetVars]

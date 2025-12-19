@@ -1,6 +1,6 @@
 [DESCRIPTION]
 missionName = "(Holiday) ST: (VSR) Overlook"
-mapTga = "xmasoverlook.bmp"
+mapTga = "xmasoverlook.dds"
 mapDesc = "xmas_vsr_overlook_st.des"
 
 [NetVars]

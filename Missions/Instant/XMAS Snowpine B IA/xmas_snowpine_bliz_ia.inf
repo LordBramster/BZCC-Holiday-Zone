@@ -1,6 +1,6 @@
 [DESCRIPTION]
 missionName = "(Holiday) Snowpine Blizzard"
-mapTga = "xmas_snowpine_bliz.bmp"
+mapTga = "xmas_snowpine_bliz.dds"
 mapDesc = "xmas_snowpine_bliz_ia.des"
 mySide = 1
 

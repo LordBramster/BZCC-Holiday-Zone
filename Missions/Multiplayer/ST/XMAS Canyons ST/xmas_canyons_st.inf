@@ -1,6 +1,6 @@
 [DESCRIPTION]
 missionName = "(Holiday) ST: Jolly Chasm"
-mapTga = "xmas_canyons.bmp"
+mapTga = "xmas_canyons.dds"
 mapDesc = "xmas_canyons_st.des"
 
 [NetVars]

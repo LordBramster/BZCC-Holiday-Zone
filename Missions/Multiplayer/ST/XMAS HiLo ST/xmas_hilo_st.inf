@@ -1,6 +1,6 @@
 [DESCRIPTION]
 missionName = "(Holiday) ST: Ho Ho & Low"
-mapTga = "xmas_hilo.bmp"
+mapTga = "xmas_hilo.dds"
 mapDesc = "xmas_hilo_st.des"
 
 [NetVars]

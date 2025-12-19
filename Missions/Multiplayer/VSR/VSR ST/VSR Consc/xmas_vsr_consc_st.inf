@@ -1,6 +1,6 @@
 [DESCRIPTION]
 missionName = "(Holiday) ST: (VSR) Consciousness"
-mapTga = "xmasconsc.bmp"
+mapTga = "xmasconsc.dds"
 mapDesc = "xmas_vsr_consc_st.des"
 
 [NetVars]

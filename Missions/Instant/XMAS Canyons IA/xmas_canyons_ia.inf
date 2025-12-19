@@ -1,6 +1,6 @@
 [DESCRIPTION]
 missionName = "(Holiday) Jolly Chasm"
-mapTga = "xmas_canyons.bmp"
+mapTga = "xmas_canyons.dds"
 mapDesc = "xmas_canyons_ia.des"
 mySide = 1
 

@@ -1,6 +1,6 @@
 [DESCRIPTION]
 missionName = "(Holiday) ST: Frozen Wonderland at Night"
-mapTga = "xmas_oasi_night.bmp"
+mapTga = "xmas_oasi_night.dds"
 mapDesc = "xmas_oasis_night_st.des"
 
 [NetVars]

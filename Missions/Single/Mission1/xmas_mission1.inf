@@ -1,6 +1,6 @@
 [DESCRIPTION]
 missionName = "(Holiday) Mission #1"
-mapTga = "canyons_holiday_ia.bmp"
+mapTga = "canyons_holiday_ia.dds"
 mapDesc = "canyons_holiday_ia_msn.des"
 mySide = 1
 

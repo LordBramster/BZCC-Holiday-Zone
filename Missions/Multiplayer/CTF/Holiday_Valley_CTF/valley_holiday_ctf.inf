@@ -1,6 +1,6 @@
 [DESCRIPTION]
 missionName = "(Holiday) CTF: Jingle Valley"
-mapTga = "xmas_valley.bmp"
+mapTga = "xmas_valley.dds"
 mapDesc = "valley_holiday_ctf.des"
 mySide = 1
 

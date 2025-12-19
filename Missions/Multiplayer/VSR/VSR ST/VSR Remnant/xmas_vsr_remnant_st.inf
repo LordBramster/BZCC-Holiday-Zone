@@ -1,6 +1,6 @@
 [DESCRIPTION]
 missionName = "(Holiday) ST: (VSR) Remnant"
-mapTga = "xmasremnant.bmp"
+mapTga = "xmasremnant.dds"
 mapDesc = "xmas_vsr_remnant_st.des"
 
 [NetVars]

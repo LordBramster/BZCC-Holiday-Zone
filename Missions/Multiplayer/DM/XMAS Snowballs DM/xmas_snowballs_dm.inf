@@ -1,6 +1,6 @@
 [DESCRIPTION]
 missionName = "(Holiday) DM: Snowball Fight!"
-mapTga = "xmas_snowballs_dm.bmp"
+mapTga = "xmas_snowballs_dm.dds"
 mapDesc = "xmas_snowballs_dm.des"
 
 [NetVars]

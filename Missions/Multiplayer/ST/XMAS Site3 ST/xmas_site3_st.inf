@@ -1,6 +1,6 @@
 [DESCRIPTION]
 missionName = "(Holiday) ST: Polar Research Station"
-mapTga = "xmas_site3.bmp"
+mapTga = "xmas_site3.dds"
 mapDesc = "xmas_site3_st.des"
 
 [NetVars]

@@ -1,6 +1,6 @@
 [DESCRIPTION]
 missionName = "(Holiday) Icy Blue Sea"
-mapTga = "xmas_seabattle.bmp"
+mapTga = "xmas_seabattle.dds"
 mapDesc = "xmas_seabattle_ia.des"
 mySide = 1
 
