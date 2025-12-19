@@ -37,7 +37,7 @@ startRadius = 4.0
 finishRadius = 4.0
 
 [PowerUpClass]
-soundPickup = "hohoho.wav"
+soundPickup = "scrooge1.wav"
 soundReject = "reject.wav"
 
 [ServicePowerupClass]

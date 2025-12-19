@@ -2,7 +2,7 @@
 baseName = "apnaughty"
 classLabel = "apspecial"
 geometryName = "present_ap_03.fbx"
-scrapCost = 40
+scrapCost = 20
 unitName = "Naughty Finder"
 
 requireCount = 2

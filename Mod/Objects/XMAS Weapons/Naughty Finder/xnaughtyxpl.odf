@@ -9,13 +9,13 @@ explSound = "xbuild.wav"
 
 damageRadius = 50.0
 
-damageValue(N) = 250	// none
-damageValue(L) = 150	// light
-damageValue(H) = 50	// heavy
+damageValue(N) = 600	// none
+damageValue(L) = 450	// light
+damageValue(H) = 200	// heavy
 
-damageValue(S) = 150	// stasis
-damageValue(D) = 250	// deflection
-damageValue(A) = 50	// absorbtion
+damageValue(S) = 450	// stasis
+damageValue(D) = 350	// deflection
+damageValue(A) = 200	// absorbtion
 
 kickRadius = 50.0
 kickOmega = 5.0

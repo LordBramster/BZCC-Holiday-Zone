@@ -1,0 +1,46 @@
+[GameObjectClass]
+baseName = "ibtcen"
+geometryName = "ibtcen00.fbx"
+classLabel = "techcenter"
+scrapCost = 80
+scrapValue = 30
+maxHealth = 5000
+maxAmmo = 0
+unitName = "Toy Center"
+heatSignature = 2.0
+imageSignature = 1.0
+radarSignature = 1.0
+collisionRadius = 4.0
+isAssault = 1
+isSingle = 1
+armorClass = H
+
+/////// REQUIREMENTS ///////////////
+requireCount = 2
+requireName1 = "ibarmo"
+requireText1 = "Build Armory"
+requireName2 = "ibsbay"
+requireText2 = "Build Service Bay"
+
+/////// PROVIDES ///////////////////
+provideCount = 3
+provideName1 = "ibtcen"
+provideName2 = "VIRTUAL_CLASS_TECHCENTER"
+provideName3 = "base"
+
+/////////LIGHTS & EFFECTS /////////
+effectHard1 = "hp_emit_1"
+effectName1 = "emit_redblink"
+effectFlags1 = 2147483583 // only when powered.
+effectHard2 = "hp_emit_2"
+effectName2 = "emit_redblink"
+effectFlags2 = 2147483583 // only when powered.
+
+[BuildingClass]
+soundAmbient = "iabomb01.wav"
+[PoweredBuildingClass]
+detectRange = 100
+
+[Lod1]
+//geometryName = "ibtcenL1.fbx" ;geometry for lod1
+//distance = 50                 ;bsphere under 200 pixel => switch to lod1

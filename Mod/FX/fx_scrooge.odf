@@ -15,7 +15,7 @@ animateTime = 4
 lifeTime = 5
 SimulateSoundEffect = "scrooge5.wav"
 
-[santa]
+[naughty]
 simulateBase = "sim_null"
 renderBase = "draw_sprite"
 textureName = "naughty.tga"
