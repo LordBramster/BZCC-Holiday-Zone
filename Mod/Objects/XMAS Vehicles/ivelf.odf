@@ -35,7 +35,7 @@ weaponHard1 = "HP_CANNON_1"
 weaponName1 = "gfrost"
 weaponAssault1 = 1
 weaponHard2 = "HP_SPECIAL_1"
-weaponName2 = ""
+weaponName2 = "gnaughty"
 weaponAssault2 = 0
 
 /////////LIGHTS AND EFFECTS //////////////////
