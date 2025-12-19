@@ -1,13 +1,13 @@
 [img]https://raw.githubusercontent.com/LordBramster/BZCC-Holiday-Zone/refs/heads/main/Extras/bzcc_holidayzone.png[/img]
 
-[h1] 🎄 Holidayzone - Alpha Release (BETA-PATCH REQUIRED) [/h1]
+[h1][b] 🎄 HOLIDAY ZONE[/b] - Alpha Release [i](BETA-PATCH REQUIRED)[/i][/h1]
 A Christmas-themed conversion mod for Battlezone: Combat Commander. This early build introduces some playable yule vehicles & weapons, a few seasonal winter map variants, and unique Christmas environments & decorations across the Battlezone.
 
 [img]https://raw.githubusercontent.com/LordBramster/BZCC-Holiday-Zone/refs/heads/main/Extras/manson_santahat_fit.png[/img]
 
 [quote] 🛑 NOTE: The latest Beta Patch of BZCC (203+) is required to play this mod. We recognize that not everyone is playing on this version, and will be making a later attempt to make it compatible for current release of the game. We encourage players to take a second and install it using the following guide: [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3417282213]How To Switch To Beta Patch[/url], and use the code [b]SurpiseUpdate2[/b]. The BZCC Beta Patch includes so many new and exciting features that you shouldn't miss out on! [/quote]
 
-[h1][u]HOW TO SETUP THIS MOD ⚙️[/u][/h1]
+[h1][u]HOW TO SETUP ⚙️[/u][/h1]
 Follow these instructions in order to make sure are ready to play Holidayzone!
 [list]
 [*] Subscribe to this Steam Workshop mod.
@@ -17,7 +17,7 @@ Follow these instructions in order to make sure are ready to play Holidayzone!
 [*] Comment problems or issues you find (or let a member of the development team know).💬
 [/list]
 
-[h1][u]HOW TO PLAY THIS MOD 🎮[/u][/h1]
+[h1][u]BEST WAY TO PLAY 🎮[/u][/h1]
 For the best experience, here are some tips we recommend!
 [list]
 [*] Listen to some of the included Christmas music by having [b]Music[/b] set to [u]ON[/u], but with "Random Tracks" [u]OFF[/u].
