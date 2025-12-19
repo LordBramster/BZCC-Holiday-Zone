@@ -79,17 +79,17 @@ In addition to winterized classic Battlezone II maps, Holidayzone introduces a c
 
 [quote]Stay frosty, because more maps are planned to be added in the future![/quote]
 
-[h2][u]OTHER CONTENT 🎁[/u][/h2]
+[h2][u]FEATURED CONTENT 🎁[/u][/h2]
 
 [table equalcells=1]
     [td]
-        [img]https://raw.githubusercontent.com/LordBramster/BZCC-Holiday-Zone/refs/heads/main/Extras/present_fit.png[/img]
         [h2][b]Save Christmas Eve! 🎅[/b][/h2]
+        [img]https://raw.githubusercontent.com/LordBramster/BZCC-Holiday-Zone/refs/heads/main/Extras/present_fit.png[/img]
         [quote]T'was the night before Christmas... and the ISDF has been reassigned to save Santa. You need to help get Christmas delivery back on schedule! But watch out... Santa's Elves are trapped by the Nutcrackers and some presents went missing![/quote]
     [/td]
     [td]
-        [img]https://raw.githubusercontent.com/LordBramster/BZCC-Holiday-Zone/refs/heads/main/Extras/vsr_cold_fit.png[/img]
         [h2][b]VSR Map Pack 🔷[/b][/h2]
+        [img]https://raw.githubusercontent.com/LordBramster/BZCC-Holiday-Zone/refs/heads/main/Extras/vsr_cold_fit.png[/img]
         [quote]Want to play Cyber's Christmas maps compatible for the VSR mod? [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1325933293] Subscribe now to VSR and play the current seasonal rotation of your most popular strategy maps, all holiday-converted by Cyber![/url][/quote]
     [/td]
 [/table]
@@ -138,6 +138,8 @@ Don't hesitate to leave your feedback and suggestions, we'd love to hear from yo
 [/list]
 
 [hr][/hr]
+[img]https://i.imgur.com/OVseEOL.gif[/img]
+
 [img]https://i.imgur.com/j9n4bOl.gif[/img]
 
 [b]❄️ See you out on the ice, Commanders! ❄️[/b]
