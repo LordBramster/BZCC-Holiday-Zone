@@ -73,7 +73,11 @@ Santa didn't forget about dropping some Christmas spirit across a couple VSR map
     [/tr]
     [tr]
         [td]GeneralBlackDragon[/td]
-        [td]Modding Support, Fireworks, Snowy Giza[/td]
+        [td]Modding Support, Fireworks, Map: Snowy Giza[/td]
+    [/tr]
+    [tr]
+        [td]Scrap Pool[/td]
+        [td]Biometal Maps: Oasis, Site3[/td]
     [/tr]
 [/table]
 
