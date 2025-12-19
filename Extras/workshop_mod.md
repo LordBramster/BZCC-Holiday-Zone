@@ -131,7 +131,6 @@ Thank you to all of the people in the Battlezone community who helped make Holid
 [code][b]🚫 DISCLAIMER: DO NOT USE ANY mod assets as part of your own creations, or attempt to re-upload or steal any creations from this mod without evident approval/permission.[/b] We will report and pursue action - please read [url=https://developer.valvesoftware.com/wiki/Mod_Content_Usage#:~:text=Using%20content%20from%20other%20mods,-It's%20a%20sad&text=Even%20if%20a%20mod%20is,the%20copyright%20for%20their%20wo]Mod Content Usage | Valve[/url].🚫[/code]
 
 [h1][u]SUPPORT ☕[/u][/h1]
-[img]https://raw.githubusercontent.com/LordBramster/BZCC-Holiday-Zone/refs/heads/main/Extras/frosty_fit.png[/img]
 Don't hesitate to leave your feedback and suggestions, we'd love to hear from you!
 [list]
 [*] [b]Want to stay tuned on Battlezone and more Holidayzone content?[/b] Check out the ongoing conversations on Discord! Visit the [url=https://discord.com/channels/271066904284758027/1440908604378058856]Battlezone Discord[/url] to learn more.🎮
@@ -139,7 +138,7 @@ Don't hesitate to leave your feedback and suggestions, we'd love to hear from yo
 [/list]
 
 [hr][/hr]
-[img]https://i.imgur.com/OVseEOL.gif[/img]
+[img]https://raw.githubusercontent.com/LordBramster/BZCC-Holiday-Zone/refs/heads/main/Extras/frosty_fit.png[/img]
 
 [img]https://i.imgur.com/j9n4bOl.gif[/img]
 
