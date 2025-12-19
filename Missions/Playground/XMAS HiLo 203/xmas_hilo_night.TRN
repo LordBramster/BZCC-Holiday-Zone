@@ -36,5 +36,5 @@ TileTexture5 = "bane5.tga" 	// Rock -> Snow Rock "wasteland5.tga"
 TileTexture6 = "bane5.tga" 	// Rock -> Snow Rock "wasteland6.tga"
 TileTexture7 = "wasteland7.tga"
 TileTexture8 = "wasteland8.tga"
-TileTexture9 = "xmas_ice_d.tda" // Custom
-TileTexture10 = "xmas_ice2_d.tda" // Custom
+TileTexture9 = "xmas_ice_d.tga" // Custom
+TileTexture10 = "xmas_ice2_d.tga" // Custom

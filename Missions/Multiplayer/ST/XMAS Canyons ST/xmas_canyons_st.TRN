@@ -33,5 +33,5 @@ TileTexture3 = "bane4.tga" // "mire3.tga"
 TileTexture4 = "bane3.tga" // "mire4.tga"
 TileTexture5 = "bane5.tga" // "mire5.tga"
 TileTexture6 = "bane.tga" // "mire6.tga"
-TileTexture7 = "xmas_ice_d.tda" // Custom
-TileTexture8 = "xmas_ice2_d.tda" // Custom
+TileTexture7 = "xmas_ice_d.tga" // Custom
+TileTexture8 = "xmas_ice2_d.tga" // Custom

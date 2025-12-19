@@ -33,4 +33,4 @@ TileTexture6 = "bane4.tga"	// N/A
 TileTexture7 = "bane4.tga"	// Beach
 TileTexture8 = "bane4.tga"	// Underwater
 TileTexture9 = "bane4.tga"	// Dunes -> Ice
-TileTexture10 = "xmas_ice_d.tda" // Custom
+TileTexture10 = "xmas_ice_d.tga" // Custom

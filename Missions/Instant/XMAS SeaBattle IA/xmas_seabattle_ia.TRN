@@ -34,5 +34,5 @@ TileTexture4  = "bane4.tga"
 TileTexture5  = "bane5.tga" // "bane5.tga"
 TileTexture6  = "bbextf01.pic"
 TileTexture7  = "bbextf02.pic"
-TileTexture8 = "xmas_ice_d.tda" // Custom
-TileTexture9 = "xmas_ice2_d.tda" // Custom
+TileTexture8 = "xmas_ice_d.tga" // Custom
+TileTexture9 = "xmas_ice2_d.tga" // Custom
