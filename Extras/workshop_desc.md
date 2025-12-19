@@ -79,6 +79,10 @@ Santa didn't forget about dropping some Christmas spirit across a couple VSR map
         [td]Scrap Pool[/td]
         [td]Biometal Maps: Oasis, Site3[/td]
     [/tr]
+    [tr]
+        [td]Nielk1[/td]
+        [td]Hyper Space SFX BZCC Port[/td]
+    [/tr]
 [/table]
 
 ❄️ See you out on the ice, Commanders! ❄️
