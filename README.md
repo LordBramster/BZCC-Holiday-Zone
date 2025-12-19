@@ -104,39 +104,40 @@ Play on some of the most popular maps, all with a Christmas twist!
 ## Maps 🏂
 Here are some maps that have gotten a little christmas twist!
 
-> Note: 🌒 = Night variant included
+> Note: the following symbols denote included map variants where: 🌒 = Night / 🌨️ = Blizzard
 
 | Map Name | Game Modes | Christmas Name | Source |
 |-------------------|------------|-------------------------|--------|
-| XY | DM | | ❄️ |
-| XY | KOTH | | ❄️ |
-| XY | IA, MPI, ST, STCTF | | ❄️ |
-| XY | FFA | | ❄️ |
-| ✅Alien Dunes | IA, MPI, ST, STCTF | Arctic Drifts 🌒 | Stock 🔸 |
+| ⌛ Candy Pass | DM | - | ❄️ |
+| ⌛ Snowball Fight | DM | - | ❄️ |
+| ⌛ Jinglin' Slopes | KOTH | - | ❄️ |
+| ⌛ Snowpine 🌨️ | IA, MPI, ST, STCTF | - | ❄️ |
+| ⌛ Frosty Flats | FFA | - | ❄️ |
+| ✅ Alien Dunes | IA, MPI, ST, STCTF | Arctic Drifts 🌒 | Stock 🔸 |
 | ✅ Bridges | IA, MPI, ST, STCTF| Saint Nick's Crossing | Stock 🔸 |
 | ✅ Canyons | IA, MPI, ST, STCTF| Jolly Chasm | Stock 🔸 |
 | ✅ Chill | IA, MPI, ST, STCTF | Windchill | Stock 🔸 |
 | ✅ Hi & Low |  IA, MPI, ST, STCTF | Ho Ho & Low 🌒 | Stock 🔸 |
-| ✅Iceberg | IA, MPI, ST, STCTF | Ice Cap | Stock 🔸 |
+| ✅ Iceberg | IA, MPI, ST, STCTF | Ice Cap | Stock 🔸 |
 | ✅ Sea Battle | IA, MPI, ST, STCTF| Icy Blue Sea | Stock 🔸 |
-| ✅ Quarry | IA, MPI, ST, STCTF | Winter Basin | Stock 🔸 |
-| ⌛Rocks |  IA, MPI, ST, STCTF | Rockin' Around | Stock 🔸 |
-| ⌛Mars | IA, MPI, ST, STCTF | Candy-red Planet| Stock 🔸 |
-| ⌛High Heat | IA, MPI, ST, STCTF | High Freeze | Stock 🔸 |
-| ⌛Ring of Fire | DM | Arctic Circle | Stock 🔸 |
+| ✅ Quarry | IA, MPI, ST, STCTF | Winter Hollow | Stock 🔸 |
+| ⌛ Rocks |  IA, MPI, ST, STCTF | Rockin' Around | Stock 🔸 |
+| ⌛ Mars | IA, MPI, ST, STCTF | Candy-red Planet| Stock 🔸 |
+| ⌛ High Heat | IA, MPI, ST, STCTF | High Freeze | Stock 🔸 |
+| ✅ Ring of Fire | DM | Arctic Circle | Stock 🔸 |
 | ✅ Bane | DM | Glacier | Stock 🔸 |
 | ✅ Death Valley | CTF | Jingle Valley | Stock 🔸 |
 | ✅ Rend | KOTH | Evergreen 🌒 | Stock 🔸 |
 | ✅ Pluto | RACE | Polar Run | Stock 🔸 |
 | ✅ Site 03 | IA, MPI, ST, STCTF | Polar Research Station 03 | Scrap Pool ➕ |
 | ✅ Oasis | IA, MPI, ST, STCTF | Frozen Wonderland 🌒 | Scrap Pool ➕ |
-| Giza | VSR ST/MPI | Snowy Giza | VSR 🔹 |
-| Consciousness | VSR ST/MPI | Europa Night | VSR 🔹 |
-| Overlook | VSR ST/MPI | Overfrost | VSR 🔹 |
-| Jungle | VSR ST/MPI | Overfrost | VSR 🔹 |
-| Remnant | VSR ST/MPI | Remnant of Winter | VSR 🔹 |
-| Europa Night | VSR ST/MPI | Europa Night | VSR 🔹 |
-| Haven | VSR ST/MPI | Winter Haven | VSR 🔹 |
+| ✅ Europa Night | VSR ST/MPI | Europa Night | VSR 🔹 |
+| ✅ Giza | VSR ST/MPI | Snowy Giza | VSR 🔹 |
+| ✅ Consciousness | VSR ST/MPI | Europa Night | VSR 🔹 |
+| ✅ Overlook | VSR ST/MPI | Overfrost | VSR 🔹 |
+| ⌛ Jungle | VSR ST/MPI | Jungle | VSR 🔹 |
+| ✅ Remnant | VSR ST/MPI | Remnant of Winter | VSR 🔹 |
+| ✅ Haven | VSR ST/MPI | Snowy Haven | VSR 🔹 |
 
 More maps will be converted in the future! ☃️
 > ⚠️ Reminder: please revert `options_instant_string1 = "ivrecy_xmas"` to `"ivrecy"`, and `svar5 = "ivrecy_xmas"` to `"ivrecy_mb"` for map-pack compatibility.
@@ -185,3 +186,6 @@ Don't forget to try the VSR compatible maps! 🎮
 1. `VSR ONLY/` are for maps that are designed just for VSR DLLs.
 1. `VSR ST/` are for maps saved with a new `.BZN` file to work in this mod's ST DLL.
 1. Save VSR maps under a new `.BZN` to be compatible with stock.
+
+# Resources 📌
+- https://steamcommunity.com/comment/Guide/formattinghelp
