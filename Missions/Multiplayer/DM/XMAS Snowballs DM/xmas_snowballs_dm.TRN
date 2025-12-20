@@ -24,9 +24,6 @@ MusicTrack4=17
 MusicTrack5=18
 MusicTrack6=20
 
-[DefaultAllies]
-Entry1 = "1_2"
-
 [Light]
 SunPeriod = 24.0
 SunAngle = 9.0

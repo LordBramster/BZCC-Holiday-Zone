@@ -23,8 +23,6 @@ MusicTrack4=17
 MusicTrack5=18
 MusicTrack6=20
 
-[DefaultAllies]
-Entry1 = "1_2"
 [Texture]
 TileTexture1  = "bane.tga"
 TileTexture2  = "bane2.tga"
