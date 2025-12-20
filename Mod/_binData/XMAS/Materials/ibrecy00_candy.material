@@ -7,5 +7,6 @@ ambient = 0.000000  0.000000  0.000000  1.000000
 
 [texture]
 diffuse = candystick_d.dds
+teamcolor = candystick_c.dds
 normal = candystick_n.dds
 specular = candystick_s.dds

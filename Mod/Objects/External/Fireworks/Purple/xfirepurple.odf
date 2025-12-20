@@ -1,0 +1,103 @@
+// =============
+// FireWorks Explosion - purple
+// =============
+
+[ExplosionClass]
+classLabel = "explosion"
+
+particleTypes = 4
+particleClass1 = "xfirepurple.shock"
+particleCount1 = 1
+particleVeloc1 = "0.0 0.0 0.0"
+particleClass2 = "xfirepurple.sparksemit"
+particleCount2 = 30		//100
+particleVeloc2 = "50.0 50.0 50.0"
+particleClass3 = "xfirepurple.sparksemit"
+particleCount3 = 30		//100
+particleVeloc3 = "-50.0 -50.0 -50.0"
+particleClass4 = "xfirepurple.light"
+particleCount4 = 1
+particleVeloc4 = "0.0 0.0 0.0"
+
+explSound = "xfire1.wav"
+damageRadius = 10.0
+
+damageValue(N) = 0 // none
+damageValue(L) = 0 // light
+damageValue(H) = 0 // heavy
+
+damageValue(S) = 0 // standard
+damageValue(D) = 0 // deflection
+damageValue(A) = 0 // absorbtion
+damageValue(X) = 0 //X-Shield
+
+[Sparks]
+simulateBase = "sim_smoke"
+lifeTime = 0.2
+renderBase = "draw_emit"
+emitName = "xfirered.sparksemit"
+emitDelay = 0.2
+emitVelocity = "0.0 0.0 -10.0"
+emitVariance = "30.0 30.0 30.0"
+
+[Sparksemit]
+simulateBase = "sim_ember"
+lifeTime = 3.0
+renderBase = "draw_twirl"
+textureName = "particle.tga"
+textureBlend = "one one modulate"
+startColor = "255 100 255 400"
+finishColor = "200 0 200 0"
+startRadius = 0.8
+finishRadius = 1.2
+emitVelocity = "0.0 0.0 -50.0"
+emitVariance = "0.0 0.0 0.0"
+animateTime = 3.0
+trailTime = 1.2
+//segmentTime = 0.6
+rotationRate = 20.0
+
+[Sparkstrail]
+simulateBase = "sim_ember"
+lifeTime = 2.0
+renderBase = "draw_trail"
+textureName = "trail2.tga"
+textureBlend = "one one modulate"
+startColor = "255 255 255 255"
+finishColor = "255 0 255 0"
+startRadius = 0.05
+finishRadius = 0.1
+emitVelocity = "0.0 0.0 -50.0"
+emitVariance = "0.0 0.0 0.0"
+animateTime = 2.0
+trailTime = 1.2
+segmentTime = 0.6
+//rotationRate = 20.0
+
+[Shock]
+simulateBase = "sim_null"
+lifeTime = 0.3
+renderBase = "draw_sphere"
+textureName = "vsmoke.tga"
+textureBlend = "one one modulate"
+startColor = "255 255 255 255"
+finishColor = "10 0 10 0"
+startRadius = 0.0
+finishRadius = 3.0
+animateTime = 0.3
+latitudeBands = 8
+longitudeSegments = 16
+
+[Light]
+simulateBase = "sim_null"
+lifeTime = 1.5
+renderBase = "draw_light"
+startColor = "255 255 255 2550"
+finishColor = "100 0 100 0"
+startRadius = 10.0
+finishRadius = 0.0
+animateTime = 1.5
+attenuateConstant = 0.0
+attenuateLinear = 1.0
+attenuateQuadratic = 0.0
+

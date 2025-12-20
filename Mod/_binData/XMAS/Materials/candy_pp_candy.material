@@ -5,8 +5,6 @@ specularPower = 32.000000
 emissive = 0.000000  0.000000  0.000000  1.000000
 ambient = 0.000000  0.000000  0.000000  1.000000
 
-
-
 [texture]
 diffuse = candy_d.dds
 normal = candy_n.dds
