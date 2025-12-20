@@ -43,4 +43,4 @@ svar2 = "Nice" // Team name for team 2
 svar4 = "XMASVehicles.odf"
 
 svar7 = "dm" // Custom shell page to pull up [actually bzshell_multi_####.cfg]
-svar11 = "Rogues" // Team name for a craft on team "group" 3 (teams 11..15)
+svar11 = "Krampus" // Team name for a craft on team "group" 3 (teams 11..15)
