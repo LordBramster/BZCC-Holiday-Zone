@@ -19,5 +19,5 @@ CanBeIdleVictim = false
 
 effectHard1 = "hp_emit_1"
 effectName1 = "fx_xmas.candy"
-effectHard1 = "hp_emit_2"
-effectName1 = "fx_xmas.candy"
+effectHard2 = "hp_emit_2"
+effectName2 = "fx_xmas.candy"

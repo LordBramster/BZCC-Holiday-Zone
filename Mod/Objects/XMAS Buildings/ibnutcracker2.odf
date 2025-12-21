@@ -15,8 +15,8 @@ aiName2 = "GunTowerEnemy"
 requireCount = 2
 requireName1 = "ibcbun"
 requireText1 = "Build Relay Bunker"
-requireName1 = "ibtcen"
-requireText1 = "Build Tech Center"
+requireName2 = "ibtcen"
+requireText2 = "Build Tech Center"
 
 /////// PROVIDES ///////////////////
 provideCount = 3
