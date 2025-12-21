@@ -133,7 +133,6 @@ buildItem4 = "apmarshmallow"
 buildItem5 = "apwinds"
 buildItem6 = "apfrost"
 buildItem7 = "apyule"
-buildItem8 = "apwrck"
 
 [ArmoryGroup10]
 buildLabel = "Holiday Specials"

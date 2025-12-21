@@ -180,6 +180,9 @@ Don't forget to try the VSR compatible maps! 🎮
 - Igloo Armory 🧊
 - Service Pod Presents 🎁
 
+## Steam Workshop Prep 🚀
+1. Delete `.git` files, `readme.md` and `Extras/` folder.
+
 ## VSR Map Pack Prep 🚀
 1. `Assets/` is the folder with assets from VSR needed to run in this mod.
 1. `Shared/` is the folder with assets needed to run these VSR maps (in addition to props).

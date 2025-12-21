@@ -19,10 +19,6 @@ powerCost = 0
 requireCount = 0
 
 /////// PROVIDES ///////////////////
-provideCount = 3
-provideName1 = "ibgtow"
-provideName2 = "VIRTUAL_CLASS_GUNTOWER"
-provideName3 = "defender"
 
 /////// weapons ////////////////////
 weaponMask = 00011

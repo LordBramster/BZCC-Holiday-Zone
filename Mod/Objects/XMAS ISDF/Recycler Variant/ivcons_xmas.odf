@@ -122,10 +122,14 @@ buildItem2 = "ibfact_xmas"
 buildItem3 = "ibcbun"
 buildItem4 = "ibarmo_xmas"
 buildItem5 = "ibsbay"
-buildItem6 = "ibnutcracker"
 buildItem7 = "ibtrain"
 buildItem8 = "ibtcen"
 buildItem9 = "ibbomb"
+
+[BuildGroup6]
+buildLabel = "Santa's Defenders"
+buildItem1 = "ibgtow_xmas"
+buildItem2 = "ibnutcracker"
 
 soundBuild = "hohoho.wav"
 soundFinish = "santa.wav"

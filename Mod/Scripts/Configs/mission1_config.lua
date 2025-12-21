@@ -1,8 +1,8 @@
 return {
     author = "F9bomber",
 	recyclerHandle = "Merry-cycler",
-	recyclerVehicleODF = "ivrecy_xmas",
-	recyclerBuildingODF = "ibrecy_xmas",
+	recyclerVehicleODF = "ivrecy_xmas_o",
+	recyclerBuildingODF = "ibrecy_xmas_o",
 	factoryHandle = "Toy Factory",
 	factoryODF = "ibfact_xmas",
 	transportODF = "ivsnowplow_o",

@@ -1,0 +1,27 @@
+[GameObjectClass]
+classLabel = "ivrecy_xmas"
+unitName = "Merry-cycler"
+
+/////// PROVIDES ///////////////////
+provideCount = 4
+provideName1 = "ivrecy"
+provideName2 = "ivrecycpu"
+provideName3 = "VIRTUAL_CLASS_RECYCLER"
+provideName4 = "VIRTUAL_CLASS_RECYCLERVEHICLE"
+
+[CraftClass]
+
+[TrackedVehicleClass]
+
+
+[TrackedDeployableClass]
+
+[DeployBuildingClass]
+deployName = "ibrecy_xmas_o"
+
+[RecyclerVehicleClass]
+scrapHold = 40
+
+[Lod1]
+//geometryName = "ivrecyL1.fbx" ;geometry for lod1
+//distance = 100

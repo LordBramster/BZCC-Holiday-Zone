@@ -17,6 +17,8 @@ collisionRadius = 1
 armorClass = H
 AllowUndergroundSpawn = 1  //from pb137# to ensure ground preplacement
 ownsTerrain = true
+
+upgradeName = "ibnutcracker2"
 buildSupport = "A"
 buildRequire = "F"
 
@@ -27,7 +29,7 @@ requireText1 = "Build Relay Bunker"
 
 /////// PROVIDES ///////////////////
 provideCount = 3
-provideName1 = "ibnutcracker"
+provideName1 = "ibgtow"
 provideName2 = "VIRTUAL_CLASS_GUNTOWER"
 provideName3 = "defender"
 

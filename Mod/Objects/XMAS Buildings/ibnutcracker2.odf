@@ -1,0 +1,43 @@
+[GameObjectClass]
+classLabel = "ibnutcracker"
+baseName = "ibnutcracker"
+geometryName = "nutcracker_toy.fbx"
+scrapCost = 80
+scrapValue = 50
+maxHealth = 6500
+maxAmmo = 10000 // 0 is *not* treated as infinite ammo!
+unitName = "Nutcracker Prince"
+aiName = "GunTowerFriend"
+aiName2 = "GunTowerEnemy"
+
+
+/////// REQUIREMENTS ///////////////
+requireCount = 2
+requireName1 = "ibcbun"
+requireText1 = "Build Relay Bunker"
+requireName1 = "ibtcen"
+requireText1 = "Build Tech Center"
+
+/////// PROVIDES ///////////////////
+provideCount = 3
+provideName1 = "ibgtow"
+provideName2 = "VIRTUAL_CLASS_GUNTOWER"
+provideName3 = "defender"
+
+/////// weapons ////////////////////
+weaponMask = 00011
+weaponHard1 = "HP_CANNON_1"
+weaponName1 = "gblast_a"
+weaponAssault1 = 1
+weaponHard2 = "HP_CANNON_2"
+weaponName2 = "gblast_a"
+weaponAssault2 = 1
+
+[BuildingClass]
+
+[CraftClass]
+rangeScan = 400
+engageRange = 400
+
+[TurretCraftClass]
+detectRange = 350

@@ -1,0 +1,26 @@
+[GameObjectClass]
+classLabel = "ibrecy_xmas"
+unitName = "Merry-cycler"
+upgradeName = "ivrecy_xmas"
+
+/////// PROVIDES ///////////////////
+provideCount = 4
+provideName1 = "ibrecy"
+provideName2 = "ibrecycpu"
+provideName3 = "VIRTUAL_CLASS_RECYCLER"
+provideName4 = "VIRTUAL_CLASS_RECYCLERBUILDING"
+
+[PoweredBuildingClass]
+
+[BuildingClass]
+
+[FactoryClass]
+buildItem4 = "" // NO TUG
+
+[RecyclerClass]
+scrapDelay = 2.0 // # of seconds before +1 scrap
+
+[Lod1]
+//geometryName = "ibrecyL1.fbx" ;geometry for lod1
+//distance = 80
+//dontShiftLOD = 1

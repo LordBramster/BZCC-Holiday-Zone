@@ -137,7 +137,7 @@ function Start()
 end
 
 function Update()
-	-- StopCheats()
+	StopCheats() -- HOHOHO
 	Mission.TurnCounter = Mission.TurnCounter + 1; -- if we needed to any time based events
 	MissionLogic();
 	DeletePilots();
@@ -218,19 +218,19 @@ function CheckVehicles()
 		ClearObjectives();
 		AddObjective(Mission._Fail, "red", 15.0);
 		AddObjective(Mission._TransportGone, "white", 15.0);
-		FailMission(GetTime() + 5, "mission1_fail.des") -- TODO: Add des file here 
+		FailMission(5, "mission1_fail.des") -- TODO: Add des file here 
 
     elseif not tugAround and transportAround then
 		ClearObjectives();
 		AddObjective(Mission._Fail, "red", 15.0);
 		AddObjective(Mission._TugGone, "white", 15.0);
-		FailMission(GetTime() + 5, "mission1_fail.des") -- TODO: Add des file here 
+		FailMission(5, "mission1_fail.des") -- TODO: Add des file here 
 
     else
 		ClearObjectives();
 		AddObjective(Mission._Fail, "red", 15.0);
 		AddObjective(Mission._TugAndTransportGone, "white", 15.0);
-		FailMission(GetTime() + 5, "mission1_fail.des") -- TODO: Add des file here 
+		FailMission(5, "mission1_fail.des") -- TODO: Add des file here 
     end
 end
 
@@ -422,7 +422,7 @@ function MissionLogic()
 	if Mission.BombBase == true and not IsAround(Mission.EnemyHQ) then
 		ClearObjectives();
 		AddObjective(Mission._Success, "green", 15.0);
-		SucceedMission(GetTime() + 5, "mission1_pass.des") -- TODO: Add des file here
+		SucceedMission(5, "mission1_pass.des") -- TODO: Add des file here
 		Mission.Success = true
 	end
 	

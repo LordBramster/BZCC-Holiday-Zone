@@ -7,7 +7,7 @@ scrapCost = 70
 customCost = 75
 buildTime = 12.5
 customTime = 15.0
-maxHealth = 3000
+maxHealth = 2600
 maxAmmo = 3000
 addAmmo = 4
 unitName = "Yule Rhino"
@@ -17,7 +17,7 @@ heatSignature = 1.0
 imageSignature = 2.5
 radarSignature = 0.5
 isAssault = 0
-armorClass = L
+armorClass = H
 
 /////// REQUIREMENTS ///////////////
 requireCount = 0

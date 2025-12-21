@@ -6,9 +6,9 @@
 // 
 
 [MPVehicles]
-xsi1 = "snowman_frosty.fbx"
-cfg1 = "ivsnowman_dm"
-Description1 = "Naughty Snowman"
+xsi1 = "cookie_tree_pilot.fbx"
+cfg1 = "ivcookie2"
+Description1 = "Yummy Cookie"
 
 xsi2 = "sleigh_santa.fbx"
 cfg2 = "ivsleigh"
@@ -34,9 +34,9 @@ xsi7 = "nutcracker.fbx"
 cfg7 = "ivnutcracker_dm"
 Description7 = "Toy Nutcracker"
 
-xsi8 = "cookie_tree_pilot.fbx"
-cfg8 = "ivcookie2"
-Description8 = "Yummy Cookie"
+xsi8 = "snowman_frosty.fbx"
+cfg8 = "ivsnowman_dm"
+Description8 = "Naughty Snowman"
 
 xsi9 = "iceblock_pilot.fbx"
 cfg9 = "iviceblock"
