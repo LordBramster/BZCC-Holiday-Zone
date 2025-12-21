@@ -103,7 +103,6 @@ soundUndeploy = "trundepl.wav"
 soundPickup = "elf.wav"
 scrapHold = 80
 deployClass = "ibscav"
-deployOffset = 4.5
 enablePoolGoTo = false
 doDrop = true
 DropDist = 2.0
