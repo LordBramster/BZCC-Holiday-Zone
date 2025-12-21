@@ -23,17 +23,17 @@ MusicTrack6=19
 MusicTrack7=20
 
 [Texture]
-TileTexture1 = "dune1.tga"
-TileTexture2 = "dune2.tga"
+TileTexture1 = "bane2.tga" // dune1.tga
+TileTexture2 = "dune2.tga" 
 TileTexture3 = "dune3.tga"
-TileTexture4 = "xmasdune1X.tga" // //dune4
+TileTexture4 = "xmas_ice.tga" // //dune4 //xmasdune1X.tga
 TileTexture5 = "dune5.tga"
 TileTexture6 = "dune6.tga"
-TileTexture7 = "dune7.tga"
+TileTexture7 = "dune7.tga" //
 TileTexture8 = "dune8.tga"
 TileTexture9 = "dune9.tga"
-TileTexture10 = "xmasgrass1.tga" 
-TileTexture11 = "xmasmire6.tga"
+TileTexture10 = "xmasdune2.tga"  //// xmas_ice2_d //  //xmasgrass1
+TileTexture11 = "xmasmire6" // //
 TileTexture12 = "mire4.tga"
 
 [DLL]
