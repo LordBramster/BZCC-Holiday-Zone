@@ -1,6 +1,6 @@
 [DESCRIPTION]
-missionName = "(Holiday) KOTH: Jinglin' Slopes"
-mapTga = "xmas_slopes_koth.dds"
+missionName = "(Holiday) KOTH: Jinglin' Slopes!"
+mapTga = "xmas_slopes.dds"
 mapDesc = "xmas_slopes_koth.des"
 mySide = 1
 
