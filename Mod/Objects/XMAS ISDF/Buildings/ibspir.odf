@@ -9,7 +9,7 @@ maxAmmo = 10000 // 0 is *not* treated as infinite ammo!
 unitName = "Nutcracker"
 aiName = "GunTowerFriend"
 aiName2 = "GunTowerEnemy"
-heatSignature = 2.0
+heatSignature = 0.75
 imageSignature = 1.0
 radarSignature = 1.0
 isAssault = 1
@@ -17,6 +17,13 @@ collisionRadius = 1
 armorClass = H
 AllowUndergroundSpawn = 1  //from pb137# to ensure ground preplacement
 ownsTerrain = true
+
+canSelect = false
+canDetect = false
+canInteract = false
+isStealth = true
+powerCost = 0
+
 
 upgradeName = "ibnutcracker2"
 buildSupport = "A"
