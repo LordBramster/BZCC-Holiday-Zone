@@ -1,0 +1,40 @@
+[GameObjectClass]
+baseName = "ivtug"
+classLabel = "ivtug"
+scrapValue = 0
+scrapCost = 0
+buildTime = 10.0
+maxHealth = 2500
+maxAmmo = 0
+unitName = "Tug"
+aiName = "TugFriend"
+aiName2 = "TugFriend"
+heatSignature = 0.1
+imageSignature = 2.0
+radarSignature = 2.0
+isAssault = 1
+needPilot = 1
+canSnipe = 0
+armorClass = L
+
+/////// REQUIREMENTS ///////////////
+requireCount = 1
+requireName1 = "ibtele"
+requireText1 = "The Elves don't think so..."
+
+/////// PROVIDES ///////////////////
+provideCount = 2
+provideName1 = "ivtug"
+provideName2 = "VIRTUAL_CLASS_TUG"
+
+/////////LIGHTS AND EFFECTS//////////////////
+
+[CraftClass]
+
+[HoverCraftClass]
+
+[TugClass]
+
+[Lod1]
+//geometryName = "ivtugL1.fbx" ;geometry for lod1
+//distance = 50

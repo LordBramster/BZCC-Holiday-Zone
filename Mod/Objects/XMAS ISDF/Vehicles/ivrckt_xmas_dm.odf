@@ -1,0 +1,60 @@
+[GameObjectClass]
+classLabel = "ivrckt"
+unitName = "Tinsel Griffin"
+aiAddHealth = 0
+aiAddAmmo = 20
+collisionRadius = 0.0
+isAssault = 0
+armorClass = L
+
+/////// REQUIREMENTS ///////////////
+
+requireCount = 2
+requireName1 = "ibcbun"
+requireText1 = "Build Comm Bunk"
+requireName2 = "ibarmo"
+requireText2 = "Build Igloo Armory"
+
+////////////////////////////////////
+
+
+/////// PROVIDES ///////////////////
+
+provideCount = 6
+provideName2 = "ivrcktdm"
+provideName3 = "VIRTUAL_CLASS_ROCKETTANK"
+provideName4 = "assault"
+provideName5 = "DefendUnit"
+provideName6 = "AntiAir"
+
+/////// weapons ////////////////////
+weaponMask = 00011
+weaponHard1 = "HP_ROCKET_3"
+recoilName1 = "recoil1"
+weaponName1 = "gmarshmallow"
+weaponAssault1 = 0
+weaponHard2 = "HP_ROCKET_2"
+weaponName2 = "gmarshmallow"
+weaponAssault2 = 0
+weaponHard3 = "HP_ROCKET_1"
+recoilName3 = "recoil2"
+weaponName3 = "gsnowballs"
+weaponAssault3 = 0
+
+////////////////////////////////////
+lightHard1 = "hp_light_1"
+lightName1 = ""
+lightHard2 = "hp_light_2"
+lightName2 = ""  
+
+[CraftClass]
+engageRange = 500
+velocJam = 5.0
+
+[TrackedVehicleClass]
+
+[AssaultTankClass]
+
+// [Lod1]
+
+// [Lod2]

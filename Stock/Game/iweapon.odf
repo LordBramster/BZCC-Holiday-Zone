@@ -6,17 +6,18 @@ weaponName3 = "appumm"
 weaponName4 = "apchain"
 
 [Cannon]
-weaponCount = 10
+weaponCount = 11 //10
 weaponName1 = "apstab"
 weaponName2 = "appstb"
 weaponName3 = "apsstb"
 weaponName4 = "applas"
-weaponName5 = "apblst"
-weaponName6 = "apmagg"
-weaponName7 = "apfrost"
-weaponName8 = "appepperm"
-weaponName9 = "apwinds"
-weaponName10 = "apyule"
+weaponName5 = "apflsh"
+weaponName6 = "apblst"
+weaponName7 = "apmagg"
+weaponName8 = "apfrost"
+weaponName9 = "appepperm"
+weaponName10 = "apwinds"
+weaponName11 = "apyule"
 
 [Rocket]
 weaponCount = 4

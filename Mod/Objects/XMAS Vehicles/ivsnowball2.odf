@@ -6,7 +6,7 @@ scrapCost = 40
 customCost = 50
 buildTime = 10.0
 customTime = 12.0
-maxHealth = 2250
+maxHealth = 3000
 addhealth = 5
 maxAmmo = 3250
 addAmmo = 5
@@ -14,7 +14,7 @@ unitName = "Mini Snowman II"
 unitIcon = "icon_ivsnowball2.tga"
 aiName = "AssaultTankProcess"
 aiName2 = "AssaultTankProcess"
-armorClass = N
+armorClass = L
 
 /////// REQUIREMENTS ///////////////
 
@@ -23,7 +23,7 @@ armorClass = N
 /////// WEAPONS ////////////////////
 weaponMask = 0111
 weaponHard1 = "HP_MORTAR_1"
-weaponName1 = "gsnowballs"
+weaponName1 = "gsnowball"
 weaponAssault1 = 0
 weaponHard2 = "HP_CANNON_1"
 weaponName2 = "gpepperm"

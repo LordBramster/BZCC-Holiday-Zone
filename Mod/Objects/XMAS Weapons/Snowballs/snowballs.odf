@@ -10,9 +10,9 @@ xplBuilding = "xsnowballsxpl"
 
 renderName = "fx_xmas.SnowTrail_SM"
 
-ammoCost = 45
+ammoCost = 15
 lifeSpan = 1e30
-shotSpeed = 35
+shotSpeed = 50
 
 damageValue(N) = 150 // none
 damageValue(L) = 100 // light

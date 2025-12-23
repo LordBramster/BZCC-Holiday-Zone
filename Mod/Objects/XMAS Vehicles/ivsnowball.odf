@@ -18,7 +18,7 @@ heatSignature = 0.5
 imageSignature = 0.85
 radarSignature = 0.85
 isAssault = 1
-armorClass = L
+armorClass = N
 
 /////// REQUIREMENTS ///////////////
 requireCount =  0
@@ -34,7 +34,7 @@ provideName4 = "DefendUnit"
 weaponMask = 00111
 weaponHard1 = "HP_MORTAR_1"
 weaponAssault1 = 0
-weaponName1 = "gsnowball"
+weaponName1 = "gsnowballs"
 weaponHard2 = "HP_SPECIAL_1"
 weaponName2 = ""
 weaponAssault2 = 0

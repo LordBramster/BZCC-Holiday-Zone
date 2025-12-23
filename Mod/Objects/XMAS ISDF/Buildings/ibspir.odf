@@ -1,0 +1,84 @@
+[GameObjectClass]
+baseName = "ibspir"
+geometryName = "nutcracker_toy.fbx"
+classLabel = "turret"
+scrapCost = 75
+scrapValue = 40
+maxHealth = 6000
+maxAmmo = 10000 // 0 is *not* treated as infinite ammo!
+unitName = "Nutcracker"
+aiName = "GunTowerFriend"
+aiName2 = "GunTowerEnemy"
+heatSignature = 2.0
+imageSignature = 1.0
+radarSignature = 1.0
+isAssault = 1
+collisionRadius = 1
+armorClass = H
+AllowUndergroundSpawn = 1  //from pb137# to ensure ground preplacement
+ownsTerrain = true
+
+upgradeName = "ibnutcracker2"
+buildSupport = "A"
+buildRequire = "F"
+
+/////// REQUIREMENTS ///////////////
+requireCount = 1
+requireName1 = "ibcbun"
+requireText1 = "Build Candy Bunker"
+
+/////// PROVIDES ///////////////////
+provideCount = 3
+provideName1 = "ibspir"
+provideName2 = "VIRTUAL_CLASS_GUNTOWER"
+provideName3 = "defender"
+
+/////// WEAPONS ////////////////////
+weaponMask = 00011
+weaponHard1 = "HP_CANNON_1"
+weaponName1 = "gflash_c"
+weaponAssault1 = 0
+weaponHard2 = "HP_CANNON_2"
+weaponName2 = "gflash_c"
+weaponAssault2 = 0
+
+/////// LIGHTS and EFFECTS /////////
+
+
+/////// TURRETS ////////////////////
+turretCount = 2
+turretName1 = "turret_y"
+turretName2 = "turret_x"
+
+[BuildingClass]
+soundAmbient = "igtow01.wav"
+
+[CraftClass]
+rangeScan = 300
+engageRange = 350
+
+// rangeScan = 250
+periodScan = 1.0
+velocJam = 0.0
+weaponPitch = 1.5
+steerFactor = 0.5
+
+attackTask = "AssaultTankAttack"
+subAttackTask = "SupportSubAttack"
+subAttackClass = "ANS"
+// include air units as attack targets
+// doesn't need to deploy to sub attack
+// doesn't move towards unit in sub attack
+
+[TurretCraftClass]
+detectRange = 350
+
+// // TODO
+// powerTap1 = "hp_tap_2"
+// powerName = "iblung"
+// omegaTurret = 2.0
+// detectRange = 350
+
+// [PoweredBuildingClass]
+// SoundSwitchOn = "abetty2#.wav"
+// SoundSwitchOff = "abetty2#.wav"

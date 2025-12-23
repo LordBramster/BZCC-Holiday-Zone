@@ -52,13 +52,13 @@ BumpBlend1 = "srcalpha invsrcalpha modulatealpha"
 [Texture]
 TileTexture1 = "bane3.tga"//"dune1.tga"
 TileTexture2 = "bane2.tga"//"dune2.tga"
-TileTexture3 = "mire5.tga"//bane5 "dune3.tga"
+TileTexture3 = "bane5.tga"// "dune3.tga"
 TileTexture4 = "bane2.tga"//"dune4.tga"
 TileTexture5 = "bane3.tga"//"dune5.tga"
-TileTexture6 = "xmas_ice2_d"//"dune6.tga"
-TileTexture7 = "bane4"//"dune7.tga"
-TileTexture8 = "grass"//"dune8.tga"
-TileTexture9 = "bane4"//"dune9.tga"
+TileTexture6 = "xmas_ice2_d.tga"//"dune6.tga"
+TileTexture7 = "bane4.tga"//"dune7.tga"
+TileTexture8 = "grass.tga"//"dune8.tga"
+TileTexture9 = "bane4.tga"//"dune9.tga"
 
 
 [DomeLight0]

@@ -57,8 +57,6 @@ effectMaxAltitude1 = 5.0
 effectFlags1 = 2147483127
 
 [CraftClass]
-// canHunt = true
-modeText11 = "Go Caroling!"
 rangeScan = 300.0
 periodScan = 3.0
 velocJam = 1.0

@@ -122,6 +122,7 @@ function InitialSetup()
 end
 
 function Start()
+	-- StopCheats() -- HOHOHO (COULD THIS WORK HERE?)
 	print("Holiday Zone mission by " .. config.author);
 	AddObjective(Mission._Text1, "blue", 15.0);
 	Ally(1, 2);
@@ -130,14 +131,14 @@ function Start()
 
 	AudioMessage("mission1_1.wav");
 
-	AttackWave(config.wave1A, "transport_spawn", "transport_path", 1);
-	AttackWave(config.wave1C, "transport_spawn", "transport_path", 1);
-	AttackWave(config.wave1B, "gtow3", "Recycler", 1);
+	AttackWave(config.wave1A, "transport_spawn", "transport_path", 2);
+	AttackWave(config.wave1B, "gtow3", "Recycler", 2);
 	AttackWave(config.wave1C, "gtow2", "Recycler", 1);
+	AttackWave(config.wave1C, "stage3", "Recycler", 2);
 end
 
 function Update()
-	StopCheats() -- HOHOHO
+	-- StopCheats() -- HOHOHO
 	Mission.TurnCounter = Mission.TurnCounter + 1; -- if we needed to any time based events
 	MissionLogic();
 	DeletePilots();
@@ -355,6 +356,8 @@ function MissionLogic()
 		ClearObjectives();
 		AddObjective(Mission._Text4Success, "green", 15.0);
 		AddObjective(Mission._Text5, "blue", 15.0);
+
+		SetTeamNum(Mission.Transport, 2);
 
 		Mission.NavBeacon = BuildObject(config.navMarker, 1, "nav2");
 		SetObjectiveName(Mission.NavBeacon, "Presents");

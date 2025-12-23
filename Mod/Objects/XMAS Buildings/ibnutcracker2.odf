@@ -1,7 +1,7 @@
 [GameObjectClass]
-classLabel = "ibnutcracker"
 baseName = "ibnutcracker"
 geometryName = "nutcracker_toy.fbx"
+classLabel = "turret"
 scrapCost = 80
 scrapValue = 50
 maxHealth = 6500
@@ -9,14 +9,24 @@ maxAmmo = 10000 // 0 is *not* treated as infinite ammo!
 unitName = "Nutcracker Prince"
 aiName = "GunTowerFriend"
 aiName2 = "GunTowerEnemy"
+heatSignature = 2.0
+imageSignature = 1.0
+radarSignature = 1.0
+isAssault = 1
+collisionRadius = 1
+armorClass = H
+AllowUndergroundSpawn = 1  //from pb137# to ensure ground preplacement
+ownsTerrain = true
 
+buildSupport = "A"
+buildRequire = "F"
 
 /////// REQUIREMENTS ///////////////
 requireCount = 2
 requireName1 = "ibcbun"
-requireText1 = "Build Relay Bunker"
+requireText1 = "Build Candy Bunker"
 requireName2 = "ibtcen"
-requireText2 = "Build Tech Center"
+requireText2 = "Build Toy Center"
 
 /////// PROVIDES ///////////////////
 provideCount = 3
@@ -24,7 +34,7 @@ provideName1 = "ibgtow"
 provideName2 = "VIRTUAL_CLASS_GUNTOWER"
 provideName3 = "defender"
 
-/////// weapons ////////////////////
+/////// WEAPONS ////////////////////
 weaponMask = 00011
 weaponHard1 = "HP_CANNON_1"
 weaponName1 = "gblast_a"
@@ -33,11 +43,43 @@ weaponHard2 = "HP_CANNON_2"
 weaponName2 = "gblast_a"
 weaponAssault2 = 1
 
+/////// LIGHTS and EFFECTS /////////
+
+
+/////// TURRETS ////////////////////
+turretCount = 2
+turretName1 = "turret_y"
+turretName2 = "turret_x"
+
 [BuildingClass]
+soundAmbient = "igtow01.wav"
 
 [CraftClass]
 rangeScan = 400
 engageRange = 400
 
+// rangeScan = 250
+periodScan = 1.0
+velocJam = 0.0
+weaponPitch = 1.5
+steerFactor = 0.5
+
+attackTask = "AssaultTankAttack"
+subAttackTask = "SupportSubAttack"
+subAttackClass = "ANS"
+// include air units as attack targets
+// doesn't need to deploy to sub attack
+// doesn't move towards unit in sub attack
+
 [TurretCraftClass]
 detectRange = 350
+
+// // TODO
+// powerTap1 = "hp_tap_2"
+// powerName = "iblung"
+// omegaTurret = 2.0
+// detectRange = 350
+
+// [PoweredBuildingClass]
+// SoundSwitchOn = "abetty2#.wav"
+// SoundSwitchOff = "abetty2#.wav"

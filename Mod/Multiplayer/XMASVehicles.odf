@@ -70,7 +70,7 @@ cfg16 = "ivatank_xmas"
 Description16 = "Blizzard Bulldog"
 
 xsi17 = "ivrckt00.fbx"
-cfg17 = "ivrckt_xmas"
+cfg17 = "ivrckt_xmas_dm"
 Description17 = "Tinsel Griffin"
 
 xsi18 = "ivstas00.fbx"

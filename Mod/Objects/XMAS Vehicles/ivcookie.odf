@@ -32,7 +32,7 @@ armorClass = L
 /////// REQUIREMENTS ///////////////
 requireCount = 2
 requireName1 = "ibfact"
-requireText1 = "Build Factory"
+requireText1 = "Build Toy Factory"
 requireName2 = "ibcbun"
 requireText2 = "Build Relay Bunk"
 

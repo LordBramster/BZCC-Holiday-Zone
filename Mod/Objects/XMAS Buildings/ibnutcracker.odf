@@ -25,7 +25,7 @@ buildRequire = "F"
 /////// REQUIREMENTS ///////////////
 requireCount = 1
 requireName1 = "ibcbun"
-requireText1 = "Build Relay Bunker"
+requireText1 = "Build Candy Bunker"
 
 /////// PROVIDES ///////////////////
 provideCount = 3
@@ -62,6 +62,13 @@ periodScan = 1.0
 velocJam = 0.0
 weaponPitch = 1.5
 steerFactor = 0.5
+
+attackTask = "AssaultTankAttack"
+subAttackTask = "SupportSubAttack"
+subAttackClass = "ANS"
+// include air units as attack targets
+// doesn't need to deploy to sub attack
+// doesn't move towards unit in sub attack
 
 [TurretCraftClass]
 detectRange = 350

@@ -23,7 +23,7 @@ AlignTerrainReplaceType = 2
 /////// REQUIREMENTS ///////////////
 requireCount = 1
 requireName1 = "ibcbun"
-requireText1 = "Build Relay Bunker"
+requireText1 = "Build Candy Bunker"
 
 /////// PROVIDES ///////////////////
 provideCount = 4

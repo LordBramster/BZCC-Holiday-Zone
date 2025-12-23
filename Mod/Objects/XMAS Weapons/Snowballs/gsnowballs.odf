@@ -13,8 +13,8 @@ aiRange = 275 // 200.0
 AllowAimHigh = false
 
 [CannonClass]
-shotDelay = 4.0
+shotDelay = 5 //4.0
 shotAlternate = 1
 salvoCount = 3
-salvoDelay = 0.1
+salvoDelay = 0.15
 shotVariance = 0.25

@@ -2,7 +2,7 @@
 baseName = "ivhelf"
 classLabel = "scavengerH"
 geometryName = "elf_sled.fbx"
-scrapValue = 80
+scrapValue = 10 // 80
 scrapCost = 40
 buildTime = 10.0
 maxHealth = 2000 // 2500
@@ -110,7 +110,7 @@ DropDist = 2.0
 doDropRecycler = true
 doDropSilo = true
 doDropExtractor = true
-DeathScrapDropRatio = 1.25
+DeathScrapDropRatio = 1.25 // PICK IT UP BB!
 AddScrapHoldToTotal = false // auto scrap generation
 RequiresExtractor = true // auto scrap generation
 deployOffset = 16.0  //<saftest 6.0  //scav //4.5

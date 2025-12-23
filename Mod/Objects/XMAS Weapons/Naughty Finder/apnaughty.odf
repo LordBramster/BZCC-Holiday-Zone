@@ -9,7 +9,7 @@ requireCount = 2
 requireName1 = "ibarmo"
 requireText1 = "Build Igloory"
 requireName2 = "ibcbun"
-requireText2 = "Build Relay Bunker"
+requireText2 = "Build Candy Bunker"
 
 [PowerUpClass]
 

@@ -71,9 +71,9 @@ buildItem1 = "ivmbike_xmas"
 buildItem2 = "ivmisl_xmas"
 buildItem3 = "ivtank_xmas"
 buildItem4 = "ivintc_xmas"
-// buildItem5 = ""
+buildItem5 = ""
 
-[BuildGroup5]
+[BuildGroup6]
 buildLabel = "Jolly Vehicles"
 buildItem1 = "ivsnowball2"
 buildItem2 = "ivcookie"
@@ -98,6 +98,7 @@ buildItem2 = "ivrhino"
 buildLabel = "Santa's Heavy Units"
 buildItem1 = "ivrckt_xmas"
 buildItem2 = "ivatank_xmas"
+buildItem3 = "ivwalk"
 
 [BuildGroup10]
 buildLabel = "Santa's Air Units"

@@ -15,7 +15,7 @@ provideName4 = "VIRTUAL_CLASS_RECYCLERBUILDING"
 [BuildingClass]
 
 [FactoryClass]
-buildItem4 = "" // NO TUG
+buildItem4 = "ivtug_xmas_o" // NO TUG OR SPECIAL "CANNOT BUILD" TUG
 
 [RecyclerClass]
 scrapDelay = 2.0 // # of seconds before +1 scrap

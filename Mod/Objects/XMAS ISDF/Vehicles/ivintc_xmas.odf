@@ -31,7 +31,7 @@ provideName3 = "DefendUnit"
 /////// REQUIREMENTS ///////////////
 requireCount = 3
 requireName1 = "ibfact"
-requireText1 = "Build Factory"
+requireText1 = "Build Toy Factory"
 requireName2 = "ibcbun"
 requireText2 = "Build Relay Bunk"
 requireName3 = "ibsbay"
@@ -40,13 +40,13 @@ requireText3 = "Build Service Bay"
 /////// weapons ///////////////////
 weaponMask = 00011
 weaponHard1 = "HP_ROCKET_1"
-weaponName1 = "grktbomb_c"
+weaponName1 = "gshadow_c"
 weaponRecoil1 = "recoil1"
 weaponHard2 = "HP_ROCKET_2"
-weaponName2 = "gmarshmallow"
+weaponName2 = "gshadow_c"
 weaponRecoil2 = "recoil2"
 weaponHard3 = "HP_MORTAR_1"
-weaponName3 = "gsnowball"
+weaponName3 = "gsnowballs"
 weaponHard4 = "HP_SPECIAL_1"
 weaponName4 = "gfreezemine"
 

@@ -31,14 +31,14 @@ provideName6 = "AntiAir"
 weaponMask = 00011
 weaponHard1 = "HP_ROCKET_3"
 recoilName1 = "recoil1"
-weaponName1 = "gmarshmallow"
+weaponName1 = "gshadow_c"
 weaponAssault1 = 0
 weaponHard2 = "HP_ROCKET_2"
-weaponName2 = "gmarshmallow"
+weaponName2 = "gshadow_c"
 weaponAssault2 = 0
 weaponHard3 = "HP_ROCKET_1"
 recoilName3 = "recoil2"
-weaponName3 = "gsnowballs"
+weaponName3 = "gmarshmallow"
 weaponAssault3 = 1
 
 ////////////////////////////////////
@@ -48,8 +48,6 @@ lightHard2 = "hp_light_2"
 lightName2 = ""  
 
 [CraftClass]
-canHunt = true
-modeText11 = "Go Caroling!"
 engageRange = 500
 velocJam = 5.0
 
