@@ -1,6 +1,7 @@
 [img]https://raw.githubusercontent.com/LordBramster/BZCC-Holiday-Zone/refs/heads/main/Extras/bzcc_holidayzone.png[/img]
 
 [h1][b] 🎄 HOLIDAY ZONE[/b] - Alpha Release [i](BETA-PATCH REQUIRED)[/i][/h1]
+
 A Christmas-themed conversion mod for Battlezone: Combat Commander. This early build introduces some playable yule vehicles & weapons, a few seasonal winter map variants, and unique Christmas environments & decorations across the Battlezone.
 
 [img]https://raw.githubusercontent.com/LordBramster/BZCC-Holiday-Zone/refs/heads/main/Extras/manson_santahat_fit.png[/img]
@@ -65,7 +66,7 @@ In addition to winterized classic Battlezone II maps, Holidayzone introduces a c
     [/tr]
     [tr]
         [td]Jinglin' Slopes 🏂[/td]
-        [td]King Of The Hill[/td]
+        [td]King Of The Hill, Race[/td]
     [/tr]
     [tr]
         [td]Snowpine ❄️[/td]
