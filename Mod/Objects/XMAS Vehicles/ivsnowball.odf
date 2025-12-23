@@ -17,7 +17,7 @@ aiName2 = "AssaultTankProcess"
 heatSignature = 0.5
 imageSignature = 0.85
 radarSignature = 0.85
-isAssault = 1
+isAssault = 0
 armorClass = N
 
 /////// REQUIREMENTS ///////////////

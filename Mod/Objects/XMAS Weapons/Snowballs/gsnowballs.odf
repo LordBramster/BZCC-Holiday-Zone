@@ -8,13 +8,13 @@ wpnLadder = "gsplint.L0"
 wpnPriority = 2
 wpnCategory = "MORT"
 
-aiRange = 275 // 200.0
+aiRange = 175 // 200.0
 //needLOS = false
 AllowAimHigh = false
 
 [CannonClass]
-shotDelay = 5 //4.0
+shotDelay = 4.0
 shotAlternate = 1
 salvoCount = 3
-salvoDelay = 0.15
+salvoDelay = 0.1
 shotVariance = 0.25

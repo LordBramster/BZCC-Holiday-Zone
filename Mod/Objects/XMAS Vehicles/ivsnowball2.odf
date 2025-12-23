@@ -15,6 +15,7 @@ unitIcon = "icon_ivsnowball2.tga"
 aiName = "AssaultTankProcess"
 aiName2 = "AssaultTankProcess"
 armorClass = L
+isAssault = 0
 
 /////// REQUIREMENTS ///////////////
 
