@@ -40,11 +40,13 @@ requireText3 = "Build Service Bay"
 /////// weapons ///////////////////
 weaponMask = 00011
 weaponHard1 = "HP_ROCKET_1"
-weaponName1 = "gshadow_c"
-weaponRecoil1 = "recoil1"
+weaponName1 = "gmistle_a"
+weaponAssault1 = 1
+// weaponRecoil1 = "recoil1"
 weaponHard2 = "HP_ROCKET_2"
-weaponName2 = "gshadow_c"
-weaponRecoil2 = "recoil2"
+weaponName2 = "gmarshmallow"
+weaponAssault2 = 0
+// weaponRecoil2 = "recoil2"
 weaponHard3 = "HP_MORTAR_1"
 weaponName3 = "gsnowballs"
 weaponHard4 = "HP_SPECIAL_1"

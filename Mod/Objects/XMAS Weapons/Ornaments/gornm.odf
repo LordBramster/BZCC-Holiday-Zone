@@ -1,0 +1,19 @@
+[WeaponClass]
+classLabel = "cannon"
+altName = "gornm"
+ordName = "ornm"
+wpnName = "Ornaments"
+fireSound = "gtoss.wav"
+wpnReticle = "gplasma"
+wpnCategory = "CANN"
+isAssault = 0
+flashName = "gatstab_c.flash"
+aiRange = 110
+
+[CannonClass]
+shotDelay = 0.4
+shotAlternate = 1
+
+salvoCount = 2
+salvoDelay = 0.10
+shotVariance = 0.15

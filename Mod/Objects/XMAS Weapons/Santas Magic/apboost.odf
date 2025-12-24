@@ -1,0 +1,16 @@
+[GameObjectClass]
+baseName = "apboost"
+classLabel = "apspecial"
+geometryName = "present_ap_03.fbx"
+
+scrapCost = 30
+unitName = "Reindeer Magic Boost"
+
+requireCount = 1
+requireName1 = "ibarmo"
+requireText1 = "Build Igloory"
+
+[PowerUpClass]
+
+[WeaponPowerupClass]
+weaponName = "gboost"

@@ -1,0 +1,18 @@
+[GameObjectClass]
+baseName = "apmistle"
+classLabel = "aprocket"
+
+geometryName = "present_ap_03.fbx"
+
+scrapCost = 1
+
+unitName = "Candy Mistles"
+
+requireCount = 1
+requireName1 = "ibarmo"
+requireText1 = "Build Igloory"
+
+[PowerUpClass]
+
+[WeaponPowerupClass]
+weaponName = "gmistle_c"

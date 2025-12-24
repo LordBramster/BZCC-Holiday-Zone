@@ -1,0 +1,133 @@
+[OrdnanceClass]
+classLabel = "imagemissile"
+shotGeometry = "iomshd00.fbx"
+shotSound = "smort03.wav"
+
+xplGround = "xshdwgnd"
+xplVehicle = "xshdwcar"
+xplBuilding = "xshdwbld"
+renderName = "mistle_c.mistle"
+
+ammoCost = 20
+lifeSpan = 8.0 // 800m
+shotSpeed = 100.0
+
+damageValue(N) = 200 // none
+damageValue(L) = 180 // light
+damageValue(H) = 140 // heavy
+
+damageValue(S) = 180 // standard
+damageValue(D) = 140 // deflection
+damageValue(A) = 200 // absorbtion
+
+[MissileClass]
+omegaTurn = 1.5
+
+[Render]
+renderBase = "draw_multi"
+renderCount = 7
+renderName1 = "mistle_a.light"
+renderName2 = "mistle_a.flare"
+renderName3 = "mistle_a.smokecol"
+renderName4 = "mistle_a.smoke"
+renderName5 = "mistle_a.flame"
+renderName6 = "mistle_a.sparks"
+renderName7 = "mistle_a.flametrail"
+
+[Light]
+renderBase = "draw_light"
+startColor = "200 64 0 450"
+finishColor = "200 64 0 450"
+startRadius = 80.0
+finishRadius = 80.0
+attenuateConstant = 1.0
+attenuateLinear = 0.0
+attenuateQuadratic = 15.0
+
+[Flare]
+renderBase = "draw_twirl"
+textureName = "particle.tga"
+textureBlend = "one one modulate"
+startColor = "240 120 79 60"
+finishColor = "240 120 79 60"
+startRadius = 4.3
+finishRadius = 4.3
+rotationRate = 1.5
+BottomInteractsWithTerrain = false
+
+[Smokecol]
+renderBase = "draw_twirl_trail"
+textureName = "smoke.tga"
+textureBlend = "srcalpha invsrcalpha modulatealpha"
+startColor = "226 138 17 61"
+finishColor = "83 83 83 0"
+startRadius = 0.4
+finishRadius = 1.0
+rotationRate = 2.0
+animateTime = 0.4
+emitDelay = 0.005
+emitVelocity = "0.0 0.0 -15.0"
+emitVariance = "2.0 2.0 1.5"
+emitLife = 0.4
+BottomInteractsWithTerrain = false
+
+[Smoke]
+renderBase = "draw_twirl_trail"
+textureName = "smoke.tga"
+textureBlend = "srcalpha invsrcalpha modulatealpha"
+startColor = "103 103 103 61"
+finishColor = "103 103 103 0"
+startRadius = 0.5
+finishRadius = 1.3
+rotationRate = 2.0
+animateTime = 1.0
+emitDelay = 0.01
+emitVelocity = "0.0 0.0 -15.0"
+emitVariance = "2.0 2.0 1.5"
+emitLife = 1.0
+BottomInteractsWithTerrain = false
+
+[Flame]
+renderBase = "draw_twirl_trail"
+textureName = "flame.tga"
+textureBlend = "one one modulate"
+startColor = "255 255 63 255"
+finishColor = "255 0 0 0"
+startRadius = 0.4
+finishRadius = 0.1
+rotationRate = 2.0
+animateTime = 0.2
+emitDelay = 0.005 //0.001
+emitVelocity = "0.5 0.5 -10.0"
+emitVariance = "3.0 3.0 2.0"
+emitLife = 0.2
+emitInherit = "1.0 1.0 1.0"
+BottomInteractsWithTerrain = false
+
+[Sparks]
+renderBase = "draw_twirl_trail"
+textureName = "spark2.tga"
+textureBlend = "one one modulate"
+startColor = "242 147 77 255"
+finishColor = "237 233 82 0"
+startRadius = 0.18
+finishRadius = 0.13
+animateTime = 0.1
+emitDelay = 0.003
+emitVelocity = "0.0 0.0 -5.0"
+emitVariance = "18.9 18.9 18.9"
+emitLife = 0.1
+BottomInteractsWithTerrain = false
+	
+[FlameTrail]
+renderBase = "draw_trail"
+textureName = "firetrail2.tga"
+textureBlend = "one one modulate"
+textureRate = 0.1
+startColor = "255 255 100 255"
+finishColor = "255 140 80 0"
+startRadius = 0.6
+finishRadius = 0.2
+segmentTime = 0.2
+segmentLength = 0.3
+TextureSpeed = 8.0

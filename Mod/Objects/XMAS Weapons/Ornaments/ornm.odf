@@ -1,0 +1,21 @@
+[OrdnanceClass]
+classLabel = "bullet"
+
+shotGeometry = "ornament01.fbx"
+shotScale = 0.35
+
+xplGround = "xornmxpl"
+xplVehicle = "xornmxpl"
+xplBuilding = "xornmxpl"
+
+ammoCost = 15
+lifeSpan = 1.0
+shotSpeed = 100.0
+
+damageValue(N) = 175
+damageValue(L) = 90
+damageValue(H) = 50
+
+damageValue(S) = 125
+damageValue(D) = 75
+damageValue(A) = 35

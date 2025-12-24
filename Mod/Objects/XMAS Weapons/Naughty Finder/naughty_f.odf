@@ -1,15 +1,19 @@
 [GameObjectClass]
 classLabel = "seeker"
-geometryName = "xgseek00.fbx"
+geometryName = "xgseek01.fbx"
+geometryScale = 1.25
 scrapCost = 0
 scrapValue = 0
 maxHealth = 175
 maxAmmo = 100
-unitName = "Naughty Seeker"
+unitName = "Naughty Finder"
 heatSignature = 1.0
 imageSignature = 10.0
 radarSignature = 10.0
 canCollide = 1
+
+explosionName = "xsnowballsxpl"
+canInteract = false // true
 
 effectHard1 = "hp_emit_1"
 effectName1 = "emit_redblink"

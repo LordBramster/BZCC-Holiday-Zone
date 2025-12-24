@@ -45,7 +45,7 @@ provideName3 = "DefendUnit"
 /////// weapons ////////////////////
 weaponMask = 11111
 weaponHard1 = "HP_CANNON_1"
-weaponName1 = "gpepperm"
+weaponName1 = "gornm"
 recoilName1 = "recoil1"
 weaponAssault1 = 0
 weaponHard2 = "HP_GUN_1"

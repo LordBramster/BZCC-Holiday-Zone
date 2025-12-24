@@ -26,7 +26,7 @@ weaponName3 = "glaser_a"
 recoilName3 = "recoil3"
 weaponAssault3 = 1
 weaponHard4 = "HP_SPECIAL_1"
-weaponName4 = "gnaughty"
+weaponName4 = "gcrumby"
 weaponAssault4 = 0
 
 [CraftClass]

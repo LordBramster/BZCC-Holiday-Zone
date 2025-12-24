@@ -1,0 +1,16 @@
+[GameObjectClass]
+baseName = "apcrumby"
+classLabel = "apspecial"
+geometryName = "present_ap_03.fbx"
+scrapCost = 40
+unitName = "Crumby Helper"
+
+requireCount = 1
+requireName1 = "ibsbay"
+requireText1 = "Build Service Bay"
+
+
+[PowerUpClass]
+
+[WeaponPowerupClass]
+weaponName = "gcrumby"

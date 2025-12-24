@@ -6,6 +6,7 @@ xplGround = NULL
 xplVehicle = NULL
 xplBuilding = NULL
 // rendername = "splintbm.render"
+soundBounce = "gjingle.wav"
 
 ammoCost = 200
 lifeSpan = 20

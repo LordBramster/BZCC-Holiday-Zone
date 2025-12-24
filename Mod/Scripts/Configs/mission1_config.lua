@@ -23,6 +23,7 @@ return {
 	wave1A = "ivelf",
 	wave1B = "ivicesball",
 	wave1C = "ivsnowball",
+	wave1D = "ivcrumby",
 	wave2A = "iviceblock",
 	wave2B = "ivsnowball2",
 	wave2C = "ivcookie",

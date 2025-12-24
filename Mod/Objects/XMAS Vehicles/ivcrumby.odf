@@ -1,0 +1,118 @@
+[GameObjectClass]
+baseName = "ivcrumby"
+geometryName = "cookie_drone.fbx"
+classLabel = "wingman"
+scrapValue = 0
+scrapCost = 30
+customCost = 40
+buildTime = 10.0
+customTime = 12.0
+maxHealth = 500
+maxAmmo = 1000
+addAmmo = 10
+unitName = "Crumby Helper"
+aiName = "ScoutFriend"
+aiName2 = "ScoutEnemy"
+
+explosionName = "xsnowballsxpl"
+
+heatSignature = 1.0
+imageSignature = 10.0
+radarSignature = 1.0
+
+isAssault = 0
+armorClass = N
+needPilot = false
+
+// canInteract = false // true
+
+/////// REQUIREMENTS ///////////////
+requireCount = 0
+
+////////////////////////////////////
+
+
+/////// PROVIDES ///////////////////
+provideCount = 3
+provideName1 = "ivscout"
+provideName2 = "VIRTUAL_CLASS_SCOUT"
+provideName3 = "DefendUnit"
+
+////////////////////////////////////
+
+
+/////// WEAPONS ////////////////////
+
+weaponHard1 = "HP_CANNON_1"
+weaponName1 = "gflash_a"
+weaponAssault1 = 1
+
+/////// FX ////////////////////
+effectHard1 = "hp_dust_1"
+effectName1 = "dusttrail"
+effectMinAltitude1 = 0.0
+effectMaxAltitude1 = 15.0  
+effectMinVelocity1 = 10.0
+effectMaxVelocity1 = 500.0
+effectHard2 = "hp_emit_1"
+effectName2 = "emit_redblink"
+
+[CraftClass]
+canHunt = true
+modeText11 = "Go Caroling!"
+rangeScan = 500.0
+periodScan = 5.0
+velocJam = 10.0
+engageRange = 500
+topSpeed = 30
+braccelFactor = 0.05
+velFactor = 0.2
+steerFactor = 2.0
+omegaFactor = 0.9
+strafeFactor = 0.4
+
+canRescue = false
+CanAIEject = false
+
+selectWaitMsg = "ivscout04.wav"
+selectAttackMsg = "ivscout01.wav"
+selectFollowMsg = "ivscout03.wav"
+selectGoMsg = "ivscout02.wav"
+selectOtherMsg = "ivscout04.wav"
+
+goMsg = "ivscout05.wav"
+attackMsg = "ivscout06.wav"
+followMeMsg = "ivscout03.wav"
+followMsg = "ivscout08.wav"
+repairMsg = "ivscout09.wav"
+reloadMsg = "ivscout09.wav"
+rescueMsg = "ivscout10.wav"
+recycleMsg = "ivscout11.wav"
+otherMsg = "ivscout10.wav" 
+holdMsg = "ivscout12.wav"
+user1Msg = ""  
+killedMsg = "ivscout07.wav"
+diedMsg = ""
+
+[HoverCraftClass]
+setAltitude = 3.0 // how high off the ground
+velocForward = 20.0 // 
+velocReverse = 25.0 // 
+velocStrafe = 20.0 //
+accelThrust = 25.0 // acceleration 
+accelDragStop = 5.0 // how fast it stops once hands are off controls 
+accelJump = 18.0
+aiAccelDrag = 10
+alphaTrack = 22.0 //springs speed it rights itself 
+alphaDamp = 10.0 //shocks 
+pitchPitch = 0.25 // nose up 
+pitchThrust = 0.05 // nose down 
+rollStrafe = 0.1 // rolls while strafing 
+omegaSpin = 5.0 // spinning in place speed 
+omegaTurn = 4.0 // turning while moving speed 
+alphaSteer = 7.0 // how fast it responds to steering 
+rollSteer = 0.1 // rolls while steering 
+
+soundThrust = "dr1eng.wav"
+soundTurbo = "dr1eng.wav"
+animSteer = "steer"

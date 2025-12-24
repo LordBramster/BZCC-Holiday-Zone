@@ -5,7 +5,7 @@
 [ExplosionClass]
 classLabel = "explosion"
 
-explSound = "xbuild.wav"
+explSound = "glass.wav" //xbuild
 
 damageRadius = 50.0
 

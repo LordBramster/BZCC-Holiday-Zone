@@ -7,6 +7,8 @@ maxHealth = 150
 maxAmmo = 200
 unitName = "Present Mine"
 
+explosionName = "xsnowballsxpl"
+
 [MineClass]
 lifeSpan = 45
 xplBlast = "xsnowballxpl"

@@ -4,11 +4,11 @@ classLabel = "bullet"
 shotGeometry = "candy_pp_ord.fbx" // "iostba00.fbx"  //"gatstab.xsi"
 // shotSound = "Ordin_a.wav"
 
-renderName = "fx_xmas.FrostTrail_SM"
+renderName = "fx_xmas.Peppermint"
 
-xplGround = "xstabgnd_c"
-xplVehicle = "xstabcar_c"
-xplBuilding = "xstabcar_c"
+xplGround = "xsupergnd"
+xplVehicle = "xsupercar"
+xplBuilding = "xsupercar"
 
 ammoCost = 15
 lifeSpan = 1.0

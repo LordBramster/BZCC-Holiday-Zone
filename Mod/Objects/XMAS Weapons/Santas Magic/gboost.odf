@@ -1,0 +1,23 @@
+[WeaponClass]
+basename = "igjetp"
+classLabel = "jetpack"
+ordName = NULL
+wpnName = "Reindeer Boost"
+wpnIcon = "wire_igjetp%d.tga"
+fireSound = "turbotime.wav"
+flashName = "igjetp.render"
+wpnReticle = "gphantom.0"
+wpnPriority = 0
+wpnCategory = "SPEC"
+
+localAmmo = 3
+//addLocalAmmo = 0.02
+canSelect = 1
+
+[JetPackClass]
+ammoCost = 1
+burnTime = 5.0
+accelThrust = 8.0 // VERTICAL velocity
+ForwardThrust = 10.0 // FORWARD velocity
+activeSound = "gjingle.wav"
+expireSound = "hohoho.wav"

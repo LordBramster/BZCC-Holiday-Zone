@@ -1,0 +1,20 @@
+[GameObjectClass]
+baseName = "appepperm"
+classLabel = "apcannon"
+
+geometryName = "ornament01.fbx"
+geometryScale = 1.25
+
+scrapCost = 40
+
+unitName = "Ornaments"
+
+requireCount = 1
+requireName1 = "ibarmo"
+requireText1 = "Build Igloory"
+
+[PowerUpClass]
+soundPickup = "glass.wav"
+
+[WeaponPowerupClass]
+weaponName = "gornm"

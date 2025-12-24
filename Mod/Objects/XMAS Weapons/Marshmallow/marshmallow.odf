@@ -25,7 +25,7 @@ damageValue(A) = 100
 stickTime = 5.0
 
 [AnchorRocketClass]
-accelDrag = 10.0
+accelDrag = 7.5
 alphaDrag = 0.75
 
 [Render]

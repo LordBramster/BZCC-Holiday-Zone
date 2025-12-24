@@ -1,6 +1,6 @@
 [GameObjectClass]
-geometryName = "xgseek00.fbx"
-geometryScale = 1.2
+geometryName = "xgseek01.fbx"
+geometryScale = 1.25
 classLabel = "tripmine"
 scrapCost = 0
 scrapValue = 0

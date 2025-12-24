@@ -6,7 +6,7 @@ weaponName3 = "appumm"
 weaponName4 = "apchain"
 
 [Cannon]
-weaponCount = 11 //10
+weaponCount = 12 //10
 weaponName1 = "apstab"
 weaponName2 = "appstb"
 weaponName3 = "apsstb"
@@ -14,10 +14,11 @@ weaponName4 = "applas"
 weaponName5 = "apflsh"
 weaponName6 = "apblst"
 weaponName7 = "apmagg"
-weaponName8 = "apfrost"
-weaponName9 = "appepperm"
-weaponName10 = "apwinds"
-weaponName11 = "apyule"
+weaponName8 = "apwinds"
+weaponName9 = "apfrost"
+weaponName10 = "appepperm"
+weaponName11 = "apornm"
+weaponName12 = "apyule"
 
 [Rocket]
 weaponCount = 4
@@ -25,6 +26,7 @@ weaponName1 = "apfafm"
 weaponName2 = "aptagg"
 weaponName3 = "apshdw"
 weaponName4 = "apmarshmallow"
+weaponName5 = "apmistle"
 
 [Mortar]
 weaponCount = 6
@@ -36,7 +38,7 @@ weaponName5 = "apsnowball"
 weaponName6 = "apsnowballs"
 
 [Special]
-weaponCount = 10
+weaponCount = 12
 weaponName1 = "apflar"
 weaponName2 = "apmcur"
 weaponName3 = "apmits"
@@ -46,14 +48,18 @@ weaponName6 = "apredf"
 weaponName7 = "apsite"
 weaponName8 = "apfreezemine"
 weaponName9 = "apprezmine"
-weaponName10 = "apnaughty"
+weaponName10 = "apboost"
+weaponName11 = "apnaughty"
+weaponName12 = "apcrumby"
 
 [Hand]
-weaponCount = 2
+weaponCount = 3
 weaponName1 = "apbazo"
-weaponName2 = "apsnip"
+weaponName2 = "apshot"
+weaponName3 = "apsnip"
 
 [Pack]
-weaponCount = 2
+weaponCount = 3
 weaponName1 = "apgren"
 weaponName2 = "apjetp"
+weaponName3 = "apsatc"

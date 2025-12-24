@@ -1,0 +1,12 @@
+[WeaponClass]
+classLabel = "dispenser"
+wpnName = "Crumby Helper"
+fireSound = "scrooge2.wav"
+wpnReticle = "gmitsmin"
+wpnCategory = "SPEC"
+
+// localAmmo = 3
+
+[DispenserClass]
+shotDelay = 1
+objectClass = "ivcrumby"

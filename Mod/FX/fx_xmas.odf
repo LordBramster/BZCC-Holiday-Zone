@@ -403,3 +403,29 @@ startRadius = 0.15
 finishRadius = 0.01
 segmentTime = 1.0
 textureRate = 0.05
+
+///////////////////////////////
+
+[Peppermint]
+renderBase = "draw_multi"
+renderCount = 2
+renderName1 = "fx_xmas.Mint1"
+renderName2 = "fx_xmas.Mint2"
+
+[Mint1]
+renderBase = "draw_sprite"
+textureName = "flare.tga"
+textureBlend = "one one modulate"
+startColor = "255 0 150 255"
+finishColor = "255 0 150 255"
+startRadius = 0.2
+finishRadius = 0.2
+
+[Mint2]
+renderBase = "draw_trail"
+textureBlend = "one one modulate"
+startColor = "255 0 0 225"
+finishColor = "255 255 255 0"
+startRadius = 0.2
+finishRadius = 0.0
+segmentTime = 0.15

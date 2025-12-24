@@ -1,0 +1,177 @@
+[OrdnanceClass]
+classLabel = "thermalmissile"
+
+shotGeometry = "candy_msl.fbx"
+shotSound = "crckt02.wav"
+
+renderName = "mistle_c.mistle"
+// renderName = "marshmallow.render"
+
+xplGround = "xfafgnd"
+xplVehicle = "xfafmsl"
+xplBuilding = "xfafmsl"
+
+ammoCost = 18
+lifeSpan = 1.65 // ~200m
+shotSpeed = 120.0
+
+damageValue(N) = 150 // none
+damageValue(L) = 130 // light
+damageValue(H) = 90 // heavy
+
+damageValue(S) = 130 // standard
+damageValue(D) = 90 // deflection
+damageValue(A) = 150 // absorbtion
+
+[MissileClass]
+omegaTurn = 1.5
+
+[ThermalMissileClass]
+coneAngle = 1.0 // 0.4
+
+
+[Mistle]
+renderBase = "draw_multi"
+renderCount = 2
+renderName1 = "mistle_c.flare"
+renderName2 = "mistle_c.trail"
+renderName3 = "mistle_c.jingle"
+
+[Flare]
+renderBase = "draw_sprite"
+textureName = "flare.tga"
+textureBlend = "one one modulate"
+startColor = "255 255 255 255"
+finishColor = "255 255 255 255"
+startRadius = 0.2  //0.5  xon
+finishRadius = 0.2  //0.5  xon
+
+[Trail]
+renderBase = "draw_trail"
+textureBlend = "one one modulate"
+startColor = "255 0 0 225"
+finishColor = "255 255 255 0"
+startRadius = 0.075
+finishRadius = 0.0
+segmentTime = 0.5
+
+
+[Jingle]
+renderBase = "draw_twirl_trail"
+textureName = "spark2.tga"
+textureBlend = "one one modulate"
+startColor = "242 147 77 255"
+finishColor = "237 233 82 0"
+startRadius = 0.10
+finishRadius = 0.08
+animateTime = 0.15
+emitDelay = 0.01
+emitVelocity = "0.0 0.0 0.0"
+emitVariance = "18.9 18.9 18.9"
+emitLife = 0.15
+BottomInteractsWithTerrain = false
+
+
+// [Render]
+// renderBase = "draw_multi"
+// renderCount = 7
+// renderName1 = "mistle_c.Light"
+// renderName2 = "mistle_c.SoftFlare"
+// renderName3 = "mistle_c.FlameTrail"
+// renderName4 = "mistle_c.Flames"
+// renderName5 = "mistle_c.SmokeTrail"
+// renderName6 = "mistle_c.Smoke"
+// renderName7 = "mistle_c.Sparks"
+
+// [Light]
+// renderBase = "draw_light"
+// startColor = "127 64 0 280"
+// finishColor = "128 64 0 280"
+// startRadius = 38.0
+// finishRadius = 38.0
+// attenuateConstant = 1.0
+// attenuateLinear = 0.0
+// attenuateQuadratic = 15.0
+
+// [SoftFlare]
+// renderBase = "draw_twirl"
+// textureName = "particle.tga"
+// textureBlend = "one one modulate"
+// startColor = "240 204 79 55"
+// finishColor = "240 204 79 55"
+// startRadius = 2.3
+// finishRadius = 2.3
+// rotationRate = 1.5
+// BottomInteractsWithTerrain = false
+
+// [Flames]
+// renderBase = "draw_twirl_trail"
+// textureName = "flame.tga"
+// textureBlend = "one one modulate"
+// startColor = "242 147 77 255"
+// finishColor = "237 233 82 0"
+// startRadius = 0.19
+// finishRadius = 0.03
+// animateTime = 0.04
+// emitDelay = 0.001
+// emitVelocity = "0.0 0.0 0.0"
+// emitVariance = "18.9 18.9 18.9"
+// emitLife = 0.04
+// BottomInteractsWithTerrain = false
+
+// [FlameTrail]
+// renderBase = "draw_trail"
+// textureName = "firetrail2.tga"
+// textureBlend = "one one modulate"
+// textureRate = 0.5
+// startColor = "254 136 65 255"
+// finishColor = "216 180 103 0"
+// startRadius = 0.15
+// finishRadius = 0.02
+// animateTime = 0.04
+// segmentTime = 0.04
+// segmentLength = 0.6
+// TextureSpeed = 10
+
+// [SmokeTrail]
+// renderBase = "draw_trail"
+// textureName = "strail.tga"
+// textureBlend = "srcalpha invsrcalpha modulatealpha"
+// textureRate = 0.2
+// startColor = "254 136 65 30"
+// finishColor = "255 255 255 0"
+// startRadius = 0.3
+// finishRadius = 0.2
+// segmentLength = 3.0
+// segmentTime = 1.6
+// TextureSpeed = 4.0
+
+// [Smoke]
+// renderBase = "draw_twirl_trail"
+// emitDelay = 0.005
+// emitVariance = "3.5 3.8 3.5"
+// emitInherit = "0.03 0.03 0.03"
+// emitLife = 1.0
+// textureName = "smoke2.tga"
+// textureBlend = "srcalpha invsrcalpha modulatealpha"
+// startColor = "115 110 100 100"
+// finishColor = "5 5 5 0"
+// startRadius = 0.3
+// finishRadius = 1.3
+// animateTime = 1.0
+// BottomInteractsWithTerrain = false
+
+// [Sparks]
+// renderBase = "draw_twirl_trail"
+// textureName = "spark2.tga"
+// textureBlend = "one one modulate"
+// startColor = "242 147 77 255"
+// finishColor = "237 233 82 0"
+// startRadius = 0.10
+// finishRadius = 0.08
+// animateTime = 0.15
+// emitDelay = 0.01
+// emitVelocity = "0.0 0.0 0.0"
+// emitVariance = "18.9 18.9 18.9"
+// emitLife = 0.15
+// BottomInteractsWithTerrain = false

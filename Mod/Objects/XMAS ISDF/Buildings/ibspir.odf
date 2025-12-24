@@ -1,12 +1,12 @@
 [GameObjectClass]
 baseName = "ibspir"
-geometryName = "nutcracker_toy.fbx"
+geometryName = "nutcracker.fbx"
 classLabel = "turret"
 scrapCost = 75
 scrapValue = 40
 maxHealth = 6000
 maxAmmo = 10000 // 0 is *not* treated as infinite ammo!
-unitName = "Nutcracker"
+unitName = "Nutcracker Soldier"
 aiName = "GunTowerFriend"
 aiName2 = "GunTowerEnemy"
 heatSignature = 0.75

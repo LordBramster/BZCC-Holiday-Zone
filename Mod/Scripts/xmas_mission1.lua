@@ -132,9 +132,11 @@ function Start()
 	AudioMessage("mission1_1.wav");
 
 	AttackWave(config.wave1A, "transport_spawn", "transport_path", 2);
+	AttackWave(config.wave1D, "transport_spawn", "transport_path", 2);
 	AttackWave(config.wave1B, "gtow3", "Recycler", 2);
 	AttackWave(config.wave1C, "gtow2", "Recycler", 1);
 	AttackWave(config.wave1C, "stage3", "Recycler", 2);
+	AttackWave(config.wave1D, "stage3", "Recycler", 3);
 end
 
 function Update()
@@ -267,6 +269,7 @@ function MissionLogic()
 		AttackWave(config.wave1A, "gtow2", "Recycler", 2);
 		AttackWave(config.wave1B, "gtow3", "Recycler", 2);
 		AttackWave(config.wave1C, "recyclerEnemy", "Recycler", 3);
+		AttackWave(config.wave1D, "recyclerEnemy", "Recycler", 3);
 	end
 	
 	if ((GetDistance(Mission.Transport, "transport_give") < 50.0) and Mission.IsBaseOperational == false) then
@@ -297,6 +300,7 @@ function MissionLogic()
 
 		AudioMessage("mission1_3.wav");
 
+		AttackWave(config.wave1D, "recyclerEnemy", "Recycler", 3);
 		AttackWave(config.wave2A, "recyclerEnemy", "nav1", 1);
 		AttackWave(config.wave2B, "recyclerEnemy", "nav1", 2);
 		AttackWave(config.wave2C, "transport_spawn", "transport_path", 2);
@@ -334,7 +338,8 @@ function MissionLogic()
 			AudioMessage("mission1_4.wav");
 
 			AttackWave(config.wave1B, "transport_spawn", "transport_path", 2);
-			AttackWave(config.wave1C, "recyclerEnemy", "Recycler", 1);
+			AttackWave(config.wave1C, "recyclerEnemy", "Recycler", 2);
+			AttackWave(config.wave1D, "recyclerEnemy", "Recycler", 3);
 			AttackWave(config.wave2B, "recyclerEnemy", "Recycler", 2);
 			AttackWave(config.wave3A, "recyclerEnemy", "nav1", 1);
 			AttackWave(config.wave3B, "recyclerEnemy", "nav1", 2);
@@ -379,6 +384,7 @@ function MissionLogic()
 
 		AudioMessage("mission1_5.wav");
 
+		AttackWave(config.wave1D, "recyclerEnemy", "Recycler", 3);
 		AttackWave(config.wave2B, "recyclerEnemy", "Recycler", 1);
 		AttackWave(config.wave3A, "recyclerEnemy", "Recycler", 1);
 		AttackWave(config.wave2B, "recyclerEnemy", "Recycler", 2);
@@ -410,7 +416,8 @@ function MissionLogic()
 		Mission.BombBase = true;
 
 		AudioMessage("mission1_6.wav");
-
+		
+		AttackWave(config.wave1D, "recyclerEnemy", "Recycler", 3);
 		AttackWave(config.wave2B, "recyclerEnemy", "Recycler", 1);
 		AttackWave(config.wave3A, "recyclerEnemy", "Recycler", 1);
 		AttackWave(config.wave2B, "recyclerEnemy", "Recycler", 2);

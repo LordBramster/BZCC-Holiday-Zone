@@ -1,0 +1,14 @@
+[WeaponClass]
+classLabel = "cannon"
+altName = "gmistle_a"
+ordName = "mistle_c"
+wpnName = "Candy Mistle"
+fireSound = "crckt01.wav"
+wpnReticle = "gfafmsl"
+wpnCategory = "ROCK"
+isAssault = 0
+aiRange = 200
+
+[CannonClass]
+shotDelay = 1.15
+shotAlternate = 1
