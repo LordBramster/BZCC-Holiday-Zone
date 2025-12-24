@@ -34,3 +34,4 @@ svar5 = "ivrecy_xmas"
 svar7 = "mpi" // Custom shell page to pull up [actually bzshell_multi_####.cfg]
 svar8 = "MPICheck.odf" // File to add to asset check
 svar9 = "RecyListMPI.txt" // Loads up a custom recycler list file
+svar11 = "Krampus" // Team name for a craft on team "group" 3 (teams 11..15)

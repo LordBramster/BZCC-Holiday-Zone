@@ -36,8 +36,8 @@ Play on some of the most popular maps, all with a Christmas twist!
 | --- | --- |
 | `Cyber` | VSR Map Conversions, Music |
 | `F9bomber` | Custom Mission Script |
-| `Zorn` | Ice 3D Asset |
-| `General Black Dragon` | Modding Support, Fireworks, Snowy Giza |
+| `Zorn` | Model Animations, Ice Asset |
+| `General Black Dragon` | Modding Support, VSR Dependency, Fireworks, Snowy Giza |
 
 | Special Thanks To | For |
 | --- | --- |
