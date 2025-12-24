@@ -89,6 +89,10 @@ xsi21 = "ivapc00.fbx"
 cfg21 = "ivsnowplow"
 Description21 = "Snowplow APC"
 
-xsi22 = "ispilo_rifle_skel.fbx"
-cfg22 = "ispilo"
-Description22 = "Elf Pilot"
+xsi22 = "cookie_tree_pilot.fbx"
+cfg22 = "ivcookie2"
+Description22 = "Yummy Cookie II"
+
+xsi23 = "ispilo_rifle_skel.fbx"
+cfg23 = "ispilo"
+Description23 = "Elf Pilot"

@@ -1,0 +1,32 @@
+// =============
+// FireWorks Explosion - Yellow
+// =============
+
+[ExplosionClass]
+classLabel = "explosion"
+
+explSound = "xfire1.wav"
+
+damageRadius = 10.0
+
+damageValue(N) = 100 // none
+damageValue(L) = 70 // light
+damageValue(H) = 40 // heavy
+
+damageValue(S) = 70 // standard
+damageValue(D) = 100 // deflection
+damageValue(A) = 40 // absorbtion
+
+particleTypes = 4
+particleClass1 = "xfireyellow.shock"
+particleCount1 = 1
+particleVeloc1 = "0.0 0.0 0.0"
+particleClass2 = "xfireyellow.sparksemit"
+particleCount2 = 30		//100
+particleVeloc2 = "50.0 50.0 50.0"
+particleClass3 = "xfireyellow.sparksemit"
+particleCount3 = 30		//100
+particleVeloc3 = "-50.0 -50.0 -50.0"
+particleClass4 = "xfireyellow.light"
+particleCount4 = 1
+particleVeloc4 = "0.0 0.0 0.0"

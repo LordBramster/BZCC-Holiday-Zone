@@ -7,7 +7,7 @@
 
 [MPVehicles]
 xsi1 = "cookie_tree_pilot.fbx"
-cfg1 = "ivcookie2"
+cfg1 = "ivcookie"
 Description1 = "Yummy Cookie"
 
 xsi2 = "sleigh_santa.fbx"
@@ -57,3 +57,7 @@ Description12 = "Elf on a Sled"
 xsi13 = "ivapc00.fbx"
 cfg13 = "ivsnowplow"
 Description13 = "Snowplow APC"
+
+xsi14 = "cookie_tree_pilot.fbx"
+cfg14 = "ivcookie2"
+Description14 = "Yummy Cookie II"

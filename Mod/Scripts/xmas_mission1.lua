@@ -343,7 +343,7 @@ function MissionLogic()
 			AttackWave(config.wave2B, "recyclerEnemy", "Recycler", 2);
 			AttackWave(config.wave3A, "recyclerEnemy", "nav1", 1);
 			AttackWave(config.wave3B, "recyclerEnemy", "nav1", 2);
-			AttackWave(config.wave3C, "recyclerEnemy", "hold4", 1);
+			AttackWave(config.wave3C, "recyclerEnemy", "hold4", 2);
 			AttackWave(config.wave0A, "recyclerEnemy", "gtow3", 1);
 			AttackWave(config.wave0B, "recyclerEnemy", "gtow4", 1);
 			AttackWave(config.wave0B, "recyclerEnemy", "gtow5", 1);
@@ -390,7 +390,7 @@ function MissionLogic()
 		AttackWave(config.wave2B, "recyclerEnemy", "Recycler", 2);
 		AttackWave(config.wave3A, "recyclerEnemy", "nav2", 1);
 		AttackWave(config.wave2B, "recyclerEnemy", "nav2", 2);
-		AttackWave(config.wave3C, "recyclerEnemy", "nav2", 1);
+		AttackWave(config.wave3C, "recyclerEnemy", "nav2", 3);
 		AttackWave(config.wave0A, "gtow1", "nav2", 1);
 		AttackWave(config.wave0B, "recyclerEnemy", "nav2", 1);
 	end
@@ -419,11 +419,14 @@ function MissionLogic()
 		
 		AttackWave(config.wave1D, "recyclerEnemy", "Recycler", 3);
 		AttackWave(config.wave2B, "recyclerEnemy", "Recycler", 1);
-		AttackWave(config.wave3A, "recyclerEnemy", "Recycler", 1);
+		AttackWave(config.wave3A, "recyclerEnemy", "Recycler", 2);
+		AttackWave(config.wave2B, "recyclerEnemy", "Recycler", 2);
+		AttackWave(config.wave3A, "recyclerEnemy", "Recycler", 2);
 		AttackWave(config.wave2B, "recyclerEnemy", "Recycler", 2);
 		AttackWave(config.wave3A, "recyclerEnemy", "Recycler", 1);
-		AttackWave(config.wave2B, "recyclerEnemy", "Recycler", 2);
-		AttackWave(config.wave3C, "recyclerEnemy", "Recycler", 1);
+		AttackWave(config.wave3C, "recyclerEnemy", "gtow3", 3);
+		AttackWave(config.wave3B, "recyclerEnemy", "gtow3", 2);
+		AttackWave(config.wave3B, "recyclerEnemy", "gtow2", 3);
 		AttackWave(config.wave0B, "recyclerEnemy", "hold1", 1);
 		AttackWave(config.wave0B, "recyclerEnemy", "hold2", 1);
 

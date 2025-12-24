@@ -19,7 +19,7 @@ cfg3 = "ivicesball"
 Description3 = "Elf on a Snowball"
 
 xsi4 = "cookie_tree_pilot.fbx"
-cfg4 = "ivcookie2"
+cfg4 = "ivcookie"
 Description4 = "Elf on a Cookie"
 
 xsi5 = "elf_sled.fbx"

@@ -3,9 +3,9 @@ classLabel = "imagemissile"
 shotGeometry = "iomshd00.fbx"
 shotSound = "smort03.wav"
 
-xplGround = "xshdwgnd"
-xplVehicle = "xshdwcar"
-xplBuilding = "xshdwbld"
+xplGround = "xmistlexpl"
+xplVehicle = "xmistlexpl"
+xplBuilding = "xmistlexpl"
 renderName = "mistle_c.mistle"
 
 ammoCost = 20

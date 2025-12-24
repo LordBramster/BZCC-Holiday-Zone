@@ -7,9 +7,9 @@ shotSound = "crckt02.wav"
 renderName = "mistle_c.mistle"
 // renderName = "marshmallow.render"
 
-xplGround = "xfafgnd"
-xplVehicle = "xfafmsl"
-xplBuilding = "xfafmsl"
+xplGround = "xmistlexpl"
+xplVehicle = "xmistlexpl"
+xplBuilding = "xmistlexpl"
 
 ammoCost = 18
 lifeSpan = 1.65 // ~200m
