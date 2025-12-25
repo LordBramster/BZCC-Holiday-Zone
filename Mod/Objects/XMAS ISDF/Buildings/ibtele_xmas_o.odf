@@ -1,0 +1,83 @@
+[GameObjectClass]
+classLabel = "teleportal"
+geometryName = "ibtele00.fbx"
+animCount = 1
+animName1 = "loop"
+animFile1 = "ibtele00.fbx"
+RunAnimation = "loop"
+RunAnimIsLooped = true
+scrapCost = 8
+scrapValue = 3
+maxHealth = 5000
+maxAmmo = 0
+unitName = "Krampus' HQ"
+heatSignature = 0.8
+imageSignature = 8.0
+radarSignature = 1.0
+collisionRadius = 1.0
+armorClass = H
+AllowUndergroundSpawn = 1
+requireCount = 1
+requireName1 = "ibtcen"
+UseCollisionMeshForPathing = 1
+
+///////// LIGHTS & EFFECTS /////////
+effectHard1 = "hp_emit_1"
+effectName1 = "ibtele.render"
+effectFlags1 = 2147483583 // only when powered.
+
+[BuildingClass]
+soundAmbient = ibpgen00.wav
+
+[render]
+renderBase = "draw_multi"
+renderCount = 3
+renderName1 = "ibtele.light"
+renderName2 = "ibtele.flame"
+renderName3 = "ibtele.smoke"
+
+[Light]
+renderBase = "draw_light"
+startColor = "100 0 255 100"
+finishColor = "20 100 255 100"
+startRadius = 25.0
+finishRadius = 25.0
+animateTime = 0.5
+attenuateConstant = 1.0
+attenuateLinear = 0.0
+attenuateQuadratic = 15.0
+lensFlare = 0
+
+[Flame]
+renderBase = "draw_twirl_trail"
+textureName = "ring.tga"
+textureBlend = "one one modulate"
+startColor = "150 150 255 200"
+finishColor = "0 0 255 0"
+startRadius = 3.0
+finishRadius = 6.0
+animateTime = 0.1
+rotationRate = 5.0
+emitDelay = 0.01
+emitVelocity = "0.0 0.0 0.0"
+emitVariance = "1.0 1.0 1.0"
+emitLife = 0.1
+BottomInteractsWithTerrain = false
+
+[Smoke]
+renderBase = "draw_twirl_trail"
+textureName = "ring.tga"
+textureBlend = "one one modulate"
+startColor = "0 80 255 64"
+finishColor = "0 0 255 0"
+startRadius = 4.0
+finishRadius = 8.0
+animateTime = 0.1
+rotationRate = 5.0
+emitDelay = 0.01
+emitVelocity = "0.0 10.0 0.0"
+emitVariance = "4.0 4.0 4.0"
+emitLife = 0.1
+BottomInteractsWithTerrain = false
+
+///////////////////////////////////////////////////////////////////

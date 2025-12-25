@@ -1,0 +1,26 @@
+[WeaponClass]
+classLabel = "cannon"
+ordName = "occan"
+wpnName = "Candy Cane"
+fireSound = "gblas00.wav"
+wpnReticle = "gblast"
+wpnCategory = "CANN"
+isAssault = 0
+aiRange = 230
+flashName = "gccan.flash"
+
+[CannonClass]
+shotDelay = 3
+shotAlternate = true
+
+[Flash]
+renderBase = "draw_sphere"
+textureName = "ring.tga"//"arti.tga"
+textureBlend = "one one modulate"
+startColor = "255 255 255 50"
+finishColor = "255 255 255 0"
+startRadius = 1.0
+finishRadius = 0.0
+animateTime = 0.5
+latitudeBands = 8
+longitudeSegments = 16

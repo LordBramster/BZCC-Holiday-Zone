@@ -1,0 +1,242 @@
+[ExplosionClass]
+classLabel = "explosion"
+
+explSound = "xmv1.wav"
+//explSound = "ashield01.wav"
+
+damageRadius = 15
+damageValue(N) = 1000 // none // 450
+damageValue(L) = 700 // light // 320
+damageValue(H) = 500 // heavy // 200
+
+damageValue(S) = 700 // standard // 320
+damageValue(D) = 1000 // deflection // 450
+damageValue(A) = 500 // absorbtion // 200
+
+kickRadius = 0
+kickOmega = 0
+kickVeloc = 0
+
+particleTypes = 16
+
+particleClass1 = "fx_xmas.planar"
+particleCount1 = 1
+particleVeloc1 = "0.0 0.0 0.0"
+
+particleClass2 = "fx_xmas.shockplanar"
+particleCount2 = 1
+particleVeloc2 = "0.0 0.0 0.0"
+
+particleClass3 = "xcanestickxpl.shock"
+particleCount3 = 1
+particleVeloc3 = "0.0 0.0 0.0"
+
+particleClass4 = "fx_xmas.cloud"
+particleCount4 = 1
+particleVeloc4 = "0.0 10.0 0.0"
+
+particleClass5 = "fx_xmas.GroundSmoke"
+particleCount5 = 15
+particleVeloc5 = "35.0 35.0 35.0"
+particlePosVar5 = "5.0 0.0 5.0"
+
+particleClass6 = "xcanestickxpl.SmokePlume"
+particleCount6 = 10
+particleVeloc6 = "20.0 65.0 20.0"
+particlePosVar6 = "5.0 0.0 5.0"
+
+particleClass7 = "fx_xmas.trail"
+particleCount7 = 8
+particleVeloc7 = "60.0 50.0 60.0"
+particleBias7 = "0.0 1.0 0.0"
+
+particleClass8 = "fx_xmas.DirtKickup"
+particleCount8 = 7
+particleVeloc8 = "10.0 22.0 10.0"
+
+particleClass9 = "fx_xmas.Chunks"
+particleCount9 = 15
+particleVeloc9 = "75.0 65.0 75.0"
+particlePosVar9 = "5.0 0.0 5.0"
+
+particleClass10 = "xcanestickxpl.SmokePlumeRed"
+particleCount10 = 5
+particleVeloc10 = "20.0 65.0 20.0"
+particlePosVar10 = "5.0 0.0 5.0"
+
+particleClass11 = "xcanestickxpl.CaneBit1"
+particleCount11 = 1
+particleVeloc11 = "30.0 30.0 30.0"
+particlePosVar11 = "5.0 0.0 5.0"
+
+particleClass12 = "xcanestickxpl.CaneBit2"
+particleCount12 = 1
+particleVeloc12 = "30.0 30.0 30.0"
+particlePosVar12 = "5.0 0.0 5.0"
+
+particleClass13 = "xcanestickxpl.CaneBit3"
+particleCount13 = 1
+particleVeloc13 = "30.0 30.0 30.0"
+particlePosVar13 = "5.0 0.0 5.0"
+
+particleClass14 = "xcanestickxpl.CaneBit4"
+particleCount14 = 1
+particleVeloc14 = "30.0 30.0 30.0"
+particlePosVar14 = "5.0 0.0 5.0"
+
+particleClass15 = "xcanestickxpl.CaneBit5"
+particleCount15 = 1
+particleVeloc15 = "30.0 30.0 30.0"
+particlePosVar15 = "5.0 0.0 5.0"
+
+particleClass16 = "xcanestickxpl.CaneBit6"
+particleCount16 = 1
+particleVeloc16 = "30.0 30.0 30.0"
+particlePosVar16 = "5.0 0.0 5.0"
+
+
+[Shock]
+simulateBase = "sim_null"
+lifeTime = 0.2
+renderBase = "draw_sphere"
+textureName = "vsmoke3.tga"
+textureBlend = "one one modulate"
+startColor = "255 255 255 255"
+finishColor = "0 125 255 0"
+startRadius = 3.0
+finishRadius = 15
+animateTime = 0.2
+latitudeBands = 16
+longitudeSegments = 32
+
+[SmokePlume]
+simulateBase = "sim_smoke"
+lifeTime = 1.9
+renderBase = "draw_twirl"
+textureName = "flame.tga" //smoke2
+textureBlend = "one one modulate" // "srcalpha invsrcalpha modulatealpha"
+// textureName = "smoke2.tga"
+// textureBlend = "srcalpha invsrcalpha modulatealpha"
+startColor = "255 255 255 255"
+finishColor = "20 255 255 0"
+// startColor = "100 100 100 100"
+// finishColor = "10 10 10 0"
+startRadius = 4
+finishRadius = 6
+animateTime = 1.9
+rotationRate = 7.0
+BottomInteractsWithTerrain = false
+
+[SmokePlumeRed]
+simulateBase = "sim_smoke"
+lifeTime = 1.9
+renderBase = "draw_twirl"
+textureName = "flame.tga" //smoke2
+textureBlend = "one one modulate" // "srcalpha invsrcalpha modulatealpha"
+// textureName = "smoke2.tga"
+// textureBlend = "srcalpha invsrcalpha modulatealpha"
+startColor = "255 0 0 255"
+finishColor = "255 0 0 0"
+// startColor = "100 100 100 100"
+// finishColor = "10 10 10 0"
+startRadius = 4
+finishRadius = 6
+animateTime = 1.9
+rotationRate = 7.0
+BottomInteractsWithTerrain = false
+
+[CaneBit1]
+simulateBase = "sim_chunk"
+lifeTime = 4
+renderBase = "draw_geom"
+geomName = "CaneBit.fbx"
+textureName = "Candystick_d.tga"
+textureBlend = "one one modulate" // "srcalpha invsrcalpha modulatealpha"
+startColor = "255 255 255 255"
+finishColor = "255 255 255 0"
+startRadius = 1
+finishRadius = 1
+animateTime = 3
+InitialPitch = 0
+InitialYaw = 0
+InitialRoll = 0
+
+[CaneBit2]
+simulateBase = "sim_chunk"
+lifeTime = 4
+renderBase = "draw_geom"
+geomName = "CaneBit.fbx"
+textureName = "Candystick_d.tga"
+textureBlend = "one one modulate" // "srcalpha invsrcalpha modulatealpha"
+startColor = "255 255 255 255"
+finishColor = "255 255 255 0"
+startRadius = 1
+finishRadius = 1
+animateTime = 3
+InitialPitch = 90
+InitialYaw = 0
+InitialRoll = 0
+
+[CaneBit3]
+simulateBase = "sim_chunk"
+lifeTime = 4
+renderBase = "draw_geom"
+geomName = "CaneBit.fbx"
+textureName = "Candystick_d.tga"
+textureBlend = "one one modulate" // "srcalpha invsrcalpha modulatealpha"
+startColor = "255 255 255 255"
+finishColor = "255 255 255 0"
+startRadius = 1
+finishRadius = 1
+animateTime = 3
+InitialPitch = 90
+InitialYaw = 90
+InitialRoll = 0
+
+[CaneBit4]
+simulateBase = "sim_chunk"
+lifeTime = 4
+renderBase = "draw_geom"
+geomName = "CaneBit.fbx"
+textureName = "Candystick_d.tga"
+textureBlend = "one one modulate" // "srcalpha invsrcalpha modulatealpha"
+startColor = "255 255 255 255"
+finishColor = "255 255 255 0"
+startRadius = 1
+finishRadius = 1
+animateTime = 3
+InitialPitch = 90
+InitialYaw = 90
+InitialRoll = 90
+
+[CaneBit5]
+simulateBase = "sim_chunk"
+lifeTime = 4
+renderBase = "draw_geom"
+geomName = "CaneBit.fbx"
+textureName = "Candystick_d.tga"
+textureBlend = "one one modulate" // "srcalpha invsrcalpha modulatealpha"
+startColor = "255 255 255 255"
+finishColor = "255 255 255 0"
+startRadius = 1
+finishRadius = 1
+animateTime = 3
+InitialPitch = 45
+InitialYaw = 45
+InitialRoll = 45
+
+[CaneBit6]
+simulateBase = "sim_chunk"
+lifeTime = 4
+renderBase = "draw_geom"
+geomName = "CaneBit.fbx"
+textureName = "Candystick_d.tga"
+textureBlend = "one one modulate" // "srcalpha invsrcalpha modulatealpha"
+startColor = "255 255 255 255"
+finishColor = "255 255 255 0"
+startRadius = 1
+finishRadius = 1
+animateTime = 3
+InitialPitch = 45
+InitialYaw = 90
+InitialRoll = 45

@@ -1,16 +1,18 @@
 [GameObjectClass]
 geometryName = "present01.fbx"// "daywrecker00.fbx"
 classLabel = "daywrecker"
-scrapCost = 20
+scrapCost = 100
 scrapValue = 0
 maxHealth = 500
 maxAmmo = 0
 unitName = "XMAS Wrecker"
 aiName = "PowerUpProcess"
 
-requireCount = 1
+requireCount = 2
 requireName1 = "ibarmo"
 requiretext1 = "Build Igloory"
+requireName2 = "ibtcen"
+requiretext2 = "Build Toy Center"
 
 ClearBuildZone = 0
 

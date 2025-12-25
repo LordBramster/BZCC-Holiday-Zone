@@ -1,0 +1,22 @@
+[OrdnanceClass]
+classLabel = "spraybomb"
+shotGeometry = ""
+shotSound = ""
+xplGround = NULL
+xplVehicle = NULL
+xplBuilding = NULL
+
+ammoCost = 0
+lifeSpan = 0
+shotSpeed = 5
+
+damageValue(N) = 0
+damageValue(L) = 0
+damageValue(H) = 0
+damageValue(S) = 0
+damageValue(D) = 0
+damageValue(A) = 0
+
+[SprayBombClass]
+payloadName = "boltmine"
+buildSprayOnExpire = true

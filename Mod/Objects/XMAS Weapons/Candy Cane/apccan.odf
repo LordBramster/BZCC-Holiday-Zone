@@ -1,0 +1,13 @@
+[GameObjectClass]
+classLabel = "apcannon"
+geometryName = "present_ap_03.fbx"
+scrapCost = 40
+
+requireCount = 1
+requireName1 = "ibarmo"
+requireText1 = "Build Igloo Armory"
+requireName2 = "ibsbay"
+requireText2 = "Build Service Bay"
+
+[WeaponPowerupClass]
+weaponName = "gccan"

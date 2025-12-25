@@ -32,7 +32,7 @@ provideName3 = "DefendUnit"
 /////// WEAPONS ////////////////////
 weaponMask = 11111
 weaponHard1 = "HP_ROCKET_1"
-weaponName1 = "igbzka_c"
+weaponName1 = "gmarshmallow"
 weaponAssault1 = 0
 
 /////////LIGHTS AND EFFECTS //////////////////

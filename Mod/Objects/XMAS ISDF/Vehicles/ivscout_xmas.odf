@@ -30,7 +30,7 @@ lightName2 = ""
 [CraftClass]
 canHunt = true
 modeText11 = "Go Caroling!"
-engageRange = 500
+engageRange = 300
 topSpeed=42   // *30 {VSR-050}
 avoidSpeed=25 // *new {VSR-UNDOC}
 

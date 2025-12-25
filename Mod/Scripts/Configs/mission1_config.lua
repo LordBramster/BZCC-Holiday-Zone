@@ -16,8 +16,11 @@ return {
 	presentTwo = "xopres2",
 	presentThree = "xopres3",
 	santaClaus = "ibbomb_xmas",
-	enemyBuilding = "ibtele",
+	enemyBuilding = "ibtele_xmas_o",
 	power = "ibpgen",
+	attackWaitEasy = 135, -- Every 2:15 mins
+	attackWaitMed = 90, -- Every 1:30 mins
+	attackWaitHard = 75, -- Every 1:15 mins
 	wave0A = "ivsnowman",
 	wave0B = "ivnutcracker_dm",
 	wave1A = "ivelf",
@@ -30,19 +33,4 @@ return {
 	wave3A = "ivrhino",
 	wave3B = "ivcookie2",
 	wave3C = "ivsleigh_cpu"
-	-- transport_path
-	-- transport_spawn
-	-- transport_give
-	-- nav1
-	-- df1
-	-- df2
-	-- df3
-	-- bunk
-	-- nav2
-	-- pres1
-	-- pres2
-	-- pres3
-	-- hq
-	-- santa
-	-- pow
 }

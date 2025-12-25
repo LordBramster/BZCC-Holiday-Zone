@@ -1,0 +1,69 @@
+[OrdnanceClass]
+classLabel = "leader"
+shotGeometry = "caneshot.fbx"
+shotRadius = 0.1 // Needs to be set manually otherwise it uses the model's hitbox, which is huge.
+xplGround = "xccangnd"
+xplVehicle = "xccancar"
+xplBuilding = "xccancar"
+xplExpire = "xccancar"
+
+renderName = "occan.render"
+
+ammoCost = 150
+lifeSpan = 300e-3
+shotSpeed = 750
+
+damageValue(N) = 0
+damageValue(L) = 0
+damageValue(H) = 0
+
+damageValue(S) = 0
+damageValue(D) = 0
+damageValue(A) = 0
+
+[LeaderRoundClass]
+stickTime = 5
+xplDone = "xcanestickxpl"
+
+[Render]
+renderBase = "draw_multi"
+renderCount = 3
+renderName1 = "occan.light"
+renderName2 = "occan.flame"
+renderName3 = "occan.smoke"
+
+[Light]
+renderBase = "draw_light"
+startColor = "64 224 208 600"
+finishColor = "64 224 208 600"
+startRadius = 40.0
+finishRadius = 40.0
+animateTime = 6.0
+attenuateConstant = 0.0
+attenuateLinear = 2.0
+attenuateQuadratic = 0.0
+
+[Flame]
+renderBase = "draw_twirl_trail"
+textureName = "flame.tga"
+textureBlend = "one one modulate"
+startColor = "255 0 0 255" // "64 224 208 255"
+finishColor = "255 0 0 0"
+startRadius = 0.08
+finishRadius = 0.0
+animateTime = 1.2
+emitDelay = 0.001
+emitVelocity = "0.0 0.0 0.0"
+emitVariance = "5.0 5.0 5.0"
+emitLife = 2.2
+
+[Smoke]
+renderBase = "draw_trail"
+textureName = "trail2.tga"
+textureBlend = "one one modulate"
+textureRate = 0.01
+startColor = "64 224 208 155"
+finishColor = "64 224 208 0"
+startRadius = 0.45
+finishRadius = 0.01
+segmentTime = 1.0

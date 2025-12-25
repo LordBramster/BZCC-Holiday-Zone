@@ -1,0 +1,120 @@
+[ExplosionClass]
+classLabel = "explosion"
+
+explSound = "xbombf.wav"
+
+damageRadius = 5.0
+
+///// DAMAGE /////////////////////////
+
+damageValue(N) = 50 // none
+damageValue(L) = 25 // light
+damageValue(H) = 5 // heavy
+
+damageValue(S) = 25 // standard
+damageValue(D) = 50 // deflection
+damageValue(A) = 5 // absorbtion
+
+/////////////////////////////////////
+
+particleTypes = 10
+particleClass1 = "xccancar.core"
+particleCount1 = 1
+particleVeloc1 = "0.0 0.0 0.0"
+
+particleClass2 = "xccancar.puff"
+particleCount2 = 4
+particleVeloc2 = "7.0 7.0 7.0"
+
+particleClass3 = "xccancar.light"
+particleCount3 = 1
+particleVeloc3 = "0.0 0.0 0.0"
+
+particleClass4 = "xccancar.shock"
+particleCount4 = 1
+particleVeloc4 = "0.0 0.0 0.0"
+
+particleClass5 = "xccangnd.splat"
+particleCount5 = 1
+particleVeloc5 = "0.0 0.0 0.0"
+
+particleClass6 = "xccangnd.chunks"
+particleCount6 = 18
+particleVeloc6 = "7.0 7.0 7.0"
+particleBias6 = "0.0 10.0 0.0"
+
+particleClass7 = "xccangnd.ring"
+particleCount7 = 1
+particleVeloc7 = "0.0 0.0 0.0"
+
+particleClass9 = "xccangnd.thrust"
+particleCount9 = 1
+particleVeloc9 = "0.0 0.0 0.0"
+
+particleClass10 = "xccangnd.Cane"
+particleCount10 = 1
+particleVeloc10 = "0.0 0.0 0.0"
+
+
+[Splat]
+simulateBase = "sim_null"
+lifeTime = 0.4
+renderBase = "draw_planar"
+textureName = "ring.tga"
+textureBlend = "one one modulate"
+startColor = "255 255 63 255"
+finishColor = "255 0 0 0"
+startRadius = 0.2
+finishRadius = 4.5
+animateTime = 0.4
+
+[Chunks]
+simulateBase = "sim_ember"
+lifeTime = 4.0
+renderBase = "draw_twirl" //sprite
+textureName = "lightflare.tga"
+textureBlend = "one one modulate"
+startColor = "255 255 63 255"
+finishColor = "255 0 0 0"
+startRadius = 0.3
+finishRadius = 0.3
+animateTime = 4.0
+
+[Ring]
+simulateBase = "sim_null"
+lifeTime = 10.0
+renderBase = "draw_planar"
+textureName = "grndchar.tga"
+textureBlend = "srcalpha invsrcalpha modulatealpha"
+startColor = "20 10 0 255"
+finishColor = "20 10 10 0"
+startRadius = 3.0
+finishRadius = 3.0
+animateTime = 10.0
+
+[Thrust]
+simulateBase = "sim_null"
+lifeTime = 1.5
+renderBase = "draw_sprite"
+spriteCenter.x = 0.0
+spriteCenter.y = 1.0
+textureName = "ground.tga"
+textureBlend = "srcalpha invsrcalpha modulatealpha"
+startColor = "165 135 100 200"
+finishColor = "100 80 80 0"
+startRadius = 1.0
+finishRadius = 5.0
+animateTime = 1.5
+
+[Cane]
+simulateBase = "sim_null"
+lifeTime = 4
+renderBase = "draw_geom"
+geomName = "CandyStick.fbx"
+textureName = "Candystick_d.tga"
+textureBlend = "one one modulate" // "srcalpha invsrcalpha modulatealpha"
+startColor = "255 255 255 255"
+finishColor = "255 255 255 0"
+startRadius = 1
+finishRadius = 1
+animateTime = 3

@@ -37,7 +37,8 @@ local Mission = {
 	_TransportGone = "Transport lost!";
 	_TugGone = "Transport lost!";
 	_TugAndTransportGone = "Both Tug and Transport are gone!";
-	
+	_Warn = "CAUTION: NORAD has detected additional unjolly hostiles. Be prepared!";
+
 	--Booleans--
 	IsTransportsSpawnedIn = false;
 	IsTransportsInRoute = false;
@@ -73,6 +74,18 @@ local Mission = {
 	PlayerH = GetPlayerHandle();
 	Recycler = GetHandle(config.recyclerHandle);
 	Factory = GetHandle(config.factoryHandle);
+	
+	--AttackWaves--
+	firstSpawnWave = true;
+	shouldSpawnWave = false;
+	shouldSpawnWaveTime = nil;
+
+	--Difficulties--
+	PlayOptionDifficulty = 0;
+	attackWaitTime = nil;
+	easy = 0;
+	medium = 1;
+	hard = 2
 }
 
 function Save()
@@ -122,33 +135,152 @@ function InitialSetup()
 end
 
 function Start()
-	-- StopCheats() -- HOHOHO (COULD THIS WORK HERE?)
-	print("Holiday Zone mission by " .. config.author);
-	AddObjective(Mission._Text1, "blue", 15.0);
-	Ally(1, 2);
+	-- StopCheats() -- HOHOHO
 
+	-- SETUP DIFFICULTY
+	Mission.PlayOptionDifficulty = IFace_GetInteger("options.play.difficulty")
+	if Mission.PlayOptionDifficulty == Mission.easy then
+		Mission.attackWaitTime = config.attackWaitEasy
+	elseif Mission.PlayOptionDifficulty == Mission.medium then
+		Mission.attackWaitTime = config.attackWaitMed
+	elseif Mission.PlayOptionDifficulty == Mission.hard then
+		Mission.attackWaitTime = config.attackWaitHard
+	end
+
+	print("Holidayzone - Mission #1 Author: " .. config.author);
+	print("Holidayzone - Difficulty: " .. Mission.PlayOptionDifficulty)
+
+	Ally(1, 2);
 	SetupTeamColors() -- Enemy team (6) is RED, while Player has no active teamcolor.
 
+	AddObjective(Mission._Text1, "blue", 15.0);
 	AudioMessage("mission1_1.wav");
 
+	-- ATTACK WAVES INIT
+	Mission.shouldSpawnWaveTime = GetTimeNowSeconds() -- START COUNTING TO START ATTACK WAVES
+	Mission.shouldSpawnWave = false
+	Mission.firstSpawnWave = true
+
+	-- ATTACK WAVE #0
 	AttackWave(config.wave1A, "transport_spawn", "transport_path", 2);
 	AttackWave(config.wave1D, "transport_spawn", "transport_path", 2);
-	AttackWave(config.wave1B, "gtow3", "Recycler", 2);
 	AttackWave(config.wave1C, "gtow2", "Recycler", 1);
-	AttackWave(config.wave1C, "stage3", "Recycler", 2);
-	AttackWave(config.wave1D, "stage3", "Recycler", 3);
+	if Mission.PlayOptionDifficulty == Mission.medium then
+		AttackWave(config.wave1B, "gtow3", "Recycler", 2);
+		AttackWave(config.wave1C, "gtow2", "Recycler", 1);
+	elseif Mission.PlayOptionDifficulty == Mission.hard then
+		AttackWave(config.wave1C, "stage3", "Recycler", 2);
+		AttackWave(config.wave1D, "stage3", "Recycler", 3);
+	end
 end
 
 function Update()
-	-- StopCheats() -- HOHOHO
+	-- StopCheats() -- HOHOHO!
+
+	-- GAME LOGIC
 	Mission.TurnCounter = Mission.TurnCounter + 1; -- if we needed to any time based events
 	MissionLogic();
 	DeletePilots();
 	
+	-- TRANSPORT CHECK
 	if Mission.IsTransportsInRoute == true then
 		CheckVehicles()
 	end
 	
+	-- ATTACK WAVE PATTERNS
+	if Mission.shouldSpawnWave then
+			-- if Mission.PlayOptionDifficulty == Mission.medium then
+			-- elseif Mission.PlayOptionDifficulty == Mission.hard then
+			-- end
+
+		if Mission.firstSpawnWave then -- FIRST WAVE
+			if Mission.PlayOptionDifficulty == Mission.easy then
+				AudioMessage("mission1_h.wav")
+				AddObjective(Mission._Warn, "YELLOW", 8.0);
+			elseif Mission.PlayOptionDifficulty == Mission.medium then
+				AudioMessage("mission1_h.wav")
+				AddObjective(Mission._Warn, "PURPLE", 8.0);
+			elseif Mission.PlayOptionDifficulty == Mission.hard then
+				AudioMessage("mission1_f.wav")
+				AddObjective(Mission._Warn, "RED", 8.0);
+			end
+			Mission.firstSpawnWave = false
+
+			AttackWave(config.wave1A, "transport_spawn", "transport_path", 1);
+			AttackWave(config.wave1D, "stage3", "Recycler", 2);
+			if Mission.PlayOptionDifficulty == Mission.medium then
+				AttackWave(config.wave1C, "stage3", "Recycler", 2);
+			elseif Mission.PlayOptionDifficulty == Mission.hard then
+				AttackWave(config.wave1C, "stage3", "Recycler", 3);
+				AttackWave(config.wave2A, "stage4", "Recycler", 2);
+			end		
+		elseif not Mission.IsBaseOperational and not Mission.HostagesRecovered and not Mission.GiftsBack then
+			AttackWave(config.wave1A, "RecyclerEnemy", "Recycler", 1);
+			AttackWave(config.wave1D, "RecyclerEnemy", "Recycler", 2);
+			if Mission.PlayOptionDifficulty == Mission.medium then
+				AttackWave(config.wave2A, "stage4", "Recycler", 2);
+			elseif Mission.PlayOptionDifficulty == Mission.hard then
+				AttackWave(config.wave2A, "stage4", "Recycler", 3);
+				AttackWave(config.wave2B, "stage3", "Recycler", 2);
+			end
+		elseif Mission.IsBaseOperational and not Mission.HostagesRecovered and not Mission.GiftsBack then
+			AttackWave(config.wave1D, "transport_spawn", "transport_path", 2);
+			AttackWave(config.wave1C, "transport_spawn", "transport_path", 1);
+			if Mission.PlayOptionDifficulty == Mission.medium then
+				AttackWave(config.wave1C, "hold6", "Recycler", 2);
+				AttackWave(config.wave1D, "hold5", "Recycler", 2);	
+				AttackWave(config.wave1C, "RecyclerEnemy", "Recycler", 2);
+			elseif Mission.PlayOptionDifficulty == Mission.hard then
+				AttackWave(config.wave1C, "RecyclerEnemy", "hold6", 2);
+				AttackWave(config.wave1C, "RecyclerEnemy", "Recycler", 2);
+				AttackWave(config.wave1C, "hold6", "Recycler", 3);
+				AttackWave(config.wave1D, "hold5", "Recycler", 2);	
+			end
+		elseif Mission.IsBaseOperational and Mission.HostagesRecovered and not Mission.GiftsBack then
+			AttackWave(config.wave1C, "transport_spawn", "transport_path", 2);
+			AttackWave(config.wave2B, "RecyclerEnemy", "Recycler", 2);
+			AttackWave(config.wave2C, "RecyclerEnemy", "Recycler", 1);
+			AttackWave(config.wave2C, "RecyclerEnemy", "nav2", 1);
+			if Mission.PlayOptionDifficulty == Mission.medium then
+				AttackWave(config.wave2C, "RecyclerEnemy", "Recycler", 1);
+				AttackWave(config.wave2C, "RecyclerEnemy", "nav2", 1);
+				AttackWave(config.wave0B, "RecyclerEnemy", "stage2", 1);
+			elseif Mission.PlayOptionDifficulty == Mission.hard then
+				AttackWave(config.wave2C, "RecyclerEnemy", "Recycler", 1);
+				AttackWave(config.wave2C, "RecyclerEnemy", "nav2", 1);
+				AttackWave(config.wave3A, "RecyclerEnemy", "gtow3", 2);
+				AttackWave(config.wave0B, "RecyclerEnemy", "stage2", 1);
+				AttackWave(config.wave0B, "RecyclerEnemy", "stage3", 1);
+			end
+		elseif Mission.GiftsBack then
+			AttackWave(config.wave2C, "transport_spawn", "transport_path", 2);
+			AttackWave(config.wave2B, "RecyclerEnemy", "Recycler", 2);
+			AttackWave(config.wave3B, "RecyclerEnemy", "Recycler", 2);
+			if Mission.PlayOptionDifficulty == Mission.medium then
+				AttackWave(config.wave3B, "RecyclerEnemy", "Recycler", 2);
+				AttackWave(config.wave3A, "RecyclerEnemy", "gtow3", 2);
+				AttackWave(config.wave3A, "RecyclerEnemy", "hold3", 2);
+			elseif Mission.PlayOptionDifficulty == Mission.hard then
+				AttackWave(config.wave3B, "RecyclerEnemy", "Recycler", 2);
+				AttackWave(config.wave3A, "RecyclerEnemy", "gtow3", 2);
+				AttackWave(config.wave3A, "RecyclerEnemy", "hold3", 2);
+				AttackWave(config.wave3C, "RecyclerEnemy", "hold3", 1);
+				AttackWave(config.wave3C, "RecyclerEnemy", "hold7", 1);
+				AttackWave(config.wave0B, "RecyclerEnemy", "gtow5", 1);
+			end
+		end
+
+		-- MINIMUM ATTACKWAVE
+		AttackWave(config.wave1A, "RecyclerEnemy", "Recycler", 1);
+
+		-- RESET
+		Mission.shouldSpawnWave = false
+		Mission.shouldSpawnWaveTime = GetTimeNowSeconds()
+		print("ATTACK WAVE: " .. Mission.shouldSpawnWaveTime);
+	else
+		Mission.shouldSpawnWave = WaitUntilTime(Mission.shouldSpawnWaveTime, Mission.attackWaitTime)
+	end
+
 end
 
 function SpawnPilots()
@@ -197,6 +329,18 @@ function DeletePilots()
     end
 
     return next(Mission.Pilots) == nil
+end
+
+function WaitUntilTime(prevTime, waitTime)
+   local currentTime = GetTimeNowSeconds()
+   if (currentTime - prevTime) >= waitTime then
+      return true
+   end
+   return false
+end
+
+function GetTimeNowSeconds()
+   return TurnsToSeconds(Mission.TurnCounter)
 end
 
 function AttackWave(odfName, spawnPath, destPath, unitCount)
@@ -265,11 +409,18 @@ function MissionLogic()
 		Follow(Mission.Tug, Mission.Transport);
 
 		AudioMessage("mission1_2.wav");
-		
 		AttackWave(config.wave1A, "gtow2", "Recycler", 2);
 		AttackWave(config.wave1B, "gtow3", "Recycler", 2);
-		AttackWave(config.wave1C, "recyclerEnemy", "Recycler", 3);
-		AttackWave(config.wave1D, "recyclerEnemy", "Recycler", 3);
+		AttackWave(config.wave1C, "RecyclerEnemy", "Recycler", 2);
+		AttackWave(config.wave1D, "RecyclerEnemy", "Recycler", 2);
+		if Mission.PlayOptionDifficulty == Mission.medium then
+			AttackWave(config.wave1C, "RecyclerEnemy", "Recycler", 1);
+			AttackWave(config.wave1D, "RecyclerEnemy", "Recycler", 1);
+		elseif Mission.PlayOptionDifficulty == Mission.hard then
+			AttackWave(config.wave1C, "RecyclerEnemy", "Recycler", 1);
+			AttackWave(config.wave1D, "RecyclerEnemy", "Recycler", 1);
+			AttackWave(config.wave1B, "gtow5", "Recycler", 2);
+		end
 	end
 	
 	if ((GetDistance(Mission.Transport, "transport_give") < 50.0) and Mission.IsBaseOperational == false) then
@@ -300,21 +451,46 @@ function MissionLogic()
 
 		AudioMessage("mission1_3.wav");
 
-		AttackWave(config.wave1D, "recyclerEnemy", "Recycler", 3);
-		AttackWave(config.wave2A, "recyclerEnemy", "nav1", 1);
-		AttackWave(config.wave2B, "recyclerEnemy", "nav1", 2);
-		AttackWave(config.wave2C, "transport_spawn", "transport_path", 2);
+		AttackWave(config.wave1D, "RecyclerEnemy", "Recycler", 2);
+		AttackWave(config.wave2A, "RecyclerEnemy", "nav1", 1);
+		AttackWave(config.wave2B, "RecyclerEnemy", "nav1", 1);
+		AttackWave(config.wave2C, "transport_spawn", "transport_path", 1);
+
+		if Mission.PlayOptionDifficulty == Mission.medium then
+			AttackWave(config.wave2A, "RecyclerEnemy", "nav1", 1);
+			AttackWave(config.wave2B, "RecyclerEnemy", "nav1", 1);
+			AttackWave(config.wave2C, "transport_spawn", "transport_path", 1);
+		elseif Mission.PlayOptionDifficulty == Mission.hard then
+			AttackWave(config.wave1D, "RecyclerEnemy", "Recycler", 2);
+			AttackWave(config.wave2A, "RecyclerEnemy", "nav1", 2);
+			AttackWave(config.wave2B, "RecyclerEnemy", "nav1", 1);
+			AttackWave(config.wave2C, "transport_spawn", "transport_path", 2);
+		end
+
 	end
 	
-	local check = Mission.GoToBunker;
+	-- local check = Mission.GoToBunker;
 	
 	if (GetDistance(Mission.Transport, "nav1") < 700.0) then
 		SetObjectiveOff(Mission.NavBeacon);
 		
-		if (IsAround(Mission.Defender1) == false and IsAround(Mission.Defender2) == false and 
+		-- TODO: Fix loop
+		if (Mission.GoToBunker == false) and (IsAround(Mission.Defender1) == false and IsAround(Mission.Defender2) == false and 
 		IsAround(Mission.Defender3) == false) then
 			SetTeamNum(Mission.Transport, 2);
-			check = true;
+			Mission.GoToBunker = true; -- check = true;
+
+			AudioMessage("mission1_s.wav");
+
+			AttackWave(config.wave0A, "RecyclerEnemy", "gtow5", 1);
+			AttackWave(config.wave2C, "RecyclerEnemy", "hold5", 1);
+			if Mission.PlayOptionDifficulty == Mission.medium then
+				AttackWave(config.wave0A, "RecyclerEnemy", "gtow5", 1);
+				AttackWave(config.wave2C, "RecyclerEnemy", "hold5", 2);
+			elseif Mission.PlayOptionDifficulty == Mission.hard then
+				AttackWave(config.wave0A, "RecyclerEnemy", "gtow5", 2);
+				AttackWave(config.wave2C, "RecyclerEnemy", "hold5", 3);
+			end
 		end
 		
 		if (check == true) and (Mission.Pickup == false) then
@@ -338,15 +514,22 @@ function MissionLogic()
 			AudioMessage("mission1_4.wav");
 
 			AttackWave(config.wave1B, "transport_spawn", "transport_path", 2);
-			AttackWave(config.wave1C, "recyclerEnemy", "Recycler", 2);
-			AttackWave(config.wave1D, "recyclerEnemy", "Recycler", 3);
-			AttackWave(config.wave2B, "recyclerEnemy", "Recycler", 2);
-			AttackWave(config.wave3A, "recyclerEnemy", "nav1", 1);
-			AttackWave(config.wave3B, "recyclerEnemy", "nav1", 2);
-			AttackWave(config.wave3C, "recyclerEnemy", "hold4", 2);
-			AttackWave(config.wave0A, "recyclerEnemy", "gtow3", 1);
-			AttackWave(config.wave0B, "recyclerEnemy", "gtow4", 1);
-			AttackWave(config.wave0B, "recyclerEnemy", "gtow5", 1);
+			AttackWave(config.wave1C, "RecyclerEnemy", "Recycler", 2);
+			AttackWave(config.wave0B, "RecyclerEnemy", "gtow5", 1);
+			AttackWave(config.wave3A, "RecyclerEnemy", "nav1", 1);
+			if Mission.PlayOptionDifficulty == Mission.medium then
+				AttackWave(config.wave2B, "RecyclerEnemy", "Recycler", 1);
+				AttackWave(config.wave3B, "RecyclerEnemy", "nav1", 1);
+				AttackWave(config.wave3C, "RecyclerEnemy", "hold4", 2);
+			elseif Mission.PlayOptionDifficulty == Mission.hard then
+				AttackWave(config.wave1D, "RecyclerEnemy", "Recycler", 3);
+				AttackWave(config.wave2B, "RecyclerEnemy", "Recycler", 2);
+				AttackWave(config.wave3B, "RecyclerEnemy", "nav1", 2);
+				AttackWave(config.wave3C, "RecyclerEnemy", "hold4", 2);
+				AttackWave(config.wave0A, "RecyclerEnemy", "gtow3", 1);
+				AttackWave(config.wave0B, "RecyclerEnemy", "gtow4", 1);
+			end
+
 		end		
 	end
 	
@@ -384,15 +567,22 @@ function MissionLogic()
 
 		AudioMessage("mission1_5.wav");
 
-		AttackWave(config.wave1D, "recyclerEnemy", "Recycler", 3);
-		AttackWave(config.wave2B, "recyclerEnemy", "Recycler", 1);
-		AttackWave(config.wave3A, "recyclerEnemy", "Recycler", 1);
-		AttackWave(config.wave2B, "recyclerEnemy", "Recycler", 2);
-		AttackWave(config.wave3A, "recyclerEnemy", "nav2", 1);
-		AttackWave(config.wave2B, "recyclerEnemy", "nav2", 2);
-		AttackWave(config.wave3C, "recyclerEnemy", "nav2", 3);
+		AttackWave(config.wave2B, "RecyclerEnemy", "Recycler", 1);
+		AttackWave(config.wave3A, "RecyclerEnemy", "Recycler", 1);
 		AttackWave(config.wave0A, "gtow1", "nav2", 1);
-		AttackWave(config.wave0B, "recyclerEnemy", "nav2", 1);
+		if Mission.PlayOptionDifficulty == Mission.medium then
+			AttackWave(config.wave3A, "RecyclerEnemy", "nav2", 1);
+			AttackWave(config.wave2B, "RecyclerEnemy", "nav2", 2);
+			AttackWave(config.wave3C, "RecyclerEnemy", "nav2", 1);
+		elseif Mission.PlayOptionDifficulty == Mission.hard then
+			AttackWave(config.wave3A, "RecyclerEnemy", "nav2", 2);
+			AttackWave(config.wave2B, "RecyclerEnemy", "nav2", 3);
+			AttackWave(config.wave1D, "RecyclerEnemy", "Recycler", 3);
+			AttackWave(config.wave2B, "RecyclerEnemy", "Recycler", 2);
+			AttackWave(config.wave3C, "RecyclerEnemy", "nav2", 3);
+			AttackWave(config.wave0A, "gtow1", "nav2", 1);
+			AttackWave(config.wave0B, "RecyclerEnemy", "nav2", 1);
+		end
 	end
 	
 	if (GetDistance(Mission.Gift1, "transport_give") < 350.0) and (GetDistance(Mission.Gift2, "transport_give") < 350.0)
@@ -417,19 +607,25 @@ function MissionLogic()
 
 		AudioMessage("mission1_6.wav");
 		
-		AttackWave(config.wave1D, "recyclerEnemy", "Recycler", 3);
-		AttackWave(config.wave2B, "recyclerEnemy", "Recycler", 1);
-		AttackWave(config.wave3A, "recyclerEnemy", "Recycler", 2);
-		AttackWave(config.wave2B, "recyclerEnemy", "Recycler", 2);
-		AttackWave(config.wave3A, "recyclerEnemy", "Recycler", 2);
-		AttackWave(config.wave2B, "recyclerEnemy", "Recycler", 2);
-		AttackWave(config.wave3A, "recyclerEnemy", "Recycler", 1);
-		AttackWave(config.wave3C, "recyclerEnemy", "gtow3", 3);
-		AttackWave(config.wave3B, "recyclerEnemy", "gtow3", 2);
-		AttackWave(config.wave3B, "recyclerEnemy", "gtow2", 3);
-		AttackWave(config.wave0B, "recyclerEnemy", "hold1", 1);
-		AttackWave(config.wave0B, "recyclerEnemy", "hold2", 1);
-
+		AttackWave(config.wave1D, "RecyclerEnemy", "Recycler", 3);
+		AttackWave(config.wave2B, "RecyclerEnemy", "Recycler", 1);
+		AttackWave(config.wave3A, "RecyclerEnemy", "Recycler", 2);
+		AttackWave(config.wave2B, "RecyclerEnemy", "Recycler", 2);
+		AttackWave(config.wave0B, "RecyclerEnemy", "hold1", 1);
+		if Mission.PlayOptionDifficulty == Mission.medium then
+			AttackWave(config.wave3A, "RecyclerEnemy", "Recycler", 1);
+			AttackWave(config.wave2B, "RecyclerEnemy", "Recycler", 2);
+			AttackWave(config.wave3C, "RecyclerEnemy", "gtow3", 1);
+			AttackWave(config.wave0B, "RecyclerEnemy", "hold2", 1);
+		elseif Mission.PlayOptionDifficulty == Mission.hard then
+			AttackWave(config.wave3A, "RecyclerEnemy", "Recycler", 2);
+			AttackWave(config.wave2B, "RecyclerEnemy", "Recycler", 2);
+			AttackWave(config.wave3A, "RecyclerEnemy", "Recycler", 1);
+			AttackWave(config.wave3C, "RecyclerEnemy", "gtow3", 3);
+			AttackWave(config.wave3B, "RecyclerEnemy", "gtow3", 2);
+			AttackWave(config.wave3B, "RecyclerEnemy", "gtow2", 3);
+			AttackWave(config.wave0B, "RecyclerEnemy", "hold2", 1);
+		end
 	end
 	
 	if Mission.BombBase == true and not IsAround(Mission.EnemyHQ) then
@@ -438,8 +634,6 @@ function MissionLogic()
 		SucceedMission(5, "mission1_pass.des") -- TODO: Add des file here
 		Mission.Success = true
 	end
-	
+
 	
 end
-
-

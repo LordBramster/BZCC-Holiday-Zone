@@ -31,10 +31,10 @@ provideName3 = "DefendUnit"
 
 /////// WEAPONS ////////////////////
 weaponMask = 11111
-weaponHard1 = "HP_CANNON_1"
-weaponName1 = "gmboltmn"
+weaponHard1 = "HP_GUN_1"
+weaponName1 = "gchain_c"
 weaponAssault1 = 0
-weaponHard2 = "HP_GUN_1"
+weaponHard2 = "HP_CANNON_1"
 weaponName2 = ""
 weaponAssault2 = 0
 weaponHard3 = "HP_SPECIAL_1"

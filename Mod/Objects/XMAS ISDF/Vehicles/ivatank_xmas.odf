@@ -6,16 +6,16 @@ unitName = "Blizzard Bulldog"
 weaponMask = 00111
 weaponHard1 = "HP_CANNON_1"
 recoilName1 = "recoil1"
+weaponName1 = "gccan"
 weaponAssault1 = 0
-weaponName1 = "gyule"
 weaponHard2 = "HP_MORTAR_1"
-recoilName2 = "recoil2"
-weaponAssault2 = 0
-weaponName2 = "gsnowball"
+recoilName2 = "recoil3"
+weaponName2 = "gyule"
+weaponAssault2 = 1
 weaponHard3 = "HP_MORTAR_2"
 recoilName3 = "recoil3"
+weaponName3 = "gsnowballs"
 weaponAssault3 = 0
-weaponName3 = "gsnowball"
 
 /////////LIGHTS AND EFFECTS//////////////////
 lightHard1 = "hp_light_1"
