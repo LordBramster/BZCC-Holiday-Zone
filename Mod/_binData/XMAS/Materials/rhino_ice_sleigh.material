@@ -6,4 +6,5 @@ emissive = 0.000000  0.000000  0.000000  1.000000
 ambient = 0.000000  0.000000  0.000000  1.000000
 
 [texture]
-diffuse = hot_cocoa.dds
+diffuse = sleigh_d.dds
+normal = sleigh_n.dds

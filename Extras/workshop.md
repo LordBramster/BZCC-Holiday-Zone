@@ -1,21 +1,23 @@
-[img]https://raw.githubusercontent.com/LordBramster/BZCC-Holiday-Zone/refs/heads/main/Extras/bzcc_holidayzone.png[/img]
-
 [h1][b] 🎄 HOLIDAY ZONE[/b] - Alpha Release [i](BETA-PATCH REQUIRED)[/i][/h1]
 
-A Christmas-themed conversion mod for Battlezone: Combat Commander. This early build introduces some playable yule vehicles & weapons, a few seasonal winter map variants, and unique Christmas environments & decorations across the Battlezone.
+[img]https://raw.githubusercontent.com/LordBramster/BZCC-Holiday-Zone/refs/heads/main/Extras/bzcc_holidayzone.png[/img]
+
+A Christmas-themed overhaul mod for Battlezone: Combat Commander. This early build introduces some playable holiday-themed vehicles and buildings, festive weapons, and a few seasonal winter map variants with all new Christmas environments & decorations across the Battlezone!
 
 [img]https://raw.githubusercontent.com/LordBramster/BZCC-Holiday-Zone/refs/heads/main/Extras/manson_santahat_fit.png[/img]
 
-[quote] 🛑 NOTE: The latest Beta Patch of BZCC (203+) is required to play this mod. We recognize that not everyone is playing on this version, and will be making a later attempt to make it compatible for current release of the game. We encourage players to take a second and install it using the following guide: [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3417282213]How To Switch To Beta Patch[/url], and use the code [b]SurpiseUpdate2[/b]. The BZCC Beta Patch includes so many new and exciting features that you shouldn't miss out on! [/quote]
+[img]https://i.imgur.com/j9n4bOl.gif[/img]
+
+[quote][b][u]Alpha v0.9.10[/u][/b] - 🛑 NOTE: Requires Private Beta Patch: [i][u]2.0.203[/u][/i] or later in order to play this mod. We recognize that not everyone is playing on this BZCC build, and will be making a later attempt to make it compatible for current release of the game. We still encourage players to take a quick second and install the private beta patch using the following guide: [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3417282213]How To Switch To Beta Patch[/url], and entering the code [b][spoiler]SurpiseUpdate2[/spoiler][/b]. The BZCC Beta Patch includes so many new and exciting features that you shouldn't miss out on! [/quote]
 
 [h1][u]HOW TO SETUP ⚙️[/u][/h1]
 Follow these instructions in order to make sure are ready to play Holidayzone!
 [list]
 [*] Subscribe to this Steam Workshop mod.
-[*] Switch your version of BZCC to the [b]Beta Patch[/b], by following: [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3417282213]How To Switch To Beta Patch[/url] and using [b]SurpiseUpdate2[/b]. It only takes 20 seconds to get so many new and cool BZCC features!
-[*] Once the game launches, make sure to disable any [b]config & addon[/b] mods you be playing with.
+[*] Switch your version of BZCC to the [b]Beta Patch[/b] using: [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3417282213]How To Switch To Beta Patch[/url] and entering [spoiler]SurpiseUpdate2[/spoiler]. It only takes 20 seconds to get so many new and cool BZCC features!
+[*] Disable any [b]config & addon[/b] mods in the mod menu.
 [*] Activate [b]Holidayzone[/b] in the [b]config[/b] selection menu.
-[*] Comment problems or issues you find (or let a member of the development team know).💬
+[*] Comment any problems or issues you find (or let a member of the dev team know).💬
 [/list]
 
 [h1][u]BEST WAY TO PLAY 🎮[/u][/h1]
@@ -131,6 +133,9 @@ Thank you to all of the people in the Battlezone community who helped make Holid
 
 [code][b]🚫 DISCLAIMER: DO NOT USE ANY mod assets as part of your own creations, or attempt to re-upload or steal any creations from this mod without evident approval/permission.[/b] We will report and pursue action - please read [url=https://developer.valvesoftware.com/wiki/Mod_Content_Usage#:~:text=Using%20content%20from%20other%20mods,-It's%20a%20sad&text=Even%20if%20a%20mod%20is,the%20copyright%20for%20their%20wo]Mod Content Usage | Valve[/url].🚫[/code]
 
+[h1][u]YOUTUBE SHORTS 🎞️[/u][/h1]
+[table equalcells=1][tr][img]https://img.youtube.com/vi/HwAcJDJuMB8/maxresdefault.jpg[/img][/tr][tr][img]https://img.youtube.com/vi/5hsEBhLlY7o/maxresdefault.jpg[/img][/tr][/table]
+
 [h1][u]SUPPORT ☕[/u][/h1]
 Don't hesitate to leave your feedback and suggestions, we'd love to hear from you!
 [list]
@@ -138,9 +143,6 @@ Don't hesitate to leave your feedback and suggestions, we'd love to hear from yo
 [*] Interested in contributing to Holidayzone? Check out the [url=https://discord.com/channels/271066904284758027/1440908604378058856]Holidayzone Channel on Discord[/url] and send us a jingle! ✨
 [/list]
 
-[hr][/hr]
 [img]https://raw.githubusercontent.com/LordBramster/BZCC-Holiday-Zone/refs/heads/main/Extras/frosty_fit.png[/img]
-
-[img]https://i.imgur.com/j9n4bOl.gif[/img]
 
 [b]❄️ See you out on the ice, Commanders! ❄️[/b]

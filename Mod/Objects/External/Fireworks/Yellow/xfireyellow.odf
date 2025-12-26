@@ -19,7 +19,7 @@ particleClass4 = "xfireyellow.light"
 particleCount4 = 1
 particleVeloc4 = "0.0 0.0 0.0"
 
-explSound = "xfire1.wav"
+explSound = "xfirework.wav"
 damageRadius = 10.0
 
 damageValue(N) = 0 // none

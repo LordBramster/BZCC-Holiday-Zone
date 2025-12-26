@@ -1,12 +1,16 @@
 <div align="center">
- <img src="./Extras/bzcc_holidayzone.png" alt="logo" width="80%" height="auto" />
+ <img src="./Extras/bzcc_holidayzone.png" alt="logo" width="85%" height="auto" />
 </div>
 
 <br>
 
 <!-- WORKSHOP -->
 <p align="center">
-  <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3036741607"><img alt="Steam Workshop Link" title="Steam Workshop Link" src="https://custom-icon-badges.demolab.com/badge/-Download%20From%20The%20Steam%20Workshop%20-205479?style=for-the-badge&logoColor=white&logo=steam&labelColor=222f40"/></a>
+  <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3627174682"><img alt="Steam Workshop Link" title="Steam Workshop Link" src="https://custom-icon-badges.demolab.com/badge/-Download%20On%20The%20Steam%20Workshop%20-205479?style=for-the-badge&logoColor=white&logo=steam&labelColor=222f40"/></a>
+  <img src='https://img.shields.io/github/v/release/LordBramster/BZCC-Holiday-Zone?label=%20&style=for-the-badge&color=15bf64'></img>
+  <a href="https://discord.com/channels/271066904284758027/1440908604378058856">
+  <img alt="Discord" title="Discord" src="https://custom-icon-badges.demolab.com/badge/-Follow%20On%20Discord-7289da?style=for-the-badge&logoColor=white&logo=discord&labelColor=40464a"/>
+  </a>
 </p>
 
 > **Holidayzone** is designed to bring a new Christmas theme to Battlezone: Combat Commander!
@@ -14,20 +18,42 @@ Play on some of the most popular maps, all with a Christmas twist!
 > `⚠️ NOTE: THIS MOD REQUIRES THE LATEST BZCC BETA-PATCH (203+)`
 
 
-<a href="https://discord.com/channels/271066904284758027/1440908604378058856">
-  <img alt="Discord" title="Discord" src="https://custom-icon-badges.demolab.com/badge/-Follow%20On%20Discord-7289da?style=for-the-badge&logoColor=white&logo=discord&labelColor=40464a"/>
-</a>
+### Other Helpful Resources 🔗
+
 <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3417282213">
     <img alt="Steam Guide" src="https://custom-icon-badges.demolab.com/badge/-Guide:%20How%20To%20Switch%20To%20Beta%20Patch-205479?style=for-the-badge&logoColor=white&logo=steam&labelColor=222f40">
 </a>
 <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=1325933293">
-    <img alt="Steam Guide" src="https://custom-icon-badges.demolab.com/badge/-Download:%20VSR%20For%20Seasonal%20VSR%20Maps-205479?style=for-the-badge&logoColor=white&logo=steam&labelColor=222f40">
+    <img alt="Steam Guide" src="https://custom-icon-badges.demolab.com/badge/-Download%20VSR%20For%20Seasonal%20VSR%20Maps-205479?style=for-the-badge&logoColor=white&logo=steam&labelColor=222f40">
 </a>
 
 <br>
 
+<!-- YOUTUBE -->
+<h1 align="left">YouTube Spotlights <img width="3%" src="https://img.icons8.com/?size=1x&id=19318&format=png"></h1>
+Watch some of these content creators' videos giving Holidayzone a spotlight!
+<br><br>
+<p align="center">
+    <a href="https://www.youtube.com/watch?v=06_2DJeqj1U">
+        <img width="30%" src="https://img.youtube.com/vi/06_2DJeqj1U/maxresdefault.jpg">
+    </a>
+    <a href="https://www.youtube.com/watch?v=7SoUvrz2Lxc">
+        <img width="30%" src="https://img.youtube.com/vi/7SoUvrz2Lxc/maxresdefault.jpg">
+    </a>
+    <a href="https://www.youtube.com/watch?v=9VPeusQbBbg">
+        <img width="30%" src="https://img.youtube.com/vi/9VPeusQbBbg/maxresdefault.jpg">
+    </a>
+</p>
+<p align="center">
+    <a href="https://youtube.com/shorts/HwAcJDJuMB8?si=P2ZmGg8dJCJnRrEZ">
+        <img width="30%" src="https://img.youtube.com/vi/HwAcJDJuMB8/maxresdefault.jpg">
+    </a>
+    <a href="https://youtube.com/shorts/5hsEBhLlY7o?si=tEVAoXhgFFWqXSOH">
+        <img width="30%" src="https://img.youtube.com/vi/5hsEBhLlY7o/maxresdefault.jpg">
+    </a>
+</p>
 
-## Credits 🎅
+# Credits 🎅
 <div align="left">
  <img src="./Extras/manson_santahat.png" alt="logo" width="20%" height="auto" />
 </div>
@@ -46,7 +72,7 @@ Play on some of the most popular maps, all with a Christmas twist!
 <!-- | `GrizzlyOne & Karlopitek` | Voyager II 3D Assets | -->
 
 
-## Contents 🎄
+# Contents 🎄
 - Christmas UI Overhaul 🎄
 - Christmas ISDF Retexture 🧦
 - Christmas Map Decorations ☃️
@@ -108,10 +134,11 @@ Here are some maps that have gotten a little christmas twist!
 
 | Map Name | Game Modes | Christmas Name | Source |
 |-------------------|------------|-------------------------|--------|
-| ⌛ Candy Pass | DM | - | ❄️ |
-| ⌛ Snowball Fight | DM | - | ❄️ |
-| ⌛ Jinglin' Slopes | KOTH | - | ❄️ |
+| ✅ Candy Pass | DM | - | ❄️ |
+| ✅ Snowball Fight | DM | - | ❄️ |
+| ✅ Jinglin' Slopes | KOTH | - | ❄️ |
 | ⌛ Snowpine 🌨️ | IA, MPI, ST, STCTF | - | ❄️ |
+| ⌛ Winter Grove 🌨️ | IA, MPI, ST, STCTF | - | ❄️ |
 | ⌛ Frosty Flats | FFA | - | ❄️ |
 | ✅ Alien Dunes | IA, MPI, ST, STCTF | Arctic Drifts 🌒 | Stock 🔸 |
 | ✅ Bridges | IA, MPI, ST, STCTF| Saint Nick's Crossing | Stock 🔸 |
@@ -135,7 +162,7 @@ Here are some maps that have gotten a little christmas twist!
 | ✅ Giza | VSR ST/MPI | Snowy Giza | VSR 🔹 |
 | ✅ Consciousness | VSR ST/MPI | Europa Night | VSR 🔹 |
 | ✅ Overlook | VSR ST/MPI | Overfrost | VSR 🔹 |
-| ⌛ Jungle | VSR ST/MPI | Jungle | VSR 🔹 |
+| 🛠️ Jungle | VSR ST/MPI | Jungle | VSR 🔹 |
 | ✅ Remnant | VSR ST/MPI | Remnant of Winter | VSR 🔹 |
 | ✅ Haven | VSR ST/MPI | Snowy Haven | VSR 🔹 |
 
@@ -180,15 +207,28 @@ Don't forget to try the VSR compatible maps! 🎮
 - Igloo Armory 🧊
 - Service Pod Presents 🎁
 
-## Steam Workshop Prep 🚀
-1. Delete `.git` files, `readme.md` and `Extras/` folder.
+# Mod Release 🎄
 
-## VSR Map Pack Prep 🚀
+<!-- WORKSHOP -->
+
+All changes are made to the following Steam Workshop publications:
+<p align="left">
+  <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3627174682"><img alt="Steam Workshop Link" title="Steam Workshop Link" src="https://custom-icon-badges.demolab.com/badge/-Primary%20Config%20Mod-205479?style=for-the-badge&logoColor=white&logo=steam&labelColor=222f40"/></a>
+  <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3627212766"><img alt="Steam Workshop Link" title="Steam Workshop Link" src="https://custom-icon-badges.demolab.com/badge/-VSR%20Map%20Pack-205479?style=for-the-badge&logoColor=white&logo=steam&labelColor=222f40"/></a>
+</p>
+
+### Config Mod Release 🎁
+1. Delete `.git` files (such as `.gitignore`)
+1. Delete `readme.md`... cause well duh.
+1. Delete `Extras/` folder to remove extra GitHub assets.
+1. Delete `Missions/Playground` and `Missions/Multiplayer/VSR ONLY` folders to prevent duplicate map assets and inclusion of `empty.dll` test maps.
+
+### VSR Map Pack Release 🦌
 1. `Assets/` is the folder with assets from VSR needed to run in this mod.
 1. `Shared/` is the folder with assets needed to run these VSR maps (in addition to props).
 1. `VSR ONLY/` are for maps that are designed just for VSR DLLs.
 1. `VSR ST/` are for maps saved with a new `.BZN` file to work in this mod's ST DLL.
 1. Save VSR maps under a new `.BZN` to be compatible with stock.
 
-# Resources 📌
+# Other Resources 📌
 - https://steamcommunity.com/comment/Guide/formattinghelp

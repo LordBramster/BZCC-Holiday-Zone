@@ -7,4 +7,3 @@ ambient = 0.000000  0.000000  0.000000  1.000000
 
 [texture]
 diffuse = hot_cocoa.dds
-emissive = hot_cocoa.dds

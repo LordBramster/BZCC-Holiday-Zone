@@ -6,7 +6,7 @@
 // 
 [MPVehicles]
 xsi1 = "cookie_tree_pilot.fbx"
-cfg1 = "ivcookie2"
+cfg1 = "ivcookie"
 Description1 = "Yummy Cookie"
 
 xsi2 = "sleigh_santa.fbx"

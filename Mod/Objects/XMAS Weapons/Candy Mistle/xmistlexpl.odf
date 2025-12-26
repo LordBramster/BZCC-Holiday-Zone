@@ -5,7 +5,7 @@
 [ExplosionClass]
 classLabel = "explosion"
 
-explSound = "xfire1.wav"
+explSound = "xfirework.wav"
 
 damageRadius = 10.0
 
@@ -18,15 +18,30 @@ damageValue(D) = 100 // deflection
 damageValue(A) = 40 // absorbtion
 
 particleTypes = 4
-particleClass1 = "xfireyellow.shock"
+particleClass1 = "xfirered.shock"
 particleCount1 = 1
 particleVeloc1 = "0.0 0.0 0.0"
-particleClass2 = "xfireyellow.sparksemit"
+particleClass2 = "xfirered.sparksemit"
 particleCount2 = 30		//100
 particleVeloc2 = "50.0 50.0 50.0"
-particleClass3 = "xfireyellow.sparksemit"
+particleClass3 = "xfirered.sparksemit"
 particleCount3 = 30		//100
 particleVeloc3 = "-50.0 -50.0 -50.0"
-particleClass4 = "xfireyellow.light"
+particleClass4 = "xfirered.light"
 particleCount4 = 1
 particleVeloc4 = "0.0 0.0 0.0"
+
+particleClass5 = "xcanestickxpl.CaneBit1"
+particleCount5 = 1
+particleVeloc5 = "30.0 30.0 30.0"
+particlePosVar5 = "5.0 0.0 5.0"
+
+particleClass6 = "xcanestickxpl.CaneBit2"
+particleCount6 = 1
+particleVeloc6 = "30.0 30.0 30.0"
+particlePosVar6 = "5.0 0.0 5.0"
+
+particleClass7 = "xcanestickxpl.CaneBit3"
+particleCount7 = 1
+particleVeloc7 = "30.0 30.0 30.0"
+particlePosVar7 = "5.0 0.0 5.0"

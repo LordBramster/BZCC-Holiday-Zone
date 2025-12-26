@@ -1,6 +1,6 @@
 [GameObjectClass]
 classLabel = "animal"
-geometryName = "rhino_yule.fbx"
+geometryName = "rhino_ice.fbx" //rhino_yule
 // geometryName = "rhino_skel.fbx"
 
 unitName = "Yule Rhino"
@@ -101,5 +101,5 @@ alphaSteer = 20.0
 omegaSpin =  60.0
 omegaTurn = 150.0
 
-// leftfootpiece = "lfoot"
-// rightfootpiece = "rfoot"
+leftfootpiece = "lfoot"
+rightfootpiece = "rfoot"
