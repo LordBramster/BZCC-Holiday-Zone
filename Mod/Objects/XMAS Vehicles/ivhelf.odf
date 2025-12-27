@@ -17,8 +17,6 @@ radarSignature = 0.05
 isAssault = 1
 armorClass = L // H
 
-StayWithOwner = true
-
 DAMAGE_SCALE = 10.0 // UH OH!
 
 /////// REQUIREMENTS ///////////////
