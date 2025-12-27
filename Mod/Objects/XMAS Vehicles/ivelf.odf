@@ -3,8 +3,8 @@ baseName = "ivelf"
 geometryName = "elf_sled.fbx"
 classLabel = "wingman"
 scrapValue = 2
-scrapCost = 20
-customCost = 30
+scrapCost = 30
+customCost = 40
 buildTime = 5.0
 customTime = 8.0
 maxHealth = 1250
@@ -21,7 +21,9 @@ isAssault = 0
 armorClass = N
 
 /////// REQUIREMENTS ///////////////
-requireCount = 0
+requireCount = 1
+requireName1 = "ibcbun"
+requireText1 = "Build Candy Bunker"
 
 /////// PROVIDES ///////////////////
 provideCount = 3

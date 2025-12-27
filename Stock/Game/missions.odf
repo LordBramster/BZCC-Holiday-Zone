@@ -13,7 +13,7 @@ preBriefMovie = "Flyby_1.ogv"
 
 techCount = 3
 techName1 = "Snowplow Transport"
-techInfo1 = "ivsnowplow.inf"
+techInfo1 = "ivsnowplow_o.inf"
 techGeom1 = "ivapc00.fbx"
 techName2 = "Yummy Cookie"
 techInfo2 = "ivcookie2.inf"
@@ -52,7 +52,7 @@ preBriefMovie = "Flyby_1.ogv"
 
 techCount = 3
 techName1 = "Snowplow Transport"
-techInfo1 = "ivsnowplow.inf"
+techInfo1 = "ivsnowplow_o.inf"
 techGeom1 = "ivapc00.fbx"
 techName2 = "Combat Cookie"
 techInfo2 = "ivcookie2.inf"

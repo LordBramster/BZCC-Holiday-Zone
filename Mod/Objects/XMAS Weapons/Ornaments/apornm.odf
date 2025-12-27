@@ -5,7 +5,7 @@ classLabel = "apcannon"
 geometryName = "ornament01.fbx"
 geometryScale = 1.25
 
-scrapCost = 40
+scrapCost = 20
 
 unitName = "Ornaments"
 

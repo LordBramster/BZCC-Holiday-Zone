@@ -3,7 +3,7 @@ baseName = "apboost"
 classLabel = "apspecial"
 geometryName = "present_ap_03.fbx"
 
-scrapCost = 30
+scrapCost = 20
 unitName = "Reindeer Magic Boost"
 
 requireCount = 1

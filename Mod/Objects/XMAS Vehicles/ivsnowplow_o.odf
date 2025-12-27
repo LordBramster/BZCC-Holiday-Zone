@@ -2,7 +2,7 @@
 baseName = "ivsnowplow"
 classLabel = "ivsnowplow"
 
-maxHealth = 3000
+maxHealth = 4000
 addhealth = 10
 
 unitName = "Snowplow APC"

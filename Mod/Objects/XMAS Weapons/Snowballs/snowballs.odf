@@ -14,10 +14,10 @@ ammoCost = 15
 lifeSpan = 1e30
 shotSpeed = 50
 
-damageValue(N) = 150 // none
-damageValue(L) = 100 // light
-damageValue(H) = 75 // heavy
+damageValue(N) = 225 // none
+damageValue(L) = 175 // light
+damageValue(H) = 125 // heavy
 
-damageValue(S) = 100 // standard
-damageValue(D) = 75 // deflection
-damageValue(A) = 50 // absorbtion
+damageValue(S) = 175 // standard
+damageValue(D) = 125 // deflection
+damageValue(A) = 150 // absorbtion

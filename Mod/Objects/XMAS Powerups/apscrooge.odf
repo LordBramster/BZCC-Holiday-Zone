@@ -1,7 +1,7 @@
 [GameObjectClass]
 geometryName = "present_ap_03.fbx"
 classLabel = "servicepod"
-scrapCost = 0
+scrapCost = 40
 scrapValue = 0
 maxHealth = 200
 maxAmmo = 0

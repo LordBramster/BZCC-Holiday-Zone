@@ -4,7 +4,7 @@ classLabel = "aprocket"
 
 geometryName = "present_ap_03.fbx"
 
-scrapCost = 1
+scrapCost = 20
 
 unitName = "Marshmallow"
 

@@ -79,8 +79,7 @@ buildItem1 = "ivsnowball2"
 buildItem2 = "ivcookie"
 buildItem3 = "ivcookie2"
 buildItem4 = "ivsnowplow"
-buildItem5 = "ivnutcracker_dm"
-buildItem6 = "ivsleigh"
+buildItem5 = "ivsleigh"
 
 [BuildGroup7]
 buildLabel = "Elves"

@@ -4,22 +4,22 @@ geometryName = "ivapc00.fbx"
 cockpitName= "ivapc_cockpit.fbx"
 classLabel = "assaulthover"
 scrapValue = 10
-scrapCost = 50
-customCost = 60
+scrapCost = 75
+customCost = 85
 buildTime = 10.5
 customTime = 12.0
 maxHealth = 2750
 addhealth = 5
 maxAmmo = 3250
 addAmmo = 5
-unitName = "Snowplow APC"
+unitName = "Snowplow"
 aiName = "AssaultTankProcess"
 aiName2 = "AssaultTankProcess"
 heatSignature = 0.5
 imageSignature = 0.85
 radarSignature = 0.85
 isAssault = 1
-armorClass = L
+armorClass = H // L
 
 /////// REQUIREMENTS ///////////////
 requireCount =  0
@@ -33,13 +33,13 @@ provideName4 = "DefendUnit"
 
 /////// weapons ////////////////////
 weaponMask = 00111
-weaponHard1 = "HP_MORTAR_1"
-weaponName1 = "gwinds"
+weaponHard1 = "HP_CANNON_1"
+weaponName1 = "gornm"
 weaponAssault1 = 0
-weaponHard2 = "HP_CANNON_1"
-weaponName2 = "gpepperm"
+weaponHard2 = "HP_CANNON_2"
+weaponName2 = "gwinds"
 weaponAssault2 = 0
-weaponHard3 = "HP_GUN_2"
+weaponHard3 = "HP_MORTAR_1"
 weaponName3 = ""
 weaponAssault3 = 0
 weaponHard4 = "HP_SPECIAL_1"

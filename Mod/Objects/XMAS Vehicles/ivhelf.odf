@@ -20,7 +20,9 @@ armorClass = L // H
 DAMAGE_SCALE = 10.0 // UH OH!
 
 /////// REQUIREMENTS ///////////////
-requireCount = 0
+requireCount = 1
+requireName1 = "ibcbun"
+requireText1 = "Build Candy Bunker"
 
 /////// PROVIDES ///////////////////
 provideCount = 1

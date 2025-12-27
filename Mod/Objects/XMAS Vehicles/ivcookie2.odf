@@ -6,6 +6,7 @@ aiName = "SentryProcess"
 aiName2 = "SentryProcess"
 // aiName = "TankFriend"
 // aiName2 = "TankEnemy"
+scrapCost = 55
 
 /////// REQUIREMENTS ///////////////
 

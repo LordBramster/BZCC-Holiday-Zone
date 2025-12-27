@@ -9,7 +9,7 @@ xplExpire = "xccancar"
 
 renderName = "occan.render"
 
-ammoCost = 150
+ammoCost = 120 // 150
 lifeSpan = 300e-3
 shotSpeed = 750
 

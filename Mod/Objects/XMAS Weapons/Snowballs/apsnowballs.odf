@@ -5,7 +5,7 @@ classLabel = "apmortar"
 geometryName = "present_ap_03.fbx"
 // geometryName = "present03.fbx"
 
-scrapCost = 40
+scrapCost = 20
 
 
 unitName = "Snowball Toss"

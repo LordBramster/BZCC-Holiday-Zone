@@ -79,7 +79,7 @@ buildItem2 = "ivhelf"
 [BuildGroup3]
 buildLabel = "Defenders"
 buildItem1 = "ivsnowman_turr"
-buildItem2 = "ivsnowman"
+buildItem2 = "ivsnowman2"
 buildItem3 = "ivnutcracker_dm"
 
 [BuildGroup7]

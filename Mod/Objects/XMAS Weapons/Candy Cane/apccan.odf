@@ -3,7 +3,7 @@ classLabel = "apcannon"
 geometryName = "present_ap_03.fbx"
 scrapCost = 40
 
-requireCount = 1
+requireCount = 2
 requireName1 = "ibarmo"
 requireText1 = "Build Igloo Armory"
 requireName2 = "ibsbay"

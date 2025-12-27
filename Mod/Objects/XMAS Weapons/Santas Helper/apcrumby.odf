@@ -2,7 +2,7 @@
 baseName = "apcrumby"
 classLabel = "apspecial"
 geometryName = "present_ap_03.fbx"
-scrapCost = 40
+scrapCost = 30
 unitName = "Crumby Helper"
 
 requireCount = 1
