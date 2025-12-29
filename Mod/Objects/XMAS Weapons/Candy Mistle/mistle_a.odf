@@ -1,6 +1,7 @@
 [OrdnanceClass]
 classLabel = "imagemissile"
-shotGeometry = "iomshd00.fbx"
+shotGeometry = "candy_msl.fbx"
+// shotGeometry = "iomshd00.fbx"
 shotSound = "smort03.wav"
 
 xplGround = "xmistlexpl"
