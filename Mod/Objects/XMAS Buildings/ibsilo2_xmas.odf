@@ -1,0 +1,48 @@
+[GameObjectClass]
+baseName = "ibsilo"
+geometryName = "snowball_silo_big.fbx"
+classLabel = "silo"
+scrapCost = 50
+scrapValue = 30
+maxHealth = 6000
+maxAmmo = 0
+unitName = "Big Snowball Silo"
+heatSignature = 2.0
+imageSignature = 1.0
+radarSignature = 1.0
+armorClass = H
+isAssault = 1
+powerCost = 1
+buildSupport = "B" // A
+buildRequire = "F"
+
+collisionRadius = 10.0 // 12
+CategoryTypeOverride = 17
+AllowUndergroundSpawn = 1
+ownsTerrain = 1
+ClearBuildZone = 1 // -1 = auto, 0 = never, 1 = always. If 0/1, overrides collideable setting
+
+/////// REQUIREMENTS ///////////////
+requireCount = 1
+requireName1 = "ibfact"
+requireText1 = "Build Factory"
+
+/////// PROVIDES ///////////////////
+provideCount = 3
+provideName1 = "ibsilo"
+provideName2 = "VIRTUAL_CLASS_SILO"
+provideName3 = "VIRTUAL_CLASS_STORAGE"
+////////////////////////////////////
+
+[BuildingClass]
+soundAmbient = "amb_wind.wav"
+DoBettyLost = true
+// ReplacesObject = true
+
+[SiloClass]
+initDelay = 1e6 // 10.0 // How long before produces first scrap.
+scrapDelay = 1e6 // 10.0 // How long between scrap after first is created.
+scrapHold = 40 // Scrap capacity. 
+detectRange = 150
+ScrapDropPoint = true
+RequiresExtractor = false

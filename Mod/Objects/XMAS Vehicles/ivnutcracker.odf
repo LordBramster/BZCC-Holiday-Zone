@@ -25,6 +25,11 @@ needPilot = false
 isStealth = true
 requireCount = 0
 
+/////// REQUIREMENTS ///////////////
+requireCount = 1
+requireName1 = "ibfact"
+requireText1 = "Build Toy Factory"
+
 /////// PROVIDES ///////////////////
 provideCount = 2
 provideName1 = "ivturr"

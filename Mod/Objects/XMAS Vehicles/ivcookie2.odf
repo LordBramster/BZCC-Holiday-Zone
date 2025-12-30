@@ -7,6 +7,11 @@ aiName2 = "SentryProcess"
 // aiName = "TankFriend"
 // aiName2 = "TankEnemy"
 scrapCost = 55
+customCost = 65
+buildTime = 12.0
+customTime = 15.0
+maxHealth = 3500
+maxAmmo = 2500
 
 /////// REQUIREMENTS ///////////////
 

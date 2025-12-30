@@ -11,11 +11,11 @@ cockpitName= "ivatnk_cockpit.fbx"
 // animFile3 = "ivtanksr.fbx"
 classLabel = "wingman"
 scrapValue = 20
-scrapCost = 45
-customCost = 55
-buildTime = 15.0
-customTime = 15.0
-maxHealth = 3500
+scrapCost = 50
+customCost = 60
+buildTime = 10.0
+customTime = 12.0
+maxHealth = 3000
 maxAmmo = 2200
 addAmmo = 5
 unitName = "Yummy Cookie"
@@ -34,7 +34,7 @@ requireCount = 2
 requireName1 = "ibfact"
 requireText1 = "Build Toy Factory"
 requireName2 = "ibcbun"
-requireText2 = "Build Relay Bunk"
+requireText2 = "Build Candy Bunker"
 
 /////// PROVIDES ///////////////////
 provideCount = 3

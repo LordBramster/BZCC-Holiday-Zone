@@ -19,7 +19,7 @@ effectHard1 = "hp_emit_1"
 effectName1 = "emit_redblink"
 
 [MineClass]
-lifeSpan = 20
+lifeSpan = 45 // 20
 xplBlast = "xnaughtyxpl"
 
 [SeekerClass]

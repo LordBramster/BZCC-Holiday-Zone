@@ -91,7 +91,7 @@ weaponName2 = "gsnowballs"
 weaponAssault2 = 0
 weaponHard3 = "HP_ROCKET_1"
 weaponName3 = "gmistle_a"
-weaponAssault3 = 0
+weaponAssault3 = 1 // 0 TODO
 
 [CraftClass]
 xplCrash = "xplserv_xmas"

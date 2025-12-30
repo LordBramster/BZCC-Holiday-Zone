@@ -429,3 +429,45 @@ finishColor = "255 255 255 0"
 startRadius = 0.075 //0.2
 finishRadius = 0.0
 segmentTime = 0.075 // 0.15
+
+///////////////////////////////
+
+[Fuse]
+renderBase = "draw_multi"
+renderCount = 2
+renderName1 = "fx_xmas.FuseSmoke"
+renderName2 = "fx_xmas.FuseFlame"
+
+[FuseSmoke]
+renderBase = "draw_twirl_trail"
+emitDelay = 0.025
+emitDelayVar = 0.03
+emitVelocity = "-0.01 5.0 0.0"
+emitVariance = "2.0 2.0 2.0"
+emitInherit = "0.2 0.2 0.2"
+emitLife = 1.45
+textureName = "smoke.tga"
+textureBlend = "srcalpha invsrcalpha modulatealpha"
+startColor = "0 0 0 128"
+finishColor = "0 0 0 0"
+startRadius = 0.10
+finishRadius = 0.45
+animateTime = 1.5
+rotationRate = 2.0
+
+[FuseFlame]
+renderBase = "draw_twirl_trail"
+emitDelay = 0.025
+emitDelayVar = 0.02
+emitVelocity = "-0.01 5.0 0.0"
+emitVariance = "2.0 2.0 2.0"
+emitInherit = "0.5 0.5 0.5"
+emitLife = 0.75
+textureName = "fire.tga"
+textureBlend = "one one modulate"
+startColor = "255 255 200 255"
+finishColor = "255 0 0 0"
+startRadius = 0.20
+finishRadius = 0.05
+animateTime = 0.75
+rotationRate = 10.0

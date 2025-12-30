@@ -108,7 +108,8 @@ Watch some of these content creators' videos giving Holidayzone a spotlight!
 | `ivrhino` | Yule Rhino | Ice Rhino w/ Frost | A |
 | `ivsled` |  | Scav w/ Frost | A |
 | `ivsled_dm` |  | Scav w/ Frost + Bump DMG | DM |
-| `ivsleigh` | Sleigh | Flying Unit | A |
+| `ivsleigh` | Sleigh (AA) | Flying Unit | A |
+| `ivsleigh` | Sleigh (ATG) | Flying Unit | A |
 | `ivsleigh_cpu` | Anti-Merry Sleigh | Flying Unit (Deployed) | CPU |
 | `ivsnowball` | Mini Snowman | Assault Hover | A |
 | `ivsnowball_m` | Empty Mini Snowman | - | RV |

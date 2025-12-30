@@ -63,18 +63,26 @@ reloadMsg = "ivrecy12.wav"
 rescueMsg = "ivrecy13.wav"
 selectUser1Msg = "mnu_enab.wav" // Selection Message of the object while it is Building something.
 
-buildItem2 = "ivscout_xmas"
+// 1=SWEETS
+// 2=LA
+// 3=DEF
 buildItem4 = "ivtug"
 buildItem5 = "ivcons_xmas"
 buildItem6 = "ivserv"
-buildItem8 = "ivsnowball"
-buildItem9 = "ivsnowball_m"
-buildEmptyItem = 9
+// 7=PRESENTS
+buildItem8 = "iviceblock_m"
+buildEmptyItem = 8
 
 [BuildGroup1]
-buildLabel = "Resourcing"
+buildLabel = "Sweets Collection"
 buildItem1 = "ivhscav_xmas"
 buildItem2 = "ivhelf"
+
+[BuildGroup2]
+buildLabel = "Light Attack"
+buildItem1 = "ivscout_xmas"
+buildItem2 = "iviceball"
+buildItem3 = "iviceblock"
 
 [BuildGroup3]
 buildLabel = "Defenders"
@@ -88,10 +96,9 @@ buildItem1 = "apserv_xmas"
 buildItem2 = "apammo_xmas"
 buildItem3 = "aprepa_xmas"
 
-
 [RecyclerClass]
 scrapHold = 40
-scrapDelay = 3.0 // # of seconds before +1 scrap
+scrapDelay = 1.5 // # of seconds before +1 scrap
 
 [Lod1]
 //geometryName = "ibrecyL1.fbx" ;geometry for lod1

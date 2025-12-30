@@ -1,0 +1,130 @@
+[GameObjectClass]
+baseName = "ivcandle"
+geometryName = "ivstas00.fbx"
+// geometryScale = 0.4
+cockpitName = "ivstas_cockpit.fbx"
+classLabel = "minelayer"
+unitName = "Gift Placer"
+unitIcon = "icon_ivstas.tga"
+scrapValue = 20
+scrapCost = 55
+aiName = "MineLayerFriend"
+aiName2 = "MineLayerEnemy"
+buildTime = 10.0
+maxHealth = 4500
+maxAmmo = 2000
+heatSignature = 0.5
+imageSignature = 2.5
+radarSignature = 0.1
+aiAddAmmo = 40 // Stops the AI from running out of ammo.
+
+armorClass = L
+
+/////// REQUIREMENTS ///////////////
+requireCount = 2
+requireName1 = "ibfact"
+requireText1 = "Build Toy Factory"
+requireName2 = "ibarmo"
+requireText2 = "Build Igloo-Armory"
+////////////////////////////////////
+
+/////// PROVIDES ///////////////////
+provideCount = 1
+provideName1 = "minelayer"
+////////////////////////////////////
+
+/////////LIGHTS AND EFFECTS//////////////////
+lightHard1 = "hp_light_1"
+lightName1 = "spotgreen"
+
+effectHard1 = "hp_dust_1"
+effectName1 = "dusttrail"
+effectMinAltitude1 = 0.0
+effectMaxAltitude1 = 5.0
+
+////////////////////////////////////
+
+/////// WEAPONS ////////////////////
+weaponMask = 00010               // FUNNY ENOUGH, CAN USE LAY MINES CMD TO HAVE IT FIRE FIRST WEP SLOT REGARDLESS IF IT IS A MINE
+weaponHard1 = "HP_SPECIAL_1"     // LAY MINES
+weaponName1 = "gnaughty"
+weaponAssault1 = 0
+weaponHard2 = "HP_ROCKET_1"      // ATTACK/DEFENSE
+weaponName2 = "gmistle_c"
+weaponAssault2 = 1
+////////////////////////////////////
+
+[CraftClass]
+rangeScan = 300.0f
+periodScan = 5.0f
+velocJam = 5.0f
+braccelFactor = 0.05
+strafeFactor = 0.1
+steerFactor = 1.0
+omegaFactor = 0.2
+velFactor = 0.2
+avoidSpeed = 20
+topSpeed = 30
+
+engageRange = 200
+// canHunt = true
+attackTask = "MortarBikeAttack"
+subAttackTask = "MortarBikeSubAttack"  //"SupportSubAttack"
+subAttackClass = "NNS"
+// subAttackClass uses 3 letters.
+// 1st letter is either A or N.     A is include Air targets.         N is attack ground only.
+// 2nd letter is either D or N.     D is to deploy before attacking.  N for regular attack.
+// 3rd letter is either S or N.     S is to use Weapon Range.         N is use the Engage Range to attack. 
+modeText11 = "Recon"            // Hunt
+modeText14 = "Lay Candles Here"   // Lay Mines
+
+selectAttackMsg = "avrcktv0.wav"
+selectGoMsg = "avrcktvk.wav"
+selectFollowMsg = "avrcktvg.wav"
+selectOtherMsg = "avrcktvm.wav"
+selectUser1Msg = "avrcktvr.wav"     // laying mines ...
+goMsg = "avrcktv1.wav"
+goObjectMsg = "avrcktvf.wav"
+attackMsg = "avrcktv2.wav"
+followMeMsg = "avrcktv4.wav"
+followMsg = "avrcktvb.wav"
+repairMsg = "avrcktv8.wav"
+reloadMsg = "avrcktv9.wav"
+rescueMsg = "avrcktvc.wav"
+recycleMsg = "avrcktvd.wav"
+otherMsg = "avrcktvh.wav"
+user1Msg = "avrcktva.wav"
+killedMsg = "avrcktv3.wav"
+diedMsg = "abetty3.wav"
+
+[HoverCraftClass]
+setAltitude = 1.0
+accelDragFull = 1.0
+accelDragStop = 15.0 
+alphaTrack = 30.0
+alphaDamp = 10.0
+pitchPitch = 0.25
+pitchThrust = 0.05
+rollStrafe = 0.05
+rollSteer = 0.05
+velocForward = 10.0
+velocReverse = 10.0
+velocStrafe = 10.0
+accelThrust = 30.0
+accelBrake = 50.0
+omegaSpin = 1.5
+omegaTurn = 1.0
+alphaSteer = 3.0
+accelJump = 10.0
+
+soundThrust = "avrckte0.wav"
+soundTurbo = "avrckte1.wav"
+
+[MineLayerClass]
+mineCount = 15
+radius = 10.0
+radiusInc = 10.0
+angleInc = 90.0
+angleDec = 4.0
+ringPattern = true
+timeout = 10.0

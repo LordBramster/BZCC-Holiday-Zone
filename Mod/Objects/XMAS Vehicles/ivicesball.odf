@@ -38,7 +38,7 @@ weaponHard2 = "HP_ROCKET_1"
 weaponName2 = "gmarshmallow"
 weaponAssault2 = 0
 weaponHard3 = "HP_SPECIAL_1"
-weaponName3 = ""
+weaponName3 = "gprezmine"
 weaponAssault3 = 0
 
 /////////LIGHTS AND EFFECTS //////////////////

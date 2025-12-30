@@ -1,5 +1,5 @@
 [GameObjectClass]
-geometryName = "present03.fbx" //"igprox00.fbx"
+geometryName = "present_mine_bundle.fbx" //"present03.fbx" <- "igprox00.fbx"
 classLabel = "proximity"
 scrapCost = 0
 scrapValue = 0
@@ -7,11 +7,14 @@ maxHealth = 150
 maxAmmo = 200
 unitName = "Present Mine"
 
-explosionName = "xsnowballsxpl"
+explosionName = "xprezminexpl"
+
+effectHard1 = "hp_emit_1"
+effectName1 = "fx_xmas.fuse"
 
 [MineClass]
-lifeSpan = 45
-xplBlast = "xsnowballxpl"
+lifeSpan = 5 // 45
+xplBlast = "xprezminexpl"
 
 [ProximityMineClass]
 triggerRadius = 20.0

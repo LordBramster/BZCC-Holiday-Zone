@@ -50,7 +50,7 @@ requireCount = 0
 
 /////// PROVIDES ///////////////////
 provideCount = 2
-provideName1 = "ivcons_xmas"
+provideName1 = "ivcons"
 provideName2 = "VIRTUAL_CLASS_CONSTRUCTIONRIG"
 
 /////////LIGHTS AND EFFECTS//////////////////
@@ -89,7 +89,7 @@ otherMsg = ""
 diedMsg = ""
 
 [HoverCraftClass]
-velocForward = 6.5
+velocForward = 7.25 // 6.5
 velocReverse = 4.0
 velocStrafe = 0.0
 accelThrust = 20.0
@@ -121,13 +121,14 @@ buildItem1 = "ibpgen"
 buildItem2 = "ibfact_xmas"
 buildItem3 = "ibcbun"
 buildItem4 = "ibarmo_xmas"
-buildItem5 = "ibsbay"
-buildItem7 = "ibtrain"
-buildItem8 = "ibtcen_xmas"
-buildItem9 = "ibbomb_xmas"
+buildItem5 = "ibsilo_xmas"
+buildItem7 = "ibsbay"
+buildItem8 = "ibtrain"
+buildItem9 = "ibtcen_xmas"
+buildItem10 = "ibbomb_xmas"
 
 [BuildGroup6]
-buildLabel = "Santa's Defenders"
+buildLabel = "Santa's Defense"
 buildItem1 = "ibgtow_xmas"
 buildItem2 = "ibnutcracker"
 

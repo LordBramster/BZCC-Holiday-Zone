@@ -1,0 +1,61 @@
+[GameObjectClass]
+classLabel = "ivtank"
+
+scrapValue = 2
+scrapCost = 0
+
+maxHealth = 3000
+maxAmmo = 1200
+
+unitIcon = "icon_ivtank.tga"
+
+/////// PROVIDES ///////////////////
+
+provideCount = 4
+provideName2 = "player"
+provideName3 = "VIRTUAL_CLASS_TANK"
+provideName4 = "DefendUnit"
+
+////////////////////////////////////
+
+
+/////// weapons ////////////////////
+
+weaponMask=00011
+
+weaponName1 = "gpepperm"
+weaponName2 = "gmistle_c"
+weaponName3 = "gmistle_c"
+weaponName4 = "gsnowballs"
+weaponName5 = "gprezmine"
+
+////////////////////////////////////
+
+[CraftClass]
+
+[HoverCraftClass]
+velocForward = 30.0
+velocReverse = 15.0
+velocStrafe = 20.0
+accelThrust = 25.0
+accelBrake = 75.0
+accelJump = 20.0
+
+accelDragStop = 4.0
+
+alphaDamp = 7.0
+
+pitchPitch = 0.25
+pitchThrust = 0.1
+
+rollStrafe = 0.1
+omegaSpin = 3.5
+omegaTurn = 1.5
+alphaSteer = 5.0
+rollSteer = 0.1
+
+[Lod1]
+
+[Lod2]
+
+

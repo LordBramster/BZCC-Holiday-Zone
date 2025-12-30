@@ -12,7 +12,7 @@ radarSignature = 10.0
 unitName = "Naughty Finder"
 
 [MineClass]
-lifeSpan = 20
+lifeSpan = 45 // 20
 
 [TripMineClass]
 triggerRadius = 125.0

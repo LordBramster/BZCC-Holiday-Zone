@@ -2,6 +2,7 @@
 baseName = "appresmine"
 classLabel = "apspecial"
 
+// geometryName = "present_mine_bundle.fbx"
 geometryName = "present_ap_03.fbx"
 
 scrapCost = 20

@@ -5,7 +5,7 @@ geometryScale = 0.4
 aiName = "AirCraftFriend"
 aiName2 = "AirCraftEnemy"
 classLabel = "aircraft"
-unitName = "Sleigh"
+unitName = "Blitzen Sleigh"
 scrapValue = 0
 scrapReturn = 40
 scrapCost = 80
@@ -83,16 +83,18 @@ effectMaxAltitude2 = 1e6
 effectFlags2 = 2147483639
 
 weaponMask = 0111
-weaponHard1 = "HP_CANNON_1"
-weaponName1 = "gpepperm"
+weaponHard1 = "HP_ROCKET_1"
+weaponName1 = "gmistle_c"
 weaponAssault1 = 0
-weaponHard2 = "HP_GUN_2"
-weaponName2 = "gsnowballs"
-weaponAssault2 = 0
-weaponHard3 = "HP_ROCKET_1"
-weaponName3 = "gmistle_a"
+weaponHard2 = "HP_CANNON_1"
+weaponName2 = "gmistle_a"
+weaponAssault2 = 1
+weaponHard3 = "HP_GUN_1"
+weaponName3 = "gchain_c"
 weaponAssault3 = 0
-
+weaponHard4 = "HP_GUN_2"
+weaponName4 = "gchain_c"
+weaponAssault4 = 0
 
 [CraftClass]
 canHunt = true
@@ -152,9 +154,9 @@ killedMsg = "ivmbike07.wav" // he's dust
 diedMsg = ""
 
 [AirCraftClass]
-velocSet(L) = 10.0 // minimum velocity -20.0
+velocSet(L) = 5.0 // minimum velocity -20.0
 velocSet(M) = 30.0 // cruising velocity 0.0
-velocSet(H) = 60.0 // maximum velocity 50.0
+velocSet(H) = 65.0 // maximum velocity 50.0
 accelThrust = 15.0 // thrust acceleration
 accelBrake = 10.0 // brake acceleration
 accelDrag = 50.0
