@@ -62,7 +62,7 @@ Watch some of these content creators' videos giving Holidayzone a spotlight!
 | --- | --- |
 | `Cyber` | VSR Map Conversions, Music |
 | `F9bomber` | Custom Mission Script |
-| `Zorn` | Model Animations, Ice Asset |
+| `Zorn` | Additional 3D Assets, Model Animations |
 | `General Black Dragon` | Modding Support, VSR Dependency, Fireworks, Snowy Giza |
 
 | Special Thanks To | For |
