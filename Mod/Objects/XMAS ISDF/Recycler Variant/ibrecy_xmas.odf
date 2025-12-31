@@ -80,9 +80,10 @@ buildItem2 = "ivhelf"
 
 [BuildGroup2]
 buildLabel = "Light Attack"
-buildItem1 = "ivscout_xmas"
+buildItem1 = "ivsnowmobile"
 buildItem2 = "iviceball"
 buildItem3 = "iviceblock"
+buildItem4 = "ivscout_xmas"
 
 [BuildGroup3]
 buildLabel = "Defenders"

@@ -1,17 +1,14 @@
 [GameObjectClass]
-geometryName = "bag.fbx"// "daywrecker00.fbx"
+geometryName = "present02B.fbx"// "daywrecker00.fbx"
 classLabel = "daywrecker"
 scrapCost = 20
 scrapValue = 0
 maxHealth = 500
 maxAmmo = 0
-unitName = "XMAS Wrecker"
+unitName = "Timber!"
 aiName = "PowerUpProcess"
 
-requireCount = 1
-requireName1 = "ibarmo"
-requiretext1 = "Build Igloory"
-
+requireCount = 0
 ClearBuildZone = 0
 
 [PowerUpClass]
@@ -19,4 +16,4 @@ SlowFall = false
 FallSpeed = 12
 
 [DayWreckerClass]
-xplBlast = "xbmbxpl"
+xplBlast = "xtimberxpl"

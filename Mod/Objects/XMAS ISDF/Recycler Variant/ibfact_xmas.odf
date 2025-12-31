@@ -69,7 +69,7 @@ selectUser1Msg = "mnu_enab.wav" // Selection Message of the object while it is B
 
 
 buildItem6 = "ivcandle"
-buildItem7 = ""
+buildItem7 = "ivtree"
 // buildItem7 = "ivsnowball_m"
 // buildEmptyItem = 7
 

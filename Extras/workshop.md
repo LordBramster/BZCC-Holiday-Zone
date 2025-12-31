@@ -8,13 +8,13 @@ A Christmas-themed overhaul mod for Battlezone: Combat Commander. This early bui
 
 [img]https://i.imgur.com/j9n4bOl.gif[/img]
 
-[quote][b][u]Alpha v0.9.10[/u][/b] - 🛑 NOTE: Requires Private Beta Patch: [i][u]2.0.203[/u][/i] or later in order to play this mod. We recognize that not everyone is playing on this BZCC build, and will be making a later attempt to make it compatible for current release of the game. We still encourage players to take a quick second and install the private beta patch using the following guide: [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3417282213]How To Switch To Beta Patch[/url], and entering the code [b][spoiler]SurpiseUpdate2[/spoiler][/b]. The BZCC Beta Patch includes so many new and exciting features that you shouldn't miss out on! [/quote]
+[quote][b][u]Alpha v0.9.12[/u][/b] - 🛑 NOTE: Requires Private Beta Patch: [i][u]2.0.203[/u][/i] or later in order to play this mod. We recognize that not everyone is playing on this BZCC build, and will be making a later attempt to make it compatible for current release of the game. We still encourage players to take a quick second and install the private beta patch using the following guide: [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3417282213]How To Switch To Beta Patch[/url], and entering the code [b][spoiler]SurpriseUpdate2[/spoiler][/b]. The BZCC Beta Patch includes so many new and exciting features that you shouldn't miss out on! [/quote]
 
 [h1][u]HOW TO SETUP ⚙️[/u][/h1]
 Follow these instructions in order to make sure are ready to play Holidayzone!
 [list]
 [*] Subscribe to this Steam Workshop mod.
-[*] Switch your version of BZCC to the [b]Beta Patch[/b] using: [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3417282213]How To Switch To Beta Patch[/url] and entering [spoiler]SurpiseUpdate2[/spoiler]. It only takes 20 seconds to get so many new and cool BZCC features!
+[*] Switch your version of BZCC to the [b]Beta Patch[/b] using: [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3417282213]How To Switch To Beta Patch[/url] and entering [spoiler]SurpriseUpdate2[/spoiler]. It only takes 20 seconds to get so many new and cool BZCC features!
 [*] Disable any [b]config & addon[/b] mods in the mod menu.
 [*] Activate [b]Holidayzone[/b] in the [b]config[/b] selection menu.
 [*] Comment any problems or issues you find (or let a member of the dev team know).💬
@@ -140,6 +140,7 @@ Thank you to all of the people in the Battlezone community who helped make Holid
 Don't hesitate to leave your feedback and suggestions, we'd love to hear from you!
 [list]
 [*] [b]Want to stay tuned on Battlezone and more Holidayzone content?[/b] Check out the ongoing conversations on Discord! Visit the [url=https://discord.com/channels/271066904284758027/1440908604378058856]Battlezone Discord[/url] to learn more.🎮
+[*] Don't forget to resubscribe and check in on [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/3627174682]recent updates to the mod[/url]!
 [*] Interested in contributing to Holidayzone? Check out the [url=https://discord.com/channels/271066904284758027/1440908604378058856]Holidayzone Channel on Discord[/url] and send us a jingle! ✨
 [/list]
 

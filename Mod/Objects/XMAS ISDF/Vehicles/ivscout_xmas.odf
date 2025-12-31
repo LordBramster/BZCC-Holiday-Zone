@@ -1,8 +1,8 @@
 [GameObjectClass]
 classLabel="ivscout"
 unitName = "Jolly Finder Scout"
-scrapCost=40 // {VSR-035}
-
+scrapCost=50 // {VSR-035}
+maxHealth = 1900
 mass=4314.09 // Stock ISDF Scout Mass {VSR-012}
 
 

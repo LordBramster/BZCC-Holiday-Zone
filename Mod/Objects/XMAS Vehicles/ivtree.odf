@@ -1,0 +1,130 @@
+[GameObjectClass]
+baseName = "ivtree"
+geometryName = "pinetree_bomb.fbx"
+classLabel = "wingman"
+
+scrapValue = 0
+scrapReturn = 0
+scrapCost = 100
+customCost = 120
+buildTime = 30.0
+customTime = 45.0
+
+CanDropScrap = false
+
+maxHealth = 8000
+maxAmmo = 1500
+addAmmo = 10
+armorClass = H
+isAssault = 1
+
+unitName = "Timberboom"
+aiName = "TankFriend"
+aiName2 = "TankEnemy"
+
+heatSignature = 8.0
+imageSignature = 10.0
+radarSignature = 1.0
+
+explosionName = "timber1xpl"
+canSnipe=0
+needPilot=0
+useVehicleCrashOnDeath=false
+
+
+/////// REQUIREMENTS ///////////////
+requireCount = 2
+requireName1 = "ibtrain"
+requireText1 = "Build Training Fac."
+requireName2 = "ibtcen"
+requireText2 = "Build Toy Center"
+
+/////// PROVIDES ///////////////////
+
+provideCount = 2
+provideName1 = "ivtree"
+provideName2 = "VIRTUAL_CLASS_SENTRY"
+
+weaponMask = 00011
+weaponHard1 = "HP_SPECIAL"
+weaponName1 = "gtimber"
+weaponAssault1 = 0
+
+/////////LIGHTS AND EFFECTS//////////////////
+effectHard1 = "hp_dust_1"
+effectName1 = "dusttrail"
+effectMinAltitude1 = 0.0
+effectMaxAltitude1 = 5.0
+effectHard2 = "hp_emit_1" 
+effectName2 = "emit_contrail1"
+effectFlags2 = 2147483639
+effectHard3 = "hp_emit_2" 
+effectName3 = "fx_xmas.fuse"
+effectFlags3 = 2147483639
+////////////////////////////////////
+
+/////// weapons ////////////////////
+
+[CraftClass]
+canHunt = true
+modeText11 = "Go Timber!"
+rangeScan = 300.0
+periodScan = 5.0
+velocJam = 10.0
+engageRange = 300
+braccelFactor = 0.05
+strafeFactor = 0.1
+steerFactor = 1.0
+omegaFactor = 0.2
+velFactor = 0.2
+avoidSpeed = 20
+topSpeed = 8 // 30
+
+canRescue = false
+CanRecycle = false
+CanAIEject = false
+DoBettyLost = true
+AttackTaskUsesGroups = false
+
+selectAttackMsg = "avrcktv0.wav"
+selectGoMsg = "avrcktvk.wav"
+selectFollowMsg = "avrcktvg.wav"
+selectOtherMsg = "avrcktvm.wav"
+selectUser1Msg = "avrcktvr.wav"
+goMsg = "avrcktv1.wav"
+goObjectMsg = "avrcktvf.wav"
+attackMsg = "avrcktv2.wav"
+followMeMsg = "avrcktv4.wav"
+followMsg = "avrcktvb.wav"
+repairMsg = "avrcktv8.wav"
+reloadMsg = "avrcktv9.wav"
+rescueMsg = "avrcktvc.wav"
+recycleMsg = "avrcktvd.wav"
+otherMsg = "avrcktvh.wav"
+user1Msg = "avrcktva.wav"
+killedMsg = "avrcktv3.wav"
+diedMsg = "abetty3.wav"
+
+
+[HoverCraftClass]
+setAltitude = 0.25
+accelDragFull = 1.0
+accelDragStop = 15.0 
+alphaTrack = 30.0
+alphaDamp = 10.0
+pitchPitch = 0.25
+pitchThrust = 0.05
+rollStrafe = 0.05
+rollSteer = 0.05
+velocForward = 10.0
+velocReverse = 10.0
+velocStrafe = 10.0
+accelThrust = 30.0
+accelBrake = 50.0
+omegaSpin = 1.5
+omegaTurn = 1.0
+alphaSteer = 3.0
+accelJump = 10.0
+
+soundThrust = "amb_burning.wav"
+soundTurbo = "amb_burning.wav"

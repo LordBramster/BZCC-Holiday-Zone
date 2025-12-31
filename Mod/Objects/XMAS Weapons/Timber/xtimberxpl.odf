@@ -1,0 +1,138 @@
+// =====================
+// DAY WRECKER EXPLOSION
+// =====================
+
+[ExplosionClass]
+classLabel = "explosion"
+FriendlyFireDamage = true
+explSound = "xbuild.wav"
+
+damageRadius = 60.0
+
+damageValue(N) = 9000
+damageValue(L) = 9000
+damageValue(H) = 9000
+
+damageValue(S) = 9000
+damageValue(D) = 9000
+damageValue(A) = 9000
+
+kickRadius = 180.0
+kickOmega = 2.0
+kickVeloc = 25.0
+
+particleTypes = 10
+
+particleClass1 = "xtimberxpl.core"
+particleCount1 = 5
+particleVeloc1 = "5.0 5.0 5.0"
+particleInherit1 = "0.5 0.5 0.5"
+
+particleClass2 = "xtimberxpl.puffR"
+particleCount2 = 15
+particleVeloc2 = "50.0 50.0 50.0"
+particleInherit2 = "0.5 0.5 0.5"
+
+particleClass3 = "xtimberxpl.puffB"
+particleCount3 = 15
+particleVeloc3 = "50.0 50.0 50.0"
+particleInherit3 = "0.5 0.5 0.5"
+
+particleClass4 = "xtimberxpl.light"
+particleCount4 = 1
+particleVeloc4 = "0.0 0.0 0.0"
+particleInherit4 = "0.5 0.5 0.5"
+
+particleClass5 = "xtimberxpl.shock"
+particleCount5 = 1
+particleVeloc5 = "0.0 0.0 0.0"
+particleInherit5 = "0.5 0.5 0.5"
+
+particleClass6 = "fx_scrooge.santa"
+particleCount6 = 1
+particleVeloc6 = "5.0 5.0 5.0"
+particlePosVar6 = "5.0 30.0 5.0"
+particleInherit6 = "5.0 5.0 5.0"
+
+particleClass7 = "xfireyellow.shock"
+particleCount7 = 1
+particleVeloc7 = "0.0 0.0 0.0"
+
+particleClass8 = "xfireyellow.sparksemit"
+particleCount8 = 10		//100
+particleVeloc8 = "50.0 50.0 50.0"
+
+particleClass9 = "xfireyellow.sparksemit"
+particleCount9 = 10		//100
+particleVeloc9 = "-50.0 -50.0 -50.0"
+
+particleClass10 = "xfireyellow.light"
+particleCount10 = 1
+particleVeloc10 = "0.0 0.0 0.0"
+
+
+[Core]
+simulateBase = "sim_smoke"
+lifeTime = 2.0
+renderBase = "draw_twirl"
+textureName = "flame.tga"
+textureBlend = "one one modulate"
+startColor = "255 240 155 255"
+finishColor = "0 0 255 0"
+startRadius = 3.0
+finishRadius = 5.0
+animateTime = 2.0
+
+[PuffR]
+simulateBase = "sim_smoke"
+lifeTime = 1.0
+renderBase = "draw_twirl"
+textureName = "lightflare.tga"
+textureBlend = "one one modulate"
+startColor = "255 0 0 255"
+finishColor = "0 255 0 0"
+startRadius = 5.0
+finishRadius = 0.5
+animateTime = 1.0
+rotationRate = 10.0
+
+[PuffB]
+simulateBase = "sim_smoke"
+lifeTime = 1.0
+renderBase = "draw_twirl"
+textureName = "lightflare.tga"
+textureBlend = "one one modulate"
+startColor = "0 255 0 255"
+finishColor = "255 0 0 0"
+startRadius = 5.0
+finishRadius = 0.5
+animateTime = 1.0
+rotationRate = 10.0
+
+[Light]
+simulateBase = "sim_smoke"
+lifeTime = 1.5
+renderBase = "draw_light"
+startColor = "0 255 0 500"
+finishColor = "255 0 0 0"
+startRadius = 100.0
+finishRadius = 50.0
+animateTime = 1.5
+attenuateConstant = 1.0
+attenuateLinear = 0.0
+attenuateQuadratic = 30.0
+lensFlare = 0
+
+[Shock]
+simulateBase = "sim_smoke"
+lifeTime = 2.0
+renderBase = "draw_sphere"
+textureName = "vsmoke.tga"
+textureBlend = "one one modulate"
+startColor = "0 255 0 255"
+finishColor = "20 255 255 0"
+startRadius = 5.0
+finishRadius = 100.0
+animateTime = 2.25
+latitudeBands = 16
+longitudeSegments = 16

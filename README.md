@@ -15,7 +15,7 @@
 
 > **Holidayzone** is designed to bring a new Christmas theme to Battlezone: Combat Commander!
 Play on some of the most popular maps, all with a Christmas twist!
-> `⚠️ NOTE: THIS MOD REQUIRES THE LATEST BZCC BETA-PATCH (203+)`
+> ⚠️ NOTE: THIS MOD REQUIRES THE LATEST BZCC BETA-PATCH `2.0.203+`
 
 
 ### Other Helpful Resources 🔗

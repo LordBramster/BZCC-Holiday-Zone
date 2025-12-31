@@ -1,6 +1,6 @@
 [GameObjectClass]
 baseName = "ivsleigh"
-geometryName = "sleigh_santa.fbx"
+geometryName = "sleigh_santa_aa.fbx"
 geometryScale = 0.4
 aiName = "AirCraftFriend"
 aiName2 = "AirCraftEnemy"
@@ -8,8 +8,8 @@ classLabel = "aircraft"
 unitName = "Blitzen Sleigh"
 scrapValue = 0
 scrapReturn = 40
-scrapCost = 80
-customCost = 85
+scrapCost = 70
+customCost = 80
 buildTime = 16.0
 maxHealth = 2000
 maxAmmo = 1000
@@ -86,7 +86,7 @@ weaponMask = 0111
 weaponHard1 = "HP_ROCKET_1"
 weaponName1 = "gmistle_c"
 weaponAssault1 = 0
-weaponHard2 = "HP_CANNON_1"
+weaponHard2 = "HP_ROCKET_2"
 weaponName2 = "gmistle_a"
 weaponAssault2 = 1
 weaponHard3 = "HP_GUN_1"

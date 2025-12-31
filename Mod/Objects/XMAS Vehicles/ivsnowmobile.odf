@@ -1,0 +1,117 @@
+[GameObjectClass]
+baseName = "ivscout"
+geometryName = "ivsnowmobile.fbx"
+cockpitName = "ivmbik_cockpit.fbx"
+classLabel = "wingman"
+scrapValue = 15
+scrapCost = 40
+customCost = 50
+buildTime = 15.0
+customTime = 15.0
+maxHealth = 1800
+maxAmmo = 1500
+addAmmo = 1
+unitName = "Snowmobile Scout"
+unitIcon = "icon_ivmsled.tga"
+aiName = "ScoutFriend"
+aiName2 = "ScoutEnemy"
+heatSignature = 1.0
+imageSignature = 2.5
+radarSignature = 0.5
+isAssault = 0
+armorClass = L
+
+/////// REQUIREMENTS ///////////////
+requireCount = 0
+
+/////// PROVIDES ///////////////////
+provideCount = 3
+provideName1 = "ivscout"
+provideName2 = "VIRTUAL_CLASS_SCOUT"
+provideName3 = "DefendUnit"
+
+/////// WEAPONS ////////////////////
+weaponMask = 00001
+weaponHard1 = "HP_GUN_1"
+weaponName1 = "gminigun_c"
+weaponAssault1 = 0
+weaponHard2 = "HP_GUN_2"
+weaponName2 = "gminigun_c"
+weaponAssault2 = 0
+weaponHard3 = "HP_ROCKET_1"
+weaponName3 = "gmistle_c"
+weaponAssault3 = 1
+weaponHard4 = "HP_SPECIAL_1"
+weaponName4 = "gboost"
+weaponAssault4 = 0
+
+/////////LIGHTS AND EFFECTS //////////////////
+lightHard1 = "hp_light_1"
+lightName1 = "spotorange"
+
+effectHard1 = "hp_emit_1"
+effectName1 = "emit_contrail1"
+effectFlags1 = 2147483639
+effectHard2 = "hp_emit_2" 
+effectName2 = "emit_contrail1"
+effectFlags2 = 2147483639
+
+[CraftClass]
+canHunt = true
+modeText11 = "Go Caroling!"
+engageRange = 500 // 120
+rangeScan = 300.0
+periodScan = 5.0
+velocJam = 5.0
+
+attackTask = "MortarBikeAttack"  //"AssaultTankAttack"
+subAttackTask = "MortarBikeSubAttack"  //"SupportSubAttack"
+subAttackClass = "NNS"
+
+braccelFactor = 0.03
+velFactor = 0.2
+steerFactor = 1.5
+omegaFactor = 0.2
+strafeFactor = 0.8
+avoidSpeed = 20
+topSpeed = 35
+
+selectWaitMsg = "ivscout04.wav"
+selectAttackMsg = "ivscout01.wav"
+selectFollowMsg = "ivscout03.wav"
+selectGoMsg = "ivscout02.wav"
+selectOtherMsg = "ivscout04.wav"
+
+goMsg = "ivscout05.wav"
+attackMsg = "ivscout06.wav"
+followMeMsg = "ivscout03.wav"
+followMsg = "ivscout08.wav"
+repairMsg = "ivscout09.wav"
+reloadMsg = "ivscout09.wav"
+rescueMsg = "ivscout10.wav"
+recycleMsg = "ivscout11.wav"
+otherMsg = "ivscout10.wav" 
+holdMsg = "ivscout12.wav"
+user1Msg = ""  
+killedMsg = "ivscout07.wav"
+diedMsg = ""
+
+[HoverCraftClass]
+velocForward = 35.0
+velocReverse = 20.0
+velocStrafe = 25.0
+accelThrust = 25.0 //acceleration
+accelDragStop = 7.0 //how fast it stops once hands are off controls
+accelJump = 15.0
+setAltitude = 0.05 // how high off the ground
+alphaTrack = 23.0 //springs speed it rights itself 
+alphaDamp = 9.0 //shocks 
+pitchPitch = 0.25 //nose up 
+pitchThrust = 0.025 //nose down 
+rollStrafe = 0.03  //rolls while strafing
+omegaSpin = 2.2 //spinning in place speed
+omegaTurn = 3.5 //turning while moving speed
+alphaSteer = 4.2 //how fast it responds to steering
+rollSteer = 0.05 //rolls while steering
+
+soundThrust = "iserv01.wav"

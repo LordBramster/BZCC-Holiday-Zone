@@ -6,8 +6,8 @@ xplGround = NULL
 xplVehicle = NULL
 xplBuilding = NULL
 
-ammoCost = 100
-lifeSpan = 20
+ammoCost = 250
+lifeSpan = 30 // 10
 shotSpeed = 45.0
 
 damageValue(N) = 0

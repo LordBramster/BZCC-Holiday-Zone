@@ -9,7 +9,7 @@ xsi1 = "cookie_drone_tank.fbx"
 cfg1 = "ivginger"
 Description1 = "Gingerbread"
 
-xsi2 = "sleigh_santa.fbx"
+xsi2 = "sleigh_santa_aa.fbx"
 cfg2 = "ivsleigh"
 Description2 = "Assault Sleigh"
 
@@ -97,6 +97,14 @@ xsi23 = "cookie_tree_pilot.fbx"
 cfg23 = "ivcookie2"
 Description23 = "Yummy Cookie II"
 
-xsi24 = "ispilo_rifle_skel.fbx"
-cfg24 = "ispilo"
-Description24 = "Elf Pilot"
+xsi24 = "pinetree_bomb.fbx"
+cfg24 = "ivtree_dm"
+Description24 = "Timberboom!"
+
+xsi25 = "ivsnowmobile.fbx"
+cfg25 = "ivsnowmobile"
+Description25 = "Snowmobile"
+
+xsi26 = "ispilo_rifle_skel.fbx"
+cfg26 = "ispilo"
+Description26 = "Elf Pilot"

@@ -1,0 +1,11 @@
+[WeaponClass]
+classLabel = "dispenser"
+wpnName = "Timber!"
+fireSound = "mmine01.wav"
+wpnReticle = "gproxmin"
+wpnCategory = "SPEC"
+aiRange = 25.0
+
+[DispenserClass]
+shotDelay = 1.0
+objectClass = "aptimber" //timbermine

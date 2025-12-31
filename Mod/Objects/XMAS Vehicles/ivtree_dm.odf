@@ -1,0 +1,27 @@
+[GameObjectClass]
+baseName = "ivtree"
+geometryName = "pinetree_bomb.fbx"
+classLabel = "ivtree"
+
+maxHealth = 4000
+maxAmmo = 1500
+addAmmo = 10
+armorClass = H
+isAssault = 1
+
+weaponMask = 00011
+weaponHard1 = "HP_SPECIAL"
+weaponName1 = "gtimber"
+weaponAssault1 = 0
+
+needPilot=1
+
+[CraftClass]
+canHunt = true
+modeText11 = "Go Timber!"
+rangeScan = 500
+engageRange = 500
+topSpeed = 10
+canRescue = true
+
+[HoverCraftClass]

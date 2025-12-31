@@ -8,5 +8,5 @@ wpnCategory = "SPEC"
 // localAmmo = 3
 
 [DispenserClass]
-shotDelay = 1
+shotDelay = 10 // 1
 objectClass = "ivcrumby"

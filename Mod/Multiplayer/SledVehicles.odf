@@ -14,6 +14,10 @@ xsi2 = "scav_sled.fbx"
 cfg2 = "ivsled_dm"
 Description2 = "Scrooge Sled Scavenger"
 
-xsi3 = "elf_sled.fbx"
-cfg3 = "ivelf"
-Description3 = "Elf on a Sled"
+xsi3 = "ivsnowmobile.fbx"
+cfg3 = "ivsnowmobile"
+Description3 = "Snowmobile"
+
+xsi4 = "elf_sled.fbx"
+cfg4 = "ivelf"
+Description4 = "Elf on a Sled"
