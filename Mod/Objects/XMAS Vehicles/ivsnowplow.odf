@@ -122,7 +122,7 @@ omegaTurn = 3.5 //turning while moving speed
 alphaSteer = 4.2 //how fast it responds to steering
 rollSteer = 0.15 //rolls while steering
 
-soundThrust = "itank01e.wav"
+soundThrust = "iengf.wav"
 
 [AssaultHoverClass]
 yawRate = 4.0

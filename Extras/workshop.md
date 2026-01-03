@@ -8,7 +8,7 @@ A Christmas-themed overhaul mod for Battlezone: Combat Commander. This early bui
 
 [img]https://i.imgur.com/j9n4bOl.gif[/img]
 
-[quote][b][u]Alpha v0.9.12[/u][/b] - 🛑 NOTE: Requires Private Beta Patch: [i][u]2.0.203[/u][/i] or later in order to play this mod. We recognize that not everyone is playing on this BZCC build, and will be making a later attempt to make it compatible for current release of the game. We still encourage players to take a quick second and install the private beta patch using the following guide: [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3417282213]How To Switch To Beta Patch[/url], and entering the code [b][spoiler]SurpriseUpdate2[/spoiler][/b]. The BZCC Beta Patch includes so many new and exciting features that you shouldn't miss out on! [/quote]
+[quote][b][u]Alpha v0.9.14[/u][/b] - 🛑 NOTE: Requires Private Beta Patch: [i][u]2.0.203[/u][/i] or later in order to play this mod. We recognize that not everyone is playing on this BZCC build, and will be making a later attempt to make it compatible for current release of the game. We still encourage players to take a quick second and install the private beta patch using the following guide: [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3417282213]How To Switch To Beta Patch[/url], and entering the code [b][spoiler]SurpriseUpdate2[/spoiler][/b]. The BZCC Beta Patch includes so many new and exciting features that you shouldn't miss out on! [/quote]
 
 [h1][u]HOW TO SETUP ⚙️[/u][/h1]
 Follow these instructions in order to make sure are ready to play Holidayzone!

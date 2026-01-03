@@ -1,0 +1,36 @@
+[GameObjectClass]
+baseName = "ivsensor"
+geometryName = "snowman_trans.fbx"
+classLabel = "ivsensor"
+unitName = "North Pole Sensor"
+maxHealth = 2000
+armorClass = L
+
+/////// WEAPONS ////////////////////
+weaponMask = 00001
+weaponHard1 = "HP_CANNON_1"
+weaponName1 = "gmboltmn"
+weaponAssault1 = 0
+weaponHard2 = "HP_SPECIAL_1"
+weaponName2 = "gstatic"
+weaponAssault2 = 0
+
+[CraftClass]
+engageRange = 800 // 450
+topSpeed = 15 // 10
+
+attackTask = "MortarBikeAttack"  //"AssaultTankAttack"
+subAttackTask = "MortarBikeSubAttack"  //"SupportSubAttack"
+subAttackClass = "ANN" // ANS
+// subAttackClass uses 3 letters.
+// 1st letter is either A or N.     A is include Air targets.         N is attack ground only.
+// 2nd letter is either D or N.     D is to deploy before attacking.  N for regular attack.
+// 3rd letter is either S or N.     S is to use Weapon Range.         N is use the Engage Range to attack. 
+
+[HoverCraftClass]
+velocForward = 8.5 // 5
+velocReverse = 5.0
+velocStrafe = 6.5
+accelThrust = 25.0 //acceleration
+
+soundThrust = "iengf.wav"

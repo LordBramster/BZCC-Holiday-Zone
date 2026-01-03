@@ -20,7 +20,7 @@ needPilot=1
 canHunt = true
 modeText11 = "Go Timber!"
 rangeScan = 500
-engageRange = 500
+engageRange = 800
 topSpeed = 10
 canRescue = true
 

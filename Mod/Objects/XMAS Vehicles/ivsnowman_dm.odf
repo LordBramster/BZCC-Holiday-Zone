@@ -25,7 +25,7 @@ isStealth = false
 
 
 [CraftClass]
-engageRange = 500
+engageRange = 800
 
 [HoverCraftClass]
 

@@ -1,0 +1,30 @@
+[GameObjectClass]
+baseName = "ivjack"
+geometryName = "snowman_tank.fbx"
+cockpitName= "ivatnk_cockpit.fbx"
+classLabel = "ivjack"
+
+unitName = "Snowball Jack"
+
+/////// weapons ////////////////////
+weaponMask = 11111
+weaponHard1 = "HP_MORTAR_1"
+weaponName1 = "gsnowballs"
+recoilName1 = "recoil1"
+weaponAssault1 = 0
+weaponHard2 = "HP_SPECIAL_1"
+weaponName2 = "gprezmine"
+recoilName2 = ""
+weaponAssault2 = 0
+weaponHard3 = ""
+weaponName3 = ""
+recoilName3 = ""
+weaponAssault3 = 0
+weaponHard4 = ""
+weaponName4 = ""
+weaponAssault4 = 0
+
+[CraftClass]
+engageRange = 800
+
+[HoverCraftClass]

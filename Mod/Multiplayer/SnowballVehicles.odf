@@ -25,3 +25,7 @@ Description4 = "Elf on a Snowball"
 xsi5 = "ivmbik00.fbx"
 cfg5 = "ivmbike_xmas"
 Description5 = "Jingle Jackal"
+
+xsi6 = "snowman_tank.fbx"
+cfg6 = "ivjack_dm"
+Description6 = "Snowball Jack"

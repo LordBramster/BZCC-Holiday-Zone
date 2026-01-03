@@ -49,12 +49,14 @@ weaponAssault4 = 0
 lightHard1 = "hp_light_1"
 lightName1 = "spotorange"
 
-effectHard1 = "hp_emit_1"
-effectName1 = "emit_contrail1"
-effectFlags1 = 2147483639
-effectHard2 = "hp_emit_2" 
+effectHard1 = "hp_dust_1"
+effectName1 = "dusttrail3"
+effectMinVelocity1 = 3.0
+effectMaxVelocity1 = 500.0
+effectHard2 = "hp_dust_1"
 effectName2 = "emit_contrail1"
 effectFlags2 = 2147483639
+
 
 [CraftClass]
 canHunt = true

@@ -18,12 +18,13 @@ imageSignature = 1.15
 radarSignature = 0.15
 isAssault = 0
 armorClass = H
-requireCount = 0
 canSelect = true
 canDetect = false
 canInteract = true
 needPilot = false
 isStealth = true
+
+requireCount = 0
 
 /////// PROVIDES ///////////////////
 provideCount = 2

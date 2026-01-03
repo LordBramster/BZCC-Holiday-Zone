@@ -12,7 +12,6 @@ maxAmmo = 9000
 addAmmo = 4
 isAssault = 1 // 0
 armorClass = H //L
-requireCount = 0
 
 unitName = "Unfriendly Snowman"
 heatSignature = 0.5

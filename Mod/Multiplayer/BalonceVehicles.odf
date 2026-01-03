@@ -1,0 +1,22 @@
+//
+// xVehicles.odf - listing of multiplayer vehicles usable in BZ2
+//
+//
+// Tip: do not put .odf extension on cfg# = "" entries; added automatically on loading
+// 
+[MPVehicles]
+xsi1 = "ivsnowmobile.fbx"
+cfg1 = "ivsnowmobile"
+Description1 = "Snowmobile Scout"
+
+xsi2 = "ivscout00.fbx"
+cfg2 = "ivscoutdm"
+Description2 = "ISDF Scout (DM variant)"
+
+xsi3 = "fvscout_skel.fbx"
+cfg3 = "fvscoutdm"
+Description3 = "Scion Drone (DM variant)"
+
+xsi4 = "snowman_trans.fbx"
+cfg4 = "ivcomm"
+Description4 = "North Pole Comm Vehicle"

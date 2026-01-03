@@ -1,0 +1,132 @@
+[GameObjectClass]
+baseName = "ivjack"
+geometryName = "snowman_tank.fbx"
+cockpitName= "ivatnk_cockpit.fbx"
+classLabel = "wingman"
+scrapValue = 20
+scrapCost = 50
+customCost = 60
+buildTime = 12.0
+customTime = 15.0
+maxHealth = 2800
+maxAmmo = 2500
+addAmmo = 5
+unitName = "Snowman Jack"
+aiName = "SentryProcess"
+aiName2 = "SentryProcess"
+// aiName = "TankFriend"
+// aiName2 = "TankEnemy"
+heatSignature = 2.0
+imageSignature = 2.5
+radarSignature = 0.5
+isAssault = 0
+armorClass = L
+
+/////// REQUIREMENTS ///////////////
+requireCount = 1
+requireName1 = "ibfact"
+requireText1 = "Build Toy Factory"
+
+/////// PROVIDES ///////////////////
+provideCount = 3
+provideName1 = "ivjack"
+provideName2 = "VIRTUAL_CLASS_TANK"
+provideName3 = "DefendUnit"
+
+/////// weapons ////////////////////
+weaponMask = 11111
+weaponHard1 = "HP_CANNON_1"
+weaponName1 = "gornm"
+recoilName1 = "recoil1"
+weaponAssault1 = 0
+weaponHard2 = "HP_ROCKET_1"
+weaponName2 = "gmistle_c"
+recoilName2 = "recoil1"
+weaponAssault2 = 1
+weaponHard3 = "HP_MORTAR_1"
+weaponName3 = ""
+recoilName3 = "recoil1"
+weaponAssault3 = 1
+weaponHard4 = "HP_SPECIAL_1"
+weaponName4 = "gprezmine"
+weaponAssault4 = 0
+
+/////////LIGHTS AND EFFECTS//////////////////
+//don't use altitude
+effectHard1 = "hp_dust_1"
+effectName1 = "dusttrail3"
+effectMinVelocity1 = 3.0
+effectMaxVelocity1 = 500.0
+
+
+[CraftClass]
+canHunt = true
+modeText11 = "Go Caroling!"
+rangeScan = 300.0
+periodScan = 5.0
+velocJam = 5.0
+engageRange = 300
+
+attackTask = "MortarBikeAttack"  //"AssaultTankAttack"
+subAttackTask = "MortarBikeSubAttack"  //"SupportSubAttack"
+subAttackClass = "ANS" // ANS
+// subAttackClass uses 3 letters.
+// 1st letter is either A or N.     A is include Air targets.         N is attack ground only.
+// 2nd letter is either D or N.     D is to deploy before attacking.  N for regular attack.
+// 3rd letter is either S or N.     S is to use Weapon Range.         N is use the Engage Range to attack. 
+
+braccelFactor = 0.03
+velFactor = 0.2
+steerFactor = 1.5
+omegaFactor = 0.2
+strafeFactor = 0.2
+avoidSpeed = 20;
+topSpeed = 30;
+
+selectWaitMsg = "ivtank05.wav"
+selectAttackMsg = "ivtank02.wav"
+selectFollowMsg = "ivtank04.wav"
+selectGoMsg = "ivtank04.wav"
+selectOtherMsg = "ivtank05.wav"
+holdMsg = "ivtank12.wav"
+goMsg = "ivtank04.wav"
+attackMsg = "ivtank06.wav"
+followMeMsg = "ivtank08.wav"
+followMsg = "ivtank03.wav"
+repairMsg = "ivtank09.wav"
+reloadMsg = "ivtank09.wav"
+rescueMsg = "ivtank10.wav"
+recycleMsg = "ivtank11.wav"
+otherMsg = "ivtank05.wav"
+user1Msg = ""  
+killedMsg = "ivtank07.wav"
+diedMsg = ""
+
+[HoverCraftClass]
+velocForward = 36.5 // 
+velocReverse = 12.0 // 
+velocStrafe = 18.5 // 
+accelThrust = 19.0 // acceleration 
+accelBrake = 75.0 // braking
+accelDragStop = 6.0 // how fast it stops once hands are off controls 
+accelJump = 15.0
+setAltitude = 0.1 // how high off the ground
+alphaTrack = 21.0 //springs speed it rights itself 
+alphaDamp = 8.0 //shocks 
+pitchPitch = 0.25 //nose up 
+pitchThrust = 0.1 //nose down 
+rollStrafe = 0.08 //rolls while strafing 
+omegaSpin = 6.0 //spinning in place speed 
+omegaTurn = 2.3 //turning while moving speed 
+alphaSteer = 7.0 //how fast it responds to steering 
+rollSteer = 0.08 //rolls while steering 
+soundThrust = "itank01h.wav"
+soundTurbo = "avrckte1.wav"
+
+[Lod1]
+//geometryName = "ivtankL1.fbx" ;geometry for lod1
+//distance = 50                 ;...distance over this many meters => switch to lod2
+
+[Lod2]
+//geometryName = "ivtankL2.fbx" ;geometry for lod2
+//distance = 100                 ;...distance over this many meters => switch to lod2

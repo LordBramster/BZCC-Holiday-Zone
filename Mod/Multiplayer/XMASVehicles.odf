@@ -5,13 +5,13 @@
 // Tip: do not put .odf extension on cfg# = "" entries; added automatically on loading
 // 
 [MPVehicles]
-xsi1 = "cookie_drone_tank.fbx"
-cfg1 = "ivginger"
-Description1 = "Gingerbread"
+xsi1 = "snowman_tank.fbx"
+cfg1 = "ivjack"
+Description1 = "Snowman Jack"
 
-xsi2 = "sleigh_santa_aa.fbx"
+xsi2 = "sleigh_santa_aa_0.40.fbx"
 cfg2 = "ivsleigh"
-Description2 = "Assault Sleigh"
+Description2 = "Blitzen Sleigh"
 
 xsi3 = "rhino_yule.fbx"
 cfg3 = "ivrhino"
@@ -105,6 +105,18 @@ xsi25 = "ivsnowmobile.fbx"
 cfg25 = "ivsnowmobile"
 Description25 = "Snowmobile"
 
-xsi26 = "ispilo_rifle_skel.fbx"
-cfg26 = "ispilo"
-Description26 = "Elf Pilot"
+xsi26 = "cookie_drone_tank.fbx"
+cfg26 = "ivginger"
+Description26 = "Gingerbread"
+
+xsi27 = "snowman_trans.fbx"
+cfg27 = "ivsensor_dm"
+Description27 = "North Pole Sensor Array"
+
+xsi28 = "snowman_trans.fbx"
+cfg28 = "ivcomm"
+Description28 = "North Pole Comm Vehicle"
+
+xsi29 = "ispilo_rifle_skel.fbx"
+cfg29 = "ispilo"
+Description29 = "Elf Pilot"

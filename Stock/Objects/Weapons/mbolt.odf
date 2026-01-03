@@ -1,0 +1,39 @@
+[OrdnanceClass]
+classLabel =  "bullet" //"beam"
+
+shotGeometry = NULL
+xplGround = "xarcgnd_a"
+xplVehicle = "xarccar_a"
+xplBuilding = "xarccar_a"
+// xplGround = "xboltgnd"
+// xplVehicle = "xlgtcar"
+// xplBuilding = "xlgtbld"
+
+renderName = "mbolt.render"
+
+ammoCost = 10
+lifeSpan = 210e-6 // 210m
+shotSpeed = 1e6
+
+damageValue(N) = 250 // none
+damageValue(L) = 175 // light
+damageValue(H) = 100 // heavy
+
+damageValue(S) = 175 // standard
+damageValue(D) = 250 // deflection
+damageValue(A) = 100 // absorbtion
+
+[Render]
+renderBase = "draw_bolt"
+textureName = "arctrail.tga"
+textureBlend = "one one modulate"
+startColor = "255 255 255 255"
+finishColor = "0 255 220 0"
+startRadius = 0.8
+finishRadius = 0.02
+segmentLength = 7.0 
+segmentVariance = "2.0 2.0 0.5"
+animateTime = 0.8 // 0.2
+textureRate = 0.3
+textureSpeed = -8.0
+

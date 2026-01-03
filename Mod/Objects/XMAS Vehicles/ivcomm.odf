@@ -1,0 +1,130 @@
+[GameObjectClass]
+baseName = "ivcomm"
+geometryName = "snowman_trans.fbx"
+classLabel = "commvehicleH"
+scrapValue = 10
+scrapCost = 40
+customCost = 40
+buildTime = 10.0
+customTime = 12.0
+maxHealth = 2000
+addhealth = 9.0
+maxAmmo = 3000
+addAmmo = 5
+unitName = "North Pole Sat Comm"
+aiName = "SupportProcess"
+aiName2 = "SupportProcess"
+heatSignature = 0.5
+imageSignature = 5.0
+radarSignature = 5.0
+isAssault = 1
+// LightsOnlyWhenPiloted = True // if true, lights on only when piloted.
+Tuggable = 0
+
+armorClass = L
+
+//////////////////////////////////
+provideCount = 1
+provideName1 = "ivcomm"
+//////////////////////////////////
+requireCount = 1
+requireName1 = "ibcbun"
+requireText1 = "Build Candy Bunker"
+
+/////// WEAPONS ////////////////////
+weaponMask = 00001
+weaponHard2 = "HP_SPECIAL_1"
+weaponName2 = "gstatic"
+weaponAssault2 = 0
+//////////////////////////////////
+
+/////////LIGHTS AND EFFECTS//////////////////
+effectHard1 = "hp_dust_1"
+effectName1 = "dusttrail3"
+effectMinVelocity1 = 1.0
+effectMaxVelocity1 = 500.0
+effectHard2 = "hp_emit_1"
+effectName2 = "emit_contrail1"
+effectFlags2 = 2147483639
+effectHard3 = "hp_emit_1"
+effectName3 = "fx_sonar.sonar"
+
+
+[CraftClass]
+modeText12 = "... uh?"
+DoIdleDispatch = false
+rangeScan = 450.0
+periodScan = 4.0
+velocJam = 0.0
+engageRange = 0
+
+braccelFactor = 0.1
+strafeFactor = 0.1
+velFactor =	0.3
+steerFactor = 1.0
+omegaFactor = 0.3
+
+TeamTransferrable = true
+
+attackTask = "AssaultTankAttack"  //"AssaultTankAttack"
+subAttackTask = "SupportSubAttack"  //"SupportSubAttack"
+subAttackClass = "NNS"
+// subAttackClass uses 3 letters.
+// 1st letter is either A or N.     A is include Air targets.         N is attack ground only.
+// 2nd letter is either D or N.     D is to deploy before attacking.  N for regular attack.
+// 3rd letter is either S or N.     S is to use Weapon Range.         N is use the Engage Range to attack. 
+
+selectWaitMsg = "ivserv04.wav"
+selectAttackMsg = "ivserv04.wav"
+selectGoMsg = "ivserv02.wav"
+selectFollowMsg = "ivserv03.wav"
+selectOtherMsg = "ivserv04.wav"
+goMsg = "ivserv02.wav"
+goObjectMsg = "ivserv11.wav"
+attackMsg = "ivserv11.wav"
+followMeMsg = "ivserv08.wav"
+followMsg = "ivserv03.wav"
+repairMsg = "ivserv09.wav"
+reloadMsg = "ivserv09.wav"
+rescueMsg = "ivserv11.wav"
+recycleMsg = "ivserv11.wav"
+otherMsg = "ivserv13.wav" 
+holdMsg = "ivserv12.wav"
+user1Msg = "ivserv01.wav"
+killedMsg = "ivserv13.wav"
+diedMsg = ""
+
+[HoverCraftClass]
+velocForward = 5.0
+velocReverse = 5.0
+velocStrafe = 4.5 // 5
+accelThrust = 25.0 //acceleration
+accelDragStop = 7.0 //how fast it stops once hands are off controls
+accelJump = 15.0
+setAltitude = 0.05 // how high off the ground
+alphaTrack = 23.0 //springs speed it rights itself 
+alphaDamp = 9.0 //shocks 
+pitchPitch = 0.25 //nose up 
+pitchThrust = 0.025 //nose down 
+rollStrafe = 0.03  //rolls while strafing
+omegaSpin = 2.2 //spinning in place speed
+omegaTurn = 3.5 //turning while moving speed
+alphaSteer = 4.2 //how fast it responds to steering
+rollSteer = 0.05 //rolls while steering
+
+soundThrust = "iengf.wav"
+
+[DeployableClass]
+heightDeploy = 0.0
+timeDeploy = 1.0
+timeUndeploy = 1.0
+// isStealthDeployed = true // just like under DeployableClass
+soundDeploy = "abetty13.wav"
+soundUndeploy = "scrooge2.wav"
+
+[CommVehicleClass]
+DoBettyOn = true // true = bettyvoice when switched on
+DoBettyOff = true // true = bettyvoice when switched no
+viewDist = 200.0 // 100
+MinViewDist = 25.0 // If specified, minimum height of commbunker view
+MaxViewDist = 300.0 // If specified, maximim height of commbunker view

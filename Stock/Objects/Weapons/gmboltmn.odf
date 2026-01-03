@@ -1,0 +1,30 @@
+[WeaponClass]
+classLabel = "cannon" // "machinegun"
+ordName = "mbolt"
+wpnName = "Zap"
+fireSound = "bltm01.wav"
+wpnReticle = "gbolt" / "octagon"
+wpnCategory = "CANN"
+flashName = "gmbolt.flash"
+aiRange = 100
+
+[CannonClass]
+//shotDelay = 0.1
+shotDelay = 1.25 // 2.0
+salvoCount = 1
+salvoDelay = 0.07
+shotVariance = 0.0
+
+[Flash]
+simulateBase = "sim_null"
+lifeTime = 5.0
+renderBase = "draw_sphere"
+textureName = "vsmoke3.tga"
+textureBlend = "one one modulate"
+startColor = "0 255 240 255"
+finishColor = "0 255 240 0"
+startRadius = 0.5
+finishRadius = 10.0
+animateTime = 5.0
+latitudeBands = 8
+longitudeSegments = 16

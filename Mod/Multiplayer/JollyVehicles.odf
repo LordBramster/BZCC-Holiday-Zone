@@ -6,13 +6,13 @@
 // 
 
 [MPVehicles]
-xsi1 = "cookie_drone_tank.fbx"
-cfg1 = "ivginger"
-Description1 = "Gingerbread"
+xsi1 = "snowman_tank.fbx"
+cfg1 = "ivjack"
+Description1 = "Snowman Jack"
 
-xsi2 = "sleigh_santa_aa.fbx"
+xsi2 = "sleigh_santa_aa_0.40.fbx"
 cfg2 = "ivsleigh"
-Description2 = "Assault Sleigh"
+Description2 = "Blitzen Sleigh"
 
 xsi3 = "rhino_yule.fbx"
 cfg3 = "ivrhino"
@@ -73,3 +73,11 @@ Description16 = "Timberboom!"
 xsi17 = "ivsnowmobile.fbx"
 cfg17 = "ivsnowmobile"
 Description17 = "Snowmobile"
+
+xsi18 = "cookie_drone_tank.fbx"
+cfg18 = "ivginger"
+Description18 = "Gingerbread"
+
+xsi19 = "snowman_trans.fbx"
+cfg19 = "ivsensor_dm"
+Description19 = "North Pole Sensor Array"

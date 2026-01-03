@@ -70,8 +70,9 @@ buildItem4 = "ivtug"
 buildItem5 = "ivcons_xmas"
 buildItem6 = "ivserv"
 // 7=PRESENTS
-buildItem8 = "iviceblock_m"
-buildEmptyItem = 8
+// 8=RECON
+buildItem9 = "iviceblock_m"
+buildEmptyItem = 9
 
 [BuildGroup1]
 buildLabel = "Sweets Collection"
@@ -79,14 +80,14 @@ buildItem1 = "ivhscav_xmas"
 buildItem2 = "ivhelf"
 
 [BuildGroup2]
-buildLabel = "Light Attack"
+buildLabel = "Offensive"
 buildItem1 = "ivsnowmobile"
 buildItem2 = "iviceball"
 buildItem3 = "iviceblock"
 buildItem4 = "ivscout_xmas"
 
 [BuildGroup3]
-buildLabel = "Defenders"
+buildLabel = "Defensive"
 buildItem1 = "ivsnowman_turr"
 buildItem2 = "ivsnowman2"
 buildItem3 = "ivnutcracker_dm"
@@ -96,6 +97,11 @@ buildLabel = "Presents"
 buildItem1 = "apserv_xmas"
 buildItem2 = "apammo_xmas"
 buildItem3 = "aprepa_xmas"
+
+[BuildGroup8]
+buildLabel = "Relays"
+buildItem1 = "ivsensor"
+buildItem2 = "ivcomm"
 
 [RecyclerClass]
 scrapHold = 40

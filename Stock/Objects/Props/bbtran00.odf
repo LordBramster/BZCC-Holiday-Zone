@@ -1,0 +1,25 @@
+[GameObjectClass]
+geometryName = "snowman_trans.fbx" // "pbtran00.fbx"
+classLabel = "i76building"
+collisionRadius = 1.0
+scrapCost = 8
+scrapValue = 3
+maxHealth = 100
+maxAmmo = 0
+unitName = "North Pole Transmitter"
+heatSignature = 0.0
+imageSignature = 0.0
+radarSignature = 0.0
+canDetect = 1
+canInteract = 1
+canSnipe = 0
+ownsTerrain = 1
+
+armorClass = N
+
+explosionName = "xyulehit"
+
+[BuildingClass]
+UseCollapse = false
+UseExplosion = true
+soundAmbient = "amb_jingle.wav"

@@ -82,6 +82,7 @@ buildItem2 = "ivelf"
 buildLabel = "Snowmen"
 buildItem1 = "ivsnowball"
 buildItem2 = "ivsnowball2"
+buildItem3 = "ivjack"
 
 [BuildGroup3]
 buildLabel = "Sleighs"
