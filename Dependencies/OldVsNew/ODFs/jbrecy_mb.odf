@@ -1,0 +1,28 @@
+[GameObjectClass]
+baseName = "jbrecy"
+
+classLabel = "jbrecy"
+
+infoName = "ibrecy.inf"
+
+/////// PROVIDES ///////////////////
+
+provideCount = 5
+provideName3 = "jbrecy_mb"
+provideName4 = "VIRTUAL_CLASS_RECYCLER"
+provideName5 = "VIRTUAL_CLASS_RECYCLERBUILDING"
+
+////////////////////////////////////
+
+[PoweredBuildingClass]
+
+[BuildingClass]
+
+[FactoryClass]
+buildItem5 = "jvconsttb"
+buildItem8 = "jvscout_m"
+buildEmptyItem = 8
+
+[RecyclerClass]
+
+[Lod1]

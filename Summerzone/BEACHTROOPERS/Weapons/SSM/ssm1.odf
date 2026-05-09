@@ -1,0 +1,72 @@
+[OrdnanceClass]
+classLabel = "radarpopper"
+
+shotGeometry = NULL
+shotSound = "Ordin_c.wav"
+
+xplGround = "xmslgnd"
+xplVehicle = "xmslcar"
+xplBuilding = "xmslbld"
+
+// renderName = "ssm1.render"
+renderName = "rktbomb_c.render"
+
+ammoCost = 20
+lifeSpan = 1e30
+shotSpeed = 20.0
+
+damageValue(N) = 70 // none
+damageValue(L) = 60 // light
+damageValue(H) = 50 // heavy
+
+damageValue(S) = 60 // standard
+damageValue(D) = 50 // deflection
+damageValue(A) = 70 // absorbtion
+
+[RadarPopperClass]
+launchXpl = "xssmfir"
+launchOrd = "ssm2"
+
+[Render]
+renderBase = "draw_multi"
+renderCount = 3
+renderName1 = "ssm1.Core"
+renderName2 = "ssm1.burst"
+renderName3 = "ssm1.wispyTrail"
+
+[Core]
+renderBase = "draw_twirl"
+textureName = "particle.tga"
+textureBlend = "one one modulate"
+startColor = "227 43 69 255" 
+finishColor = "227 43 69 255" 
+startRadius = 0.4
+finishRadius = 0.4
+rotationRate = 10.0
+
+[burst]
+renderBase = "draw_twirl_trail"
+textureName = "sonicboom.tga"
+textureBlend = "one one modulate"
+startColor = "255 35 82 255"
+finishColor = "184 48 96 0" 
+startRadius = 0.3
+finishRadius = 5.5
+rotationRate = 2.0
+animateTime = 0.1
+emitDelay = 0.1
+emitLife = 0.1
+emitinherit = "1.0 1.0 1.0"
+
+[wispyTrail]
+renderBase = "draw_trail"
+textureName = "sonictrail.tga"
+textureBlend = "one one modulate"
+startColor = "227 43 109 100" 
+finishColor = "227 43 129 0"
+textureRate = 0.3 //0.2
+startRadius = 0.5
+finishRadius = 2.0
+segmentLength = 2.4 //3.0
+segmentTime = 3.0
+

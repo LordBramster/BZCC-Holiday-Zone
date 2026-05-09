@@ -1,0 +1,140 @@
+[GameObjectClass]
+baseName = "ivatank"
+geometryName = "bvmislboat.fbx"
+classLabel = "assaulthover"
+scrapValue = 5
+scrapCost = 40
+customCost = 50
+buildTime = 8.0
+customTime = 10.0
+maxHealth = 2250
+addhealth = 5
+maxAmmo = 3000
+addAmmo = 5
+unitName = "Missile Ship"
+aiName = "SupportProcess"
+aiName2 = "SupportProcess"
+// aiName = "AssaultTankProcess"
+// aiName2 = "AssaultTankProcess"
+heatSignature = 1.0
+imageSignature = 5.0
+radarSignature = 1.0
+isAssault = 1
+armorClass = H
+
+/////// REQUIREMENTS ///////////////
+requireCount =  0
+
+/////// PROVIDES ///////////////////
+provideCount = 5
+provideName1 = "ivrckt"
+provideName2 = "VIRTUAL_CLASS_ROCKETTANK"
+provideName3 = "assault"
+provideName4 = "DefendUnit"
+provideName5 = "AntiAir"
+
+/////// weapons ////////////////////
+weaponMask = 00111
+weaponHard2 = "HP_ROCKET_2"
+weaponName2 = "gssm"
+recoilName2 = "recoil2"
+weaponAssault2 = 0
+weaponHard1 = "HP_ROCKET_1"
+weaponName1 = "gfafmsl_a"
+recoilName1 = "recoil1"
+weaponAssault1 = 1
+
+////////////////////////////////////
+turretCount = 2
+turretName1 = "turret_y"
+turretName2 = "turret_x"
+
+/////////LIGHTS AND EFFECTS//////////////////
+// //don't use altitude
+// effectHard1 = "hp_dust_1"
+// effectName1 = "dusttrail3"
+// effectMinVelocity1 = 3.0
+// effectMaxVelocity1 = 500.0
+
+[CraftClass]
+// weaponPitch = 0.5
+
+engageRange = 300
+rangeScan = 300.0
+periodScan = 4.0
+velocJam = 0.0
+
+attackTask = "AssaultTankAttack"
+subAttackTask = "SupportSubAttack"
+subAttackClass = "ANS"
+// subAttackClass uses 3 letters.
+// 1st letter is either A or N.     A is include Air targets.         N is attack ground only.
+// 2nd letter is either D or N.     D is to deploy before attacking.  N for regular attack.
+// 3rd letter is either S or N.     S is to use Weapon Range.         N is use the Engage Range to attack. 
+
+braccelFactor = 0.02
+strafeFactor = 0.1
+velFactor = 0.5
+steerFactor = 1.5
+omegaFactor = 0.5
+
+selectWaitMsg = "ivmisl04.wav"
+selectAttackMsg = "ivmisl01.wav"
+selectFollowMsg = "ivmisl03.wav"
+selectGoMsg = "ivmisl02.wav"
+selectOtherMsg = "ivmisl04.wav"
+goMsg = "ivmisl05.wav"
+attackMsg = "ivmisl06.wav"
+followMeMsg = "ivmisl08.wav"
+followMsg = "ivmisl03.wav"
+repairMsg = "ivmisl09.wav"
+reloadMsg = "ivmisl09.wav"
+rescueMsg = "ivmisl10.wav"
+recycleMsg = "ivmisl11.wav"
+otherMsg = "ivmisl12.wav" 
+holdMsg = "ivmisl12.wav"
+user1Msg = ""  
+killedMsg = "ivmisl07.wav"
+diedMsg = ""
+
+[HoverCraftClass]
+// ABOVE WATERLINE
+// UseWaterHeight = true
+// setAltitude = 0.05 // how high off the ground
+
+// UNDER WATERLINE
+UseWaterHeight = false
+setAltitude = 2.25 // how high off the ground
+
+// WATER FEEL
+soundThrust = "jetski.wav"
+alphaTrack = 12.0 // springs speed it rights itself 
+alphaDamp = 12.0 // shocks
+OverWaterVelocFrontMult = 1.0
+OverLandVelocFrontMult = 0.15
+// DeployedUseWaterHeight = true
+
+velocForward = 25.0 // 15.0
+velocReverse = 10.0 // 
+velocStrafe = 2.0 // 7.5
+accelThrust = 50.0 // acceleration 
+accelDragStop = 20.0 // how fast it stops once hands are off controls 
+accelJump = 10.0
+aiAccelDrag = 10
+
+pitchPitch = 0.0 // nose up 
+pitchThrust = 0.025 // nose down 
+
+rollStrafe = 0.1 // rolls while strafing 
+omegaSpin = 1.5 // spinning in place speed 
+omegaTurn = 1.5 // turning while moving speed 
+alphaSteer = 2.0 // how fast it responds to steering 
+rollSteer = 0.1 // rolls while steering 
+
+soundTurbo = "avtanke3.wav"
+
+[AssaultHoverClass]
+yawRate = 4.0
+yawAlpha = 10.0
+pitchMin = -0.01 // -0.1
+pitchMax = 0.35 // 0.5

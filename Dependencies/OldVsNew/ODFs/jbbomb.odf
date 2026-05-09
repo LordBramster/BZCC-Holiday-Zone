@@ -1,0 +1,51 @@
+[GameObjectClass]
+baseName = "jbbomb"
+infoName = "ibbomb.inf"
+geometryName = "ibbomb_arsvetus00.xsi"
+classLabel = "BomberBay"
+scrapCost = 100
+scrapValue = 30
+maxHealth = 5000
+maxAmmo = 0
+unitName = "Bomber Bay"
+heatSignature = 2.0
+imageSignature = 1.0
+radarSignature = 1.0
+isAssault = 1
+
+armorClass = H
+
+/////// REQUIREMENTS ///////////////
+
+requireCount = 1
+requireName1 = "jbtrain"
+requireText1 = "Build Training"
+
+////////////////////////////////////
+
+
+/////// PROVIDES ///////////////////
+
+provideCount = 3
+provideName1 = "jbbomb"
+provideName2 = "VIRTUAL_CLASS_BOMBERBAY"
+provideName3 = "base"
+
+////////////////////////////////////
+
+lightHard1 = "hp_light_1"
+lightName1 = "o_blue_nf"
+
+[BuildingClass]
+soundAmbient = "iabomb01.wav"
+
+[BomberBayClass]
+bomberType = "jvbomb"
+downTime = 30
+
+[PoweredBuildingClass]
+detectRange = 100
+
+[Lod1]
+geometryName = "ibbomb_arsvetusL1.xsi" ;geometry for lod1
+distance = 80

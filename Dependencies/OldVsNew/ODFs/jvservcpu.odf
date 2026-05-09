@@ -1,0 +1,28 @@
+[GameObjectClass]
+classLabel = "jvserv"
+
+/////// PROVIDES ///////////////////
+
+provideCount = 3
+provideName2 = "jvservcpu"
+provideName3 = "VIRTUAL_CLASS_SERVICETRUCK"
+
+////////////////////////////////////
+
+[CraftClass]
+engageRange = 75.0
+
+[TrackedVehicleClass]
+
+[ServiceTruck]
+// Individual classification tweakers
+serviceSTs = 1
+serviceBuildings = 1
+
+[Supply]
+
+[Halo]
+
+[Bolt]
+
+[Lod1]

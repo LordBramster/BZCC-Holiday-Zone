@@ -1,0 +1,78 @@
+[GameObjectClass]
+baseName = "jbfact"
+infoName = "ibfact.inf"
+geometryName = "ibfact_arsvetus00.xsi"
+classLabel = "factory"
+scrapCost = 55
+scrapValue = 15
+maxHealth = 6000
+maxAmmo = 0
+unitName = "Factory"
+aiName = "BuildingProcess"
+aiName2 = "BuildingProcess"
+heatSignature = 2.0
+imageSignature = 1.0
+radarSignature = 1.0
+isAssault = 1
+
+armorClass = H
+
+/////// REQUIREMENTS ///////////////
+
+requireCount = 1
+requireName1 = "jbpgen"
+requireText1 = "Build Power"
+
+////////////////////////////////////
+
+
+/////// PROVIDES ///////////////////
+
+provideCount = 2
+provideName1 = "jbfact"
+provideName2 = "VIRTUAL_CLASS_FACTORY"
+
+////////////////////////////////////
+
+collisionRadius = 4.0
+
+
+lightHard1 = "hp_light_1"
+lightName1 = "o_white_nf"
+
+[PoweredBuildingClass]
+detectRange = 100
+
+[BuildingClass]
+tunnelCount = 1
+
+tunnel01X0 = 3
+tunnel01Z0 = 3
+tunnel01DX = 2
+tunnel01DZ = 4
+tunnel01Edge = "wwtw"
+
+soundAmbient = "ibfact00.wav"
+
+// play ambient sound
+
+[FactoryClass]
+soundBuild = "ibrecy02.wav"
+soundFinish = "iapc04.wav"
+reloadMsg = "ivrecy12.wav"
+rescueMsg = "ivrecy13.wav"
+
+buildItem1 = "jvmbike"
+buildItem2 = "jvmisl"
+buildItem3 = "jvtank"
+buildItem4 = "jvrckt"
+buildItem5 = "jvatank"
+buildItem6 = "jvwalk"
+buildItem7 = "jvapc"
+buildItem8 = "jvbomb"
+
+
+[Lod1]
+geometryName = "ibfact_arsvetusL1.xsi" ;geometry for lod1
+distance = 80
+dontShiftLOD = 1

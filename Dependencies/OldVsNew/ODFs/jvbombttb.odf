@@ -1,0 +1,18 @@
+[GameObjectClass]
+classLabel = "jvbomb"
+
+/////// PROVIDES ///////////////////
+
+provideCount = 4
+provideName2 = "jvbombttb"
+provideName3 = "VIRTUAL_CLASS_BOMBER"
+provideName4 = "flier"
+
+////////////////////////////////////
+
+[CraftClass]
+TeamTransferrable = true
+
+[HoverCraftClass]
+
+[BomberClass]

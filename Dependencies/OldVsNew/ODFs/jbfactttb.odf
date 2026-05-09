@@ -1,0 +1,19 @@
+[GameObjectClass]
+classLabel = "jbfact"
+
+/////// PROVIDES ///////////////////
+
+provideCount = 3
+provideName2 = "jbfactttb"
+provideName3 = "VIRTUAL_CLASS_FACTORY"
+
+////////////////////////////////////
+
+[PoweredBuildingClass]
+
+[BuildingClass]
+
+[FactoryClass]
+buildItem8 = "jvbombttb"
+
+[Lod1]

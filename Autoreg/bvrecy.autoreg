@@ -1,0 +1,15 @@
+[RecyclerList]
+ODFName = "bvrecy"
+Description = "Beach Troopers"
+
+[RecyclerListFFA]
+ODFName = "bvrecy"
+Description = "Beach Troopers"
+
+[RecyclerListMPI]
+ODFName = "bvrecy"
+Description = "Beach Troopers"
+
+[IAHumanRecyclerList]
+ODFName = "bvrecy"
+Description = "Beach Troopers"

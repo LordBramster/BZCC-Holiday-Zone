@@ -1,0 +1,13 @@
+[WeaponClass]
+classLabel = "cannon"
+ordName = "ssm1"
+wpnName = "Ship MSL"
+fireSound = "gpopp00.wav"
+wpnReticle = "glockm"
+wpnLadder = "gpopgun.L0"
+wpnCategory = "MORT"
+aiRange = 150
+
+[CannonClass]
+shotDelay = 1.0
+shotPitch = 1.0

@@ -1,0 +1,27 @@
+[GameObjectClass]
+classLabel = "jvscav"
+
+/////// PROVIDES ///////////////////
+
+provideCount = 3
+provideName2 = "jvscavcpu"
+provideName3 = "VIRTUAL_CLASS_SCAVENGER"
+
+////////////////////////////////////
+
+ExplosionName = "xvehcpuxpl"
+
+[CraftClass]
+XplChunk = "xseccpuxpl"
+
+[TrackedVehicleClass]
+
+[TrackedDeployableClass]
+
+[ScavengerClass]
+deployClass = "jbscav"
+ScavClassProvides = 22 		// Matches DepositClassMatch (dzpoolGH01_L.odf) allowing it to deploy.  22 = 01101
+
+[Lod1]
+
+[Lod2]

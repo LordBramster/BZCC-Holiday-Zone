@@ -1,0 +1,121 @@
+[GameObjectClass]
+baseName = "bvscav"
+classLabel = "scavengerH"
+geometryName = "bvscav.fbx"
+cockpitName = "ivscav_cockpit.fbx"
+scrapValue = 10
+scrapCost = 20
+buildTime = 10.0
+maxHealth = 2500
+maxAmmo = 2500
+unitName = "Beach Scavenger"
+aiName = "ScavHProcess"
+aiName2 = "ScavHProcess"
+heatSignature = 0.5
+imageSignature = 2.5
+radarSignature = 0.1
+isAssault = 1
+armorClass = H
+
+StayWithOwner = true
+
+/////// REQUIREMENTS ///////////////
+requireCount = 0
+
+/////// PROVIDES ///////////////////
+provideCount = 1
+provideName1 = "bvscav"
+
+////////////////////////////////////
+lightHard1 = "hp_light_1"
+lightName1 = "spotblue2" 
+
+//don't set an altitude for tracked vehicles
+effectHard1 = "hp_emit_1"
+effectName1 = "dusttrail3"
+effectMinVelocity1 = 5.0
+effectMaxVelocity1 = 500.0
+effectHard2 = "hp_emit_2"
+effectName2 = "dusttrail3"
+effectMinVelocity2 = 5.0
+effectMaxVelocity2 = 500.0
+
+[CraftClass]
+rangeScan = 300.0
+periodScan = 5.0
+velocJam = 5.0
+braccelFactor = 0.05
+velFactor =	0.2
+steerFactor = 1.5
+omegaFactor = 0.2
+
+avoidSpeed = 20
+TopSpeed = 45
+
+selectOtherMsg = "ivscav01.wav"
+selectWaitMsg = "ivscav01.wav"
+selectGoMsg = "ivscav02.wav"
+selectFollowMsg = "ivscav03.wav"
+selectPickupMsg = "ivscav01.wav"
+selectDropoffMsg = "ivscav01.wav"
+otherMsg = "ivscav11.wav"
+goMsg = "ivscav04.wav"
+goObjectMsg = "ivscav13.wav"
+followMsg = "ivscav03.wav"
+followMeMsg = "ivscav07.wav"
+repairMsg = "ivscav08.wav"
+rescueMsg = "ivscav09.wav"
+recycleMsg = "ivscav10.wav"
+holdMsg = "ivscav04.wav"
+
+[HoverCraftClass]
+// ABOVE WATERLINE
+// UseWaterHeight = true
+// setAltitude = 0.05 // how high off the ground
+
+// UNDER WATERLINE
+UseWaterHeight = false
+setAltitude = 1.5 // how high off the ground
+
+// WATER FEEL
+soundThrust = "jetski.wav"
+alphaTrack = 4.0 // springs speed it rights itself 
+alphaDamp = 1.0 // shocks
+OverWaterVelocFrontMult = 1.0
+OverLandVelocFrontMult = 0.15
+// DeployedUseWaterHeight = true
+
+velocForward = 25.0 // 15.0
+velocReverse = 10.0 // 
+velocStrafe = 2.0 // 7.5
+accelThrust = 50.0 // acceleration 
+accelDragStop = 20.0 // how fast it stops once hands are off controls 
+accelJump = 10.0
+aiAccelDrag = 10
+
+pitchPitch = 0.25 // nose up 
+pitchThrust = 0.05 // nose down 
+
+rollStrafe = 0.1 // rolls while strafing 
+omegaSpin = 3.5 // spinning in place speed 
+omegaTurn = 3.5 // turning while moving speed 
+alphaSteer = 5.5 // how fast it responds to steering 
+rollSteer = 0.1 // rolls while steering 
+
+soundTurbo = "avtanke3.wav"
+
+[DeployableClass]
+timeDeploy = 5.0
+timeUndeploy = 5.0
+soundDeploy = "irecy03.wav"
+soundUndeploy = "trundepl.wav"
+
+[ScavengerHClass]
+soundPickup = "suck.wav"
+scrapHold = 20
+DeathScrapDropRatio = 1
+doDrop = true
+DropDist = 15
+doDropRecycler = true
+doDropExtractor = false
+doDropSilo = true 

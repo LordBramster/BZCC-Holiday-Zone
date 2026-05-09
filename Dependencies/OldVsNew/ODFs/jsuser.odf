@@ -1,0 +1,11 @@
+[GameObjectClass]
+classLabel = "jspilo"
+infoName = "ispilo.inf"
+unitIcon = "icon_ispilo_arsvetus.dds"
+
+scrapValue = 0
+maxHealth = 250
+
+[CraftClass]
+
+[PersonClass]

@@ -1,0 +1,53 @@
+[GameObjectClass]
+baseName = "jbtrain"
+infoName = "ibtrain.inf"
+geometryName = "ibtrain_arsvetus00.xsi"
+classLabel = "barracks"
+scrapCost = 70
+scrapValue = 30
+maxHealth = 5000
+maxAmmo = 0
+unitName = "Training Fac."
+heatSignature = 2.0
+imageSignature = 1.0
+radarSignature = 1.0
+collisionRadius = 1.0
+isAssault = 1
+
+armorClass = H
+
+/////// REQUIREMENTS ///////////////
+
+requireCount = 2
+requireName1 = "jbcbun"
+requireText1 = "Build Relay Bunk"
+requireName2 = "jbarmo"
+requireText2 = "Build Armory"
+
+////////////////////////////////////
+
+
+/////// PROVIDES ///////////////////
+
+provideCount = 3
+provideName1 = "jbtrain"
+provideName2 = "VIRTUAL_CLASS_BARRACKS"
+provideName3 = "base"
+
+////////////////////////////////////
+
+lightHard1 = "hp_light_1"
+lightName1 = "o_blue_nf"
+
+[BuildingClass]
+soundAmbient = "abbarre0.wav"
+
+[PoweredBuildingClass]
+detectRange = 100
+
+[BarracksClass]
+pilotHold = 500
+
+[Lod1]
+geometryName = "ibtrain_arsvetusL1.xsi" ;geometry for lod1
+distance = 64                    ;bsphere under 200 pixel => switch to lod1

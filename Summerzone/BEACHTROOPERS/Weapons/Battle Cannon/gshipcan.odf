@@ -1,0 +1,16 @@
+[WeaponClass]
+classLabel = "mortar"
+ordName = "shipcan"
+wpnName = "Ship Cannon"
+fireSound = "mort01.wav"
+wpnReticle = "ghartil"
+wpnLadder = "gmortar.L0"
+wpnPriority = 6
+wpnCategory = "MORT"
+aiRange = 240
+
+[CannonClass]
+salvoCount = 1
+salvoDelay = 0.15
+shotDelay = 3.5
+shotAlternate = true

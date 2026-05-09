@@ -1,0 +1,50 @@
+[GameObjectClass]
+baseName = "jbtcen"
+infoName = "ibtcen.inf"
+geometryName = "ibtcen_arsvetus00.xsi"
+classLabel = "techcenter"
+scrapCost = 80
+scrapValue = 30
+maxHealth = 5000
+maxAmmo = 0
+unitName = "Tech Center"
+heatSignature = 2.0
+imageSignature = 1.0
+radarSignature = 1.0
+collisionRadius = 4.0
+isAssault = 1
+isSingle = 1
+
+armorClass = H
+
+/////// REQUIREMENTS ///////////////
+
+requireCount = 2
+requireName1 = "jbarmo"
+requireText1 = "Build Armory"
+requireName2 = "jbsbay"
+requireText2 = "Build Service Bay"
+
+////////////////////////////////////
+
+
+/////// PROVIDES ///////////////////
+
+provideCount = 3
+provideName1 = "jbtcen"
+provideName2 = "VIRTUAL_CLASS_TECHCENTER"
+provideName3 = "base"
+
+////////////////////////////////////
+
+lightHard1 = "hp_light_1"
+lightName1 = "o_orange_nf"
+
+[BuildingClass]
+soundAmbient = "iabomb01.wav"
+[PoweredBuildingClass]
+detectRange = 100
+
+[Lod1]
+geometryName = "ibtcen_arsvetusL1.xsi" ;geometry for lod1
+distance = 50                 ;bsphere under 200 pixel => switch to lod1

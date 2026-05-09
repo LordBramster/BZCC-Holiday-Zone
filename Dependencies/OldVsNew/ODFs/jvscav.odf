@@ -1,0 +1,108 @@
+[GameObjectClass]
+classLabel = "scavenger"
+baseName = "jvscav"
+infoName = "ivscav.inf"
+geometryName = "ivscav_arsvetus00.xsi"
+cockpitName = "ivscav_arsvetus_cockpit.xsi"
+unitIcon = "icon_ivscav_arsvetus.dds"
+unitStatus = "wire_ivscav_arsvetus.dds"
+animCount = 1
+animName1 = "deploy"
+animFile1 = "ivscav_arsvetus00.xsi"
+geometryScale = 1.0
+scrapValue = 10
+scrapCost = 20
+buildTime = 10.0
+maxHealth = 3000
+maxAmmo = 0
+unitName = "Scavenger"
+aiName = "ScavProcess"
+aiName2 = "ScavProcess"
+heatSignature = 5.0
+imageSignature = 3.0
+radarSignature = 2.0
+isAssault = 1
+
+armorClass = H
+
+/////// REQUIREMENTS ///////////////
+
+requireCount = 0
+
+////////////////////////////////////
+
+
+/////// PROVIDES ///////////////////
+
+provideCount = 2
+provideName1 = "jvscav"
+provideName2 = "VIRTUAL_CLASS_SCAVENGER"
+
+////////////////////////////////////
+
+lightHard1 = "hp_light_1"
+lightName1 = "spotblue2" 
+
+[CraftClass]
+rangeScan = 200.0
+periodScan = 0.0
+velocJam = 0.0
+
+braccelFactor = 0.1
+velFactor =	0.3
+steerFactor = 1.0
+omegaFactor = 0.3
+
+TeamTransferrable = true
+GotoTaskHasLeader = false
+
+selectOtherMsg = "ivscav01.wav"
+selectWaitMsg = "ivscav01.wav"
+selectGoMsg = "ivscav02.wav"
+selectFollowMsg = "ivscav03.wav"
+selectPickupMsg = "ivscav01.wav"
+selectDropoffMsg = "ivscav01.wav"
+otherMsg = "ivscav11.wav"
+goMsg = "ivscav04.wav"
+goObjectMsg = "ivscav13.wav"
+followMsg = "ivscav03.wav"
+followMeMsg = "ivscav07.wav"
+repairMsg = "ivscav08.wav"
+rescueMsg = "ivscav09.wav"
+recycleMsg = "ivscav10.wav"
+holdMsg = "ivscav04.wav"
+
+
+[TrackedVehicleClass]
+velocForward = 15.0
+velocReverse = 10.0
+accelThrust = 5.0
+omegaSpin = 1.0
+omegaTurn = 0.5
+alphaSteer = 2.0
+
+TREAD_STATIC_FRICTION = 1.5
+
+engineSound	= "iscav01.wav"
+treadSound = "iscav01b.wav"
+
+[TrackedDeployableClass]
+timeDeploy = 5.0
+timeUndeploy = 5.0
+soundDeploy = "irecy03.wav"
+soundUndeploy = "trundepl.wav"
+
+[ScavengerClass]
+soundPickup = "suck.wav"
+scrapHold = 20
+deployClass = "jbscav"
+deployOffset = 3.2
+ScavClassProvides = 23
+
+[Lod1]
+geometryName = "ivscav_arsvetusL1.xsi" ;geometry for lod1
+distance = 50
+
+[Lod2]
+geometryName = "ivscav_arsvetusL2.xsi" ;geometry for lod2
+distance = 135                ;...distance over this many meters => switch to lod2

@@ -1,0 +1,12 @@
+[GameObjectClass]
+baseName = "apshipcan"
+classLabel = "apcannon"
+
+scrapCost = 20
+requireCount = 0
+
+
+[PowerUpClass]
+
+[WeaponPowerupClass]
+weaponName = "gshipcan"

@@ -1,0 +1,11 @@
+[GameObjectClass]
+baseName = "apssm"
+classLabel = "apmortar"
+
+scrapCost = 20
+requireCount = 0
+
+[PowerUpClass]
+
+[WeaponPowerupClass]
+weaponName = "gssm"

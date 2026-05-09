@@ -1,0 +1,35 @@
+[GameObjectClass]
+classLabel = "deposit"
+geometryName = "buoy.fbx"
+// TODO
+// animCount = 1
+// animName1 = "loop"
+// animFile1 = "buoy.fbx"
+scrapCost = 0
+scrapValue = 0
+maxHealth = 20
+maxAmmo = 0
+unitName = "Buoy"
+heatSignature = 0.5
+imageSignature = 1.0
+radarSignature = 1.0
+collisionRadius = 1.0
+// AllowUndergroundSpawn = true
+hitType = "B" // G
+ownsTerrain = true
+
+provideCount = 1
+provideName1 = "biometal"
+
+/////////LIGHTS AND EFFECTS/////////
+effectHard1 = "hp_emit_2"
+effectName1 = "emit_yellowblink"
+
+[BuildingClass]
+soundAmbient = "amb_wavz.wav"
+
+[DepositClass]
+// LIMIT WHICH SCAVS DEPLOY
+DepositClassMask = 1
+DepositClassMatch = 1
+DepositClassProvides = 1

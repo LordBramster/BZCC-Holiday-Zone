@@ -1,0 +1,48 @@
+[GameObjectClass]
+baseName = "jbpgen"
+infoName = "ibpgen.inf"
+geometryName = "ibpgen_arsvetus00.xsi"
+classLabel = "powerplant"
+animCount = 1
+animName1 = "loop"
+animFile1 = "ibpgen_arsvetus00.xsi"
+scrapCost = 30
+scrapValue = 5
+maxHealth = 3000
+maxAmmo = 0
+unitName = "Power"
+heatSignature = 2.0
+imageSignature = 1.0
+radarSignature = 1.0
+collisionRadius = 11.0
+isAssault = 1
+
+armorClass = H
+
+/////// REQUIREMENTS ///////////////
+
+requireCount = 0
+
+////////////////////////////////////
+
+
+/////// PROVIDES ///////////////////
+
+provideCount = 2
+provideName1 = "jbpgen"
+provideName2 = "VIRTUAL_CLASS_POWERPLANT"
+
+////////////////////////////////////
+
+lightHard1 = "hp_light_1"
+lightName1 = "o_lblue_nf"
+
+[BuildingClass]
+soundAmbient = "ipgen01.wav"
+
+[PoweredBuildingClass]
+detectRange = 50
+
+[Lod1]
+geometryName = "ibpgen_arsvetusL1.xsi" ;geometry for lod1
+distance = 64                    ;bsphere under 200 pixel => switch to lod1

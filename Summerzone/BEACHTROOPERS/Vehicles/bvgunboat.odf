@@ -1,0 +1,138 @@
+[GameObjectClass]
+baseName = "ivatank"
+geometryName = "bvgunboat.fbx"
+classLabel = "assaulthover"
+scrapValue = 5
+scrapCost = 40
+customCost = 50
+buildTime = 8.0
+customTime = 10.0
+maxHealth = 2250
+addhealth = 5
+maxAmmo = 3000
+addAmmo = 5
+unitName = "Battle Ship"
+aiName = "AssaultTankProcess"
+aiName2 = "AssaultTankProcess"
+heatSignature = 1.0
+imageSignature = 5.0
+radarSignature = 1.0
+isAssault = 0
+armorClass = H
+
+/////// REQUIREMENTS ///////////////
+requireCount =  0
+
+/////// PROVIDES ///////////////////
+provideCount = 4
+provideName1 = "ivatank"
+provideName2 = "VIRTUAL_CLASS_ASSAULTTANK"
+provideName3 = "assault"
+provideName4 = "DefendUnit"
+
+/////// weapons ////////////////////
+weaponMask = 00111
+weaponHard1 = "HP_CANNON_1"
+weaponName1 = "gshipcan"
+recoilName1 = "recoil1"
+weaponAssault1 = 0
+weaponHard2 = "HP_CANNON_2" // HP_CANNON_2
+weaponName2 = "gshipcan" //gplasma_a
+recoilName2 = "recoil2"
+weaponAssault2 = 0
+// weaponHard3 = "HP_ROCKET_1" // HP_MORTAR_3
+// weaponName3 = "gssm" // gssm
+// // recoilName3 = "recoil3"
+// weaponAssault3 = 0
+
+
+////////////////////////////////////
+turretCount = 2
+turretName1 = "turret_y"
+turretName2 = "turret_x"
+
+/////////LIGHTS AND EFFECTS//////////////////
+// //don't use altitude
+// effectHard1 = "hp_dust_1"
+// effectName1 = "dusttrail3"
+// effectMinVelocity1 = 3.0
+// effectMaxVelocity1 = 500.0
+
+[CraftClass]
+// weaponPitch = 0.5
+
+engageRange = 300
+rangeScan = 300.0
+periodScan = 4.0
+velocJam = 0.0
+
+attackTask = "AssaultTankAttack"
+subAttackTask = "SupportSubAttack"
+subAttackClass = "ANS"
+
+braccelFactor = 0.02
+strafeFactor = 0.1
+velFactor = 0.5
+steerFactor = 1.5
+omegaFactor = 0.5
+
+selectWaitMsg = "ivatank04.wav"
+selectAttackMsg = "ivatank01.wav"
+selectFollowMsg = "ivatank08.wav"
+selectGoMsg = "ivatank02.wav"
+selectOtherMsg = "ivatank04.wav"
+goMsg = "ivatank05.wav"
+attackMsg = "ivatank06.wav"
+followMeMsg = "ivatank08.wav"
+followMsg = "ivatank08.wav"
+repairMsg = "ivatank09.wav"
+reloadMsg = "ivatank09.wav"
+rescueMsg = "ivatank10.wav"
+recycleMsg = "ivatank11.wav"
+otherMsg = "ivatank04.wav" 
+holdMsg = "ivatank12.wav"
+user1Msg = ""  
+killedMsg = "ivatank07.wav"
+diedMsg = ""
+
+[HoverCraftClass]
+// ABOVE WATERLINE
+// UseWaterHeight = true
+// setAltitude = 0.05 // how high off the ground
+
+// UNDER WATERLINE
+UseWaterHeight = false
+setAltitude = 2.25 // how high off the ground
+
+// WATER FEEL
+soundThrust = "jetski.wav"
+alphaTrack = 12.0 // springs speed it rights itself 
+alphaDamp = 12.0 // shocks
+OverWaterVelocFrontMult = 1.0
+OverLandVelocFrontMult = 0.15
+// DeployedUseWaterHeight = true
+
+velocForward = 25.0 // 15.0
+velocReverse = 10.0 // 
+velocStrafe = 2.0 // 7.5
+accelThrust = 50.0 // acceleration 
+accelDragStop = 20.0 // how fast it stops once hands are off controls 
+accelJump = 10.0
+aiAccelDrag = 10
+
+pitchPitch = 0.0 // nose up 
+pitchThrust = 0.025 // nose down 
+
+rollStrafe = 0.1 // rolls while strafing 
+omegaSpin = 1.5 // spinning in place speed 
+omegaTurn = 1.5 // turning while moving speed 
+alphaSteer = 2.0 // how fast it responds to steering 
+rollSteer = 0.1 // rolls while steering 
+
+soundTurbo = "avtanke3.wav"
+
+[AssaultHoverClass]
+yawRate = 4.0
+yawAlpha = 10.0
+pitchMin = -0.01 // -0.1
+pitchMax = 0.35 // 0.5

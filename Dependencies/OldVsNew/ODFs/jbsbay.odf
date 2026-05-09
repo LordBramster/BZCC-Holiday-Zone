@@ -1,0 +1,69 @@
+[GameObjectClass]
+baseName = "jbsbay"
+infoName = "ibsbay.inf"
+geometryName = "ibsbay_arsvetus00.xsi"
+classLabel = "supplydepot"
+collisionRadius = 1.0
+scrapCost = 50
+scrapValue = 10
+maxHealth = 5000
+maxAmmo = 0
+unitName = "Service Bay"
+heatSignature = 2.0
+imageSignature = 1.0
+radarSignature = 1.0
+isAssault = 1
+
+armorClass = H
+
+/////// REQUIREMENTS ///////////////
+
+requireCount = 1
+requireName1 = "jbfact"
+requireText1 = "Build Factory"
+
+////////////////////////////////////
+
+
+/////// PROVIDES ///////////////////
+
+provideCount = 3
+provideName1 = "jbsbay"
+provideName2 = "VIRTUAL_CLASS_SUPPLYDEPOT"
+provideName3 = "base"
+
+////////////////////////////////////
+
+lightHard3 = "hp_light_3"
+lightName3 = "spotblue"
+lightHard4 = "hp_light_4"
+lightName4 = "spotblue"
+
+[PoweredBuildingClass]
+detectRange = 100
+
+[BuildingClass]
+tunnelCount = 1
+
+tunnel01X0 = 1
+tunnel01Z0 = 1
+tunnel01Dx = 4
+tunnel01Dz = 4
+tunnel01Edge = "twwt"
+
+[SupplyDepotClass]
+supplyRange = 32.0
+supplyRate = 150.0
+supplySound = "mnu_empt.wav"
+
+// Individual classification tweakers
+serviceSTs = 1
+serviceCraft = 1
+serviceBuildings = 0
+servicePilots = 1
+serviceOther = 0
+
+[Lod1]
+geometryName = "ibsbay_arsvetusL1.xsi" ;geometry for lod1
+distance = 64                    ;bsphere under 200 pixel => switch to lod1
+

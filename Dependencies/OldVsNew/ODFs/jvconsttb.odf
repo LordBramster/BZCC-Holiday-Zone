@@ -1,0 +1,20 @@
+[GameObjectClass]
+classLabel = "jvcons"
+
+/////// PROVIDES ///////////////////
+
+provideCount = 3
+provideName2 = "jvconsttb"
+provideName3 = "VIRTUAL_CLASS_CONSTRUCTIONRIG"
+
+////////////////////////////////////
+
+[CraftClass]
+
+[HoverCraftClass]
+
+[DeployableClass]
+
+[ConstructionRigClass]
+buildItem2 = "jbfactttb"
+buildItem9 = "jbbombttb"

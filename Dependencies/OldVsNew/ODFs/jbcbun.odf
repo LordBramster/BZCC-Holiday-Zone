@@ -1,0 +1,63 @@
+[GameObjectClass]
+baseName = "jbcbun"
+infoName = "ibcbun.inf"
+geometryName = "ibcbun_arsvetus00.xsi"
+classLabel = "commbunker"
+collisionRadius = 11.0
+scrapCost = 50
+scrapValue = 20
+maxHealth = 5000
+maxAmmo = 0
+unitName = "Relay Bunker"
+aiName = "CommTowerProcess"
+aiName2 = "CommTowerProcess"
+heatSignature = 2.0
+imageSignature = 1.0
+radarSignature = 1.0
+isAssault = 1
+
+requireReplaceTerrainPhysics = true
+
+
+armorClass = H
+
+/////// #6 SLOT SATELLITE HOTKEY ADDON ///////
+categoryTypeOverride = 6
+
+/////// REQUIREMENTS ///////////////
+
+requireCount = 1
+requireName1 = "jbpgen"
+requireText1 = "Build Power"
+
+////////////////////////////////////
+
+
+/////// PROVIDES ///////////////////
+
+provideCount = 3
+provideName1 = "jbcbun"
+provideName2 = "VIRTUAL_CLASS_COMMBUNKER"
+provideName3 = "base"
+
+////////////////////////////////////
+
+lightHard1 = "hp_light_1"
+lightName1 = "o_lblue_nf"
+
+[BuildingClass]
+soundAmbient = "icomm01.wav"
+
+[CommBunkerClass]
+rangeScan = 400
+periodScan = 0.0
+viewDist = 100.0
+
+[PoweredBuildingClass]
+detectRange = 300
+panelIcon = "icon_base_sat.tga"
+
+[Lod1]
+geometryName = "ibcbun_arsvetusL1.xsi" ;geometry for lod1
+distance = 64                    ;bsphere under 200 pixel => switch to lod1
+dontShiftLOD = 1

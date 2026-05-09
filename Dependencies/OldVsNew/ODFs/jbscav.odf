@@ -1,0 +1,46 @@
+[GameObjectClass]
+baseName = "jbscav"
+infoName = "ibscav.inf"
+mrmFactor = 0
+geometryName = "ibscav_arsvetus00.xsi"
+animCount = 2
+animName1 = "deploy"
+animFile1 = "ibscav_arsvetus00.xsi"
+animName2 = "loop"
+animFile2 = "ibscav_arsvetus01.xsi"
+classLabel = "extractor"
+scrapCost = 20
+scrapValue = 20
+maxHealth = 5000
+maxAmmo = 0
+unitName = "Extractor"
+heatSignature = 2.0
+imageSignature = 1.0
+radarSignature = 1.0
+collisionRadius = 6.0
+isAssault = 1
+canInteract=1 // for missile lock
+
+armorClass = H
+
+upgradeName = "jbscup"
+
+/////// PROVIDES ///////////////////
+
+provideCount = 5
+provideName1 = "jbscav"
+provideName2 = "VIRTUAL_CLASS_EXTRACTOR"
+provideName3 = "VIRTUAL_CLASS_EXTRACTOR_Group"
+provideName4 = "VIRTUAL_CLASS_STORAGE"
+provideName5 = "extract"
+
+////////////////////////////////////
+
+[BuildingClass]
+soundAmbient = "iext01.wav"
+
+[ExtractorClass]
+initDelay = 12.0
+scrapDelay = 1.0
+scrapHold = 20
+detectRange = 100

@@ -1,0 +1,84 @@
+[GameObjectClass]
+baseName = "jbgtow"
+infoName = "ibgtow.inf"
+geometryName = "ibgtow_arsvetus00.xsi"
+unitIcon = "icon_ibgtow_arsvetus.dds"
+unitStatus = "wire_ibgtow_arsvetus.dds"
+classLabel = "turret"
+scrapCost = 50
+scrapValue = 10
+maxHealth = 5000
+maxAmmo = 10000 // 0 is *not* treated as infinite ammo!
+unitName = "Gun Tower"
+aiName = "GunTowerFriend"
+aiName2 = "GunTowerEnemy"
+heatSignature = 2.0
+imageSignature = 1.0
+radarSignature = 1.0
+isAssault = 1
+
+collisionRadius = 11.0
+
+armorClass = H
+
+/////// REQUIREMENTS ///////////////
+
+requireCount = 1
+requireName1 = "jbcbun"
+requireText1 = "Build Relay Bunker"
+
+////////////////////////////////////
+
+
+/////// PROVIDES ///////////////////
+
+provideCount = 3
+provideName1 = "jbgtow"
+provideName2 = "VIRTUAL_CLASS_GUNTOWER"
+provideName3 = "defender"
+
+////////////////////////////////////
+
+
+/////// weapons ////////////////////
+
+weaponMask = 00011
+weaponHard1 = "hp_cannon_1"
+recoilName1 = "recoil_r"
+weaponName1 = "gtower"
+weaponAssault1 = 0
+weaponHard2 = "hp_cannon_2"
+recoilName2 = "recoil_l"
+weaponName2 = "gtower"
+weaponAssault2 = 0
+
+////////////////////////////////////
+
+lightHard1 = "hp_light_1"
+lightName1 = "spotwhite"
+
+turretCount = 4
+turretName1 = "turret_y_1"
+turretName2 = "turret_x_1"
+turretName3 = "hp_light_1"
+turretName4 = "hp_eyepoint"
+
+[BuildingClass]
+soundAmbient = "igtow01.wav"
+
+[CraftClass]
+rangeScan = 250
+periodScan = 1.0
+velocJam = 0.0
+weaponPitch = 1.5
+steerFactor = 0.5
+engageRange = 200
+
+[TurretCraftClass]
+omegaTurret = 2.0
+detectRange = 210
+
+[Lod1]
+geometryName = "ibgtow_arsvetusL1.xsi" ;geometry for lod1
+distance = 150                   ;bsphere under 200 pixel => switch to lod1
+dontShiftLOD = 1

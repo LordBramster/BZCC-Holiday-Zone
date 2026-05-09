@@ -1,0 +1,730 @@
+[Start]
+scrapCount = 40
+scavClass = "jvscavcpu"
+consClass = "jvcons"
+//DLLCanSwitch = true
+
+// --------------------------------
+// >>> Base Building Directions <<<
+//baseDir = 0  // South
+//baseDir = 1  // West
+//baseDir = 2  // North
+//baseDir = 3  // East
+// --------------------------------
+
+[IdleDispatcher]
+IdleAllCraft = true
+ScavIdleSeconds = 120
+UnitIdleSeconds = 360
+MinAttackForce = 6 // min # of idle units before dispatch
+MaxAttackForce = 10 // max # of idle units before dispatch
+BomberIdleSeconds = 120 // # of seconds before a bomber is sent out.
+
+[Match]
+targetType1 = "jvrecy"
+attackType1_1 = "jvscout"
+attackType1_2 = "jvscout"
+attackType1_3 = "jvscout"
+attackType1_4 = "jvscout"
+
+targetType2 = "jvscout"
+attackType2_1 = "jvscout"
+attackType2_2 = "jvscout"
+attackType2_3 = "jvscout"
+attackType2_4 = "jvscout"
+
+targetType3 = "jvturr"
+attackType3_1 = "jvscout"
+attackType3_2 = "jvscout"
+attackType3_3 = "jvscout"
+attackType3_4 = "jvscout"
+
+targetType4 = "jvtank"
+attackType4_1 = "jvscout"
+attackType4_2 = "jvscout"
+attackType4_3 = "jvscout"
+attackType4_4 = "jvscout"
+
+targetType5 = "jbrecy"
+attackType5_1 = "jvscout"
+attackType5_2 = "jvscout"
+attackType5_3 = "jvscout"
+attackType5_4 = "jvscout"
+
+
+[Plan1]
+planType = "CollectPool"
+planPriority = 970
+planCondition = "Exists"
+planConditionClass = "jbrecycpu"
+planConditionCount = 1
+planCompare = ">="
+planConditionClassProvided = true 
+CheckProvides = true
+buildIfNoIdle = 1
+doNextOnFail = 1
+
+[Plan2]
+planType = "CollectPool"
+planPriority = 960
+planCondition = "Exists"
+planConditionClass = "jbrecycpu"
+planConditionCount = 1
+planCompare = ">="
+planConditionClassProvided = true 
+CheckProvides = true
+buildIfNoIdle = 1
+doNextOnFail = 1
+
+[Plan3]
+planType = "CollectPool"
+planPriority = 950
+planCondition = "Exists"
+planConditionClass = "jbrecycpu"
+planConditionCount = 1
+planCompare = ">="
+planConditionClassProvided = true 
+CheckProvides = true
+buildIfNoIdle = 1
+doNextOnFail = 1
+
+[Plan4]
+planType = "CollectPool"
+planPriority = 940
+planCondition = "Exists"
+planConditionClass = "jbrecycpu"
+planConditionCount = 1
+planCompare = ">="
+planConditionClassProvided = true 
+CheckProvides = true
+buildIfNoIdle = 1
+doNextOnFail = 1
+
+[Plan5]
+planType = "CollectField"
+planPriority = 930
+planCondition = "NotExists"
+planConditionClass = "jvscavcpu"
+planConditionCount = 1
+planCompare = ">="
+planConditionClassProvided = true 
+planConditionOr = false
+planCondition2 = "FriendlyExists"
+planConditionClass2 = "resource"
+planConditionCount2 = 5
+planCompare2 = ">=" 
+planConditionClassProvided2 = true 
+planConditionOr2 = false
+planCondition3 = "Exists"
+planConditionClass3 = "jbrecycpu"
+planConditionCount3 = 1
+planCompare3 = ">="
+planConditionClassProvided3 = true 
+planConditionOr3 = false
+CheckProvides = true
+buildIfNoIdle = 1
+maxTries = 3 // otherwise I am just killing myself
+
+[Plan6]
+planType = "Service"
+planPriority = 880
+planCondition = "Exists"
+planConditionClass = "jvservcpu"
+planConditionCount = 1
+planCompare = ">="
+planConditionClassProvided = true 
+serviceUnit = "jvservcpu"
+MinWreckAmmo = 0.8
+MinWreckHealth = 0.8
+MaxWreckAmmo = 1.0
+MaxWreckHealth = 1.0
+MinWreckDist = 1.0
+MaxWreckDist = 300.0 // Distance from service bay to unit to begin servicing
+RepairTime = 60.0 // Max time a servicer will spend on a unit
+unitType1 = "jbrecycpu"
+unitType2 = "jbfact"
+unitType3 = "jbpgen"
+unitType4 = "defender"
+unitType5 = "base"
+unitType6 = "extract"
+unitType7 = "jvservcpu"
+
+[Plan7]
+planType = "DefendArea"
+planPriority = 870
+planCondition = "Exists"
+planConditionClass = "DefendUnit"
+planConditionCount = 1
+planCompare = ">="
+planConditionClassProvided = true
+planConditionOr = false
+planCondition2 = "Exists"
+planConditionClass2 = "jbrecycpu"
+planConditionCount2 = 1
+planCompare2 = ">="
+planConditionClassProvided2 = true
+planConditionOr2 = false
+CheckProvides = true
+targetType = "jbrecycpu"
+doNextOnFail = 1
+searchRadius = 400
+MaxUnits = 10
+
+[Plan8]
+planType = "DefendArea"
+planPriority = 860
+planCondition = "Exists"
+planConditionClass = "DefendUnit"
+planConditionCount = 1
+planCompare = ">="
+planConditionClassProvided = true
+planConditionOr = false
+planCondition2 = "Exists"
+planConditionClass2 = "jbfact"
+planConditionCount2 = 1
+planCompare2 = ">="
+planConditionClassProvided2 = true
+planConditionOr2 = false
+CheckProvides = true
+targetType = "jbfact"
+doNextOnFail = 1
+searchRadius = 400
+MaxUnits = 10
+
+[Plan9]
+planType = "DefendArea"
+planPriority = 850
+planCondition = "Exists"
+planConditionClass = "DefendUnit"
+planConditionCount = 1
+planCompare = ">="
+planConditionClassProvided = true
+planConditionOr = false
+planCondition2 = "Exists"
+planConditionClass2 = "jbpgen"
+planConditionCount2 = 1
+planCompare2 = ">="
+planConditionClassProvided2 = true
+planConditionOr2 = false
+CheckProvides = true
+targetType = "jbpgen"
+doNextOnFail = 1
+searchRadius = 400
+MaxUnits = 10
+
+[Plan10]
+planType = "DefendArea"
+planPriority = 840
+planCondition = "Exists"
+planConditionClass = "DefendUnit"
+planConditionCount = 1
+planCompare = ">="
+planConditionClassProvided = true
+planConditionOr = false
+planCondition2 = "Exists"
+planConditionClass2 = "base"
+planConditionCount2 = 1
+planCompare2 = ">="
+planConditionClassProvided2 = true
+planConditionOr2 = false
+CheckProvides = true
+targetType = "base"
+doNextOnFail = 1
+searchRadius = 400
+MaxUnits = 10
+
+[Plan11]
+planType = "DefendArea"
+planPriority = 830
+planCondition = "Exists"
+planConditionClass = "DefendUnit"
+planConditionCount = 1
+planCompare = ">="
+planConditionClassProvided = true
+planConditionOr = false
+planCondition2 = "Exists"
+planConditionClass2 = "defender"
+planConditionCount2 = 1
+planCompare2 = ">="
+planConditionClassProvided2 = true
+planConditionOr2 = false
+CheckProvides = true
+targetType = "defender"
+doNextOnFail = 1
+searchRadius = 400
+MaxUnits = 10
+
+[Plan12]
+planType = "BuildMinimums"
+planPriority = 820
+buildType1 = "jvcons"
+buildCount1 = 2
+
+[Plan13]
+planType = "BaseBuildMinimums"
+planPriority = 810
+planCondition = "NotExists"
+planConditionClass = "jbpgen"
+planConditionCount = 1
+planCompare = ">="
+planConditionClassProvided = true
+buildType1 = "jbpgen"
+buildCount1 = 1
+
+[Plan14] // Power Recovery Plan.
+planType = "BaseBuildLoop"
+planPriority = 800
+planCondition = "Exists"
+planConditionClass = "jvcons"
+planConditionCount = 1
+planCompare = ">=" 
+planConditionClassProvided = true
+ConsClass = "jvcons"
+buildType1 = "jbpgen"
+buildCount1 = 8 
+MinCurPower = -24  
+MaxCurPower = 1 
+loopDelay = 10
+maxLoops = 999
+doNextOnFail = 1
+
+[Plan15]
+planType = "BaseBuildMinimums"
+planPriority = 790
+planCondition = "NotExists"
+planConditionClass = "jbfact"
+planConditionCount = 1
+planCompare = ">=" 
+planConditionClassProvided = true 
+buildType1 = "jbfact"
+buildCount1 = 1
+MinTtlScrap = 55
+MinCurPower = 1
+
+[Plan16]
+planType = "BaseBuildMinimums"
+planPriority = 780
+planCondition = "Exists"
+planConditionClass = "jbfact"
+planConditionCount = 1
+planCompare = ">=" 
+planConditionClassProvided = true 
+planConditionOr = false
+planCondition2 = "NotExists"
+planConditionClass2 = "jbcbun"
+planConditionCount2 = 1
+planCompare2 = ">=" 
+planConditionClassProvided2 = true 
+planConditionOr2 = false
+buildType1 = "jbcbun"
+buildCount1 = 1
+MinTtlScrap = 50
+MinCurPower = 1
+
+[Plan17]
+planType = "BaseBuildMinimums"
+planPriority = 770
+planCondition = "Exists"
+planConditionClass = "jbcbun"
+planConditionCount = 1
+planCompare = ">=" 
+planConditionClassProvided = true 
+planConditionOr = false
+planCondition2 = "NotExists"
+planConditionClass2 = "jbpgen"
+planConditionCount2 = 2
+planCompare2 = ">=" 
+planConditionClassProvided2 = true 
+planConditionOr2 = false
+buildType1 = "jbpgen"
+buildCount1 = 2
+
+[Plan18]
+planType = "BaseBuildMinimums"
+planPriority = 760
+planCondition = "Exists"
+planConditionClass = "jbfact"
+planConditionCount = 1
+planCompare = ">=" 
+planConditionClassProvided = true 
+planConditionOr = false
+planCondition2 = "NotExists"
+planConditionClass2 = "jbsbay"
+planConditionCount2 = 1
+planCompare2 = ">=" 
+planConditionClassProvided2 = true 
+planConditionOr2 = false
+buildType1 = "jbsbay"
+buildCount1 = 1
+MinTtlScrap = 50
+MinCurPower = 1
+
+[Plan19]
+planType = "Upgrade"
+planPriority = 750
+planCondition = "Exists"
+planConditionClass = "jbscav"
+planConditionCount = 1
+planCompare = ">="
+unitType = "jbscav"
+MinTtlScrap = 60
+
+[Plan20]
+planType = "BuildMinimums"
+planPriority = 740
+planCondition = "Exists"
+planConditionClass = "jbsbay"
+planConditionCount = 1
+planCompare = ">="
+planConditionClassProvided = true
+buildType1 = "jvservcpu"
+buildCount1 = 3
+MinTtlScrap = 50
+MinCurPower = 0
+
+[Plan21]
+planType = "BuildMinimums"
+planPriority = 730
+planCondition = "Exists"
+planConditionClass = "jbfact"
+planConditionCount = 1
+planCompare = ">="
+planConditionClassProvided = true
+planConditionOr = false
+planCondition2 = "Exists"
+planConditionClass2 = "jbcbun"
+planConditionCount2 = 1
+planCompare2 = ">="
+planConditionClassProvided2 = true
+planConditionOr2 = false
+planCondition3 = "Exists"
+planConditionClass3 = "jbsbay"
+planConditionCount3 = 1
+planCompare3 = ">="
+planConditionClassProvided3 = true
+planConditionOr3 = false
+buildType1 = "jvatank"
+buildCount1 = 3
+MinTtlScrap = 70
+MinCurPower = 0
+maxLoops = 1
+
+[Plan22]
+planType = "Attacker"
+planPriority = 720
+planCondition = "HisExists"
+planConditionClass = "extract"
+planConditionCount = 1
+planCompare = ">="
+planConditionClassProvided = true
+CheckProvides = true
+attackType1 = "jvatank"
+attackType2 = "jvatank"
+attackType3 = "jvatank"
+maxAttacks = 3
+AttackAnything = true
+buildIfNoIdle = 1
+
+[Plan23]
+planType = "BaseBuildMinimums"
+planPriority = 710
+planCondition = "Exists"
+planConditionClass = "jbfact"
+planConditionCount = 1
+planCompare = ">=" 
+planConditionClassProvided = true 
+buildType1 = "jbpgen"
+buildCount1 = 3
+
+[Plan24]
+planType = "BaseBuildMinimums"
+planPriority = 700
+planCondition = "Exists"
+planConditionClass = "jbfact"
+planConditionCount = 1
+planCompare = ">=" 
+planConditionClassProvided = true 
+planConditionOr = false
+planCondition2 = "NotExists"
+planConditionClass2 = "jbarmo"
+planConditionCount2 = 1
+planCompare2 = ">=" 
+planConditionClassProvided2 = true 
+planConditionOr2 = false
+buildType1 = "jbarmo"
+buildCount1 = 1
+MinTtlScrap = 60
+MinCurPower = 1
+
+[Plan25]
+planType = "BaseBuildMinimums"
+planPriority = 690
+planCondition = "HisExists"
+planConditionClass = "flier"
+planConditionCount = 1
+planCompare = ">="
+planConditionClassProvided = true
+planConditionOr = false
+planCondition2 = "Exists"
+planConditionClass2 = "jbcbun"
+planConditionCount2 = 1
+planCompare2 = ">=" 
+planConditionClassProvided2 = true 
+planConditionOr2 = false
+planCondition3 = "Exists"
+planConditionClass3 = "jbarmo"
+planConditionCount3 = 1
+planCompare3 = ">=" 
+planConditionClassProvided3 = true 
+planConditionOr3 = false
+planCondition4 = "NotExists"
+planConditionClass4 = "jbtrain"
+planConditionCount4 = 1
+planCompare4 = ">=" 
+planConditionClassProvided4 = true 
+planConditionOr4 = false
+buildType1 = "jbtrain"
+buildCount1 = 1
+MinTtlScrap = 80
+MinCurPower = 1
+
+[Plan26]
+planType = "BaseBuildMinimums"
+planPriority = 680
+planCondition = "HisExists"
+planConditionClass = "jbbomb"
+planConditionCount = 1
+planCompare = ">="
+planConditionClassProvided = true
+planConditionOr = false
+planCondition2 = "Exists"
+planConditionClass2 = "jbtrain"
+planConditionCount2 = 1
+planCompare2 = ">=" 
+planConditionClassProvided2 = true 
+planConditionOr2 = false
+planCondition3 = "NotExists"
+planConditionClass3 = "jbbomb"
+planConditionCount3 = 1
+planCompare3 = ">=" 
+planConditionClassProvided3 = true 
+planConditionOr3 = false
+buildType1 = "jbbomb"
+buildCount1 = 1
+MinTtlScrap = 100
+MinCurPower = 1
+
+[Plan27]
+planType = "BuildMinimums"
+planPriority = 670
+planCondition = "Exists"
+planConditionClass = "jbfact"
+planConditionCount = 1
+planCompare = ">="
+planConditionClassProvided = true
+planConditionOr = false
+planCondition2 = "Exists"
+planConditionClass2 = "jbbomb"
+planConditionCount2 = 1
+planCompare2 = ">="
+planConditionClassProvided2 = true
+planConditionOr2 = false
+buildType1 = "jvbomb"
+buildCount1 = 1
+MinTtlScrap = 75
+MinCurPower = 0
+MaxTimes = 3
+
+[Plan28]
+planType = "BuildLoop"
+planPriority = 660
+planCondition = "HisExists"
+planConditionClass = "jbbomb"
+planConditionCount = 1
+planCompare = ">="
+planConditionClassProvided = true
+planConditionOr = false
+planCondition2 = "Exists"
+planConditionClass2 = "jbfact"
+planConditionCount2 = 1
+planCompare2 = ">="
+planConditionClassProvided2 = true
+planConditionOr2 = false
+planCondition3 = "Exists"
+planConditionClass3 = "jbtrain"
+planConditionCount3 = 1
+planCompare3 = ">="
+planConditionClassProvided3 = true
+planConditionOr3 = false
+planCondition4 = "NotExists"
+planConditionClass4 = "jvapc"
+planConditionCount4 = 12
+planCompare4 = ">="
+planConditionClassProvided4 = true
+planConditionOr4 = false
+unitType1 = "jvapc"
+unitCount1 = 4
+loopDelay = 250
+MinTtlScrap = 50
+MinCurPower = 0
+
+[Plan29]
+planType = "Attacker"
+planPriority = 650
+planCondition = "HisExists"
+planConditionClass = "jbbomb"
+planConditionCount = 1
+planCompare = ">="
+planConditionClassProvided = true
+planConditionOr = false
+planCondition2 = "Exists"
+planConditionClass2 = "jvapc"
+planConditionCount2 = 4
+planCompare2 = ">=" 
+planConditionClassProvided2 = true 
+planConditionOr2 = false
+CheckProvides = true
+targetType = "jbbomb"
+attackType1 = "jvapc"
+attackType2 = "jvapc"
+attackType3 = "jvapc"
+attackType4 = "jvapc"
+AttackAnything = true
+buildIfNoIdle = 1
+
+[Plan30]
+planType = "Attacker"
+planPriority = 640
+planCondition = "HisExists"
+planConditionClass = "jvapc"
+planConditionCount = 1
+planCompare = ">="
+planConditionClassProvided = true
+planConditionOr = false
+planCondition2 = "Exists"
+planConditionClass2 = "jvapc"
+planConditionCount2 = 2
+planCompare2 = ">=" 
+planConditionClassProvided2 = true 
+planConditionOr2 = false
+CheckProvides = true
+targetType = "jvapc"
+attackType1 = "jvapc"
+attackType2 = "jvapc"
+AttackAnything = true
+buildIfNoIdle = 1
+
+[Plan31]
+planType = "BuildMinimums"
+planPriority = 630
+planCondition = "Exists"
+planConditionClass = "jbfact"
+planConditionCount = 1
+planCompare = ">="
+planConditionClassProvided = true
+planConditionOr = false
+planCondition2 = "Exists"
+planConditionClass2 = "jbarmo"
+planConditionCount2 = 1
+planCompare2 = ">="
+planConditionClassProvided2 = true
+planConditionOr2 = false
+planCondition3 = "Exists"
+planConditionClass3 = "jbcbun"
+planConditionCount3 = 1
+planCompare3 = ">="
+planConditionClassProvided3 = true
+planConditionOr3 = false
+buildType1 = "jvrckt"
+buildCount1 = 2
+MinTtlScrap = 65
+MinCurPower = 0
+
+[Plan32]
+planType = "Attacker"
+planPriority = 620
+planCondition = "HisExists"
+planConditionClass = "extract"
+planConditionCount = 1
+planCompare = ">="
+planConditionClassProvided = true
+CheckProvides = true
+targetType = "extract"
+attackType1 = "jvatank"
+attackType2 = "jvatank"
+attackType3 = "jvatank"
+attackType4 = "jvrckt"
+maxAttacks = 3
+AttackAnything = true
+buildIfNoIdle = 1
+
+[Plan33]
+planType = "Attacker"
+planPriority = 610
+planCondition = "HisExists"
+planConditionClass = "defender"
+planConditionCount = 1
+planCompare = ">="
+planConditionClassProvided = true
+CheckProvides = true
+targetType = "defender"
+attackType1 = "jvatank"
+attackType2 = "jvatank"
+attackType3 = "jvatank"
+attackType4 = "jvrckt"
+AttackAnything = true
+buildIfNoIdle = 1
+
+[Plan34]
+planType = "Attacker"
+planPriority = 600
+planCondition = "HisExists"
+planConditionClass = "jbrecy"
+planConditionCount = 1
+planCompare = ">="
+planConditionClassProvided = true
+CheckProvides = true
+targetType = "jbrecy"
+attackType1 = "jvatank"
+attackType2 = "jvatank"
+attackType3 = "jvatank"
+attackType4 = "jvrckt"
+AttackAnything = true
+buildIfNoIdle = 1
+maxAttacks = 9999
+
+[Plan35]
+planType = "Attacker"
+planPriority = 590
+planCondition = "HisExists"
+planConditionClass = "jbfact"
+planConditionCount = 1
+planCompare = ">="
+planConditionClassProvided = true
+CheckProvides = true
+targetType = "jbfact"
+attackType1 = "jvatank"
+attackType2 = "jvatank"
+attackType3 = "jvatank"
+attackType4 = "jvrckt"
+AttackAnything = true
+buildIfNoIdle = 1
+maxAttacks = 9999
+
+[Plan36]
+planType = "Attacker"
+planPriority = 580
+planCondition = "HisExists"
+planConditionClass = "base"
+planConditionCount = 1
+planCompare = ">="
+planConditionClassProvided = true
+CheckProvides = true
+targetType = "base"
+attackType1 = "jvatank"
+attackType2 = "jvatank"
+attackType3 = "jvatank"
+attackType4 = "jvrckt"
+AttackAnything = true
+buildIfNoIdle = 1
+maxAttacks = 9999

@@ -1,0 +1,197 @@
+[Start]
+scrapCount = 40
+scavClass = "jvscavcpu"
+consClass = "jvcons"
+
+[IdleDispatcher]
+ScavIdleSeconds = 25
+UnitIdleSeconds = 120
+MinAttackForce = 3 // min # of idle units before dispatch
+
+[Match]
+targetType1= "jvscout"
+attackType1_1 = "jvscout"
+attackType1_2 = "jvscout"
+
+
+[Plan1]
+planType = "CollectPool"
+planPriority = 970
+planCondition = "Exists"
+planConditionClass = "jbrecycpu"
+planConditionCount = 1
+planCompare = ">="
+planConditionClassProvided = true 
+CheckProvides = true
+buildIfNoIdle = 1
+doNextOnFail = 1
+
+[Plan2]
+planType = "CollectPool"
+planPriority = 960
+planCondition = "Exists"
+planConditionClass = "jbrecycpu"
+planConditionCount = 1
+planCompare = ">="
+planConditionClassProvided = true 
+CheckProvides = true
+buildIfNoIdle = 1
+doNextOnFail = 1
+
+[Plan3]
+planType = "CollectPool"
+planPriority = 950
+planCondition = "Exists"
+planConditionClass = "jbrecycpu"
+planConditionCount = 1
+planCompare = ">="
+planConditionClassProvided = true 
+CheckProvides = true
+buildIfNoIdle = 1
+doNextOnFail = 1
+
+[Plan4]
+planType = "CollectPool"
+planPriority = 940
+planCondition = "Exists"
+planConditionClass = "jbrecycpu"
+planConditionCount = 1
+planCompare = ">="
+planConditionClassProvided = true 
+CheckProvides = true
+buildIfNoIdle = 1
+doNextOnFail = 1
+
+[Plan5]
+planType = "CollectField"
+planPriority = 930
+planCondition = "NotExists"
+planConditionClass = "jvscavcpu"
+planConditionCount = 1
+planCompare = ">="
+planConditionClassProvided = true 
+planConditionOr = false
+planCondition2 = "FriendlyExists"
+planConditionClass2 = "resource"
+planConditionCount2 = 5
+planCompare2 = ">=" 
+planConditionClassProvided2 = true 
+planConditionOr2 = false
+planCondition3 = "Exists"
+planConditionClass3 = "jbrecycpu"
+planConditionCount3 = 1
+planCompare3 = ">="
+planConditionClassProvided3 = true 
+planConditionOr3 = false
+CheckProvides = true
+buildIfNoIdle = 1
+maxTries = 3 // otherwise I am just killing myself
+
+[Plan6]
+planType = "BuildMinimums"
+planPriority = 140
+buildType1 = "jvcons"
+buildCount1 = 2
+
+[Plan7]
+planType = "BaseBuildMinimums"
+planPriority = 130
+buildType1 = "jbpgen"
+buildType2 = "jbfact"
+buildType3 = "jbcbun"
+buildType4 = "jbsbay"
+buildType5 = "jbpgen"
+
+[Plan8]
+planType = "BuildMinimums"
+planPriority = 121
+buildType1 = "jvcons"
+buildCount1 = 2
+
+[Plan9]
+planCondition = "Exists"
+planConditionClass = "jbscav"
+planConditionCount = 1
+planType = "Upgrade"
+planPriority = 120
+unitType = "jbscav"
+
+[Plan10]
+planType = "BuildMinimums"
+planPriority = 100
+buildType1 = "jvatank"
+buildCount1 = 3
+buildType2 = "jvservcpu"
+buildCount2 = 1
+maxLoops = 1
+
+[Plan11]
+planType = "Service"
+planPriority = 80
+serviceUnit = "jvservcpu"
+unitType1 = "jvatank"
+unitType2 = "jbrecy"
+unitType3 = "jbpgen"
+buildIfNoIdle = 1
+
+
+[Plan12]
+planType = "Attacker"
+planPriority = 60
+targetType = "jbscav"
+attackType1 = "jvatank"
+attackType2 = "jvatank"
+attackType3 = "jvatank"
+maxAttacks = 3
+AttackAnything = true
+
+[Plan13]
+planType = "BaseBuildMinimums"
+planPriority = 50
+buildType1 = "jbpgen"
+buildCount1 = 2
+buildType2 = "jbarmo"
+buildCount2 = 1
+
+[Plan14]
+planType = "BuildMinimums"
+planPriority = 45
+buildType1 = "jvrckt"
+buildCount1 = 2
+
+[Plan15]
+planType = "Attacker"
+planPriority = 40
+targetType = "jbscav"
+attackType1 = "jvatank"
+attackType2 = "jvatank"
+attackType3 = "jvatank"
+attackType4 = "jvrckt"
+maxAttacks = 3
+AttackAnything = true
+
+[Plan16]
+planType = "Attacker"
+planPriority = 35
+targetType = "jbgtow"
+attackType1 = "jvatank"
+attackType2 = "jvatank"
+attackType3 = "jvatank"
+attackType4 = "jvrckt"
+AttackAnything = true
+
+[Plan17]
+planType = "Attacker"
+planPriority = 35
+targetType = "jbrecy"
+attackType1 = "jvatank"
+attackType2 = "jvatank"
+attackType3 = "jvatank"
+attackType4 = "jvrckt"
+AttackAnything = true
+
+
+
+
+
+

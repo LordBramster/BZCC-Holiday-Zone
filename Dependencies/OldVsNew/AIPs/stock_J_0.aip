@@ -1,0 +1,190 @@
+[Start]
+scrapCount = 40
+scavClass = "jvscavcpu"
+consClass = "jvcons"
+//DLLCanSwitch = true
+
+
+// --------------------------------
+// >>> Base Building Directions <<<
+//baseDir = 0  // South
+//baseDir = 1  // West
+//baseDir = 2  // North
+//baseDir = 3  // East
+// --------------------------------
+
+[IdleDispatcher]
+IdleAllCraft = true
+ScavIdleSeconds = 120
+UnitIdleSeconds = 360
+MinAttackForce = 6 // min # of idle units before dispatch
+MaxAttackForce = 10 // max # of idle units before dispatch
+
+[Match]
+targetType1 = "jvrecy"
+attackType1_1 = "jvscout"
+attackType1_2 = "jvscout"
+attackType1_3 = "jvscout"
+attackType1_4 = "jvscout"
+
+targetType2 = "jvscout"
+attackType2_1 = "jvscout"
+attackType2_2 = "jvscout"
+attackType2_3 = "jvscout"
+attackType2_4 = "jvscout"
+
+targetType3 = "jvturr"
+attackType3_1 = "jvscout"
+attackType3_2 = "jvscout"
+attackType3_3 = "jvscout"
+attackType3_4 = "jvscout"
+
+targetType4 = "jvtank"
+attackType4_1 = "jvscout"
+attackType4_2 = "jvscout"
+attackType4_3 = "jvscout"
+attackType4_4 = "jvscout"
+
+targetType5 = "jbrecy"
+attackType5_1 = "jvscout"
+attackType5_2 = "jvscout"
+attackType5_3 = "jvscout"
+attackType5_4 = "jvscout"
+
+
+[Plan1]
+planType = "CollectPool"
+planPriority = 970
+planCondition = "Exists"
+planConditionClass = "jbrecycpu"
+planConditionCount = 1
+planCompare = ">="
+planConditionClassProvided = true 
+CheckProvides = true
+buildIfNoIdle = 1
+doNextOnFail = 1
+
+[Plan2]
+planType = "CollectPool"
+planPriority = 960
+planCondition = "Exists"
+planConditionClass = "jbrecycpu"
+planConditionCount = 1
+planCompare = ">="
+planConditionClassProvided = true 
+CheckProvides = true
+buildIfNoIdle = 1
+doNextOnFail = 1
+
+[Plan3]
+planType = "CollectPool"
+planPriority = 950
+planCondition = "Exists"
+planConditionClass = "jbrecycpu"
+planConditionCount = 1
+planCompare = ">="
+planConditionClassProvided = true 
+CheckProvides = true
+buildIfNoIdle = 1
+doNextOnFail = 1
+
+[Plan4]
+planType = "CollectPool"
+planPriority = 940
+planCondition = "Exists"
+planConditionClass = "jbrecycpu"
+planConditionCount = 1
+planCompare = ">="
+planConditionClassProvided = true 
+CheckProvides = true
+buildIfNoIdle = 1
+doNextOnFail = 1
+
+[Plan5]
+planType = "CollectField"
+planPriority = 930
+planCondition = "NotExists"
+planConditionClass = "jvscavcpu"
+planConditionCount = 1
+planCompare = ">="
+planConditionClassProvided = true 
+planConditionOr = false
+planCondition2 = "FriendlyExists"
+planConditionClass2 = "resource"
+planConditionCount2 = 5
+planCompare2 = ">=" 
+planConditionClassProvided2 = true 
+planConditionOr2 = false
+planCondition3 = "Exists"
+planConditionClass3 = "jbrecycpu"
+planConditionCount3 = 1
+planCompare3 = ">="
+planConditionClassProvided3 = true 
+planConditionOr3 = false
+CheckProvides = true
+buildIfNoIdle = 1
+maxTries = 3 // otherwise I am just killing myself
+
+[Plan6]
+planType = "Hold"
+planPriority = 610
+planCondition = "Exists"
+planConditionClass = "extract"
+planConditionCount = 1
+planCompare = ">="
+planConditionClassProvided = true
+holdType1 = "jvturr"
+holdCount1 = 1
+holdPoint = "hold1"
+buildIfNoIdle = 1
+maxTries = 2
+
+[Plan7]
+planType = "Hold"
+planPriority = 605
+planCondition = "Exists"
+planConditionClass = "extract"
+planConditionCount = 1
+planCompare = ">="
+planConditionClassProvided = true
+holdType1 = "jvturr"
+holdCount1 = 1
+holdPoint = "hold2"
+buildIfNoIdle = 1
+maxTries = 2
+
+[Plan8]
+planType = "CollectPool"
+planPriority = 554
+planCondition = "Exists"
+planConditionClass = "jbrecycpu"
+planConditionCount = 1
+planCompare = ">="
+planConditionClassProvided = true 
+CheckProvides = true
+buildIfNoIdle = 1
+doNextOnFail = 1
+
+[Plan9]
+planType = "CollectPool"
+planPriority = 443
+planCondition = "Exists"
+planConditionClass = "jbrecycpu"
+planConditionCount = 1
+planCompare = ">="
+planConditionClassProvided = true 
+CheckProvides = true
+buildIfNoIdle = 1
+doNextOnFail = 1
+
+[Plan10]
+planType = "BuildMinimums"
+planPriority = 111
+planCondition = "Exists"
+planConditionClass = "jbrecycpu"
+planConditionCount = 1
+planCompare = ">="
+planConditionClassProvided = true
+buildType1 = "jvscout"
+buildCount1 = 6
+MinTtlScrap = 50

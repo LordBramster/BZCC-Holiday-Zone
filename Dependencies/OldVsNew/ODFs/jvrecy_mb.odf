@@ -1,0 +1,25 @@
+[GameObjectClass]
+classLabel = "jvrecy"
+
+infoName = "ivrecy.inf"
+unitIcon = "icon_ivrecy_arsvetus.dds"
+
+/////// PROVIDES ///////////////////
+
+provideCount = 5
+provideName3 = "jvrecy_mb"
+provideName4 = "VIRTUAL_CLASS_RECYCLER"
+provideName5 = "VIRTUAL_CLASS_RECYCLERVEHICLE"
+
+////////////////////////////////////
+
+[CraftClass]
+
+[TrackedVehicleClass]
+
+[TrackedDeployableClass]
+
+[DeployBuildingClass]
+deployName = "jbrecy_mb"
+
+[RecyclerVehicleClass]

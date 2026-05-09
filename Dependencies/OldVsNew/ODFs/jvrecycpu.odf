@@ -1,0 +1,21 @@
+[GameObjectClass]
+classLabel = "jvrecy"
+
+/////// PROVIDES ///////////////////
+
+provideCount = 4
+provideName3 = "VIRTUAL_CLASS_RECYCLER"
+provideName4 = "VIRTUAL_CLASS_RECYCLERVEHICLE"
+
+////////////////////////////////////
+
+[CraftClass]
+
+[TrackedVehicleClass]
+
+[TrackedDeployableClass]
+
+[DeployBuildingClass]
+deployName = "jbrecycpu"
+
+[RecyclerVehicleClass]

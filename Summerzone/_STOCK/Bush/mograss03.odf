@@ -1,0 +1,31 @@
+[GameObjectClass]
+geometryName = "mograss03.xsi"
+classLabel = "bush"
+collisionRadius = 1.0
+scrapCost = 0
+scrapValue = 0
+maxHealth = 1000
+maxAmmo = 0
+unitName = "Tree"
+heatSignature = 0.1
+imageSignature = 1.0
+radarSignature = 0.2
+explosionName = "xplnxpl"
+canDetect = 0
+canInteract = 0
+canSnipe = 0
+
+[BuildingClass]
+
+[PlantClass]
+standUp = 0
+
+darkRadius = 16         // 28m radius
+darkScale = .9  // 1/8 of the original intensity
+
+
+[BushClass]    
+SwayingAmp = 4.0;
+SwayingFrec = 0.2;
+SwayingDirX = 2.0;
+SwayingDirZ = 1.0;

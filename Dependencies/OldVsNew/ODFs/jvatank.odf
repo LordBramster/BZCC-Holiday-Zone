@@ -1,0 +1,148 @@
+[GameObjectClass]
+baseName = "jvatank"
+infoName = "ivatank.inf"
+geometryName = "ivatnk_arsvetus00.xsi"
+cockpitName = "ivcons_arsvetus_cockpit.xsi"
+unitIcon = "icon_ivatank_arsvetus.dds"
+unitStatus = "wire_ivatank_arsvetus.dds"
+classLabel = "assaulttank"
+scrapValue = 40
+scrapCost = 70
+customCost = 80
+buildTime = 15.0
+customTime = 20.0
+maxHealth = 4500
+addhealth = 9.0
+maxAmmo = 3000
+addAmmo = 5
+unitName = "Assault Tank"
+aiName = "AssaultTankProcess"
+aiName2 = "AssaultTankProcess"
+heatSignature = 0.5
+imageSignature = 5.0
+radarSignature = 5.0
+isAssault = 1
+
+armorClass = H
+
+/////// REQUIREMENTS ///////////////
+	
+requireCount = 3
+requireName1 = "jbfact"
+requireText1 = "Build Factory"
+requireName2 = "jbcbun"
+requireText2 = "Build Relay Bunk"
+requireName3 = "jbsbay"
+requireText3 = "Build Service Bay"
+
+////////////////////////////////////
+
+
+/////// PROVIDES ///////////////////
+
+provideCount = 4
+provideName1 = "jvatank"
+provideName2 = "VIRTUAL_CLASS_ASSAULTTANK"
+provideName3 = "assault"
+provideName4 = "DefendUnit"
+
+////////////////////////////////////
+
+
+/////// weapons ////////////////////
+
+weaponMask = 00111
+
+weaponHard1 = "HP_CANNON_1"
+recoilName1 = "recoil_1"
+weaponAssault1 = 1
+weaponName1 = "gplasma_a"
+
+weaponHard2 = "HP_MORTAR_1"
+recoilName2 = "recoil_2"
+weaponAssault2 = 0
+weaponName2 = ""
+
+weaponHard3 = "HP_MORTAR_2"
+recoilName3 = "recoil_3"
+weaponAssault3 = 0
+weaponName3 = ""
+
+////////////////////////////////////
+
+turretCount = 2
+turretName1 = "turret_y"
+turretName2 = "turret_x"
+
+[CraftClass]
+rangeScan = 300.0f
+periodScan = 4.0f
+velocJam = 0.0f
+engageRange = 260
+
+
+attackTask = "AssaultTankAttack"
+subAttackTask = "SupportSubAttack"
+subAttackClass = "ANS"
+
+// subAttackClass uses 3 letters.
+// 1st letter is either A or N.     A is include Air targets.         N is attack ground only.
+// 2nd letter is either D or N.     D is to deploy before attacking.  N for regular attack.
+// 3rd letter is either S or N.     S is to use Weapon Range.         N is use the Engage Range to attack. 
+
+
+braccelFactor = 0.01
+strafeFactor = 0.1
+velFactor = 0.4
+steerFactor = 1.2
+omegaFactor = 0.2
+
+selectWaitMsg = "ivatank04.wav"
+selectAttackMsg = "ivatank01.wav"
+selectFollowMsg = "ivatank08.wav"
+selectGoMsg = "ivatank02.wav"
+selectOtherMsg = "ivatank04.wav"
+
+goMsg = "ivatank05.wav"
+attackMsg = "ivatank06.wav"
+followMeMsg = "ivatank08.wav"
+followMsg = "ivatank08.wav"
+repairMsg = "ivatank09.wav"
+reloadMsg = "ivatank09.wav"
+rescueMsg = "ivatank10.wav"
+recycleMsg = "ivatank11.wav"
+otherMsg = "ivatank04.wav" 
+holdMsg = "ivatank12.wav"
+
+user1Msg = ""  
+killedMsg = "ivatank07.wav"
+diedMsg = ""
+
+[TrackedVehicleClass]
+omegaSpin = 1.0
+omegaTurn = 0.5
+alphaSteer = 2.0
+velocForward = 15.0
+velocReverse = 5.0
+accelThrust = 5.0
+
+TREAD_STATIC_FRICTION = 1.5
+
+engineSound = "iatank01.wav"
+treadSound = "iatank02.wav"
+
+
+[AssaultTankClass]
+yawRate = 4.0
+yawAlpha = 10.0
+pitchMin = -0.1
+pitchMax = 0.5
+laserName1 = "recoil_1"
+
+[Lod1]
+geometryName = "ivatnk_arsvetusL1.xsi" ;geometry for lod1
+distance = 50                 ;...distance over this many meters => switch to lod2
+
+[Lod2]
+geometryName = "ivatnk_arsvetusL2.xsi" ;geometry for lod2
+distance = 135                 ;...distance over this many meters => switch to lod2

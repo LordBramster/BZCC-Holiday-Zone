@@ -1,0 +1,20 @@
+[GameObjectClass]
+classLabel = "jbbomb"
+
+/////// PROVIDES ///////////////////
+
+provideCount = 4
+provideName2 = "jbbombttb"
+provideName3 = "VIRTUAL_CLASS_BOMBERBAY"
+provideName4 = "base"
+
+////////////////////////////////////
+
+[BuildingClass]
+
+[BomberBayClass]
+bomberType = "jvbombttb"
+
+[PoweredBuildingClass]
+
+[Lod1]
